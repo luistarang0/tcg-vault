@@ -1,0 +1,19 @@
+# Entornos y dependencias
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Secretos: nunca se suben (solo los .env.example)
+.env
+
+# Logs de acceso (pueden contener IPs)
+server/logs/
+
+# Compilados
+dist/
+
+# Evidencias generadas al ejecutar scripts (se adjuntan en los reportes, no en git)
+scraper_tests/evidencia/
+auditoria/resultados/
+fase3_extraccion/capturas/*.png

@@ -1,0 +1,65 @@
+/* Estilos compartidos por las tres páginas */
+.title { margin: 0 0 4px; font-size: 1.6rem; letter-spacing: -0.02em; }
+.subtitle { margin: 0 0 18px; color: var(--muted); }
+
+.grid {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+
+.alert { padding: 12px 14px; border-radius: var(--radius); margin: 12px 0; }
+.warn { background: var(--warn-bg); color: var(--warn-ink); }
+.ok { background: var(--ok-bg); color: var(--ok-ink); }
+.loading { color: var(--muted); padding: 40px 0; text-align: center; }
+
+/* ---- Detalle ---- */
+.back { display: inline-block; margin-bottom: 14px; color: var(--muted); text-decoration: none; }
+.back:hover { color: var(--ink); }
+.detail { display: grid; gap: 24px; grid-template-columns: minmax(200px, 300px) 1fr; }
+@media (max-width: 640px) { .detail { grid-template-columns: 1fr; } }
+.detailArt {
+  aspect-ratio: 63 / 88; border-radius: 14px; overflow: hidden;
+  display: grid; place-items: center; color: #fff; font-weight: 700;
+  background: linear-gradient(160deg, #6b6b70, #2a2a2e);
+}
+.detailArt img { width: 100%; height: 100%; object-fit: cover; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 16px 0; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; }
+.attack { border-top: 1px solid var(--line); padding: 10px 0; }
+.attackHead { display: flex; justify-content: space-between; font-weight: 600; }
+.attackCost { color: var(--muted); font-size: 0.85rem; }
+
+/* ---- Formulario ---- */
+.form {
+  max-width: 440px; background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 20px; display: grid; gap: 14px;
+}
+.field { display: grid; gap: 4px; }
+.field span { font-size: 0.85rem; color: var(--muted); }
+.input {
+  font: inherit; padding: 9px 11px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+}
+.input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.error { color: var(--accent); font-size: 0.8rem; }
+.submit {
+  font: inherit; font-weight: 600; padding: 10px; border: 0; border-radius: 8px;
+  background: var(--accent); color: var(--accent-ink); cursor: pointer;
+}
+.submit:disabled { opacity: 0.6; cursor: progress; }
+
+/* Honeypot: fuera de la pantalla en lugar de display:none, porque algunos bots
+   detectan y saltan los campos con display:none. Sigue siendo invisible para
+   personas y lectores de pantalla (aria-hidden + tabIndex -1 en el JSX). */
+.honeypot {
+  position: absolute; left: -10000px; top: auto;
+  width: 1px; height: 1px; overflow: hidden;
+}
+
+/* Contenedor del widget de Turnstile (Defensa 4) */
+.challenge {
+  border: 1px dashed var(--line); border-radius: 8px; padding: 10px 12px;
+  display: grid; gap: 8px;
+}
+.challenge p { margin: 0; font-size: 0.85rem; color: var(--muted); }

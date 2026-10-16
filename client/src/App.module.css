@@ -1,0 +1,22 @@
+.shell { min-height: 100vh; display: flex; flex-direction: column; }
+
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 14px 24px;
+  background: var(--surface); border-bottom: 1px solid var(--line);
+}
+.logo { font-weight: 800; letter-spacing: -0.02em; font-size: 1.2rem; }
+.logo::before {
+  content: ''; display: inline-block; width: 14px; height: 14px; margin-right: 8px;
+  border-radius: 50%; vertical-align: -1px;
+  background: linear-gradient(var(--accent) 50%, var(--surface) 50%);
+  border: 2px solid var(--ink);
+}
+.nav { display: flex; gap: 6px; }
+.link { text-decoration: none; padding: 6px 12px; border-radius: 999px; color: var(--muted); }
+.link:hover { color: var(--ink); }
+.active { background: var(--ink); color: var(--bg); }
+.active:hover { color: var(--bg); }
+
+.main { flex: 1; width: 100%; max-width: 1180px; margin: 0 auto; padding: 24px 16px; }
+.footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 16px; }

@@ -1,0 +1,27 @@
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(0 0 0 / 0.08); }
+.link { display: block; text-decoration: none; color: inherit; height: 100%; }
+
+.art {
+  aspect-ratio: 63 / 88;   /* proporción real de una carta TCG */
+  display: grid; place-items: center;
+  background: linear-gradient(160deg, var(--type-color), color-mix(in srgb, var(--type-color) 55%, #000));
+}
+.img { width: 100%; height: 100%; object-fit: cover; }
+.placeholder {
+  color: #fff; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 0.85;
+}
+
+.body { padding: 10px 12px 12px; }
+.name { margin: 0; font-size: 0.95rem; line-height: 1.25; }
+.meta { margin: 4px 0 8px; color: var(--muted); font-size: 0.78rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.tag {
+  font-size: 0.72rem; padding: 2px 8px; border-radius: 999px; color: #fff;
+  background: var(--type-color, #888);
+}
+.hp { font-size: 0.72rem; color: var(--muted); margin-left: auto; font-weight: 600; }

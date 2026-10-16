@@ -1,0 +1,10 @@
+.pager { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 20px 0; }
+.btn, .num {
+  text-decoration: none; padding: 6px 12px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface); font-size: 0.9rem;
+}
+.btn:hover, .num:hover { border-color: var(--ink); }
+.current { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.disabled { opacity: 0.4; pointer-events: none; }
+.dots { color: var(--muted); }
+.info { margin-left: auto; color: var(--muted); font-size: 0.85rem; }

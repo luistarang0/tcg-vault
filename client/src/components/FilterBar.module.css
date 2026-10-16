@@ -1,0 +1,13 @@
+.bar {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px; margin-bottom: 16px;
+}
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 130px; }
+.grow { flex: 1 1 200px; }
+.label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.select {
+  font: inherit; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+}
+.select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }

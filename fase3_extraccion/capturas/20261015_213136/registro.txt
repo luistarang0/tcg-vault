@@ -1,0 +1,8 @@
+[21:31:36] Inicio: portal=https://datos.gob.ar término='salud' filtro=res_format=CSV páginas=3 fichas=15
+[21:31:36] Aviso: entre cada página el bot hace pausas (más largas si el sitio pide Crawl-delay). Si la ventana se ve en blanco unos segundos, es normal: NO la cierres.
+[21:31:37] Navegador listo: chrome 155.0.8059.85 (Chrome con Selenium Manager). navigator.webdriver = True
+[21:31:38] robots.txt leído (4 reglas Disallow): https://datos.gob.ar/robots.txt
+[21:31:38] Crawl-delay de 10s: pausas ajustadas a 10.0-12.0s.
+[21:31:38]   pausa 11.3s (abrir buscador)
+[21:32:50] La página no tiene la estructura esperada (TimeoutException) en data:,. HTML guardado en C:\Users\David\Documents\semstr\Tec_ad\tcg-vault\tcg-vault\fase3_extraccion\capturas\20261015_213136\pagina_error.html
+[21:32:52] No se obtuvieron resultados; no se generó archivo.

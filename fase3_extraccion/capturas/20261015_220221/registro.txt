@@ -1,0 +1,39 @@
+[22:02:21] Inicio: portal=https://datos.gob.ar término='salud' filtro=organization=salud páginas=3 fichas=10
+[22:02:21] Aviso: entre cada página el bot hace pausas (más largas si el sitio pide Crawl-delay). Si la ventana se ve en blanco unos segundos, es normal: NO la cierres.
+[22:02:22] Navegador listo: chrome 155.0.8059.85 (Chrome con Selenium Manager). navigator.webdriver = True
+[22:02:24] robots.txt leído (4 reglas Disallow): https://datos.gob.ar/robots.txt
+[22:02:24] Crawl-delay de 10s: pausas ajustadas a 10.0-12.0s.
+[22:02:24]   pausa 10.5s (abrir portada con buscador)
+[22:03:31]   cargada en 57.0s: https://datos.gob.ar/ (título: 'Datos Argentina')
+[22:04:29] Búsqueda 'salud': 20 resultados visibles (el portal no muestra el total)
+[22:04:30]   pausa 11.7s (antes de aplicar filtro)
+[22:05:39] Filtro aplicado (Ministerio de Salud (58)): 20 resultados visibles (el portal no muestra el total)
+[22:05:43] Página 1: 20 resultados (acumulado 20)
+[22:05:44]   pausa 12.0s (siguiente página)
+[22:06:56]   el servidor respondió 504 tras el clic; se reintenta la misma página.
+[22:06:56]   pausa 11.1s (reintento)
+[22:08:08]   cargada en 60.5s: https://datos.gob.ar/dataset?organization=salud&q=salud&page=2 (título: 'datos.gob.ar | 504: Gateway time-out')
+[22:08:08]   el servidor respondió 504 (sobrecargado). Reintento 1/3 en 30s; esperar más entre intentos evita sobrecargarlo aún más.
+[22:09:39]   cargada en 60.8s: https://datos.gob.ar/dataset?organization=salud&q=salud&page=2 (título: 'datos.gob.ar | 504: Gateway time-out')
+[22:09:39]   el servidor respondió 504 (sobrecargado). Reintento 2/3 en 60s; esperar más entre intentos evita sobrecargarlo aún más.
+[22:11:39]   cargada en 60.5s: https://datos.gob.ar/dataset?organization=salud&q=salud&page=2 (título: 'datos.gob.ar | 504: Gateway time-out')
+[22:11:39]   el servidor respondió 504 (sobrecargado). Reintento 3/3 en 90s; esperar más entre intentos evita sobrecargarlo aún más.
+[22:13:41]   cargada en 31.6s: https://datos.gob.ar/dataset?organization=salud&q=salud&page=2 (título: 'Datos Argentina - Datos')
+[22:13:45] Página 2: 20 resultados (acumulado 40)
+[22:13:45]   pausa 11.2s (siguiente página)
+[22:14:56] Página 3: 18 resultados (acumulado 58)
+[22:14:56]   pausa 10.7s (ficha de detalle)
+[22:15:37]   cargada en 30.4s: https://datos.gob.ar/dataset/salud-registro-nacional-investigaciones-salud-renis (título: 'Datos Argentina - Registro Nacional de Investigaci')
+[22:15:37] Detalle 1/10: Registro Nacional de Investigaciones en Salud (RENIS)
+[22:15:37]   pausa 11.0s (ficha de detalle)
+[22:16:06]   cargada en 17.4s: https://datos.gob.ar/dataset/salud-tasa-mortalidad-fetal-total (título: 'Datos Argentina - Tasa de Mortalidad Fetal Total')
+[22:16:06] Detalle 2/10: Tasa de Mortalidad Fetal Total
+[22:16:06]   pausa 10.4s (ficha de detalle)
+[22:16:28]   cargada en 11.1s: https://datos.gob.ar/dataset/salud-defunciones-generales-mensuales-ocurridas-registradas-republica-argentina (título: 'Datos Argentina - Defunciones Generales Mensuales ')
+[22:16:28] Detalle 3/10: Defunciones Generales Mensuales ocurridas y registradas en la República Argentina.
+[22:16:28]   pausa 11.1s (ficha de detalle)
+[22:17:11] Interrumpido con Ctrl+C. Se guarda lo obtenido hasta ahora.
+[22:35:36] Listo en 1993s: 58 filas crudas
+[22:35:36]   C:\Users\David\Documents\semstr\Tec_ad\tcg-vault\tcg-vault\fase3_extraccion\datos\crudos_20261015_223536.json
+[22:35:36]   C:\Users\David\Documents\semstr\Tec_ad\tcg-vault\tcg-vault\fase3_extraccion\datos\crudos_20261015_223536.csv
+[22:35:36] Siguiente paso: python limpieza.py

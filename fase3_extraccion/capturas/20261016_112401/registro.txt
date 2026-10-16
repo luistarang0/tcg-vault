@@ -1,0 +1,21 @@
+[11:24:01] Inicio: portal=https://datos.gob.ar término='salud' filtro=organization=salud páginas=3 fichas=10
+[11:24:01] Aviso: entre cada página el bot hace pausas (más largas si el sitio pide Crawl-delay). Si la ventana se ve en blanco unos segundos, es normal: NO la cierres.
+[11:29:02]   x Chrome con Selenium Manager: NoSuchDriverException: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/drive
+[11:29:26]   x Chrome con webdriver-manager: SessionNotCreatedException: session not created
+[11:29:29] Navegador listo: MicrosoftEdge 155.0.4283.45 (Microsoft Edge con Selenium Manager). navigator.webdriver = True
+[11:29:29] robots.txt leído (4 reglas Disallow): https://datos.gob.ar/robots.txt
+[11:29:29] Crawl-delay de 10s: pausas ajustadas a 10.0-12.0s.
+[11:29:29]   pausa 11.0s (abrir portada con buscador)
+[11:29:49]   cargada en 8.3s: https://datos.gob.ar/ (título: 'Datos Argentina')
+[11:30:30] Búsqueda 'salud': 20 resultados visibles (el portal no muestra el total)
+[11:30:34]   pausa 10.1s (antes de aplicar filtro)
+[11:31:10] Filtro aplicado (Ministerio de Salud (58)): 20 resultados visibles (el portal no muestra el total)
+[11:31:19] Página 1: 20 resultados (acumulado 20)
+[11:31:19]   pausa 10.8s (siguiente página)
+[11:31:51] Página 2: 20 resultados (acumulado 40)
+[11:31:52]   pausa 11.1s (siguiente página)
+[11:32:28] Página 3: 18 resultados (acumulado 58)
+[11:32:28]   pausa 11.2s (ficha de detalle)
+[11:33:37]   cargada en 57.5s: https://datos.gob.ar/dataset/salud-registro-nacional-investigaciones-salud-renis (título: 'Datos Argentina - Registro Nacional de Investigaci')
+[11:33:44] Detalle 1/10: Registro Nacional de Investigaciones en Salud (RENIS)
+[11:33:44]   pausa 10.2s (ficha de detalle)
