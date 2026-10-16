@@ -24,14 +24,13 @@ import json
 import logging
 import threading
 from datetime import datetime, timezone
-from pathlib import Path
 
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 
 from app import config
 
-LOG_DIR = Path(__file__).resolve().parent.parent.parent / "logs"
+LOG_DIR = config.LOG_DIR                    # server/logs en local, /tmp en Vercel
 LOG_FILE = LOG_DIR / "access.jsonl"
 _lock = threading.Lock()                    # evita líneas mezcladas entre hilos
 consola = logging.getLogger("uvicorn.error")  # mismo canal que usa uvicorn para imprimir

@@ -1,0 +1,11 @@
+# Dependencias del backend para Vercel (que solo lee el requirements.txt de la raíz).
+# Mantener igual a server/requirements.txt.
+fastapi==0.143.0
+httpx==0.28.1
+limits==5.8.0
+pydantic==2.13.5
+python-dotenv==1.2.3
+requests==2.34.2
+slowapi==0.1.10
+starlette==1.6.0
+uvicorn==0.53.0

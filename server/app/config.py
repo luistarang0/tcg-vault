@@ -6,6 +6,7 @@ el módulo. El resto de la app importa `from app import config` y usa estas
 constantes, así hay un único lugar donde cambiar el comportamiento.
 """
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 
@@ -37,6 +38,13 @@ TURNSTILE_SITEKEY = os.getenv("TURNSTILE_SITEKEY") or "3x00000000000000000000FF"
 TURNSTILE_SECRET = os.getenv("TURNSTILE_SECRET") or "1x0000000000000000000000000000000AA"
 TURNSTILE_VERIFY_URL = os.getenv(
     "TURNSTILE_VERIFY_URL", "https://challenges.cloudflare.com/turnstile/v0/siteverify")
+
+# Carpeta del log de acceso (access.jsonl).
+# En Vercel (que define VERCEL=1) solo /tmp admite escritura y se borra entre ejecuciones;
+# en local se usa server/logs. LOG_DIR en el entorno tiene prioridad sobre ambos.
+_DEFAULT_LOG_DIR = (Path("/tmp/tcg-vault-logs") if os.getenv("VERCEL")
+                    else Path(__file__).resolve().parent.parent / "logs")
+LOG_DIR = Path(os.getenv("LOG_DIR") or _DEFAULT_LOG_DIR)
 
 
 def should_log() -> bool:
