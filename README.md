@@ -10,6 +10,7 @@ Estado:
   CAPTCHA Turnstile validado en servidor, scripts de Selenium y auditoría de sitios.
 - **Revisión 3** (Fase 3): bot de extracción en portal oficial + limpieza con Pandas
   (carpeta `fase3_extraccion/`, ver su README).
+- **Defensa 5** (paso 9): DOM dinámico, IDs y clases decorativas que cambian en cada carga.
 
 ## Requisitos
 
@@ -109,6 +110,22 @@ python scraper_tests/02_bot_formulario.py --modo cuidadoso
 python auditoria/auditar_sitios.py --archivo auditoria/sitios.txt --selenium
 ```
 
+## Defensa 5: DOM dinámico
+
+El hook `client/src/hooks/useDynamicDom.js` genera una sal aleatoria por carga de
+página y la usa en los IDs y en una clase señuelo (`dyn-<sal>`) del listado, los
+filtros, la paginación, el detalle y el formulario. El estilo sigue viniendo de
+CSS Modules, así que el aspecto no cambia. No se tocan los `data-*`, los `name`
+de los inputs, los `href` ni las etiquetas ARIA.
+
+```bash
+python scraper_tests/03_dom_dinamico.py            # By.ID fijo falla, data-* extrae todo
+```
+
+Costos (pregunta 4): las pruebas E2E propias necesitan atributos estables,
+la depuración es más difícil (los IDs cambian en cada recarga) y hay que cuidar
+no alterar etiquetas ARIA ni asociaciones `label`/`input`.
+
 ## API
 
 | Método | Ruta | Descripción |
@@ -124,4 +141,4 @@ python auditoria/auditar_sitios.py --archivo auditoria/sitios.txt --selenium
 Cada carta del listado es un `<article>` con:
 `data-card-id`, `data-card-name`, `data-type`, `data-collection`,
 `data-generation`, `data-rarity`, `data-category`. Estos no cambiarán con el DOM
-dinámico del paso 9.
+dinámico del paso 9 (el contenedor ya no tiene `id="card-list"` fijo).

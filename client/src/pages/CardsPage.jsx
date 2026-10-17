@@ -4,6 +4,7 @@ import { fetchCards, fetchFilters } from '../api.js'
 import CardItem from '../components/CardItem.jsx'
 import FilterBar from '../components/FilterBar.jsx'
 import Pagination from '../components/Pagination.jsx'
+import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './Page.module.css'
 
 // Parámetros de la URL que se reenvían tal cual a /api/cards
@@ -21,6 +22,7 @@ export default function CardsPage() {
   const [data, setData] = useState(null)         // respuesta de /api/cards
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
+  const dyn = useDynamicDom()                    // Defensa 5: IDs/clases cambiantes
 
   const page = Math.max(1, Number(params.get('page')) || 1)
   const values = Object.fromEntries(FILTER_KEYS.map((k) => [k, params.get(k) || '']))
@@ -73,7 +75,7 @@ export default function CardsPage() {
       ) : (
         data && (
           <>
-            <div className={styles.grid} id="card-list" aria-busy={loading}>
+            <div className={dyn.cls(styles.grid)} id={dyn.id('card-list')} aria-busy={loading}>
               {data.items.map((card) => <CardItem key={card.id} card={card} />)}
             </div>
             <Pagination page={data.page} pages={data.pages} />

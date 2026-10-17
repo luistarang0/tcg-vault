@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { fetchCard } from '../api.js'
+import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './Page.module.css'
 
 /**
@@ -12,6 +13,7 @@ export default function CardDetailPage() {
   const { id } = useParams()
   const [card, setCard] = useState(null)
   const [error, setError] = useState(null)
+  const dyn = useDynamicDom()   // Defensa 5
 
   useEffect(() => {
     setCard(null)
@@ -51,7 +53,8 @@ export default function CardDetailPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <article
-        className={styles.detail}
+        className={dyn.cls(styles.detail)}
+        id={dyn.id('detalle')}
         data-card-id={card.id}
         data-card-name={card.name}
         data-type={card.types_list.join(',')}

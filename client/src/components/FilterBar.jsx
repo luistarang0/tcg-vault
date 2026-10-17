@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './FilterBar.module.css'
 
 /**
@@ -11,6 +12,7 @@ export default function FilterBar({ options, values, onChange }) {
   // La búsqueda por texto se aplica con un pequeño retardo (debounce) para no
   // disparar una petición por cada tecla y no gastar el rate limit.
   const [text, setText] = useState(values.q || '')
+  const dyn = useDynamicDom()           // Defensa 5: el `name` de cada campo no cambia
   useEffect(() => setText(values.q || ''), [values.q])
   useEffect(() => {
     if (text === (values.q || '')) return
@@ -26,7 +28,8 @@ export default function FilterBar({ options, values, onChange }) {
       <span className={styles.label}>{label}</span>
       <select
         name={name}
-        className={styles.select}
+        id={dyn.id(`filtro-${name}`)}
+        className={dyn.cls(styles.select)}
         value={values[name] || ''}
         onChange={(e) => onChange(name, e.target.value)}
       >
@@ -39,13 +42,14 @@ export default function FilterBar({ options, values, onChange }) {
   )
 
   return (
-    <form className={styles.bar} role="search" onSubmit={(e) => e.preventDefault()}>
+    <form className={dyn.cls(styles.bar)} id={dyn.id('filtros')} role="search" onSubmit={(e) => e.preventDefault()}>
       <label className={`${styles.field} ${styles.grow}`}>
         <span className={styles.label}>Nombre</span>
         <input
           name="q"
           type="search"
-          className={styles.select}
+          id={dyn.id('buscar')}
+          className={dyn.cls(styles.select)}
           placeholder="Buscar carta…"
           value={text}
           onChange={(e) => setText(e.target.value)}

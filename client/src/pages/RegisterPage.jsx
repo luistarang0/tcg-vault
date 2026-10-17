@@ -2,17 +2,20 @@ import { useState } from 'react'
 import { postRegister } from '../api.js'
 import TurnstileWidget from '../components/TurnstileWidget.jsx'
 import useBehaviorTracker from '../hooks/useBehaviorTracker.js'
+import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './Page.module.css'
 
 const EMPTY = { collector_name: '', email: '', password: '', website: '' }
 
 /**
- * Formulario principal de práctica con cuatro defensas:
+ * Formulario principal de práctica con las cinco defensas:
  *  1. Rate limiting (servidor): 429 con cuenta regresiva.
  *  2. Huellas de automatización (servidor): se registran en logs/access.jsonl.
  *  3. Métricas de interacción (useBehaviorTracker) + honeypot `website`.
  *  4. Turnstile: si el servidor responde 403 con challenge_required, se muestra
  *     el widget y se reenvía el formulario con el token.
+ *  5. DOM dinámico: IDs y clases del formulario cambian en cada carga (useDynamicDom).
+ *     Los `name` de los inputs no cambian: el servidor los necesita.
  * El cliente valida para dar retroalimentación; el servidor vuelve a validar y decide.
  */
 export default function RegisterPage() {
@@ -25,6 +28,7 @@ export default function RegisterPage() {
   const [token, setToken] = useState(null)         // token de Turnstile (un solo uso)
   const [widgetKey, setWidgetKey] = useState(0)    // cambiarlo vuelve a crear el widget
   const tracker = useBehaviorTracker()
+  const dyn = useDynamicDom()
 
   const update = (e) => setForm({ ...form, [e.target.name]: e.target.value })
 
@@ -90,24 +94,24 @@ export default function RegisterPage() {
         Formulario de práctica: el servidor valida los datos y no guarda nada.
       </p>
 
-      <form className={styles.form} onSubmit={onSubmit} noValidate {...tracker.handlers}>
+      <form className={dyn.cls(styles.form)} id={dyn.id('form-registro')} onSubmit={onSubmit} noValidate {...tracker.handlers}>
         <label className={styles.field}>
           <span>Nombre de coleccionista</span>
-          <input className={styles.input} name="collector_name" value={form.collector_name}
+          <input className={dyn.cls(styles.input)} id={dyn.id('nombre')} name="collector_name" value={form.collector_name}
                  onChange={update} autoComplete="nickname" required />
           {errors.collector_name && <small className={styles.error}>{errors.collector_name}</small>}
         </label>
 
         <label className={styles.field}>
           <span>Correo</span>
-          <input className={styles.input} name="email" type="email" value={form.email}
+          <input className={dyn.cls(styles.input)} id={dyn.id('correo')} name="email" type="email" value={form.email}
                  onChange={update} autoComplete="email" required />
           {errors.email && <small className={styles.error}>{errors.email}</small>}
         </label>
 
         <label className={styles.field}>
           <span>Contraseña</span>
-          <input className={styles.input} name="password" type="password" value={form.password}
+          <input className={dyn.cls(styles.input)} id={dyn.id('contrasena')} name="password" type="password" value={form.password}
                  onChange={update} autoComplete="new-password" required />
           {errors.password && <small className={styles.error}>{errors.password}</small>}
         </label>
@@ -134,7 +138,7 @@ export default function RegisterPage() {
           </div>
         )}
 
-        <button className={styles.submit} type="submit" disabled={blocked}>
+        <button className={dyn.cls(styles.submit)} id={dyn.id('btn-registrar')} type="submit" disabled={blocked}>
           {sending ? 'Enviando…'
             : cooldown > 0 ? `Espera ${cooldown} s`
               : challenge && !token ? 'Completa la verificación'

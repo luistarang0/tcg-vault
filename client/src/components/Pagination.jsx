@@ -1,4 +1,5 @@
 import { Link, useSearchParams } from 'react-router-dom'
+import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './Pagination.module.css'
 
 /**
@@ -8,6 +9,7 @@ import styles from './Pagination.module.css'
  */
 export default function Pagination({ page, pages }) {
   const [params] = useSearchParams()
+  const dyn = useDynamicDom()   // Defensa 5: los enlaces conservan href y rel, cambian id/clase
   if (!pages || pages <= 1) return null
 
   // Construye la URL de la página n manteniendo los demás parámetros
@@ -22,9 +24,9 @@ export default function Pagination({ page, pages }) {
   for (let n = Math.max(1, page - 2); n <= Math.min(pages, page + 2); n++) nums.push(n)
 
   return (
-    <nav className={styles.pager} aria-label="Paginación">
+    <nav className={dyn.cls(styles.pager)} id={dyn.id('paginacion')} aria-label="Paginación">
       {page > 1 ? (
-        <Link to={hrefFor(page - 1)} rel="prev" className={styles.btn}>← Anterior</Link>
+        <Link to={hrefFor(page - 1)} rel="prev" id={dyn.id('btn-anterior')} className={dyn.cls(styles.btn)}>← Anterior</Link>
       ) : (
         <span className={`${styles.btn} ${styles.disabled}`}>← Anterior</span>
       )}
@@ -40,7 +42,7 @@ export default function Pagination({ page, pages }) {
       {nums[nums.length - 1] < pages && (<><span className={styles.dots}>…</span><Link to={hrefFor(pages)} className={styles.num}>{pages}</Link></>)}
 
       {page < pages ? (
-        <Link to={hrefFor(page + 1)} rel="next" className={styles.btn}>Siguiente →</Link>
+        <Link to={hrefFor(page + 1)} rel="next" id={dyn.id('btn-siguiente')} className={dyn.cls(styles.btn)}>Siguiente →</Link>
       ) : (
         <span className={`${styles.btn} ${styles.disabled}`}>Siguiente →</span>
       )}

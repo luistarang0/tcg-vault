@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './CardItem.module.css'
 
 // Color de acento por tipo (solo decorativo; si no hay imagen se usa de fondo).
@@ -12,15 +13,16 @@ const TYPE_COLORS = {
  * Tarjeta de una carta en el listado.
  *
  * Los atributos data-* son el CONTRATO ESTABLE para el scraper: el paso 9
- * (DOM dinámico) cambiará IDs y clases, pero estos atributos no se tocan.
+ * (DOM dinámico) cambia IDs y clases en cada carga, pero estos atributos no se tocan.
  */
 export default function CardItem({ card }) {
   const mainType = card.types_list?.[0]
   const color = TYPE_COLORS[mainType] || '#a8a49a'
+  const dyn = useDynamicDom()
 
   return (
     <article
-      className={styles.card}
+      className={dyn.cls(styles.card)}
       data-card-id={card.id}
       data-card-name={card.name}
       data-type={card.types_list?.join(',') || ''}
@@ -29,7 +31,7 @@ export default function CardItem({ card }) {
       data-rarity={card.rarity || ''}
       data-category={card.category || ''}
     >
-      <Link to={`/cartas/${encodeURIComponent(card.id)}`} className={styles.link}>
+      <Link to={`/cartas/${encodeURIComponent(card.id)}`} className={dyn.cls(styles.link)}>
         <div className={styles.art} style={{ '--type-color': color }}>
           {card.image ? (
             <img src={card.image} alt={card.name} loading="lazy" className={styles.img} />
@@ -38,7 +40,7 @@ export default function CardItem({ card }) {
           )}
         </div>
         <div className={styles.body}>
-          <h3 className={styles.name}>{card.name}</h3>
+          <h3 className={dyn.cls(styles.name)}>{card.name}</h3>
           <p className={styles.meta}>
             {card.set_name} · #{card.local_id}
           </p>
