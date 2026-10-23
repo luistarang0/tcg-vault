@@ -26,6 +26,23 @@ RATE_LIMIT_CATALOG = os.getenv("RATE_LIMIT_CATALOG", "60/minute")   # por IP + s
 RATE_LIMIT_FORMS = os.getenv("RATE_LIMIT_FORMS", "10/minute")       # formulario, por IP + sesión
 RATE_LIMIT_IP = os.getenv("RATE_LIMIT_IP", "120/minute")            # respaldo solo por IP
 
+RATE_LIMIT_LOGIN = os.getenv("RATE_LIMIT_LOGIN", "10/minute")       # login, por IP + sesión
+RATE_LIMIT_BIDS = os.getenv("RATE_LIMIT_BIDS", "20/minute")         # pujas y acciones del mercado
+RATE_LIMIT_POLL = os.getenv("RATE_LIMIT_POLL", "40/minute")         # polling de subastas (~cada 5 s)
+
+# Límite por CUENTA del login (guardado en Postgres, no en memoria):
+# tras LOGIN_MAX_FAILS fallos en LOGIN_WINDOW_MIN minutos, esa cuenta responde 429.
+LOGIN_MAX_FAILS = int(os.getenv("LOGIN_MAX_FAILS", "5"))
+LOGIN_WINDOW_MIN = int(os.getenv("LOGIN_WINDOW_MIN", "15"))
+
+# Postgres (Neon). En local: rama dev en server/.env. En Vercel: la crea la integración.
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+
+# Sesión de usuario: días de vigencia de la cookie y si exige HTTPS.
+# En Vercel (VERCEL=1) siempre hay HTTPS; en localhost no, por eso Secure solo allí.
+SESSION_DAYS = int(os.getenv("SESSION_DAYS", "7"))
+COOKIE_SECURE = bool(os.getenv("VERCEL"))
+
 # Segundos que se anuncian en el encabezado Retry-After de las respuestas 429
 RETRY_AFTER_SECONDS = int(os.getenv("RETRY_AFTER_SECONDS", "60"))
 

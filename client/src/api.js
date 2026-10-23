@@ -13,7 +13,8 @@ export class ApiError extends Error {
 
 /**
  * Hace la petición y devuelve el JSON, o lanza ApiError.
- * credentials: 'same-origin' -> el navegador envía la cookie `sid` del backend.
+ * credentials: 'same-origin' -> el navegador envía las cookies del backend
+ * (`sid` del rate limiter y `vault_session` de la sesión de usuario).
  */
 async function request(path, options = {}) {
   const res = await fetch(path, { credentials: 'same-origin', ...options })
@@ -33,9 +34,11 @@ async function request(path, options = {}) {
       429, retryAfter, body,
     )
   }
-  if (res.status === 404) throw new ApiError('No encontrado.', 404, null, body)
+  // El backend manda {error: "..."} en errores propios y {detail: "..."} en HTTPException
+  const message = body?.error || (typeof body?.detail === 'string' ? body.detail : null)
   if (res.status === 422) throw new ApiError('Datos inválidos.', 422, null, body)
-  throw new ApiError(body?.error || `Error ${res.status}`, res.status, null, body)
+  if (res.status === 404) throw new ApiError(message || 'No encontrado.', 404, null, body)
+  throw new ApiError(message || `Error ${res.status}`, res.status, null, body)
 }
 
 /** Lista paginada. `params` es un URLSearchParams o un objeto plano. */
@@ -52,11 +55,36 @@ export function fetchFilters() {
   return request('/api/filters')
 }
 
-/** Envía el formulario de registro de práctica. */
-export function postRegister(data) {
-  return request('/api/register', {
+/** POST con cuerpo JSON (o sin cuerpo si `data` es undefined). */
+function post(path, data) {
+  return request(path, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
+    headers: data === undefined ? {} : { 'Content-Type': 'application/json' },
+    body: data === undefined ? undefined : JSON.stringify(data),
   })
 }
+
+// --- Cuentas ---
+/** Crea la cuenta (y deja la sesión iniciada). */
+export const postRegister = (data) => post('/api/register', data)
+export const postLogin = (data) => post('/api/login', data)
+export const postLogout = () => post('/api/logout')
+/** Usuario actual: { user: {...} | null, rules } */
+export const fetchMe = () => request('/api/me')
+
+// --- Colección ---
+export const fetchMyCards = () => request('/api/me/cards')
+export const fetchMyAuctions = () => request('/api/me/auctions')
+export const sellToHouse = (ownedCardId) => post(`/api/me/cards/${ownedCardId}/sell`)
+export const fetchProfile = (username) => request(`/api/users/${encodeURIComponent(username)}`)
+
+// --- Subastas ---
+export function fetchAuctions(params) {
+  const qs = new URLSearchParams(params).toString()
+  return request(`/api/auctions?${qs}`)
+}
+export const fetchAuction = (id) => request(`/api/auctions/${id}`)
+export const createAuction = (data) => post('/api/auctions', data)
+export const placeBid = (id, amount) => post(`/api/auctions/${id}/bid`, { amount })
+export const buyNow = (id) => post(`/api/auctions/${id}/buyout`)
+export const cancelAuction = (id) => post(`/api/auctions/${id}/cancel`)

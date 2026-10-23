@@ -39,7 +39,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from selenium_comun import EVIDENCIA, LOG_SERVIDOR, crear_driver, solo_localhost
 
-DATOS = {"collector_name": "BotColeccionista", "email": "bot@ejemplo.mx",
+# El registro ahora crea cuentas reales y rechaza nombres/correos repetidos (409):
+# se agrega un sufijo por ejecución para poder correr el script varias veces.
+RUN = time.strftime("%H%M%S")
+DATOS = {"collector_name": f"BotColeccionista{RUN}", "email": f"bot{RUN}@ejemplo.mx",
          "password": "contrasena123", "website": "https://spam.example"}
 
 # Establece el valor de un input controlado por React y dispara el evento "input".
@@ -80,8 +83,11 @@ class BotFormulario:
         self.w.until(EC.presence_of_element_located((By.CSS_SELECTOR, "form input[name='collector_name']")))
 
     def leer_estado(self, anterior: str | None = None) -> str:
-        """Espera el mensaje de resultado del formulario (role=status)."""
+        """Espera el mensaje de resultado del formulario (role=status).
+        Si el registro tiene éxito la SPA redirige a /perfil y el formulario desaparece."""
         def nuevo(d):
+            if d.current_url.rstrip("/").endswith("/perfil"):
+                return "Cuenta creada (redirigido a /perfil)"
             els = d.find_elements(By.CSS_SELECTOR, "form [role='status']")
             return els and els[0].text and els[0].text != anterior and els[0].text
         try:
@@ -120,7 +126,7 @@ class BotFormulario:
                 boton.click()
                 estado = self.leer_estado(anterior)
                 self.d.save_screenshot(str(EVIDENCIA / "02_bot_ingenuo_humano_resolvio.png"))
-                codigo = "201" if "recibido" in estado else "403"
+                codigo = "201" if "Cuenta creada" in estado else "403"
                 self.anotar("1b. Persona resuelve el CAPTCHA", codigo, estado[:70])
             else:
                 self.anotar("1b. Persona resuelve el CAPTCHA", "—", "el widget no entregó token")
@@ -152,7 +158,11 @@ class BotFormulario:
                 if not el.is_displayed():
                     continue
                 acciones.move_to_element_with_offset(el, random.randint(-20, 20), 0).pause(0.3).click().perform()
-                valor = DATOS[nombre] + (str(intento) if nombre == "collector_name" else "")
+                valor = DATOS[nombre]
+                if nombre == "collector_name":
+                    valor += str(intento)
+                elif nombre == "email":
+                    valor = valor.replace("@", f"{intento}@")   # un correo distinto por intento
                 for letra in valor:
                     el.send_keys(letra)
                     time.sleep(random.uniform(0.06, 0.22))
@@ -162,7 +172,7 @@ class BotFormulario:
             estado = self.leer_estado()
             if intento == 1:
                 self.d.save_screenshot(str(EVIDENCIA / "02_bot_cuidadoso.png"))
-            codigo = "201" if "recibido" in estado else ("429" if "Demasiad" in estado or "Espera" in estado
+            codigo = "201" if "Cuenta creada" in estado else ("429" if "Demasiad" in estado or "Espera" in estado
                                                         else "403" if "humano" in estado else "?")
             self.anotar(f"Intento {intento}", codigo, estado[:70])
 

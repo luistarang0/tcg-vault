@@ -419,7 +419,7 @@ tcg-vault/
 **Parte A. Formulario**
 
 1. Crear la página `/registro` con campos: nombre de coleccionista, correo y un campo de contraseña.
-2. Endpoint `POST /api/register` en `routes/register.py`. **No se guarda ninguna contraseña real**: el endpoint solo valida los campos y responde `201`. Es un formulario de práctica para las métricas y el CAPTCHA de los pasos 7 y 8.
+2. Endpoint `POST /api/register` en `routes/register.py`. **No se guarda ninguna contraseña real**: el endpoint solo valida los campos y responde `201`. Es un formulario de práctica para las métricas y el CAPTCHA de los pasos 7 y 8. *(Actualización: con el mercado de subastas este endpoint ya crea la cuenta real, con la contraseña guardada como hash scrypt; ver README.)*
 3. Agregar al formulario un campo **honeypot** oculto con CSS (se usará en el paso 7).
 
 **Parte B. Rate limiting con `slowapi`**

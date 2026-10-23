@@ -1,0 +1,121 @@
+/* Estilos del mercado, subastas, login y perfiles */
+.plain { text-decoration: none; color: inherit; display: block; height: 100%; }
+
+/* ---- Carta compacta (MiniCard) ---- */
+.mini {
+  position: relative; height: 100%;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.plain:hover .mini { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(0 0 0 / 0.08); }
+.miniArt {
+  aspect-ratio: 63 / 88; display: grid; place-items: center; color: #fff; font-weight: 700;
+  background: linear-gradient(160deg, var(--type-color), color-mix(in srgb, var(--type-color) 55%, #000));
+}
+.miniArt img { width: 100%; height: 100%; object-fit: cover; }
+.miniBody { padding: 10px 12px 12px; display: grid; gap: 6px; flex: 1; align-content: start; }
+.miniName { margin: 0; font-size: 0.95rem; line-height: 1.25; }
+.miniMeta { margin: 0; color: var(--muted); font-size: 0.78rem; }
+.rarity { font-weight: 600; color: var(--ink); }
+
+/* ---- Subasta ---- */
+.auction {}
+.leading { border-color: var(--ok-ink); box-shadow: 0 0 0 1px var(--ok-ink); }
+.priceRow { display: flex; justify-content: space-between; gap: 8px; align-items: end; }
+.right { text-align: right; }
+.label { display: block; font-size: 0.68rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.price { font-size: 1.05rem; }
+.time { font-variant-numeric: tabular-nums; font-weight: 600; }
+.time[data-urgent='true'] { color: var(--accent); }
+.badge {
+  position: absolute; top: 8px; left: 8px; font-size: 0.72rem; font-weight: 700;
+  padding: 3px 9px; border-radius: 999px; background: var(--ok-bg); color: var(--ok-ink);
+}
+
+/* ---- Barra de controles ---- */
+.toolbar {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between;
+  margin-bottom: 16px;
+}
+.segmented { display: inline-flex; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.segmented button {
+  font: inherit; font-size: 0.88rem; border: 0; background: none; color: var(--muted);
+  padding: 5px 12px; border-radius: 999px; cursor: pointer;
+}
+.segmented button[aria-pressed='true'] { background: var(--ink); color: var(--bg); }
+.select {
+  font: inherit; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+}
+
+/* ---- Detalle de subasta ---- */
+.detail { display: grid; gap: 28px; grid-template-columns: minmax(200px, 320px) 1fr; }
+@media (max-width: 700px) {
+  .detail { grid-template-columns: 1fr; }
+  .detail > :first-child { width: 100%; max-width: 230px; margin: 0 auto; }   /* que el formulario de puja quede a la vista */
+}
+.panel {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px; display: grid; gap: 14px; align-content: start;
+}
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; }
+.stat strong { display: block; font-size: 1.35rem; font-variant-numeric: tabular-nums; }
+.bidForm { display: flex; gap: 8px; flex-wrap: wrap; }
+.bidForm input { flex: 1 1 140px; }
+.btn {
+  font: inherit; font-weight: 600; padding: 9px 16px; border: 0; border-radius: 8px;
+  background: var(--accent); color: var(--accent-ink); cursor: pointer;
+}
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.btnGhost {
+  font: inherit; padding: 8px 14px; border-radius: 8px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+}
+.btnGhost:disabled { opacity: 0.55; cursor: not-allowed; }
+.btnSmall { padding: 5px 10px; font-size: 0.82rem; }
+.history { list-style: none; margin: 0; padding: 0; display: grid; }
+.history li {
+  display: flex; justify-content: space-between; gap: 8px; padding: 8px 0;
+  border-top: 1px solid var(--line); font-size: 0.9rem;
+}
+.history li:first-child { border-top: 0; }
+.muted { color: var(--muted); }
+.hint { margin: 0; color: var(--muted); font-size: 0.85rem; }
+
+/* ---- Perfil ---- */
+.wallet { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+.walletItem {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 16px; min-width: 150px;
+}
+.walletItem strong { display: block; font-size: 1.4rem; font-variant-numeric: tabular-nums; }
+.tabs { display: flex; gap: 6px; border-bottom: 1px solid var(--line); margin-bottom: 16px; flex-wrap: wrap; }
+.tabs button {
+  font: inherit; border: 0; background: none; color: var(--muted); cursor: pointer;
+  padding: 8px 12px; border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.tabs button[aria-selected='true'] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+.actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.inline { display: grid; gap: 8px; padding-top: 6px; border-top: 1px dashed var(--line); }
+.inline label { display: grid; gap: 3px; font-size: 0.78rem; color: var(--muted); }
+.inline input, .inline select, .bidForm input {
+  font: inherit; padding: 7px 9px; border-radius: 8px; min-width: 0;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+}
+.inUse { font-size: 0.78rem; color: var(--ok-ink); font-weight: 600; text-decoration: none; }
+.section { margin: 26px 0 10px; font-size: 1.1rem; }
+.empty { color: var(--muted); padding: 24px 0; }
+
+/* ---- Encabezado: saldo y usuario ---- */
+.points {
+  font-size: 0.85rem; font-weight: 700; padding: 5px 10px; border-radius: 999px;
+  background: var(--warn-bg); color: var(--warn-ink); font-variant-numeric: tabular-nums;
+}
+.toast {
+  position: fixed; right: 16px; bottom: 16px; z-index: 10; max-width: 320px;
+  background: var(--ok-bg); color: var(--ok-ink); border: 1px solid currentColor;
+  padding: 12px 14px; border-radius: var(--radius); box-shadow: 0 6px 18px rgb(0 0 0 / 0.12);
+  display: flex; gap: 10px; align-items: start;
+}
+.toast button { font: inherit; border: 0; background: none; color: inherit; cursor: pointer; }

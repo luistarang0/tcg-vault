@@ -1,6 +1,7 @@
 fastapi==0.143.0
 httpx==0.28.1
 limits==5.8.0
+psycopg[binary]==3.3.6
 pydantic==2.13.5
 python-dotenv==1.2.3
 requests==2.34.2

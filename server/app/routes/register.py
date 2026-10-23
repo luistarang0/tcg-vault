@@ -1,37 +1,40 @@
 """
-POST /api/register: formulario principal de práctica.
+POST /api/register: crea la cuenta de coleccionista.
 
-NO guarda ningún dato: valida los campos y responde 201. Sobre él actúan
-cuatro defensas en capas:
+Al registrarse el usuario recibe STARTING_POINTS puntos y un sobre inicial de
+STARTER_PACK_SIZE cartas, y queda con la sesión iniciada. Como ahora una cuenta
+tiene valor (puntos y cartas), las defensas evitan granjas de cuentas:
 
   1. Rate limiting (slowapi): RATE_LIMIT_FORMS por IP+sesión y RATE_LIMIT_IP por IP.
   2. Logging de huellas: cada intento queda en logs/access.jsonl (audit.py).
   3. Puntaje de comportamiento: métricas del cliente + honeypot + encabezados (risk.py).
   4. Turnstile: si el puntaje es ≥80 se exige un token validado en el servidor.
 
-Respuesta escalonada (solo en SECURITY_MODE=enforce):
-  0-29   201 permitido
-  30-59  201 permitido, queda registrado
-  60-79  429 Too Many Requests + Retry-After (frenar)
-  80-100 403 con challenge_required; se acepta solo con token Turnstile válido
-En observe se calcula y registra todo, pero siempre se responde 201.
+La respuesta escalonada vive en security/gate.py (la comparte el login).
+La contraseña se guarda solo como hash scrypt y nunca se registra.
 """
 import re
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Request, Response
 from fastapi.responses import JSONResponse
+from psycopg import errors as pg_errors
 from pydantic import BaseModel, Field, field_validator
 from slowapi.util import get_remote_address
+from starlette.concurrency import run_in_threadpool
 
-from app import config
-from app.security.audit import client_ip, log_event
+from app import config, economy as eco
+from app.auth import create_session, hash_password
+from app.market import add_points, give_starter_pack
+from app.pg import get_pg
+from app.security.audit import log_event
+from app.security.gate import risk_gate
 from app.security.ratelimit import limiter
-from app.security.risk import score_request
-from app.security.turnstile import verify_turnstile
 
 router = APIRouter()
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[A-Za-z]{2,}$")
+# El nombre forma parte de la URL del perfil público (/u/nombre): sin espacios ni símbolos raros
+USERNAME_RE = re.compile(r"^[\w.-]{3,24}$")
 
 
 class RegisterIn(BaseModel):
@@ -53,62 +56,52 @@ class RegisterIn(BaseModel):
     @field_validator("collector_name")
     @classmethod
     def clean_name(cls, v: str) -> str:
-        return v.strip()
+        v = v.strip()
+        if not USERNAME_RE.match(v):
+            raise ValueError("de 3 a 24 letras, números, punto, guion o guion bajo")
+        return v
 
 
-def _behavior_resumen(b: dict | None) -> dict:
-    """Solo las métricas numéricas que se guardan en el log (nada de datos personales)."""
-    if not isinstance(b, dict):
-        return {}
-    claves = ["fillTimeMs", "keyCount", "keyIntervalMeanMs", "keyIntervalStdMs", "mouseMoves",
-              "totalEvents", "trustedEvents", "webdriver", "pluginsLength", "languagesLength"]
-    return {k: b.get(k) for k in claves if k in b}
+def _crear_cuenta(payload: RegisterIn, response: Response) -> list[str] | None:
+    """Inserta usuario, saldo inicial y sobre. None si el nombre o correo ya existen."""
+    password_hash = hash_password(payload.password)   # scrypt tarda ~50 ms a propósito
+    with get_pg() as conn:
+        try:
+            with conn.transaction():
+                user = conn.execute(
+                    # last_bonus = hoy: el bono diario empieza a contar desde mañana
+                    "INSERT INTO users (username, email, password_hash, last_bonus) "
+                    "VALUES (%s, %s, %s, (now() AT TIME ZONE 'UTC')::date) RETURNING id",
+                    (payload.collector_name, payload.email, password_hash),
+                ).fetchone()
+                add_points(conn, user["id"], eco.STARTING_POINTS, "saldo_inicial")
+                cartas = give_starter_pack(conn, user["id"])
+                create_session(conn, user["id"], response)
+        except pg_errors.UniqueViolation:
+            return None
+    return cartas
 
 
 # Los decoradores de slowapi exigen que la función reciba `request: Request`.
 @router.post("/register", status_code=201)
 @limiter.limit(config.RATE_LIMIT_FORMS)                                # IP + sesión
 @limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)      # solo IP
-async def register(request: Request, payload: RegisterIn):
-    # La contraseña se valida y se descarta. Nunca se registra.
-    riesgo = score_request(request.headers, payload.behavior, payload.website)
-    accion = riesgo.accion
-    log_event(request, "register_attempt", score=riesgo.score, flags=riesgo.flags,
-              action=accion, mode=config.SECURITY_MODE,
-              behavior=_behavior_resumen(payload.behavior),
-              has_token=bool(payload.turnstile_token))
+async def register(request: Request, payload: RegisterIn, response: Response):
+    bloqueo, riesgo = await risk_gate(request, payload, "register_attempt")
+    if bloqueo:
+        return bloqueo
 
-    ok = {"ok": True,
-          "message": f"Registro de práctica recibido para {payload.collector_name}. No se guardó ningún dato."}
+    # `response` es la respuesta que FastAPI devolverá: create_session le pone la cookie
+    cartas = await run_in_threadpool(_crear_cuenta, payload, response)
+    if cartas is None:
+        log_event(request, "register_duplicate")
+        return JSONResponse(status_code=409, content={
+            "ok": False, "error": "Ese nombre de coleccionista o correo ya está registrado."})
 
-    if not config.should_enforce():
-        # off / observe: no se bloquea nada (en observe ya quedó registrado)
-        return ok
-
-    if accion == "throttle":
-        return JSONResponse(
-            status_code=429,
-            content={"ok": False, "error": "Demasiados intentos sospechosos. Intenta más tarde.",
-                     "retry_after": config.RETRY_AFTER_SECONDS},
-            headers={"Retry-After": str(config.RETRY_AFTER_SECONDS)},
-        )
-
-    if accion == "challenge":
-        if not payload.turnstile_token:
-            # Se pide el desafío. No se revela qué señales lo provocaron.
-            return JSONResponse(status_code=403, content={
-                "ok": False, "challenge_required": True,
-                "sitekey": config.TURNSTILE_SITEKEY,
-                "error": "Confirma que eres humano para continuar.",
-            })
-        valido, errores = await verify_turnstile(payload.turnstile_token, client_ip(request))
-        log_event(request, "turnstile_verify", success=valido, errors=errores)
-        if not valido:
-            return JSONResponse(status_code=403, content={
-                "ok": False, "challenge_required": True,
-                "sitekey": config.TURNSTILE_SITEKEY,
-                "error": "La verificación no fue válida. Inténtalo de nuevo.",
-            })
-        ok["message"] += " (verificación humana superada)"
-
-    return ok
+    log_event(request, "register_ok", score=riesgo.score)
+    return {
+        "ok": True,
+        "message": f"¡Bienvenido, {payload.collector_name}! Recibiste {eco.STARTING_POINTS} puntos "
+                   f"y un sobre con {len(cartas)} cartas.",
+        "username": payload.collector_name,
+    }

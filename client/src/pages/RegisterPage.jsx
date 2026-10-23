@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import { postRegister } from '../api.js'
 import TurnstileWidget from '../components/TurnstileWidget.jsx'
+import useAuth from '../hooks/useAuth.jsx'
 import useBehaviorTracker from '../hooks/useBehaviorTracker.js'
 import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './Page.module.css'
@@ -8,7 +10,8 @@ import styles from './Page.module.css'
 const EMPTY = { collector_name: '', email: '', password: '', website: '' }
 
 /**
- * Formulario principal de práctica con las cinco defensas:
+ * Registro de coleccionista: crea la cuenta, da puntos iniciales y un sobre de
+ * cartas, y deja la sesión iniciada. Lo protegen las cinco defensas:
  *  1. Rate limiting (servidor): 429 con cuenta regresiva.
  *  2. Huellas de automatización (servidor): se registran en logs/access.jsonl.
  *  3. Métricas de interacción (useBehaviorTracker) + honeypot `website`.
@@ -29,13 +32,17 @@ export default function RegisterPage() {
   const [widgetKey, setWidgetKey] = useState(0)    // cambiarlo vuelve a crear el widget
   const tracker = useBehaviorTracker()
   const dyn = useDynamicDom()
+  const { refresh } = useAuth()
+  const navigate = useNavigate()
 
   const update = (e) => setForm({ ...form, [e.target.name]: e.target.value })
 
   // Validación del lado del cliente (las mismas reglas que el modelo Pydantic)
   const validate = () => {
     const errs = {}
-    if (form.collector_name.trim().length < 3) errs.collector_name = 'Mínimo 3 caracteres.'
+    if (!/^[\p{L}\p{N}_.-]{3,24}$/u.test(form.collector_name.trim())) {
+      errs.collector_name = 'De 3 a 24 letras, números, punto, guion o guion bajo (sin espacios).'
+    }
     if (!/^[^@\s]+@[^@\s]+\.[A-Za-z]{2,}$/.test(form.email)) errs.email = 'Correo inválido.'
     if (form.password.length < 8) errs.password = 'Mínimo 8 caracteres.'
     return errs
@@ -70,6 +77,8 @@ export default function RegisterPage() {
       setForm(EMPTY)                           // no se conserva la contraseña en memoria
       setChallenge(null)
       tracker.reset()
+      await refresh()                          // el servidor ya dejó la sesión iniciada
+      navigate('/perfil', { state: { welcome: res.message } })
     } catch (err) {
       if (err.status === 429) startCooldown(err.retryAfter)
       if (err.status === 403 && err.details?.challenge_required) {
@@ -91,7 +100,8 @@ export default function RegisterPage() {
     <section>
       <h1 className={styles.title}>Registro de coleccionista</h1>
       <p className={styles.subtitle}>
-        Formulario de práctica: el servidor valida los datos y no guarda nada.
+        Crea tu cuenta y recibe puntos para pujar y un sobre con cartas aleatorias.
+        ¿Ya tienes cuenta? <Link to="/entrar">Inicia sesión</Link>.
       </p>
 
       <form className={dyn.cls(styles.form)} id={dyn.id('form-registro')} onSubmit={onSubmit} noValidate {...tracker.handlers}>

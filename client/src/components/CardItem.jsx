@@ -3,7 +3,7 @@ import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './CardItem.module.css'
 
 // Color de acento por tipo (solo decorativo; si no hay imagen se usa de fondo).
-const TYPE_COLORS = {
+export const TYPE_COLORS = {
   Planta: '#4f9a3d', Fuego: '#e2553b', Agua: '#3a83d1', Rayo: '#e8b923',
   Psíquico: '#9b59b6', Lucha: '#b5651d', Oscuridad: '#3d3d4a', Metal: '#8a97a3',
   Dragón: '#b8962e', Hada: '#e48bb5', Incoloro: '#a8a49a',

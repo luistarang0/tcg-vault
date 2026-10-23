@@ -11,6 +11,8 @@ Estado:
 - **Revisión 3** (Fase 3): bot de extracción en portal oficial + limpieza con Pandas
   (carpeta `fase3_extraccion/`, ver su README).
 - **Defensa 5** (paso 9): DOM dinámico, IDs y clases decorativas que cambian en cada carga.
+- **Mercado de subastas**: cuentas reales, puntos, colección de cartas y subastas con
+  pujas (ver sección "Mercado de subastas").
 
 ## Requisitos
 
@@ -28,6 +30,20 @@ python -m venv .venv
 pip install -r requirements.txt
 cp .env.example .env          # en Windows: copy .env.example .env
 ```
+
+### Base de datos del mercado (Postgres en Neon)
+
+El catálogo vive en SQLite (`server/data/cards.db`, solo lectura). Usuarios, cartas
+en posesión, subastas y pujas viven en Postgres, porque en Vercel el disco es de
+solo lectura. Se usa Neon:
+
+1. En Vercel: **Storage → Create Database → Neon**, conectada al proyecto. Esto crea
+   `DATABASE_URL` (rama `main`) para producción.
+2. En la consola de Neon: **Branches → Create branch** `dev` (padre `main`).
+3. **Connect** → rama `dev`, con pooling → copiar la cadena en `server/.env`:
+   `DATABASE_URL=postgresql://...-pooler...neon.tech/neondb?sslmode=require`
+
+Las tablas se crean solas la primera vez que el backend se conecta.
 
 ### Catálogo
 
@@ -71,6 +87,12 @@ Abrir `http://localhost:5173/cartas`. Vite reenvía `/api` al backend (puerto 80
 | `RATE_LIMIT_CATALOG` | `60/minute` | Límite del catálogo por IP + sesión |
 | `RATE_LIMIT_FORMS` | `10/minute` | Límite del formulario por IP + sesión |
 | `RATE_LIMIT_IP` | `120/minute` | Límite de respaldo solo por IP |
+| `RATE_LIMIT_LOGIN` | `10/minute` | Login por IP + sesión |
+| `RATE_LIMIT_BIDS` | `20/minute` | Pujas y acciones del mercado por IP + sesión |
+| `RATE_LIMIT_POLL` | `40/minute` | Lecturas del mercado (polling cada ~5 s) |
+| `LOGIN_MAX_FAILS` / `LOGIN_WINDOW_MIN` | `5` / `15` | Fallos de login que bloquean una CUENTA y ventana en minutos |
+| `DATABASE_URL` | — | Postgres de Neon (rama `dev` en local) |
+| `SESSION_DAYS` | `7` | Vigencia de la sesión de usuario |
 | `RETRY_AFTER_SECONDS` | `60` | Valor del encabezado `Retry-After` |
 | `TURNSTILE_SITEKEY` | clave de prueba | Clave pública de Turnstile (el servidor la envía al frontend) |
 | `TURNSTILE_SECRET` | clave de prueba | Clave secreta de Turnstile, solo en el servidor |
@@ -134,7 +156,46 @@ no alterar etiquetas ARIA ni asociaciones `label`/`input`.
 | GET | `/api/cards` | Lista paginada: `page`, `limit` (≤50), `type`, `set_id`, `generation`, `rarity`, `category`, `q` |
 | GET | `/api/cards/{id}` | Detalle (404 si no existe) |
 | GET | `/api/filters` | Valores válidos de los filtros |
-| POST | `/api/register` | Formulario de práctica (no guarda datos) |
+| POST | `/api/register` | Crea la cuenta (1000 pts + sobre de 5 cartas) y abre sesión |
+| POST | `/api/login` · `/api/logout` | Iniciar / cerrar sesión |
+| GET | `/api/me` | Usuario actual, saldo, puntos congelados (`{"user": null}` sin sesión) |
+| GET | `/api/me/cards` | Mi colección (copias individuales) |
+| POST | `/api/me/cards/{id}/sell` | Vender una copia a la casa |
+| GET | `/api/me/auctions` | Mis subastas y las subastas en que he pujado |
+| GET | `/api/auctions` | Subastas activas: `page`, `source` (`all`/`house`/`users`), `sort` |
+| GET | `/api/auctions/{id}` | Detalle + historial de pujas |
+| POST | `/api/auctions` | Subastar una carta propia: `owned_card_id`, `duration`, `start_price`, `buyout_price?` |
+| POST | `/api/auctions/{id}/bid` · `/buyout` · `/cancel` | Pujar, compra inmediata, cancelar |
+| GET | `/api/users/{username}` | Perfil público |
+
+## Mercado de subastas
+
+| Regla | Valor (en `server/app/economy.py`) |
+|---|---|
+| Saldo inicial / bono diario | 1000 pts / +100 pts (una vez por día UTC, desde el día siguiente al registro) |
+| Sobre inicial | 5 cartas al azar, ponderadas por rareza |
+| Puja mínima | la actual + 5 % o + 10 pts, lo que sea mayor |
+| Anti-sniping | una puja en los últimos 2 min deja la subasta con 2 min por delante |
+| Puntos congelados | se descuentan al pujar y se devuelven al instante si alguien te supera |
+| Duraciones | 5 min, 1 h, 6 h, 24 h, 3 días; sin pujas, la carta sigue siendo del dueño |
+| Cancelar | solo el vendedor y solo si no hay pujas |
+| Casa | mantiene 8 subastas activas; sale al doble del precio de recompra y ofrece compra inmediata |
+| Venta a la casa | precio fijo por rareza (Común 10 … Rara Secreta 500) |
+
+**Sin procesos en segundo plano** (Vercel no los tiene): las subastas vencidas se
+liquidan cuando alguien consulta el mercado, una subasta o un perfil, y las de la
+casa se reponen al listar el mercado. Toda operación con puntos ocurre en una
+transacción con `SELECT ... FOR UPDATE`, y cada cambio de saldo queda en la tabla
+`ledger` (no se muestra, sirve para auditar que los saldos cuadran).
+
+**Defensas en el mercado:** el registro y el login usan el puntaje escalonado y
+Turnstile (`security/gate.py`); el login además bloquea la cuenta tras 5 fallos
+(guardado en Postgres, no en memoria); pujas y acciones tienen su propio límite y
+cada puja deja un evento `bid` con las huellas del cliente en `access.jsonl`.
+
+Atributos estables de las subastas: `data-auction-id`, `data-card-id`, `data-seller`
+(`casa` o el usuario), `data-current-bid`, `data-min-next-bid`, `data-buyout`,
+`data-bids`, `data-status` y `data-ends-at` (hora exacta de cierre en ISO).
 
 ## Atributos estables para el scraper
 

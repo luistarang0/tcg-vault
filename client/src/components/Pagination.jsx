@@ -4,10 +4,11 @@ import styles from './Pagination.module.css'
 
 /**
  * Paginación con ENLACES reales (<a href="/cartas?page=N&...">), no botones.
+ * `basePath` permite reutilizarla en otras listas (/subastas).
  * Conserva los filtros activos. Un scraper puede seguir el enlace "Siguiente"
  * o construir las URLs directamente.
  */
-export default function Pagination({ page, pages }) {
+export default function Pagination({ page, pages, basePath = '/cartas' }) {
   const [params] = useSearchParams()
   const dyn = useDynamicDom()   // Defensa 5: los enlaces conservan href y rel, cambian id/clase
   if (!pages || pages <= 1) return null
@@ -16,7 +17,7 @@ export default function Pagination({ page, pages }) {
   const hrefFor = (n) => {
     const p = new URLSearchParams(params)
     p.set('page', String(n))
-    return `/cartas?${p.toString()}`
+    return `${basePath}?${p.toString()}`
   }
 
   // Ventana de números alrededor de la página actual: 1 … 4 5 [6] 7 8 … 45
