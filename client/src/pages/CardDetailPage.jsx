@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import { fetchCard } from '../api.js'
+import { Link, useLocation, useParams } from 'react-router-dom'
+import { fetchCard, fetchMyCards } from '../api.js'
+import useAuth from '../hooks/useAuth.jsx'
 import useDynamicDom from '../hooks/useDynamicDom.js'
 import styles from './Page.module.css'
 
@@ -8,12 +9,21 @@ import styles from './Page.module.css'
  * Detalle de una carta. Además del HTML visible, incluye un bloque JSON-LD
  * (<script type="application/ld+json">) con los mismos datos: otra forma de
  * "renderizado mixto" que un scraper puede aprovechar.
+ *
+ * También se abre desde la colección o un perfil: entonces el enlace "volver"
+ * regresa a esa página (location.state) y, con sesión, se indica cuántas copias tienes.
  */
 export default function CardDetailPage() {
   const { id } = useParams()
   const [card, setCard] = useState(null)
   const [error, setError] = useState(null)
   const dyn = useDynamicDom()   // Defensa 5
+  const { user } = useAuth()
+  const { state } = useLocation()
+  const [copies, setCopies] = useState(null)    // copias propias de esta carta (con sesión)
+  const back = state?.from
+    ? <Link to={state.from} className={styles.back}>← {state.label || 'Volver'}</Link>
+    : <Link to="/cartas" className={styles.back}>← Volver al catálogo</Link>
 
   useEffect(() => {
     setCard(null)
@@ -21,10 +31,17 @@ export default function CardDetailPage() {
     fetchCard(id).then(setCard).catch((e) => setError(e.message))
   }, [id])
 
+  useEffect(() => {
+    if (!user) { setCopies(null); return }
+    fetchMyCards()
+      .then((r) => setCopies(r.items.filter((c) => c.card.id === id)))
+      .catch(() => setCopies(null))
+  }, [id, user?.username]) // eslint-disable-line react-hooks/exhaustive-deps
+
   if (error) {
     return (
       <section>
-        <Link to="/cartas" className={styles.back}>← Volver al catálogo</Link>
+        {back}
         <div className={`${styles.alert} ${styles.warn}`} role="alert">{error}</div>
       </section>
     )
@@ -49,7 +66,7 @@ export default function CardDetailPage() {
 
   return (
     <section>
-      <Link to="/cartas" className={styles.back}>← Volver al catálogo</Link>
+      {back}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <article
@@ -68,6 +85,13 @@ export default function CardDetailPage() {
         <div>
           <h1 className={styles.title}>{card.name}</h1>
           <p className={styles.subtitle}>{card.set_name} · #{card.local_id}</p>
+          {copies?.length > 0 && (
+            <div className={`${styles.alert} ${styles.ok}`} data-owned-copies={copies.length}>
+              Tienes {copies.length} {copies.length === 1 ? 'copia' : 'copias'} en tu colección
+              {copies.some((c) => c.auction_id) ? ' (alguna está en subasta)' : ''}.{' '}
+              <Link to="/perfil">Ir a mi colección</Link>
+            </div>
+          )}
 
           {/* Lista de definiciones: etiqueta / valor. Los campos ausentes se muestran como "—" */}
           <dl className={styles.facts}>

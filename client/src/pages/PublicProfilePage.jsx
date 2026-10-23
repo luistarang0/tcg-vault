@@ -43,7 +43,8 @@ export default function PublicProfilePage() {
       {data.cards.length === 0 ? <p className={m.empty}>Aún no tiene cartas.</p> : (
         <div className={dyn.cls(styles.grid)} id={dyn.id('user-cards')}>
           {data.cards.map((item) => (
-            <MiniCard key={item.owned_card_id} card={item.card} data-card-id={item.card.id}>
+            <MiniCard key={item.owned_card_id} card={item.card} data-card-id={item.card.id}
+                      detail={{ from: `/u/${data.username}`, label: `Volver al perfil de @${data.username}` }}>
               {item.auction_id && <Link className={m.inUse} to={`/subastas/${item.auction_id}`}>En subasta →</Link>}
             </MiniCard>
           ))}

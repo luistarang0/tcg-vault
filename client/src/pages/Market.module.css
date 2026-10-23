@@ -14,6 +14,11 @@
   background: linear-gradient(160deg, var(--type-color), color-mix(in srgb, var(--type-color) 55%, #000));
 }
 .miniArt img { width: 100%; height: 100%; object-fit: cover; }
+.zoom { display: block; cursor: zoom-in; }
+.zoom:hover .miniArt img { transform: scale(1.03); }
+.miniArt img { transition: transform 0.2s ease; }
+.plainLink { color: inherit; text-decoration: none; }
+.plainLink:hover { text-decoration: underline; }
 .miniBody { padding: 10px 12px 12px; display: grid; gap: 6px; flex: 1; align-content: start; }
 .miniName { margin: 0; font-size: 0.95rem; line-height: 1.25; }
 .miniMeta { margin: 0; color: var(--muted); font-size: 0.78rem; }

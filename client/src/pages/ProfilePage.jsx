@@ -156,6 +156,7 @@ export default function ProfilePage() {
                 <div className={dyn.cls(styles.grid)} id={dyn.id('my-cards')}>
                   {shown.map((item) => (
                     <MiniCard key={item.owned_card_id} card={item.card}
+                              detail={{ from: '/perfil', label: 'Volver a mi colección' }}
                               data-owned-card-id={item.owned_card_id} data-card-id={item.card.id}>
                       {item.auction_id ? (
                         <Link className={m.inUse} to={`/subastas/${item.auction_id}`}>En subasta →</Link>
