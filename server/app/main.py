@@ -5,9 +5,9 @@ Arranque (desde server/):
     uvicorn app.main:app --reload --port 8000
 
 Orden de middleware (Starlette ejecuta primero el ÚLTIMO agregado):
-    petición -> AuditMiddleware -> SessionCookieMiddleware -> SlowAPIMiddleware -> ruta
-Así el log registra todas las respuestas (incluidas las 429), el limitador evalúa
-cada petición y la cookie `sid` se agrega a la respuesta.
+    petición -> AuditMiddleware -> SessionCookieMiddleware -> CSRFMiddleware -> SlowAPIMiddleware -> ruta
+Así el log registra todas las respuestas (incluidas las 429 y los 403 de CSRF), el
+limitador evalúa cada petición y las cookies `sid` y `csrf_token` se agregan a la respuesta.
 
 Nota de compatibilidad: con FastAPI reciente, SlowAPIMiddleware solo alcanza las
 rutas definidas directamente en `app`. Por eso las rutas de los routers declaran
@@ -22,6 +22,7 @@ from app import config
 from app.market import MarketError
 from app.routes import auctions, auth, cards, collection, register, users
 from app.security.audit import AuditMiddleware
+from app.security.csrf import CSRFMiddleware
 from app.security.ratelimit import limiter, rate_limit_handler
 from app.security.session import SessionCookieMiddleware
 
@@ -35,6 +36,9 @@ app = FastAPI(
 app.state.limiter = limiter                                   # slowapi lo busca aquí
 app.add_exception_handler(RateLimitExceeded, rate_limit_handler)
 app.add_middleware(SlowAPIMiddleware)                         # aplica default_limits
+
+# --- CSRF: operaciones que modifican datos exigen X-CSRF-Token == cookie ------
+app.add_middleware(CSRFMiddleware)
 
 # --- Cookie de sesión (se agrega después = se ejecuta antes) -------------------
 app.add_middleware(SessionCookieMiddleware)

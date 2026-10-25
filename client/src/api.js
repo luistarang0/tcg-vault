@@ -11,6 +11,12 @@ export class ApiError extends Error {
   }
 }
 
+/** Valor de la cookie `csrf_token` que entrega el backend (no es httponly a propósito). */
+function csrfToken() {
+  const m = document.cookie.match(/(?:^|;\s*)csrf_token=([^;]+)/)
+  return m ? decodeURIComponent(m[1]) : ''
+}
+
 /**
  * Hace la petición y devuelve el JSON, o lanza ApiError.
  * credentials: 'same-origin' -> el navegador envía las cookies del backend
@@ -55,11 +61,19 @@ export function fetchFilters() {
   return request('/api/filters')
 }
 
-/** POST con cuerpo JSON (o sin cuerpo si `data` es undefined). */
-function post(path, data) {
+/**
+ * POST con cuerpo JSON (o sin cuerpo si `data` es undefined).
+ * Toda operación que modifica datos lleva X-CSRF-Token = cookie csrf_token; el
+ * servidor compara ambos (security/csrf.py). Si es la primera visita y aún no
+ * hay cookie, se pide /api/health para obtenerla.
+ */
+async function post(path, data) {
+  if (!csrfToken()) await fetch('/api/health', { credentials: 'same-origin' })
+  const headers = { 'X-CSRF-Token': csrfToken() }
+  if (data !== undefined) headers['Content-Type'] = 'application/json'
   return request(path, {
     method: 'POST',
-    headers: data === undefined ? {} : { 'Content-Type': 'application/json' },
+    headers,
     body: data === undefined ? undefined : JSON.stringify(data),
   })
 }

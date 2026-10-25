@@ -132,6 +132,27 @@ python scraper_tests/02_bot_formulario.py --modo cuidadoso
 python auditoria/auditar_sitios.py --archivo auditoria/sitios.txt --selenium
 ```
 
+## Token CSRF (double-submit)
+
+`server/app/security/csrf.py`: el backend entrega la cookie `csrf_token` y exige
+que toda operación que modifica datos (POST/PUT/PATCH/DELETE a `/api/*`) traiga el
+mismo valor en el encabezado `X-CSRF-Token`; si falta o no coincide responde **403**
+(en `enforce`; en `observe` solo registra `csrf_invalid`). `client/src/api.js`
+copia la cookie al encabezado. Un sitio ajeno no puede leer la cookie, así que no
+puede falsificar el encabezado.
+
+## Reto de las n solicitudes (TAD 2.4, actividad 3)
+
+```powershell
+# backend con límite de login de 5 por minuto (desde server/)
+$env:SECURITY_MODE="enforce"; $env:RATE_LIMIT_LOGIN="5/minute"; uvicorn app.main:app --port 8000
+# en otra terminal, desde la raíz
+python scraper_tests/05_reto_n_solicitudes.py
+```
+
+Muestra 5 solicitudes válidas → 429 en la 6.ª (IP + sesión), que una sesión nueva
+sí pasa, el reinicio tras `Retry-After` y el bloqueo por cuenta tras 5 fallos.
+
 ## Defensa 5: DOM dinámico
 
 El hook `client/src/hooks/useDynamicDom.js` genera una sal aleatoria por carga de

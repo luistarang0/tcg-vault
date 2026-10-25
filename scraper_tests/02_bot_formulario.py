@@ -55,10 +55,14 @@ setter.call(el, value);
 el.dispatchEvent(new Event('input', { bubbles: true }));
 """
 
-# Envía el formulario directamente a la API desde la página (con la cookie de sesión)
+# Envía el formulario directamente a la API desde la página (con la cookie de sesión).
+# Como corre DENTRO de la página, puede leer la cookie csrf_token y copiarla al
+# encabezado: el CSRF frena a sitios ajenos, no a un bot que ya está en nuestra página.
 JS_FETCH = """
 const done = arguments[arguments.length - 1];
-fetch('/api/register', {method: 'POST', headers: {'Content-Type': 'application/json'},
+const csrf = (document.cookie.match(/(?:^|; *)csrf_token=([^;]+)/) || [])[1] || '';
+fetch('/api/register', {method: 'POST',
+  headers: {'Content-Type': 'application/json', 'X-CSRF-Token': decodeURIComponent(csrf)},
   body: JSON.stringify(arguments[0])})
   .then(async r => done([r.status, await r.text()]))
   .catch(e => done([0, String(e)]));
