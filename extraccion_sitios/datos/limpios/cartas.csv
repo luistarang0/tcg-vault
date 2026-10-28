@@ -1,0 +1,836 @@
+﻿id,sitio,nombre,categoria,tipos,tipo_principal,num_tipos,rareza,coleccion,numero,generacion,hp
+bw1-1,tcgvault,Snivy,Pokémon,Planta,Planta,1,Común,Negro y Blanco,1,5,60
+bw1-2,tcgvault,Snivy,Pokémon,Planta,Planta,1,Común,Negro y Blanco,2,5,60
+bw1-3,tcgvault,Servine,Pokémon,Planta,Planta,1,Uncommon,Negro y Blanco,3,5,80
+bw1-4,tcgvault,Servine,Pokémon,Planta,Planta,1,Uncommon,Negro y Blanco,4,5,80
+bw1-5,tcgvault,Serperior,Pokémon,Planta,Planta,1,Rara,Negro y Blanco,5,5,130
+bw1-6,tcgvault,Serperior,Pokémon,Planta,Planta,1,Rara,Negro y Blanco,6,5,130
+bw1-7,tcgvault,Pansage,Pokémon,Planta,Planta,1,Común,Negro y Blanco,7,5,60
+bw1-8,tcgvault,Simisage,Pokémon,Planta,Planta,1,Uncommon,Negro y Blanco,8,5,90
+bw1-9,tcgvault,Petilil,Pokémon,Planta,Planta,1,Común,Negro y Blanco,9,5,50
+bw1-10,tcgvault,Lilligant,Pokémon,Planta,Planta,1,Rara,Negro y Blanco,10,5,80
+bw1-11,tcgvault,Maractus,Pokémon,Planta,Planta,1,Uncommon,Negro y Blanco,11,5,80
+bw1-12,tcgvault,Maractus,Pokémon,Planta,Planta,1,Rara,Negro y Blanco,12,5,90
+bw1-13,tcgvault,Deerling,Pokémon,Planta,Planta,1,Común,Negro y Blanco,13,5,60
+bw1-14,tcgvault,Sawsbuck,Pokémon,Planta,Planta,1,Rara,Negro y Blanco,14,5,90
+bw1-15,tcgvault,Tepig,Pokémon,Fuego,Fuego,1,Común,Negro y Blanco,15,5,60
+bw1-16,tcgvault,Tepig,Pokémon,Fuego,Fuego,1,Común,Negro y Blanco,16,5,70
+bw1-17,tcgvault,Pignite,Pokémon,Fuego,Fuego,1,Uncommon,Negro y Blanco,17,5,100
+bw1-18,tcgvault,Pignite,Pokémon,Fuego,Fuego,1,Uncommon,Negro y Blanco,18,5,100
+bw1-19,tcgvault,Emboar,Pokémon,Fuego,Fuego,1,Rara,Negro y Blanco,19,5,150
+bw1-20,tcgvault,Emboar,Pokémon,Fuego,Fuego,1,Rara,Negro y Blanco,20,5,150
+bw1-21,tcgvault,Pansear,Pokémon,Fuego,Fuego,1,Común,Negro y Blanco,21,5,60
+bw1-22,tcgvault,Simisear,Pokémon,Fuego,Fuego,1,Uncommon,Negro y Blanco,22,5,90
+bw1-23,tcgvault,Darumaka,Pokémon,Fuego,Fuego,1,Común,Negro y Blanco,23,5,70
+bw1-24,tcgvault,Darumaka,Pokémon,Fuego,Fuego,1,Uncommon,Negro y Blanco,24,5,70
+bw1-25,tcgvault,Darmanitan,Pokémon,Fuego,Fuego,1,Rara,Negro y Blanco,25,5,120
+bw1-26,tcgvault,Reshiram,Pokémon,Fuego,Fuego,1,Rara,Negro y Blanco,26,5,130
+bw1-27,tcgvault,Oshawott,Pokémon,Agua,Agua,1,Común,Negro y Blanco,27,5,60
+bw1-28,tcgvault,Oshawott,Pokémon,Agua,Agua,1,Común,Negro y Blanco,28,5,60
+bw1-29,tcgvault,Dewott,Pokémon,Agua,Agua,1,Uncommon,Negro y Blanco,29,5,90
+bw1-30,tcgvault,Dewott,Pokémon,Agua,Agua,1,Uncommon,Negro y Blanco,30,5,80
+bw1-31,tcgvault,Samurott,Pokémon,Agua,Agua,1,Rara,Negro y Blanco,31,5,140
+bw1-32,tcgvault,Samurott,Pokémon,Agua,Agua,1,Rara,Negro y Blanco,32,5,140
+bw1-33,tcgvault,Panpour,Pokémon,Agua,Agua,1,Común,Negro y Blanco,33,5,60
+bw1-34,tcgvault,Simipour,Pokémon,Agua,Agua,1,Uncommon,Negro y Blanco,34,5,90
+bw1-35,tcgvault,Basculin,Pokémon,Agua,Agua,1,Uncommon,Negro y Blanco,35,5,70
+bw1-36,tcgvault,Ducklett,Pokémon,Agua,Agua,1,Común,Negro y Blanco,36,5,60
+bw1-37,tcgvault,Swanna,Pokémon,Agua,Agua,1,Rara,Negro y Blanco,37,5,90
+bw1-38,tcgvault,Alomomola,Pokémon,Agua,Agua,1,Uncommon,Negro y Blanco,38,5,100
+bw1-39,tcgvault,Alomomola,Pokémon,Agua,Agua,1,Rara,Negro y Blanco,39,5,100
+bw1-40,tcgvault,Blitzle,Pokémon,Rayo,Rayo,1,Común,Negro y Blanco,40,5,60
+bw1-41,tcgvault,Blitzle,Pokémon,Rayo,Rayo,1,Común,Negro y Blanco,41,5,60
+bw1-42,tcgvault,Zebstrika,Pokémon,Rayo,Rayo,1,Uncommon,Negro y Blanco,42,5,90
+bw1-43,tcgvault,Zebstrika,Pokémon,Rayo,Rayo,1,Rara,Negro y Blanco,43,5,90
+bw1-44,tcgvault,Joltik,Pokémon,Rayo,Rayo,1,Común,Negro y Blanco,44,5,40
+bw1-45,tcgvault,Joltik,Pokémon,Rayo,Rayo,1,Común,Negro y Blanco,45,5,30
+bw1-46,tcgvault,Galvantula,Pokémon,Rayo,Rayo,1,Rara,Negro y Blanco,46,5,80
+bw1-47,tcgvault,Zekrom,Pokémon,Rayo,Rayo,1,Rara,Negro y Blanco,47,5,130
+bw1-48,tcgvault,Munna,Pokémon,Psíquico,Psíquico,1,Uncommon,Negro y Blanco,48,5,70
+bw1-49,tcgvault,Musharna,Pokémon,Psíquico,Psíquico,1,Rara,Negro y Blanco,49,5,90
+bw1-50,tcgvault,Woobat,Pokémon,Psíquico,Psíquico,1,Común,Negro y Blanco,50,5,50
+bw1-51,tcgvault,Swoobat,Pokémon,Psíquico,Psíquico,1,Uncommon,Negro y Blanco,51,5,80
+bw1-52,tcgvault,Venipede,Pokémon,Psíquico,Psíquico,1,Común,Negro y Blanco,52,5,70
+bw1-53,tcgvault,Whirlipede,Pokémon,Psíquico,Psíquico,1,Uncommon,Negro y Blanco,53,5,90
+bw1-54,tcgvault,Scolipede,Pokémon,Psíquico,Psíquico,1,Rara,Negro y Blanco,54,5,150
+bw1-55,tcgvault,Solosis,Pokémon,Psíquico,Psíquico,1,Común,Negro y Blanco,55,5,30
+bw1-56,tcgvault,Duosion,Pokémon,Psíquico,Psíquico,1,Uncommon,Negro y Blanco,56,5,60
+bw1-57,tcgvault,Reuniclus,Pokémon,Psíquico,Psíquico,1,Rara,Negro y Blanco,57,5,90
+bw1-58,tcgvault,Timburr,Pokémon,Lucha,Lucha,1,Común,Negro y Blanco,58,5,60
+bw1-59,tcgvault,Timburr,Pokémon,Lucha,Lucha,1,Común,Negro y Blanco,59,5,70
+bw1-60,tcgvault,Gurdurr,Pokémon,Lucha,Lucha,1,Uncommon,Negro y Blanco,60,5,80
+bw1-61,tcgvault,Throh,Pokémon,Lucha,Lucha,1,Rara,Negro y Blanco,61,5,100
+bw1-62,tcgvault,Sawk,Pokémon,Lucha,Lucha,1,Rara,Negro y Blanco,62,5,90
+bw1-63,tcgvault,Sandile,Pokémon,Lucha,Lucha,1,Común,Negro y Blanco,63,5,70
+bw1-64,tcgvault,Krokorok,Pokémon,Lucha,Lucha,1,Uncommon,Negro y Blanco,64,5,90
+bw1-65,tcgvault,Krookodile,Pokémon,Lucha,Lucha,1,Rara,Negro y Blanco,65,5,140
+bw1-66,tcgvault,Purrloin,Pokémon,Oscura,Oscura,1,Común,Negro y Blanco,66,5,60
+bw1-67,tcgvault,Liepard,Pokémon,Oscura,Oscura,1,Rara,Negro y Blanco,67,5,80
+bw1-68,tcgvault,Scraggy,Pokémon,Oscura,Oscura,1,Común,Negro y Blanco,68,5,60
+bw1-69,tcgvault,Scrafty,Pokémon,Oscura,Oscura,1,Rara,Negro y Blanco,69,5,90
+bw1-70,tcgvault,Zorua,Pokémon,Oscura,Oscura,1,Común,Negro y Blanco,70,5,60
+bw1-71,tcgvault,Zoroark,Pokémon,Oscura,Oscura,1,Rara,Negro y Blanco,71,5,100
+bw1-72,tcgvault,Vullaby,Pokémon,Oscura,Oscura,1,Uncommon,Negro y Blanco,72,5,60
+bw1-73,tcgvault,Mandibuzz,Pokémon,Oscura,Oscura,1,Rara,Negro y Blanco,73,5,90
+bw1-74,tcgvault,Klink,Pokémon,Metálica,Metálica,1,Común,Negro y Blanco,74,5,60
+bw1-75,tcgvault,Klang,Pokémon,Metálica,Metálica,1,Uncommon,Negro y Blanco,75,5,80
+bw1-76,tcgvault,Klinklang,Pokémon,Metálica,Metálica,1,Rara,Negro y Blanco,76,5,140
+bw1-77,tcgvault,Patrat,Pokémon,Incolora,Incolora,1,Común,Negro y Blanco,77,5,50
+bw1-78,tcgvault,Patrat,Pokémon,Incolora,Incolora,1,Común,Negro y Blanco,78,5,60
+bw1-79,tcgvault,Watchog,Pokémon,Incolora,Incolora,1,Uncommon,Negro y Blanco,79,5,90
+bw1-80,tcgvault,Lillipup,Pokémon,Incolora,Incolora,1,Común,Negro y Blanco,80,5,50
+bw1-81,tcgvault,Lillipup,Pokémon,Incolora,Incolora,1,Común,Negro y Blanco,81,5,60
+bw1-82,tcgvault,Herdier,Pokémon,Incolora,Incolora,1,Uncommon,Negro y Blanco,82,5,80
+bw1-83,tcgvault,Stoutland,Pokémon,Incolora,Incolora,1,Rara,Negro y Blanco,83,5,140
+bw1-84,tcgvault,Pidove,Pokémon,Incolora,Incolora,1,Común,Negro y Blanco,84,5,50
+bw1-85,tcgvault,Tranquill,Pokémon,Incolora,Incolora,1,Uncommon,Negro y Blanco,85,5,70
+bw1-86,tcgvault,Unfezant,Pokémon,Incolora,Incolora,1,Rara,Negro y Blanco,86,5,120
+bw1-87,tcgvault,Audino,Pokémon,Incolora,Incolora,1,Uncommon,Negro y Blanco,87,5,80
+bw1-88,tcgvault,Minccino,Pokémon,Incolora,Incolora,1,Común,Negro y Blanco,88,5,60
+bw1-89,tcgvault,Cinccino,Pokémon,Incolora,Incolora,1,Rara,Negro y Blanco,89,5,90
+bw1-90,tcgvault,Bouffalant,Pokémon,Incolora,Incolora,1,Uncommon,Negro y Blanco,90,5,90
+bw1-91,tcgvault,Bouffalant,Pokémon,Incolora,Incolora,1,Rara,Negro y Blanco,91,5,100
+bw1-92,tcgvault,Recuperación de Energía,Entrenador,,,0,Uncommon,Negro y Blanco,92,,
+bw1-93,tcgvault,Búsqueda de Energía,Entrenador,,,0,Común,Negro y Blanco,93,,
+bw1-94,tcgvault,Interruptor de Energía,Entrenador,,,0,Uncommon,Negro y Blanco,94,,
+bw1-95,tcgvault,Curación Total,Entrenador,,,0,Uncommon,Negro y Blanco,95,,
+bw1-96,tcgvault,PoderPlus,Entrenador,,,0,Uncommon,Negro y Blanco,96,,
+bw1-97,tcgvault,Poké Ball,Entrenador,,,0,Uncommon,Negro y Blanco,97,,
+bw1-98,tcgvault,Pokédex,Entrenador,,,0,Uncommon,Negro y Blanco,98,,
+bw1-99,tcgvault,Comunicación Pokémon,Entrenador,,,0,Uncommon,Negro y Blanco,99,,
+bw1-100,tcgvault,Poción,Entrenador,,,0,Común,Negro y Blanco,100,,
+bw1-101,tcgvault,Prof.ª Encina,Entrenador,,,0,Uncommon,Negro y Blanco,101,,
+bw1-102,tcgvault,Revivir,Entrenador,,,0,Uncommon,Negro y Blanco,102,,
+bw1-103,tcgvault,Superlevante,Entrenador,,,0,Uncommon,Negro y Blanco,103,,
+bw1-104,tcgvault,Cambio,Entrenador,,,0,Común,Negro y Blanco,104,,
+bw1-105,tcgvault,Energía Planta,Energía,,,0,Común,Negro y Blanco,105,,
+bw1-106,tcgvault,Energía Fuego,Energía,,,0,Común,Negro y Blanco,106,,
+bw1-107,tcgvault,Energía Agua,Energía,,,0,Común,Negro y Blanco,107,,
+bw1-108,tcgvault,Energía Rayo,Energía,,,0,Común,Negro y Blanco,108,,
+bw1-109,tcgvault,Energía Psíquica,Energía,,,0,Común,Negro y Blanco,109,,
+bw1-110,tcgvault,Energía Lucha,Energía,,,0,Común,Negro y Blanco,110,,
+bw1-111,tcgvault,Energía Oscura,Energía,,,0,Común,Negro y Blanco,111,,
+bw1-112,tcgvault,Energía Metálica,Energía,,,0,Común,Negro y Blanco,112,,
+bw1-113,tcgvault,Reshiram,Pokémon,Fuego,Fuego,1,Ultra Rara,Negro y Blanco,113,5,130
+bw1-114,tcgvault,Zekrom,Pokémon,Rayo,Rayo,1,Ultra Rara,Negro y Blanco,114,5,130
+bw1-115,tcgvault,Pikachu,Pokémon,Rayo,Rayo,1,Rara Secreta,Negro y Blanco,115,1,60
+sm1-1,tcgvault,Caterpie,Pokémon,Planta,Planta,1,Común,Sol y Luna,1,1,50
+sm1-2,tcgvault,Metapod,Pokémon,Planta,Planta,1,Uncommon,Sol y Luna,2,1,80
+sm1-3,tcgvault,Butterfree,Pokémon,Planta,Planta,1,Rara,Sol y Luna,3,1,130
+sm1-4,tcgvault,Paras,Pokémon,Planta,Planta,1,Común,Sol y Luna,4,1,60
+sm1-5,tcgvault,Parasect,Pokémon,Planta,Planta,1,Rara,Sol y Luna,5,1,110
+sm1-6,tcgvault,Pinsir,Pokémon,Planta,Planta,1,Uncommon,Sol y Luna,6,1,110
+sm1-7,tcgvault,Surskit,Pokémon,Planta,Planta,1,Común,Sol y Luna,7,3,50
+sm1-8,tcgvault,Masquerain,Pokémon,Planta,Planta,1,Rara,Sol y Luna,8,3,90
+sm1-9,tcgvault,Rowlet,Pokémon,Planta,Planta,1,Común,Sol y Luna,9,7,60
+sm1-10,tcgvault,Dartrix,Pokémon,Planta,Planta,1,Uncommon,Sol y Luna,10,7,80
+sm1-11,tcgvault,Decidueye,Pokémon,Planta,Planta,1,Rara,Sol y Luna,11,7,140
+sm1-12,tcgvault,Decidueye GX,Pokémon,Planta,Planta,1,Ultra Rara,Sol y Luna,12,7,240
+sm1-13,tcgvault,Grubbin,Pokémon,Planta,Planta,1,Común,Sol y Luna,13,7,70
+sm1-14,tcgvault,Fomantis,Pokémon,Planta,Planta,1,Común,Sol y Luna,14,7,60
+sm1-15,tcgvault,Lurantis GX,Pokémon,Planta,Planta,1,Ultra Rara,Sol y Luna,15,7,210
+sm1-16,tcgvault,Morelull,Pokémon,Planta,Planta,1,Común,Sol y Luna,16,7,60
+sm1-17,tcgvault,Shiinotic,Pokémon,Planta,Planta,1,Rara,Sol y Luna,17,7,100
+sm1-18,tcgvault,Bounsweet,Pokémon,Planta,Planta,1,Común,Sol y Luna,18,7,60
+sm1-19,tcgvault,Steenee,Pokémon,Planta,Planta,1,Uncommon,Sol y Luna,19,7,90
+sm1-20,tcgvault,Tsareena,Pokémon,Planta,Planta,1,Rara,Sol y Luna,20,7,140
+sm1-21,tcgvault,Growlithe,Pokémon,Fuego,Fuego,1,Común,Sol y Luna,21,1,80
+sm1-22,tcgvault,Arcanine,Pokémon,Fuego,Fuego,1,Rara,Sol y Luna,22,1,130
+sm1-23,tcgvault,Torkoal,Pokémon,Fuego,Fuego,1,Común,Sol y Luna,23,3,110
+sm1-24,tcgvault,Litten,Pokémon,Fuego,Fuego,1,Común,Sol y Luna,24,7,70
+sm1-25,tcgvault,Torracat,Pokémon,Fuego,Fuego,1,Uncommon,Sol y Luna,25,7,90
+sm1-26,tcgvault,Incineroar,Pokémon,Fuego,Fuego,1,Rara,Sol y Luna,26,7,160
+sm1-27,tcgvault,Incineroar GX,Pokémon,Fuego,Fuego,1,Ultra Rara,Sol y Luna,27,7,250
+sm1-28,tcgvault,Psyduck,Pokémon,Agua,Agua,1,Común,Sol y Luna,28,1,70
+sm1-29,tcgvault,Golduck,Pokémon,Agua,Agua,1,Rara,Sol y Luna,29,1,90
+sm1-30,tcgvault,Poliwag,Pokémon,Agua,Agua,1,Común,Sol y Luna,30,1,60
+sm1-31,tcgvault,Poliwhirl,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,31,1,90
+sm1-32,tcgvault,Poliwrath,Pokémon,Agua,Agua,1,Rara,Sol y Luna,32,1,150
+sm1-33,tcgvault,Shellder,Pokémon,Agua,Agua,1,Común,Sol y Luna,33,1,60
+sm1-34,tcgvault,Cloyster,Pokémon,Agua,Agua,1,Rara,Sol y Luna,34,1,120
+sm1-35,tcgvault,Lapras GX,Pokémon,Agua,Agua,1,Ultra Rara,Sol y Luna,35,1,190
+sm1-36,tcgvault,Corsola,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,36,2,80
+sm1-37,tcgvault,Wingull,Pokémon,Agua,Agua,1,Común,Sol y Luna,37,3,60
+sm1-38,tcgvault,Pelipper,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,38,3,100
+sm1-39,tcgvault,Popplio,Pokémon,Agua,Agua,1,Común,Sol y Luna,39,7,70
+sm1-40,tcgvault,Brionne,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,40,7,90
+sm1-41,tcgvault,Primarina,Pokémon,Agua,Agua,1,Rara,Sol y Luna,41,7,150
+sm1-42,tcgvault,Primarina GX,Pokémon,Agua,Agua,1,Ultra Rara,Sol y Luna,42,7,250
+sm1-43,tcgvault,Crabominable,Pokémon,Agua,Agua,1,Rara,Sol y Luna,43,7,140
+sm1-44,tcgvault,Wishiwashi,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,44,7,30
+sm1-45,tcgvault,Dewpider,Pokémon,Agua,Agua,1,Común,Sol y Luna,45,7,60
+sm1-46,tcgvault,Araquanid,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,46,7,100
+sm1-47,tcgvault,Pyukumuku,Pokémon,Agua,Agua,1,Uncommon,Sol y Luna,47,7,60
+sm1-48,tcgvault,Bruxish,Pokémon,Agua,Agua,1,Rara,Sol y Luna,48,7,110
+sm1-49,tcgvault,Chinchou,Pokémon,Rayo,Rayo,1,Común,Sol y Luna,49,2,70
+sm1-50,tcgvault,Lanturn,Pokémon,Rayo,Rayo,1,Rara,Sol y Luna,50,2,110
+sm1-51,tcgvault,Charjabug,Pokémon,Rayo,Rayo,1,Uncommon,Sol y Luna,51,7,90
+sm1-52,tcgvault,Vikavolt,Pokémon,Rayo,Rayo,1,Rara,Sol y Luna,52,7,150
+sm1-53,tcgvault,Togedemaru,Pokémon,Rayo,Rayo,1,Común,Sol y Luna,53,7,70
+sm1-54,tcgvault,Zubat,Pokémon,Psíquico,Psíquico,1,Común,Sol y Luna,54,1,50
+sm1-55,tcgvault,Golbat,Pokémon,Psíquico,Psíquico,1,Uncommon,Sol y Luna,55,1,80
+sm1-56,tcgvault,Crobat,Pokémon,Psíquico,Psíquico,1,Rara,Sol y Luna,56,2,130
+sm1-57,tcgvault,Grimer de Alola,Pokémon,Psíquico,Psíquico,1,Común,Sol y Luna,57,1,80
+sm1-58,tcgvault,Muk de Alola,Pokémon,Psíquico,Psíquico,1,Rara,Sol y Luna,58,1,120
+sm1-59,tcgvault,Drowzee,Pokémon,Psíquico,Psíquico,1,Común,Sol y Luna,59,1,70
+sm1-60,tcgvault,Hypno,Pokémon,Psíquico,Psíquico,1,Uncommon,Sol y Luna,60,1,110
+sm1-61,tcgvault,Espeon GX,Pokémon,Psíquico,Psíquico,1,Ultra Rara,Sol y Luna,61,2,200
+sm1-62,tcgvault,Mareanie,Pokémon,Psíquico,Psíquico,1,Común,Sol y Luna,62,7,60
+sm1-63,tcgvault,Toxapex,Pokémon,Psíquico,Psíquico,1,Rara,Sol y Luna,63,7,110
+sm1-64,tcgvault,Cosmog,Pokémon,Psíquico,Psíquico,1,Común,Sol y Luna,64,7,60
+sm1-65,tcgvault,Cosmoem,Pokémon,Psíquico,Psíquico,1,Rara,Sol y Luna,65,7,90
+sm1-66,tcgvault,Lunala GX,Pokémon,Psíquico,Psíquico,1,Ultra Rara,Sol y Luna,66,7,250
+sm1-67,tcgvault,Makuhita,Pokémon,Lucha,Lucha,1,Común,Sol y Luna,67,3,80
+sm1-68,tcgvault,Hariyama,Pokémon,Lucha,Lucha,1,Rara,Sol y Luna,68,3,130
+sm1-69,tcgvault,Roggenrola,Pokémon,Lucha,Lucha,1,Común,Sol y Luna,69,5,70
+sm1-70,tcgvault,Boldore,Pokémon,Lucha,Lucha,1,Uncommon,Sol y Luna,70,5,110
+sm1-71,tcgvault,Gigalith,Pokémon,Lucha,Lucha,1,Rara,Sol y Luna,71,5,160
+sm1-72,tcgvault,Crabrawler,Pokémon,Lucha,Lucha,1,Común,Sol y Luna,72,7,80
+sm1-73,tcgvault,Passimian,Pokémon,Lucha,Lucha,1,Uncommon,Sol y Luna,73,7,110
+sm1-74,tcgvault,Sandygast,Pokémon,Lucha,Lucha,1,Común,Sol y Luna,74,7,80
+sm1-75,tcgvault,Palossand,Pokémon,Lucha,Lucha,1,Rara,Sol y Luna,75,7,130
+sm1-76,tcgvault,Rattata de Alola,Pokémon,Oscura,Oscura,1,Común,Sol y Luna,76,1,40
+sm1-77,tcgvault,Raticate de Alola,Pokémon,Oscura,Oscura,1,Uncommon,Sol y Luna,77,1,120
+sm1-78,tcgvault,Meowth de Alola,Pokémon,Oscura,Oscura,1,Común,Sol y Luna,78,1,70
+sm1-79,tcgvault,Persian de Alola,Pokémon,Oscura,Oscura,1,Uncommon,Sol y Luna,79,1,90
+sm1-80,tcgvault,Umbreon GX,Pokémon,Oscura,Oscura,1,Ultra Rara,Sol y Luna,80,2,200
+sm1-81,tcgvault,Carvanha,Pokémon,Oscura,Oscura,1,Común,Sol y Luna,81,3,60
+sm1-82,tcgvault,Sharpedo,Pokémon,Oscura,Oscura,1,Rara,Sol y Luna,82,3,110
+sm1-83,tcgvault,Sandile,Pokémon,Oscura,Oscura,1,Común,Sol y Luna,83,5,70
+sm1-84,tcgvault,Krokorok,Pokémon,Oscura,Oscura,1,Uncommon,Sol y Luna,84,5,90
+sm1-85,tcgvault,Krookodile,Pokémon,Oscura,Oscura,1,Rara,Sol y Luna,85,5,150
+sm1-86,tcgvault,Diglett de Alola,Pokémon,Metálica,Metálica,1,Común,Sol y Luna,86,1,50
+sm1-87,tcgvault,Dugtrio de Alola,Pokémon,Metálica,Metálica,1,Rara,Sol y Luna,87,1,100
+sm1-88,tcgvault,Skarmory,Pokémon,Metálica,Metálica,1,Común,Sol y Luna,88,2,110
+sm1-89,tcgvault,Solgaleo GX,Pokémon,Metálica,Metálica,1,Ultra Rara,Sol y Luna,89,7,250
+sm1-90,tcgvault,Snubbull,Pokémon,Hada,Hada,1,Común,Sol y Luna,90,2,70
+sm1-91,tcgvault,Granbull,Pokémon,Hada,Hada,1,Uncommon,Sol y Luna,91,2,110
+sm1-92,tcgvault,Cutiefly,Pokémon,Hada,Hada,1,Común,Sol y Luna,92,7,30
+sm1-93,tcgvault,Ribombee,Pokémon,Hada,Hada,1,Rara,Sol y Luna,93,7,60
+sm1-94,tcgvault,Dratini,Pokémon,Dragón,Dragón,1,Común,Sol y Luna,94,1,60
+sm1-95,tcgvault,Dragonair,Pokémon,Dragón,Dragón,1,Uncommon,Sol y Luna,95,1,90
+sm1-96,tcgvault,Dragonite,Pokémon,Dragón,Dragón,1,Rara,Sol y Luna,96,1,160
+sm1-97,tcgvault,Spearow,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,97,1,60
+sm1-98,tcgvault,Fearow,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,98,1,90
+sm1-99,tcgvault,Kangaskhan,Pokémon,Incolora,Incolora,1,Rara,Sol y Luna,99,1,130
+sm1-100,tcgvault,Tauros GX,Pokémon,Incolora,Incolora,1,Ultra Rara,Sol y Luna,100,1,180
+sm1-101,tcgvault,Eevee,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,101,1,60
+sm1-102,tcgvault,Spinda,Pokémon,Incolora,Incolora,1,Uncommon,Sol y Luna,102,3,80
+sm1-103,tcgvault,Lillipup,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,103,5,60
+sm1-104,tcgvault,Herdier,Pokémon,Incolora,Incolora,1,Uncommon,Sol y Luna,104,5,90
+sm1-105,tcgvault,Stoutland,Pokémon,Incolora,Incolora,1,Rara,Sol y Luna,105,5,150
+sm1-106,tcgvault,Pikipek,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,106,7,50
+sm1-107,tcgvault,Trumbeak,Pokémon,Incolora,Incolora,1,Uncommon,Sol y Luna,107,7,80
+sm1-108,tcgvault,Toucannon,Pokémon,Incolora,Incolora,1,Rara,Sol y Luna,108,7,140
+sm1-109,tcgvault,Yungoos,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,109,7,70
+sm1-110,tcgvault,Gumshoos GX,Pokémon,Incolora,Incolora,1,Ultra Rara,Sol y Luna,110,7,210
+sm1-111,tcgvault,Stufful,Pokémon,Incolora,Incolora,1,Común,Sol y Luna,111,7,70
+sm1-112,tcgvault,Bewear,Pokémon,Incolora,Incolora,1,Rara,Sol y Luna,112,7,130
+sm1-113,tcgvault,Oranguru,Pokémon,Incolora,Incolora,1,Rara,Sol y Luna,113,7,120
+sm1-114,tcgvault,Malasada Maxi,Entrenador,,,0,Uncommon,Sol y Luna,114,,
+sm1-115,tcgvault,Martillo Demoledor,Entrenador,,,0,Uncommon,Sol y Luna,115,,
+sm1-116,tcgvault,Recuperación de Energía,Entrenador,,,0,Uncommon,Sol y Luna,116,,
+sm1-117,tcgvault,Interruptor de Energía,Entrenador,,,0,Uncommon,Sol y Luna,117,,
+sm1-118,tcgvault,Repartir Experiencia,Entrenador,,,0,Uncommon,Sol y Luna,118,,
+sm1-119,tcgvault,Super Ball,Entrenador,,,0,Uncommon,Sol y Luna,119,,
+sm1-120,tcgvault,Tilo,Entrenador,,,0,Uncommon,Sol y Luna,120,,
+sv01-001,tcgvault,Pineco,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,001,2,60
+sv01-002,tcgvault,Heracross,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,002,2,120
+sv01-003,tcgvault,Shroomish,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,003,3,60
+sv01-004,tcgvault,Breloom,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,004,3,110
+sv01-005,tcgvault,Cacnea,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,005,3,60
+sv01-006,tcgvault,Cacturne,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,006,3,130
+sv01-007,tcgvault,Tropius,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,007,3,100
+sv01-008,tcgvault,Scatterbug,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,008,6,30
+sv01-009,tcgvault,Spewpa,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,009,6,70
+sv01-010,tcgvault,Vivillon,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,010,6,120
+sv01-011,tcgvault,Skiddo,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,011,6,60
+sv01-012,tcgvault,Gogoat,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,012,6,130
+sv01-013,tcgvault,Sprigatito,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,013,9,70
+sv01-014,tcgvault,Floragato,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,014,9,90
+sv01-015,tcgvault,Meowscarada,Pokémon,Planta,Planta,1,Rara,Escarlata y Púrpura,015,9,160
+sv01-016,tcgvault,Tarountula,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,016,9,40
+sv01-017,tcgvault,Tarountula,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,017,9,40
+sv01-018,tcgvault,Tarountula,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,018,9,60
+sv01-019,tcgvault,Spidops ex,Pokémon,Planta,Planta,1,Rara Doble,Escarlata y Púrpura,019,9,260
+sv01-020,tcgvault,Smoliv,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,020,9,50
+sv01-021,tcgvault,Smoliv,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,021,9,60
+sv01-022,tcgvault,Dolliv,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,022,9,90
+sv01-023,tcgvault,Arboliva,Pokémon,Planta,Planta,1,Rara,Escarlata y Púrpura,023,9,150
+sv01-024,tcgvault,Toedscool,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,024,9,50
+sv01-025,tcgvault,Toedscool,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,025,9,60
+sv01-026,tcgvault,Toedscruel,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,026,9,120
+sv01-027,tcgvault,Capsakid,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,027,9,60
+sv01-028,tcgvault,Capsakid,Pokémon,Planta,Planta,1,Común,Escarlata y Púrpura,028,9,70
+sv01-029,tcgvault,Scovillain,Pokémon,Planta,Planta,1,Uncommon,Escarlata y Púrpura,029,9,110
+sv01-030,tcgvault,Growlithe,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,030,1,70
+sv01-031,tcgvault,Growlithe,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,031,1,90
+sv01-032,tcgvault,Arcanine ex,Pokémon,Fuego,Fuego,1,Rara Doble,Escarlata y Púrpura,032,1,280
+sv01-033,tcgvault,Houndour,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,033,2,70
+sv01-034,tcgvault,Houndoom,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,034,2,120
+sv01-035,tcgvault,Torkoal,Pokémon,Fuego,Fuego,1,Uncommon,Escarlata y Púrpura,035,3,130
+sv01-036,tcgvault,Fuecoco,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,036,9,80
+sv01-037,tcgvault,Crocalor,Pokémon,Fuego,Fuego,1,Uncommon,Escarlata y Púrpura,037,9,100
+sv01-038,tcgvault,Skeledirge,Pokémon,Fuego,Fuego,1,Rara,Escarlata y Púrpura,038,9,180
+sv01-039,tcgvault,Charcadet,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,039,9,60
+sv01-040,tcgvault,Charcadet,Pokémon,Fuego,Fuego,1,Común,Escarlata y Púrpura,040,9,70
+sv01-041,tcgvault,Armarouge,Pokémon,Fuego,Fuego,1,Rara,Escarlata y Púrpura,041,9,130
+sv01-042,tcgvault,Slowpoke,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,042,1,70
+sv01-043,tcgvault,Slowbro,Pokémon,Agua,Agua,1,Rara,Escarlata y Púrpura,043,1,100
+sv01-044,tcgvault,Magikarp,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,044,1,30
+sv01-045,tcgvault,Gyarados ex,Pokémon,Agua,Agua,1,Rara Doble,Escarlata y Púrpura,045,1,300
+sv01-046,tcgvault,Buizel,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,046,4,70
+sv01-047,tcgvault,Floatzel,Pokémon,Agua,Agua,1,Uncommon,Escarlata y Púrpura,047,4,120
+sv01-048,tcgvault,Alomomola,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,048,5,120
+sv01-049,tcgvault,Clauncher,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,049,6,70
+sv01-050,tcgvault,Clawitzer,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,050,6,120
+sv01-051,tcgvault,Bruxish,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,051,7,100
+sv01-052,tcgvault,Quaxly,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,052,9,70
+sv01-053,tcgvault,Quaxwell,Pokémon,Agua,Agua,1,Uncommon,Escarlata y Púrpura,053,9,100
+sv01-054,tcgvault,Quaquaval,Pokémon,Agua,Agua,1,Rara,Escarlata y Púrpura,054,9,170
+sv01-055,tcgvault,Wiglett,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,055,9,50
+sv01-056,tcgvault,Wiglett,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,056,9,60
+sv01-057,tcgvault,Wugtrio,Pokémon,Agua,Agua,1,Uncommon,Escarlata y Púrpura,057,9,90
+sv01-058,tcgvault,Cetoddle,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,058,9,80
+sv01-059,tcgvault,Cetoddle,Pokémon,Agua,Agua,1,Común,Escarlata y Púrpura,059,9,100
+sv01-060,tcgvault,Cetitan,Pokémon,Agua,Agua,1,Uncommon,Escarlata y Púrpura,060,9,180
+sv01-061,tcgvault,Dondozo,Pokémon,Agua,Agua,1,Rara,Escarlata y Púrpura,061,9,160
+sv01-062,tcgvault,Tatsugiri,Pokémon,Agua,Agua,1,Uncommon,Escarlata y Púrpura,062,9,70
+sv01-063,tcgvault,Magnemite,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,063,1,60
+sv01-064,tcgvault,Magneton,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,064,1,90
+sv01-065,tcgvault,Magnezone ex,Pokémon,Rayo,Rayo,1,Rara Doble,Escarlata y Púrpura,065,4,330
+sv01-066,tcgvault,Mareep,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,066,2,60
+sv01-067,tcgvault,Flaaffy,Pokémon,Rayo,Rayo,1,Uncommon,Escarlata y Púrpura,067,2,90
+sv01-068,tcgvault,Pachirisu,Pokémon,Rayo,Rayo,1,Uncommon,Escarlata y Púrpura,068,4,70
+sv01-069,tcgvault,Rotom,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,069,4,60
+sv01-070,tcgvault,Rotom,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,070,4,80
+sv01-071,tcgvault,Toxel,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,071,8,70
+sv01-072,tcgvault,Toxtricity,Pokémon,Rayo,Rayo,1,Uncommon,Escarlata y Púrpura,072,8,130
+sv01-073,tcgvault,Pawmi,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,073,9,50
+sv01-074,tcgvault,Pawmi,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,074,9,60
+sv01-075,tcgvault,Pawmo,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,075,9,90
+sv01-076,tcgvault,Pawmot,Pokémon,Rayo,Rayo,1,Rara,Escarlata y Púrpura,076,9,130
+sv01-077,tcgvault,Wattrel,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,077,9,50
+sv01-078,tcgvault,Wattrel,Pokémon,Rayo,Rayo,1,Común,Escarlata y Púrpura,078,9,60
+sv01-079,tcgvault,Kilowattrel,Pokémon,Rayo,Rayo,1,Uncommon,Escarlata y Púrpura,079,9,120
+sv01-080,tcgvault,Miraidon,Pokémon,Rayo,Rayo,1,Rara,Escarlata y Púrpura,080,9,120
+sv01-081,tcgvault,Miraidon ex,Pokémon,Rayo,Rayo,1,Rara Doble,Escarlata y Púrpura,081,9,220
+sv01-082,tcgvault,Drowzee,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,082,1,70
+sv01-083,tcgvault,Hypno,Pokémon,Psíquico,Psíquico,1,Uncommon,Escarlata y Púrpura,083,1,110
+sv01-084,tcgvault,Ralts,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,084,3,70
+sv01-085,tcgvault,Kirlia,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,085,3,90
+sv01-086,tcgvault,Gardevoir ex,Pokémon,Psíquico,Psíquico,1,Rara Doble,Escarlata y Púrpura,086,3,310
+sv01-087,tcgvault,Shuppet,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,087,3,60
+sv01-088,tcgvault,Banette ex,Pokémon,Psíquico,Psíquico,1,Rara Doble,Escarlata y Púrpura,088,3,250
+sv01-089,tcgvault,Drifloon,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,089,4,70
+sv01-090,tcgvault,Drifblim,Pokémon,Psíquico,Psíquico,1,Uncommon,Escarlata y Púrpura,090,4,110
+sv01-091,tcgvault,Flabébé,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,091,6,40
+sv01-092,tcgvault,Floette,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,092,6,70
+sv01-093,tcgvault,Florges,Pokémon,Psíquico,Psíquico,1,Uncommon,Escarlata y Púrpura,093,6,140
+sv01-094,tcgvault,Dedenne,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,094,6,70
+sv01-095,tcgvault,Dedenne,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,095,6,70
+sv01-096,tcgvault,Klefki,Pokémon,Psíquico,Psíquico,1,Rara,Escarlata y Púrpura,096,6,70
+sv01-097,tcgvault,Fidough,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,097,9,50
+sv01-098,tcgvault,Fidough,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,098,9,60
+sv01-099,tcgvault,Dachsbun,Pokémon,Psíquico,Psíquico,1,Uncommon,Escarlata y Púrpura,099,9,90
+sv01-100,tcgvault,Flittle,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,100,9,30
+sv01-101,tcgvault,Flittle,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,101,9,40
+sv01-102,tcgvault,Flittle,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,102,9,40
+sv01-103,tcgvault,Espathra,Pokémon,Psíquico,Psíquico,1,Uncommon,Escarlata y Púrpura,103,9,110
+sv01-104,tcgvault,Greavard,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,104,9,70
+sv01-105,tcgvault,Greavard,Pokémon,Psíquico,Psíquico,1,Común,Escarlata y Púrpura,105,9,80
+sv01-106,tcgvault,Houndstone,Pokémon,Psíquico,Psíquico,1,Rara,Escarlata y Púrpura,106,9,140
+sv01-107,tcgvault,Mankey,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,107,1,60
+sv01-108,tcgvault,Primeape,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,108,1,90
+sv01-109,tcgvault,Annihilape,Pokémon,Lucha,Lucha,1,Rara,Escarlata y Púrpura,109,9,140
+sv01-110,tcgvault,Meditite,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,110,3,60
+sv01-111,tcgvault,Medicham,Pokémon,Lucha,Lucha,1,Uncommon,Escarlata y Púrpura,111,3,90
+sv01-112,tcgvault,Riolu,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,112,4,70
+sv01-113,tcgvault,Riolu,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,113,4,70
+sv01-114,tcgvault,Lucario,Pokémon,Lucha,Lucha,1,Uncommon,Escarlata y Púrpura,114,4,130
+sv01-115,tcgvault,Sandile,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,115,5,70
+sv01-116,tcgvault,Krokorok,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,116,5,100
+sv01-117,tcgvault,Krookodile,Pokémon,Lucha,Lucha,1,Uncommon,Escarlata y Púrpura,117,5,170
+sv01-118,tcgvault,Hawlucha,Pokémon,Lucha,Lucha,1,Rara,Escarlata y Púrpura,118,6,70
+sv01-119,tcgvault,Silicobra,Pokémon,Lucha,Lucha,1,Común,Escarlata y Púrpura,119,8,80
+sv01-120,tcgvault,Sandaconda,Pokémon,Lucha,Lucha,1,Uncommon,Escarlata y Púrpura,120,8,140
+sv06-001,tcgvault,Tangela,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,001,1,80
+sv06-002,tcgvault,Tangrowth,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,002,4,150
+sv06-003,tcgvault,Pinsir,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,003,1,110
+sv06-004,tcgvault,Spinarak,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,004,2,60
+sv06-005,tcgvault,Ariados,Pokémon,Planta,Planta,1,Uncommon,Mascarada Crepuscular,005,2,90
+sv06-006,tcgvault,Sunkern,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,006,2,40
+sv06-007,tcgvault,Sunflora,Pokémon,Planta,Planta,1,Uncommon,Mascarada Crepuscular,007,2,100
+sv06-008,tcgvault,Heracross,Pokémon,Planta,Planta,1,Uncommon,Mascarada Crepuscular,008,2,120
+sv06-009,tcgvault,Volbeat,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,009,3,70
+sv06-010,tcgvault,Illumise,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,010,3,70
+sv06-011,tcgvault,Leafeon,Pokémon,Planta,Planta,1,Uncommon,Mascarada Crepuscular,011,4,120
+sv06-012,tcgvault,Phantump,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,012,6,70
+sv06-013,tcgvault,Trevenant,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,013,6,120
+sv06-014,tcgvault,Grookey,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,014,8,70
+sv06-015,tcgvault,Thwackey,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,015,8,100
+sv06-016,tcgvault,Rillaboom,Pokémon,Planta,Planta,1,Uncommon,Mascarada Crepuscular,016,8,180
+sv06-017,tcgvault,Applin,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,017,8,40
+sv06-018,tcgvault,Dipplin,Pokémon,Planta,Planta,1,Uncommon,Mascarada Crepuscular,018,9,80
+sv06-019,tcgvault,Ferroverdor,Pokémon,Planta,Planta,1,Rara,Mascarada Crepuscular,019,9,120
+sv06-020,tcgvault,Poltchageist,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,020,9,30
+sv06-021,tcgvault,Poltchageist,Pokémon,Planta,Planta,1,Común,Mascarada Crepuscular,021,9,40
+sv06-022,tcgvault,Sinistcha,Pokémon,Planta,Planta,1,Rara,Mascarada Crepuscular,022,9,70
+sv06-023,tcgvault,Sinistcha ex,Pokémon,Planta,Planta,1,Rara Doble,Mascarada Crepuscular,023,9,240
+sv06-024,tcgvault,Ogerpon Máscara Turquesa,Pokémon,Planta,Planta,1,Rara,Mascarada Crepuscular,024,9,110
+sv06-025,tcgvault,Ogerpon Máscara Turquesa ex,Pokémon,Planta,Planta,1,Rara Doble,Mascarada Crepuscular,025,9,210
+sv06-026,tcgvault,Vulpix,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,026,1,70
+sv06-027,tcgvault,Ninetales,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,027,1,120
+sv06-028,tcgvault,Slugma,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,028,2,80
+sv06-029,tcgvault,Magcargo ex,Pokémon,Fuego,Fuego,1,Rara Doble,Mascarada Crepuscular,029,2,270
+sv06-030,tcgvault,Torkoal,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,030,3,130
+sv06-031,tcgvault,Chimchar,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,031,4,60
+sv06-032,tcgvault,Monferno,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,032,4,90
+sv06-033,tcgvault,Infernape,Pokémon,Fuego,Fuego,1,Rara,Mascarada Crepuscular,033,4,140
+sv06-034,tcgvault,Darumaka,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,034,5,80
+sv06-035,tcgvault,Darmanitan,Pokémon,Fuego,Fuego,1,Uncommon,Mascarada Crepuscular,035,5,140
+sv06-036,tcgvault,Litwick,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,036,5,60
+sv06-037,tcgvault,Lampent,Pokémon,Fuego,Fuego,1,Común,Mascarada Crepuscular,037,5,80
+sv06-038,tcgvault,Chandelure,Pokémon,Fuego,Fuego,1,Rara,Mascarada Crepuscular,038,5,130
+sv06-039,tcgvault,Chi-Yu,Pokémon,Fuego,Fuego,1,Uncommon,Mascarada Crepuscular,039,9,110
+sv06-040,tcgvault,Ogerpon Máscara Horno ex,Pokémon,Fuego,Fuego,1,Rara Doble,Mascarada Crepuscular,040,9,210
+sv06-041,tcgvault,Poliwag,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,041,1,60
+sv06-042,tcgvault,Poliwhirl,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,042,1,100
+sv06-043,tcgvault,Poliwrath,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,043,1,170
+sv06-044,tcgvault,Goldeen,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,044,1,50
+sv06-045,tcgvault,Seaking,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,045,1,90
+sv06-046,tcgvault,Jynx,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,046,1,90
+sv06-047,tcgvault,Corphish,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,047,3,80
+sv06-048,tcgvault,Crawdaunt,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,048,3,130
+sv06-049,tcgvault,Feebas,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,049,3,30
+sv06-050,tcgvault,Milotic,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,050,3,120
+sv06-051,tcgvault,Snorunt,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,051,3,60
+sv06-052,tcgvault,Glalie,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,052,3,120
+sv06-053,tcgvault,Froslass,Pokémon,Agua,Agua,1,Rara,Mascarada Crepuscular,053,4,90
+sv06-054,tcgvault,Glaceon,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,054,4,120
+sv06-055,tcgvault,Phione,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,055,4,70
+sv06-056,tcgvault,Froakie,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,056,6,60
+sv06-057,tcgvault,Frogadier,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,057,6,90
+sv06-058,tcgvault,Cramorant,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,058,8,110
+sv06-059,tcgvault,Finizen,Pokémon,Agua,Agua,1,Común,Mascarada Crepuscular,059,9,70
+sv06-060,tcgvault,Palafin,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,060,9,100
+sv06-061,tcgvault,Palafin ex,Pokémon,Agua,Agua,1,Rara Doble,Mascarada Crepuscular,061,9,340
+sv06-062,tcgvault,Ferrosaco,Pokémon,Agua,Agua,1,Uncommon,Mascarada Crepuscular,062,9,90
+sv06-063,tcgvault,Ondulagua,Pokémon,Agua,Agua,1,Rara,Mascarada Crepuscular,063,9,130
+sv06-064,tcgvault,Ogerpon Máscara Fuente ex,Pokémon,Agua,Agua,1,Rara Doble,Mascarada Crepuscular,064,9,210
+sv06-065,tcgvault,Zapdos,Pokémon,Rayo,Rayo,1,Rara,Mascarada Crepuscular,065,1,120
+sv06-066,tcgvault,Shinx,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,066,4,60
+sv06-067,tcgvault,Luxio,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,067,4,90
+sv06-068,tcgvault,Luxray ex,Pokémon,Rayo,Rayo,1,Rara Doble,Mascarada Crepuscular,068,4,310
+sv06-069,tcgvault,Emolga,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,069,5,60
+sv06-070,tcgvault,Helioptile,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,070,6,60
+sv06-071,tcgvault,Heliolisk,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,071,6,100
+sv06-072,tcgvault,Morpeko,Pokémon,Rayo,Rayo,1,Uncommon,Mascarada Crepuscular,072,8,70
+sv06-073,tcgvault,Tadbulb,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,073,9,50
+sv06-074,tcgvault,Bellibolt,Pokémon,Rayo,Rayo,1,Uncommon,Mascarada Crepuscular,074,9,140
+sv06-075,tcgvault,Wattrel,Pokémon,Rayo,Rayo,1,Común,Mascarada Crepuscular,075,9,60
+sv06-076,tcgvault,Kilowattrel,Pokémon,Rayo,Rayo,1,Uncommon,Mascarada Crepuscular,076,9,120
+sv06-077,tcgvault,Ferropúas ex,Pokémon,Rayo,Rayo,1,Rara Doble,Mascarada Crepuscular,077,9,230
+sv06-078,tcgvault,Clefairy,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,078,1,60
+sv06-079,tcgvault,Clefable,Pokémon,Psíquico,Psíquico,1,Uncommon,Mascarada Crepuscular,079,1,120
+sv06-080,tcgvault,Abra,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,080,1,40
+sv06-081,tcgvault,Kadabra,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,081,1,80
+sv06-082,tcgvault,Alakazam,Pokémon,Psíquico,Psíquico,1,Rara,Mascarada Crepuscular,082,1,140
+sv06-083,tcgvault,Girafarig,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,083,2,100
+sv06-084,tcgvault,Farigiraf,Pokémon,Psíquico,Psíquico,1,Uncommon,Mascarada Crepuscular,084,9,140
+sv06-085,tcgvault,Chimecho,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,085,3,70
+sv06-086,tcgvault,Flabébé,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,086,6,40
+sv06-087,tcgvault,Floette,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,087,6,70
+sv06-088,tcgvault,Florges,Pokémon,Psíquico,Psíquico,1,Uncommon,Mascarada Crepuscular,088,6,140
+sv06-089,tcgvault,Swirlix,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,089,6,50
+sv06-090,tcgvault,Slurpuff,Pokémon,Psíquico,Psíquico,1,Uncommon,Mascarada Crepuscular,090,6,120
+sv06-091,tcgvault,Sandygast,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,091,7,90
+sv06-092,tcgvault,Palossand,Pokémon,Psíquico,Psíquico,1,Común,Mascarada Crepuscular,092,7,150
+sv06-093,tcgvault,Enamorus,Pokémon,Psíquico,Psíquico,1,Rara,Mascarada Crepuscular,093,8,120
+sv06-094,tcgvault,Colagrito ex,Pokémon,Psíquico,Psíquico,1,Rara Doble,Mascarada Crepuscular,094,9,190
+sv06-095,tcgvault,Munkidori,Pokémon,Psíquico,Psíquico,1,Rara,Mascarada Crepuscular,095,9,110
+sv06-096,tcgvault,Fezandipiti,Pokémon,Psíquico,Psíquico,1,Rara,Mascarada Crepuscular,096,9,120
+sv06-097,tcgvault,Sandshrew,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,097,1,60
+sv06-098,tcgvault,Sandslash,Pokémon,Lucha,Lucha,1,Uncommon,Mascarada Crepuscular,098,1,120
+sv06-099,tcgvault,Growlithe de Hisui,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,099,1,80
+sv06-100,tcgvault,Arcanine de Hisui,Pokémon,Lucha,Lucha,1,Rara,Mascarada Crepuscular,100,1,130
+sv06-101,tcgvault,Nosepass,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,101,3,80
+sv06-102,tcgvault,Probopass,Pokémon,Lucha,Lucha,1,Uncommon,Mascarada Crepuscular,102,4,140
+sv06-103,tcgvault,Timburr,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,103,5,80
+sv06-104,tcgvault,Gurdurr,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,104,5,100
+sv06-105,tcgvault,Conkeldurr,Pokémon,Lucha,Lucha,1,Uncommon,Mascarada Crepuscular,105,5,180
+sv06-106,tcgvault,Greninja ex,Pokémon,Lucha,Lucha,1,Rara Doble,Mascarada Crepuscular,106,6,310
+sv06-107,tcgvault,Hawlucha,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,107,6,70
+sv06-108,tcgvault,Glimmet,Pokémon,Lucha,Lucha,1,Común,Mascarada Crepuscular,108,9,60
+sv06-109,tcgvault,Glimmora,Pokémon,Lucha,Lucha,1,Uncommon,Mascarada Crepuscular,109,9,130
+sv06-110,tcgvault,Ting-Lu,Pokémon,Lucha,Lucha,1,Rara,Mascarada Crepuscular,110,9,140
+sv06-111,tcgvault,Okidogi,Pokémon,Lucha,Lucha,1,Rara,Mascarada Crepuscular,111,9,130
+sv06-112,tcgvault,Ogerpon Máscara Cimiento ex,Pokémon,Lucha,Lucha,1,Rara Doble,Mascarada Crepuscular,112,9,210
+sv06-113,tcgvault,Poochyena,Pokémon,Oscura,Oscura,1,Común,Mascarada Crepuscular,113,3,70
+sv06-114,tcgvault,Mightyena,Pokémon,Oscura,Oscura,1,Uncommon,Mascarada Crepuscular,114,3,120
+sv06-115,tcgvault,Venipede,Pokémon,Oscura,Oscura,1,Común,Mascarada Crepuscular,115,5,80
+sv06-116,tcgvault,Whirlipede,Pokémon,Oscura,Oscura,1,Común,Mascarada Crepuscular,116,5,100
+sv06-117,tcgvault,Scolipede,Pokémon,Oscura,Oscura,1,Uncommon,Mascarada Crepuscular,117,5,170
+sv06-118,tcgvault,Furioseta,Pokémon,Oscura,Oscura,1,Uncommon,Mascarada Crepuscular,118,9,120
+sv06-119,tcgvault,Skarmory,Pokémon,Metálica,Metálica,1,Común,Mascarada Crepuscular,119,2,120
+sv06-120,tcgvault,Aron,Pokémon,Metálica,Metálica,1,Común,Mascarada Crepuscular,120,3,70
+swsh1-1,tcgvault,Celebi V,Pokémon,Planta,Planta,1,Holo Rara V,Espada y Escudo,1,2,180
+swsh1-2,tcgvault,Roselia,Pokémon,Planta,Planta,1,Común,Espada y Escudo,2,3,70
+swsh1-3,tcgvault,Roselia,Pokémon,Planta,Planta,1,Común,Espada y Escudo,3,3,70
+swsh1-4,tcgvault,Roserade,Pokémon,Planta,Planta,1,Rara,Espada y Escudo,4,4,120
+swsh1-5,tcgvault,Cottonee,Pokémon,Planta,Planta,1,Común,Espada y Escudo,5,5,60
+swsh1-6,tcgvault,Whimsicott,Pokémon,Planta,Planta,1,Rara,Espada y Escudo,6,5,100
+swsh1-7,tcgvault,Maractus,Pokémon,Planta,Planta,1,Común,Espada y Escudo,7,5,110
+swsh1-8,tcgvault,Durant,Pokémon,Planta,Planta,1,Rara,Espada y Escudo,8,5,110
+swsh1-9,tcgvault,Dhelmise V,Pokémon,Planta,Planta,1,Holo Rara V,Espada y Escudo,9,7,220
+swsh1-10,tcgvault,Grookey,Pokémon,Planta,Planta,1,Común,Espada y Escudo,10,8,60
+swsh1-11,tcgvault,Grookey,Pokémon,Planta,Planta,1,Común,Espada y Escudo,11,8,70
+swsh1-12,tcgvault,Thwackey,Pokémon,Planta,Planta,1,Uncommon,Espada y Escudo,12,8,100
+swsh1-13,tcgvault,Thwackey,Pokémon,Planta,Planta,1,Uncommon,Espada y Escudo,13,8,100
+swsh1-14,tcgvault,Rillaboom,Pokémon,Planta,Planta,1,Holo Rara,Espada y Escudo,14,8,170
+swsh1-15,tcgvault,Rillaboom,Pokémon,Planta,Planta,1,Rara,Espada y Escudo,15,8,190
+swsh1-16,tcgvault,Blipbug,Pokémon,Planta,Planta,1,Común,Espada y Escudo,16,8,50
+swsh1-17,tcgvault,Blipbug,Pokémon,Planta,Planta,1,Común,Espada y Escudo,17,8,40
+swsh1-18,tcgvault,Dottler,Pokémon,Planta,Planta,1,Uncommon,Espada y Escudo,18,8,70
+swsh1-19,tcgvault,Orbeetle,Pokémon,Planta,Planta,1,Rara,Espada y Escudo,19,8,130
+swsh1-20,tcgvault,Gossifleur,Pokémon,Planta,Planta,1,Común,Espada y Escudo,20,8,50
+swsh1-21,tcgvault,Eldegoss,Pokémon,Planta,Planta,1,Uncommon,Espada y Escudo,21,8,80
+swsh1-22,tcgvault,Vulpix,Pokémon,Fuego,Fuego,1,Común,Espada y Escudo,22,1,70
+swsh1-23,tcgvault,Ninetales,Pokémon,Fuego,Fuego,1,Rara,Espada y Escudo,23,1,120
+swsh1-24,tcgvault,Torkoal V,Pokémon,Fuego,Fuego,1,Holo Rara V,Espada y Escudo,24,3,210
+swsh1-25,tcgvault,Victini V,Pokémon,Fuego,Fuego,1,Holo Rara V,Espada y Escudo,25,5,190
+swsh1-26,tcgvault,Heatmor,Pokémon,Fuego,Fuego,1,Uncommon,Espada y Escudo,26,5,110
+swsh1-27,tcgvault,Salandit,Pokémon,Fuego,Fuego,1,Común,Espada y Escudo,27,7,70
+swsh1-28,tcgvault,Salazzle,Pokémon,Fuego,Fuego,1,Uncommon,Espada y Escudo,28,7,120
+swsh1-29,tcgvault,Turtonator,Pokémon,Fuego,Fuego,1,Rara,Espada y Escudo,29,7,130
+swsh1-30,tcgvault,Scorbunny,Pokémon,Fuego,Fuego,1,Común,Espada y Escudo,30,8,60
+swsh1-31,tcgvault,Scorbunny,Pokémon,Fuego,Fuego,1,Común,Espada y Escudo,31,8,70
+swsh1-32,tcgvault,Raboot,Pokémon,Fuego,Fuego,1,Uncommon,Espada y Escudo,32,8,90
+swsh1-33,tcgvault,Raboot,Pokémon,Fuego,Fuego,1,Uncommon,Espada y Escudo,33,8,90
+swsh1-34,tcgvault,Cinderace,Pokémon,Fuego,Fuego,1,Holo Rara VMAX,Espada y Escudo,34,8,170
+swsh1-35,tcgvault,Cinderace,Pokémon,Fuego,Fuego,1,Holo Rara VMAX,Espada y Escudo,35,8,170
+swsh1-36,tcgvault,Cinderace,Pokémon,Fuego,Fuego,1,Rara,Espada y Escudo,36,8,170
+swsh1-37,tcgvault,Sizzlipede,Pokémon,Fuego,Fuego,1,Común,Espada y Escudo,37,8,70
+swsh1-38,tcgvault,Sizzlipede,Pokémon,Fuego,Fuego,1,Común,Espada y Escudo,38,8,70
+swsh1-39,tcgvault,Centiskorch,Pokémon,Fuego,Fuego,1,Rara,Espada y Escudo,39,8,130
+swsh1-40,tcgvault,Shellder,Pokémon,Agua,Agua,1,Común,Espada y Escudo,40,1,70
+swsh1-41,tcgvault,Cloyster,Pokémon,Agua,Agua,1,Rara,Espada y Escudo,41,1,130
+swsh1-42,tcgvault,Krabby,Pokémon,Agua,Agua,1,Común,Espada y Escudo,42,1,80
+swsh1-43,tcgvault,Krabby,Pokémon,Agua,Agua,1,Común,Espada y Escudo,43,1,80
+swsh1-44,tcgvault,Kingler,Pokémon,Agua,Agua,1,Uncommon,Espada y Escudo,44,1,130
+swsh1-45,tcgvault,Goldeen,Pokémon,Agua,Agua,1,Común,Espada y Escudo,45,1,70
+swsh1-46,tcgvault,Goldeen,Pokémon,Agua,Agua,1,Común,Espada y Escudo,46,1,70
+swsh1-47,tcgvault,Seaking,Pokémon,Agua,Agua,1,Uncommon,Espada y Escudo,47,1,110
+swsh1-48,tcgvault,Lapras,Pokémon,Agua,Agua,1,Rara,Espada y Escudo,48,1,130
+swsh1-49,tcgvault,Lapras V,Pokémon,Agua,Agua,1,Holo Rara V,Espada y Escudo,49,1,210
+swsh1-50,tcgvault,Lapras VMAX,Pokémon,Agua,Agua,1,Holo Rara VMAX,Espada y Escudo,50,1,320
+swsh1-51,tcgvault,Qwilfish,Pokémon,Agua,Agua,1,Uncommon,Espada y Escudo,51,2,90
+swsh1-52,tcgvault,Mantine,Pokémon,Agua,Agua,1,Uncommon,Espada y Escudo,52,2,110
+swsh1-53,tcgvault,Keldeo V,Pokémon,Agua,Agua,1,Holo Rara V,Espada y Escudo,53,5,210
+swsh1-54,tcgvault,Sobble,Pokémon,Agua,Agua,1,Común,Espada y Escudo,54,8,60
+swsh1-55,tcgvault,Sobble,Pokémon,Agua,Agua,1,Común,Espada y Escudo,55,8,70
+swsh1-56,tcgvault,Drizzile,Pokémon,Agua,Agua,1,Uncommon,Espada y Escudo,56,8,90
+swsh1-57,tcgvault,Drizzile,Pokémon,Agua,Agua,1,Uncommon,Espada y Escudo,57,8,90
+swsh1-58,tcgvault,Inteleon,Pokémon,Agua,Agua,1,Holo Rara,Espada y Escudo,58,8,160
+swsh1-59,tcgvault,Inteleon,Pokémon,Agua,Agua,1,Rara,Espada y Escudo,59,8,160
+swsh1-60,tcgvault,Chewtle,Pokémon,Agua,Agua,1,Común,Espada y Escudo,60,8,80
+swsh1-61,tcgvault,Drednaw,Pokémon,Agua,Agua,1,Rara,Espada y Escudo,61,8,130
+swsh1-62,tcgvault,Cramorant,Pokémon,Agua,Agua,1,Rara,Espada y Escudo,62,8,110
+swsh1-63,tcgvault,Snom,Pokémon,Agua,Agua,1,Común,Espada y Escudo,63,8,50
+swsh1-64,tcgvault,Frosmoth,Pokémon,Agua,Agua,1,Holo Rara,Espada y Escudo,64,8,90
+swsh1-65,tcgvault,Pikachu,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,65,1,60
+swsh1-66,tcgvault,Raichu,Pokémon,Rayo,Rayo,1,Rara,Espada y Escudo,66,1,130
+swsh1-67,tcgvault,Chinchou,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,67,2,70
+swsh1-68,tcgvault,Chinchou,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,68,2,60
+swsh1-69,tcgvault,Lanturn,Pokémon,Rayo,Rayo,1,Rara,Espada y Escudo,69,2,120
+swsh1-70,tcgvault,Joltik,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,70,5,50
+swsh1-71,tcgvault,Galvantula,Pokémon,Rayo,Rayo,1,Uncommon,Espada y Escudo,71,5,100
+swsh1-72,tcgvault,Tapu Koko V,Pokémon,Rayo,Rayo,1,Holo Rara V,Espada y Escudo,72,7,200
+swsh1-73,tcgvault,Yamper,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,73,8,70
+swsh1-74,tcgvault,Yamper,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,74,8,70
+swsh1-75,tcgvault,Boltund,Pokémon,Rayo,Rayo,1,Holo Rara,Espada y Escudo,75,8,130
+swsh1-76,tcgvault,Boltund,Pokémon,Rayo,Rayo,1,Holo Rara,Espada y Escudo,76,8,120
+swsh1-77,tcgvault,Pincurchin,Pokémon,Rayo,Rayo,1,Común,Espada y Escudo,77,8,80
+swsh1-78,tcgvault,Morpeko,Pokémon,Rayo,Rayo,1,Rara,Espada y Escudo,78,8,90
+swsh1-79,tcgvault,Morpeko V,Pokémon,Rayo,Rayo,1,Holo Rara V,Espada y Escudo,79,8,170
+swsh1-80,tcgvault,Morpeko VMAX,Pokémon,Rayo,Rayo,1,Holo Rara VMAX,Espada y Escudo,80,8,300
+swsh1-81,tcgvault,Ponyta de Galar,Pokémon,Psíquico,Psíquico,1,Común,Espada y Escudo,81,1,70
+swsh1-82,tcgvault,Rapidash de Galar,Pokémon,Psíquico,Psíquico,1,Rara,Espada y Escudo,82,1,100
+swsh1-83,tcgvault,Gastly,Pokémon,Psíquico,Psíquico,1,Común,Espada y Escudo,83,1,60
+swsh1-84,tcgvault,Haunter,Pokémon,Psíquico,Psíquico,1,Uncommon,Espada y Escudo,84,1,70
+swsh1-85,tcgvault,Gengar,Pokémon,Psíquico,Psíquico,1,Holo Rara,Espada y Escudo,85,1,110
+swsh1-86,tcgvault,Wobbuffet V,Pokémon,Psíquico,Psíquico,1,Holo Rara V,Espada y Escudo,86,2,220
+swsh1-87,tcgvault,Munna,Pokémon,Psíquico,Psíquico,1,Común,Espada y Escudo,87,5,70
+swsh1-88,tcgvault,Musharna,Pokémon,Psíquico,Psíquico,1,Rara,Espada y Escudo,88,5,120
+swsh1-89,tcgvault,Sinistea,Pokémon,Psíquico,Psíquico,1,Común,Espada y Escudo,89,8,30
+swsh1-90,tcgvault,Polteageist,Pokémon,Psíquico,Psíquico,1,Rara,Espada y Escudo,90,8,60
+swsh1-91,tcgvault,Indeedee V,Pokémon,Psíquico,Psíquico,1,Holo Rara V,Espada y Escudo,91,8,180
+swsh1-92,tcgvault,Diglett,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,92,1,60
+swsh1-93,tcgvault,Dugtrio,Pokémon,Lucha,Lucha,1,Uncommon,Espada y Escudo,93,1,90
+swsh1-94,tcgvault,Hitmonlee,Pokémon,Lucha,Lucha,1,Uncommon,Espada y Escudo,94,1,120
+swsh1-95,tcgvault,Hitmonchan,Pokémon,Lucha,Lucha,1,Uncommon,Espada y Escudo,95,1,120
+swsh1-96,tcgvault,Rhyhorn,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,96,1,100
+swsh1-97,tcgvault,Rhyhorn,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,97,1,90
+swsh1-98,tcgvault,Rhydon,Pokémon,Lucha,Lucha,1,Uncommon,Espada y Escudo,98,1,120
+swsh1-99,tcgvault,Rhyperior,Pokémon,Lucha,Lucha,1,Holo Rara,Espada y Escudo,99,4,190
+swsh1-100,tcgvault,Sudowoodo,Pokémon,Lucha,Lucha,1,Uncommon,Espada y Escudo,100,2,100
+swsh1-101,tcgvault,Baltoy,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,101,3,70
+swsh1-102,tcgvault,Baltoy,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,102,3,60
+swsh1-103,tcgvault,Claydol,Pokémon,Lucha,Lucha,1,Rara,Espada y Escudo,103,3,120
+swsh1-104,tcgvault,Regirock V,Pokémon,Lucha,Lucha,1,Holo Rara V,Espada y Escudo,104,3,220
+swsh1-105,tcgvault,Mudbray,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,105,7,80
+swsh1-106,tcgvault,Mudsdale,Pokémon,Lucha,Lucha,1,Rara,Espada y Escudo,106,7,150
+swsh1-107,tcgvault,Silicobra,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,107,8,80
+swsh1-108,tcgvault,Silicobra,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,108,8,70
+swsh1-109,tcgvault,Sandaconda,Pokémon,Lucha,Lucha,1,Rara,Espada y Escudo,109,8,140
+swsh1-110,tcgvault,Sandaconda,Pokémon,Lucha,Lucha,1,Holo Rara,Espada y Escudo,110,8,130
+swsh1-111,tcgvault,Clobbopus,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,111,8,60
+swsh1-112,tcgvault,Clobbopus,Pokémon,Lucha,Lucha,1,Común,Espada y Escudo,112,8,80
+swsh1-113,tcgvault,Grapploct,Pokémon,Lucha,Lucha,1,Rara,Espada y Escudo,113,8,130
+swsh1-114,tcgvault,Stonjourner,Pokémon,Lucha,Lucha,1,Rara,Espada y Escudo,114,8,120
+swsh1-115,tcgvault,Stonjourner V,Pokémon,Lucha,Lucha,1,Holo Rara V,Espada y Escudo,115,8,220
+swsh1-116,tcgvault,Stonjourner VMAX,Pokémon,Lucha,Lucha,1,Holo Rara VMAX,Espada y Escudo,116,8,330
+swsh1-117,tcgvault,Zigzagoon de Galar,Pokémon,Oscura,Oscura,1,Común,Espada y Escudo,117,3,70
+swsh1-118,tcgvault,Linoone de Galar,Pokémon,Oscura,Oscura,1,Uncommon,Espada y Escudo,118,3,100
+swsh1-119,tcgvault,Obstagoon de Galar,Pokémon,Oscura,Oscura,1,Holo Rara,Espada y Escudo,119,8,160
+swsh1-120,tcgvault,Sableye V,Pokémon,Oscura,Oscura,1,Holo Rara V,Espada y Escudo,120,3,170
+swsh3-1,tcgvault,Butterfree V,Pokémon,Planta,Planta,1,Holo Rara V,Oscuridad Incandescente,1,1,190
+swsh3-2,tcgvault,Butterfree VMAX,Pokémon,Planta,Planta,1,Holo Rara VMAX,Oscuridad Incandescente,2,1,300
+swsh3-3,tcgvault,Paras,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,3,1,60
+swsh3-4,tcgvault,Parasect,Pokémon,Planta,Planta,1,Uncommon,Oscuridad Incandescente,4,1,120
+swsh3-5,tcgvault,Carnivine,Pokémon,Planta,Planta,1,Uncommon,Oscuridad Incandescente,5,4,90
+swsh3-6,tcgvault,Pansage,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,6,5,60
+swsh3-7,tcgvault,Simisage,Pokémon,Planta,Planta,1,Uncommon,Oscuridad Incandescente,7,5,100
+swsh3-8,tcgvault,Karrablast,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,8,5,60
+swsh3-9,tcgvault,Shelmet,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,9,5,70
+swsh3-10,tcgvault,Accelgor,Pokémon,Planta,Planta,1,Rara,Oscuridad Incandescente,10,5,90
+swsh3-11,tcgvault,Rowlet,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,11,7,50
+swsh3-12,tcgvault,Dartrix,Pokémon,Planta,Planta,1,Uncommon,Oscuridad Incandescente,12,7,80
+swsh3-13,tcgvault,Decidueye,Pokémon,Planta,Planta,1,Holo Rara,Oscuridad Incandescente,13,7,140
+swsh3-14,tcgvault,Bounsweet,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,14,7,60
+swsh3-15,tcgvault,Steenee,Pokémon,Planta,Planta,1,Uncommon,Oscuridad Incandescente,15,7,80
+swsh3-16,tcgvault,Tsareena,Pokémon,Planta,Planta,1,Rara,Oscuridad Incandescente,16,7,150
+swsh3-17,tcgvault,Wimpod,Pokémon,Planta,Planta,1,Común,Oscuridad Incandescente,17,7,70
+swsh3-18,tcgvault,Golisopod,Pokémon,Planta,Planta,1,Holo Rara,Oscuridad Incandescente,18,7,130
+swsh3-19,tcgvault,Charizard V,Pokémon,Fuego,Fuego,1,Holo Rara V,Oscuridad Incandescente,19,1,220
+swsh3-20,tcgvault,Charizard VMAX,Pokémon,Fuego,Fuego,1,Holo Rara VMAX,Oscuridad Incandescente,20,1,330
+swsh3-21,tcgvault,Houndoom V,Pokémon,Fuego,Fuego,1,Holo Rara V,Oscuridad Incandescente,21,2,210
+swsh3-22,tcgvault,Torchic,Pokémon,Fuego,Fuego,1,Común,Oscuridad Incandescente,22,3,60
+swsh3-23,tcgvault,Combusken,Pokémon,Fuego,Fuego,1,Uncommon,Oscuridad Incandescente,23,3,90
+swsh3-24,tcgvault,Blaziken,Pokémon,Fuego,Fuego,1,Holo Rara,Oscuridad Incandescente,24,3,170
+swsh3-25,tcgvault,Heatran,Pokémon,Fuego,Fuego,1,Holo Rara,Oscuridad Incandescente,25,4,130
+swsh3-26,tcgvault,Pansear,Pokémon,Fuego,Fuego,1,Común,Oscuridad Incandescente,26,5,60
+swsh3-27,tcgvault,Simisear,Pokémon,Fuego,Fuego,1,Uncommon,Oscuridad Incandescente,27,5,100
+swsh3-28,tcgvault,Darmanitan de Galar,Pokémon,Fuego,Fuego,1,Rara,Oscuridad Incandescente,28,5,140
+swsh3-29,tcgvault,Larvesta,Pokémon,Fuego,Fuego,1,Común,Oscuridad Incandescente,29,5,70
+swsh3-30,tcgvault,Volcarona,Pokémon,Fuego,Fuego,1,Rara,Oscuridad Incandescente,30,5,120
+swsh3-31,tcgvault,Fletchinder,Pokémon,Fuego,Fuego,1,Uncommon,Oscuridad Incandescente,31,6,70
+swsh3-32,tcgvault,Talonflame,Pokémon,Fuego,Fuego,1,Rara,Oscuridad Incandescente,32,6,140
+swsh3-33,tcgvault,Centiskorch V,Pokémon,Fuego,Fuego,1,Holo Rara V,Oscuridad Incandescente,33,8,210
+swsh3-34,tcgvault,Centiskorch VMAX,Pokémon,Fuego,Fuego,1,Holo Rara VMAX,Oscuridad Incandescente,34,8,320
+swsh3-35,tcgvault,Mr. Mime de Galar,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,35,1,80
+swsh3-36,tcgvault,Mr. Rime de Galar,Pokémon,Agua,Agua,1,Rara,Oscuridad Incandescente,36,8,120
+swsh3-37,tcgvault,Suicune,Pokémon,Agua,Agua,1,Holo Rara,Oscuridad Incandescente,37,2,120
+swsh3-38,tcgvault,Feebas,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,38,3,30
+swsh3-39,tcgvault,Milotic,Pokémon,Agua,Agua,1,Holo Rara,Oscuridad Incandescente,39,3,120
+swsh3-40,tcgvault,Relicanth,Pokémon,Agua,Agua,1,Uncommon,Oscuridad Incandescente,40,3,90
+swsh3-41,tcgvault,Panpour,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,41,5,60
+swsh3-42,tcgvault,Simipour,Pokémon,Agua,Agua,1,Uncommon,Oscuridad Incandescente,42,5,100
+swsh3-43,tcgvault,Darumaka de Galar,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,43,5,70
+swsh3-44,tcgvault,Darmanitan de Galar,Pokémon,Agua,Agua,1,Rara,Oscuridad Incandescente,44,5,140
+swsh3-45,tcgvault,Vanillite,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,45,5,60
+swsh3-46,tcgvault,Vanillish,Pokémon,Agua,Agua,1,Uncommon,Oscuridad Incandescente,46,5,80
+swsh3-47,tcgvault,Vanilluxe,Pokémon,Agua,Agua,1,Rara,Oscuridad Incandescente,47,5,150
+swsh3-48,tcgvault,Cubchoo,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,48,5,70
+swsh3-49,tcgvault,Beartic,Pokémon,Agua,Agua,1,Rara,Oscuridad Incandescente,49,5,140
+swsh3-50,tcgvault,Wishiwashi,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,50,7,30
+swsh3-51,tcgvault,Mareanie,Pokémon,Agua,Agua,1,Común,Oscuridad Incandescente,51,7,70
+swsh3-52,tcgvault,Toxapex,Pokémon,Agua,Agua,1,Uncommon,Oscuridad Incandescente,52,7,130
+swsh3-53,tcgvault,Dracovish,Pokémon,Agua,Agua,1,Holo Rara,Oscuridad Incandescente,53,8,150
+swsh3-54,tcgvault,Arctovish,Pokémon,Agua,Agua,1,Rara,Oscuridad Incandescente,54,8,150
+swsh3-55,tcgvault,Mareep,Pokémon,Rayo,Rayo,1,Común,Oscuridad Incandescente,55,2,60
+swsh3-56,tcgvault,Flaaffy,Pokémon,Rayo,Rayo,1,Uncommon,Oscuridad Incandescente,56,2,90
+swsh3-57,tcgvault,Ampharos,Pokémon,Rayo,Rayo,1,Rara,Oscuridad Incandescente,57,2,150
+swsh3-58,tcgvault,Electrike,Pokémon,Rayo,Rayo,1,Común,Oscuridad Incandescente,58,3,60
+swsh3-59,tcgvault,Manectric,Pokémon,Rayo,Rayo,1,Rara,Oscuridad Incandescente,59,3,110
+swsh3-60,tcgvault,Vikavolt V,Pokémon,Rayo,Rayo,1,Holo Rara V,Oscuridad Incandescente,60,7,210
+swsh3-61,tcgvault,Tapu Koko,Pokémon,Rayo,Rayo,1,Holo Rara,Oscuridad Incandescente,61,7,110
+swsh3-62,tcgvault,Toxel,Pokémon,Rayo,Rayo,1,Común,Oscuridad Incandescente,62,8,70
+swsh3-63,tcgvault,Toxtricity,Pokémon,Rayo,Rayo,1,Holo Rara,Oscuridad Incandescente,63,8,120
+swsh3-64,tcgvault,Pincurchin,Pokémon,Rayo,Rayo,1,Holo Rara,Oscuridad Incandescente,64,8,80
+swsh3-65,tcgvault,Dracozolt,Pokémon,Rayo,Rayo,1,Rara,Oscuridad Incandescente,65,8,160
+swsh3-66,tcgvault,Arctozolt,Pokémon,Rayo,Rayo,1,Holo Rara,Oscuridad Incandescente,66,8,130
+swsh3-67,tcgvault,Jigglypuff,Pokémon,Psíquico,Psíquico,1,Común,Oscuridad Incandescente,67,1,70
+swsh3-68,tcgvault,Wigglytuff,Pokémon,Psíquico,Psíquico,1,Rara,Oscuridad Incandescente,68,1,120
+swsh3-69,tcgvault,Mew V,Pokémon,Psíquico,Psíquico,1,Holo Rara V,Oscuridad Incandescente,69,1,180
+swsh3-70,tcgvault,Snubbull,Pokémon,Psíquico,Psíquico,1,Común,Oscuridad Incandescente,70,2,80
+swsh3-71,tcgvault,Granbull,Pokémon,Psíquico,Psíquico,1,Rara,Oscuridad Incandescente,71,2,130
+swsh3-72,tcgvault,Lunatone,Pokémon,Psíquico,Psíquico,1,Uncommon,Oscuridad Incandescente,72,3,90
+swsh3-73,tcgvault,Gothita,Pokémon,Psíquico,Psíquico,1,Común,Oscuridad Incandescente,73,5,60
+swsh3-74,tcgvault,Gothorita,Pokémon,Psíquico,Psíquico,1,Uncommon,Oscuridad Incandescente,74,5,80
+swsh3-75,tcgvault,Gothitelle,Pokémon,Psíquico,Psíquico,1,Rara,Oscuridad Incandescente,75,5,140
+swsh3-76,tcgvault,Golett,Pokémon,Psíquico,Psíquico,1,Común,Oscuridad Incandescente,76,5,90
+swsh3-77,tcgvault,Golurk,Pokémon,Psíquico,Psíquico,1,Rara,Oscuridad Incandescente,77,5,150
+swsh3-78,tcgvault,Dedenne,Pokémon,Psíquico,Psíquico,1,Uncommon,Oscuridad Incandescente,78,6,70
+swsh3-79,tcgvault,Morelull,Pokémon,Psíquico,Psíquico,1,Común,Oscuridad Incandescente,79,7,60
+swsh3-80,tcgvault,Shiinotic,Pokémon,Psíquico,Psíquico,1,Uncommon,Oscuridad Incandescente,80,7,110
+swsh3-81,tcgvault,Mimikyu,Pokémon,Psíquico,Psíquico,1,Rara,Oscuridad Incandescente,81,7,70
+swsh3-82,tcgvault,Sinistea,Pokémon,Psíquico,Psíquico,1,Común,Oscuridad Incandescente,82,8,30
+swsh3-83,tcgvault,Polteageist,Pokémon,Psíquico,Psíquico,1,Uncommon,Oscuridad Incandescente,83,8,60
+swsh3-84,tcgvault,Diglett,Pokémon,Lucha,Lucha,1,Común,Oscuridad Incandescente,84,1,50
+swsh3-85,tcgvault,Dugtrio,Pokémon,Lucha,Lucha,1,Uncommon,Oscuridad Incandescente,85,1,90
+swsh3-86,tcgvault,Larvitar,Pokémon,Lucha,Lucha,1,Común,Oscuridad Incandescente,86,2,70
+swsh3-87,tcgvault,Pupitar,Pokémon,Lucha,Lucha,1,Uncommon,Oscuridad Incandescente,87,2,80
+swsh3-88,tcgvault,Tyranitar,Pokémon,Lucha,Lucha,1,Holo Rara,Oscuridad Incandescente,88,2,180
+swsh3-89,tcgvault,Trapinch,Pokémon,Lucha,Lucha,1,Común,Oscuridad Incandescente,89,3,60
+swsh3-90,tcgvault,Vibrava,Pokémon,Lucha,Lucha,1,Uncommon,Oscuridad Incandescente,90,3,80
+swsh3-91,tcgvault,Flygon,Pokémon,Lucha,Lucha,1,Rara,Oscuridad Incandescente,91,3,150
+swsh3-92,tcgvault,Solrock,Pokémon,Lucha,Lucha,1,Uncommon,Oscuridad Incandescente,92,3,90
+swsh3-93,tcgvault,Hippopotas,Pokémon,Lucha,Lucha,1,Común,Oscuridad Incandescente,93,4,100
+swsh3-94,tcgvault,Hippowdon,Pokémon,Lucha,Lucha,1,Rara,Oscuridad Incandescente,94,4,150
+swsh3-95,tcgvault,Rhyperior V,Pokémon,Lucha,Lucha,1,Holo Rara V,Oscuridad Incandescente,95,4,230
+swsh3-96,tcgvault,Diggersby,Pokémon,Lucha,Lucha,1,Rara,Oscuridad Incandescente,96,6,130
+swsh3-97,tcgvault,Passimian,Pokémon,Lucha,Lucha,1,Común,Oscuridad Incandescente,97,7,110
+swsh3-98,tcgvault,Sirfetch'd de Galar,Pokémon,Lucha,Lucha,1,Rara,Oscuridad Incandescente,98,8,130
+swsh3-99,tcgvault,Slowbro V de Galar,Pokémon,Oscura,Oscura,1,Holo Rara V,Oscuridad Incandescente,99,1,210
+swsh3-100,tcgvault,Grimer,Pokémon,Oscura,Oscura,1,Común,Oscuridad Incandescente,100,1,80
+swsh3-101,tcgvault,Muk,Pokémon,Oscura,Oscura,1,Rara,Oscuridad Incandescente,101,1,140
+swsh3-102,tcgvault,Spinarak,Pokémon,Oscura,Oscura,1,Común,Oscuridad Incandescente,102,2,60
+swsh3-103,tcgvault,Ariados,Pokémon,Oscura,Oscura,1,Uncommon,Oscuridad Incandescente,103,2,110
+swsh3-104,tcgvault,Crobat V,Pokémon,Oscura,Oscura,1,Holo Rara V,Oscuridad Incandescente,104,2,180
+swsh3-105,tcgvault,Darkrai,Pokémon,Oscura,Oscura,1,Holo Rara,Oscuridad Incandescente,105,4,120
+swsh3-106,tcgvault,Purrloin,Pokémon,Oscura,Oscura,1,Común,Oscuridad Incandescente,106,5,70
+swsh3-107,tcgvault,Liepard,Pokémon,Oscura,Oscura,1,Rara,Oscuridad Incandescente,107,5,100
+swsh3-108,tcgvault,Deino,Pokémon,Oscura,Oscura,1,Común,Oscuridad Incandescente,108,5,60
+swsh3-109,tcgvault,Zweilous,Pokémon,Oscura,Oscura,1,Uncommon,Oscuridad Incandescente,109,5,100
+swsh3-110,tcgvault,Hydreigon,Pokémon,Oscura,Oscura,1,Rara,Oscuridad Incandescente,110,5,160
+swsh3-111,tcgvault,Hoopa,Pokémon,Oscura,Oscura,1,Holo Rara,Oscuridad Incandescente,111,6,120
+swsh3-112,tcgvault,Nickit,Pokémon,Oscura,Oscura,1,Común,Oscuridad Incandescente,112,8,70
+swsh3-113,tcgvault,Thievul,Pokémon,Oscura,Oscura,1,Rara,Oscuridad Incandescente,113,8,100
+swsh3-114,tcgvault,Grimmsnarl V,Pokémon,Oscura,Oscura,1,Holo Rara V,Oscuridad Incandescente,114,8,220
+swsh3-115,tcgvault,Grimmsnarl VMAX,Pokémon,Oscura,Oscura,1,Holo Rara VMAX,Oscuridad Incandescente,115,8,330
+swsh3-116,tcgvault,Eternatus V,Pokémon,Oscura,Oscura,1,Holo Rara V,Oscuridad Incandescente,116,8,220
+swsh3-117,tcgvault,Eternatus VMAX,Pokémon,Oscura,Oscura,1,Holo Rara VMAX,Oscuridad Incandescente,117,8,340
+swsh3-118,tcgvault,Scizor V,Pokémon,Metálica,Metálica,1,Holo Rara V,Oscuridad Incandescente,118,2,210
+swsh3-119,tcgvault,Scizor VMAX,Pokémon,Metálica,Metálica,1,Holo Rara VMAX,Oscuridad Incandescente,119,2,320
+swsh3-120,tcgvault,Skarmory,Pokémon,Metálica,Metálica,1,Común,Oscuridad Incandescente,120,2,120
+xy1-1,tcgvault,Venusaur EX,Pokémon,Planta,Planta,1,Ultra Rara,XY,1,1,180
+xy1-2,tcgvault,M Venusaur EX,Pokémon,Planta,Planta,1,Ultra Rara,XY,2,1,230
+xy1-3,tcgvault,Weedle,Pokémon,Planta,Planta,1,Común,XY,3,1,50
+xy1-4,tcgvault,Kakuna,Pokémon,Planta,Planta,1,Uncommon,XY,4,1,70
+xy1-5,tcgvault,Beedrill,Pokémon,Planta,Planta,1,Rara,XY,5,1,120
+xy1-6,tcgvault,Ledyba,Pokémon,Planta,Planta,1,Común,XY,6,2,60
+xy1-7,tcgvault,Ledian,Pokémon,Planta,Planta,1,Uncommon,XY,7,2,80
+xy1-8,tcgvault,Volbeat,Pokémon,Planta,Planta,1,Uncommon,XY,8,3,70
+xy1-9,tcgvault,Illumise,Pokémon,Planta,Planta,1,Uncommon,XY,9,3,70
+xy1-10,tcgvault,Pansage,Pokémon,Planta,Planta,1,Común,XY,10,5,60
+xy1-11,tcgvault,Simisage,Pokémon,Planta,Planta,1,Rara,XY,11,5,90
+xy1-12,tcgvault,Chespin,Pokémon,Planta,Planta,1,Común,XY,12,6,60
+xy1-13,tcgvault,Quilladin,Pokémon,Planta,Planta,1,Uncommon,XY,13,6,90
+xy1-14,tcgvault,Chesnaught,Pokémon,Planta,Planta,1,Rara,XY,14,6,160
+xy1-15,tcgvault,Scatterbug,Pokémon,Planta,Planta,1,Común,XY,15,6,40
+xy1-16,tcgvault,Spewpa,Pokémon,Planta,Planta,1,Uncommon,XY,16,6,80
+xy1-17,tcgvault,Vivillon,Pokémon,Planta,Planta,1,Rara,XY,17,6,130
+xy1-18,tcgvault,Skiddo,Pokémon,Planta,Planta,1,Común,XY,18,6,70
+xy1-19,tcgvault,Gogoat,Pokémon,Planta,Planta,1,Rara,XY,19,6,110
+xy1-20,tcgvault,Slugma,Pokémon,Fuego,Fuego,1,Común,XY,20,2,70
+xy1-21,tcgvault,Magcargo,Pokémon,Fuego,Fuego,1,Rara,XY,21,2,110
+xy1-22,tcgvault,Pansear,Pokémon,Fuego,Fuego,1,Común,XY,22,5,60
+xy1-23,tcgvault,Simisear,Pokémon,Fuego,Fuego,1,Rara,XY,23,5,90
+xy1-24,tcgvault,Fennekin,Pokémon,Fuego,Fuego,1,Común,XY,24,6,50
+xy1-25,tcgvault,Braixen,Pokémon,Fuego,Fuego,1,Uncommon,XY,25,6,80
+xy1-26,tcgvault,Delphox,Pokémon,Fuego,Fuego,1,Rara,XY,26,6,140
+xy1-27,tcgvault,Fletchinder,Pokémon,Fuego,Fuego,1,Uncommon,XY,27,6,70
+xy1-28,tcgvault,Talonflame,Pokémon,Fuego,Fuego,1,Rara,XY,28,6,130
+xy1-29,tcgvault,Blastoise EX,Pokémon,Agua,Agua,1,Ultra Rara,XY,29,1,180
+xy1-30,tcgvault,M-Blastoise EX,Pokémon,Agua,Agua,1,Ultra Rara,XY,30,1,220
+xy1-31,tcgvault,Shellder,Pokémon,Agua,Agua,1,Común,XY,31,1,60
+xy1-32,tcgvault,Cloyster,Pokémon,Agua,Agua,1,Rara,XY,32,1,100
+xy1-33,tcgvault,Staryu,Pokémon,Agua,Agua,1,Común,XY,33,1,60
+xy1-34,tcgvault,Starmie,Pokémon,Agua,Agua,1,Rara,XY,34,1,90
+xy1-35,tcgvault,Lapras,Pokémon,Agua,Agua,1,Rara,XY,35,1,110
+xy1-36,tcgvault,Corsola,Pokémon,Agua,Agua,1,Uncommon,XY,36,2,70
+xy1-37,tcgvault,Panpour,Pokémon,Agua,Agua,1,Común,XY,37,5,60
+xy1-38,tcgvault,Simipour,Pokémon,Agua,Agua,1,Rara,XY,38,5,90
+xy1-39,tcgvault,Froakie,Pokémon,Agua,Agua,1,Común,XY,39,6,50
+xy1-40,tcgvault,Frogadier,Pokémon,Agua,Agua,1,Uncommon,XY,40,6,80
+xy1-41,tcgvault,Greninja,Pokémon,Agua,Agua,1,Rara,XY,41,6,130
+xy1-42,tcgvault,Pikachu,Pokémon,Rayo,Rayo,1,Común,XY,42,1,60
+xy1-43,tcgvault,Raichu,Pokémon,Rayo,Rayo,1,Rara,XY,43,1,90
+xy1-44,tcgvault,Voltorb,Pokémon,Rayo,Rayo,1,Común,XY,44,1,50
+xy1-45,tcgvault,Electrode,Pokémon,Rayo,Rayo,1,Uncommon,XY,45,1,90
+xy1-46,tcgvault,Emolga EX,Pokémon,Rayo,Rayo,1,Ultra Rara,XY,46,5,110
+xy1-47,tcgvault,Ekans,Pokémon,Psíquico,Psíquico,1,Común,XY,47,1,70
+xy1-48,tcgvault,Arbok,Pokémon,Psíquico,Psíquico,1,Rara,XY,48,1,90
+xy1-49,tcgvault,Spoink,Pokémon,Psíquico,Psíquico,1,Común,XY,49,3,60
+xy1-50,tcgvault,Grumpig,Pokémon,Psíquico,Psíquico,1,Rara,XY,50,3,100
+xy1-51,tcgvault,Venipede,Pokémon,Psíquico,Psíquico,1,Común,XY,51,5,70
+xy1-52,tcgvault,Whirlipede,Pokémon,Psíquico,Psíquico,1,Uncommon,XY,52,5,90
+xy1-53,tcgvault,Scolipede,Pokémon,Psíquico,Psíquico,1,Rara,XY,53,5,150
+xy1-54,tcgvault,Phantump,Pokémon,Psíquico,Psíquico,1,Común,XY,54,6,60
+xy1-55,tcgvault,Trevenant,Pokémon,Psíquico,Psíquico,1,Rara,XY,55,6,110
+xy1-56,tcgvault,Pumpkaboo,Pokémon,Psíquico,Psíquico,1,Común,XY,56,6,60
+xy1-57,tcgvault,Gourgeist,Pokémon,Psíquico,Psíquico,1,Rara,XY,57,6,100
+xy1-58,tcgvault,Diglett,Pokémon,Lucha,Lucha,1,Común,XY,58,1,50
+xy1-59,tcgvault,Dugtrio,Pokémon,Lucha,Lucha,1,Rara,XY,59,1,90
+xy1-60,tcgvault,Rhyhorn,Pokémon,Lucha,Lucha,1,Común,XY,60,1,80
+xy1-61,tcgvault,Rhydon,Pokémon,Lucha,Lucha,1,Rara,XY,61,1,100
+xy1-62,tcgvault,Rhyperior,Pokémon,Lucha,Lucha,1,Rara,XY,62,4,160
+xy1-63,tcgvault,Lunatone,Pokémon,Lucha,Lucha,1,Uncommon,XY,63,3,80
+xy1-64,tcgvault,Solrock,Pokémon,Lucha,Lucha,1,Uncommon,XY,64,3,90
+xy1-65,tcgvault,Timburr,Pokémon,Lucha,Lucha,1,Común,XY,65,5,70
+xy1-66,tcgvault,Gurdurr,Pokémon,Lucha,Lucha,1,Uncommon,XY,66,5,90
+xy1-67,tcgvault,Conkeldurr,Pokémon,Lucha,Lucha,1,Rara,XY,67,5,140
+xy1-68,tcgvault,Sableye,Pokémon,Oscura,Oscura,1,Uncommon,XY,68,3,80
+xy1-69,tcgvault,Sandile,Pokémon,Oscura,Oscura,1,Común,XY,69,5,70
+xy1-70,tcgvault,Krokorok,Pokémon,Oscura,Oscura,1,Uncommon,XY,70,5,90
+xy1-71,tcgvault,Krookodile,Pokémon,Oscura,Oscura,1,Rara,XY,71,5,140
+xy1-72,tcgvault,Zorua,Pokémon,Oscura,Oscura,1,Común,XY,72,5,50
+xy1-73,tcgvault,Zoroark,Pokémon,Oscura,Oscura,1,Rara,XY,73,5,100
+xy1-74,tcgvault,Inkay,Pokémon,Oscura,Oscura,1,Uncommon,XY,74,6,60
+xy1-75,tcgvault,Inkay,Pokémon,Oscura,Oscura,1,Común,XY,75,6,50
+xy1-76,tcgvault,Malamar,Pokémon,Oscura,Oscura,1,Rara,XY,76,6,100
+xy1-77,tcgvault,Malamar,Pokémon,Oscura,Oscura,1,Rara,XY,77,6,100
+xy1-78,tcgvault,Yveltal,Pokémon,Oscura,Oscura,1,Rara,XY,78,6,130
+xy1-79,tcgvault,Yveltal EX,Pokémon,Oscura,Oscura,1,Ultra Rara,XY,79,6,170
+xy1-80,tcgvault,Skarmory EX,Pokémon,Metálica,Metálica,1,Ultra Rara,XY,80,2,170
+xy1-81,tcgvault,Pawniard,Pokémon,Metálica,Metálica,1,Común,XY,81,5,60
+xy1-82,tcgvault,Bisharp,Pokémon,Metálica,Metálica,1,Rara,XY,82,5,90
+xy1-83,tcgvault,Honedge,Pokémon,Metálica,Metálica,1,Común,XY,83,6,60
+xy1-84,tcgvault,Doublade,Pokémon,Metálica,Metálica,1,Uncommon,XY,84,6,80
+xy1-85,tcgvault,Aegislash,Pokémon,Metálica,Metálica,1,Rara,XY,85,6,140
+xy1-86,tcgvault,Aegislash,Pokémon,Metálica,Metálica,1,Rara,XY,86,6,140
+xy1-87,tcgvault,Jigglypuff,Pokémon,Hada,Hada,1,Común,XY,87,1,60
+xy1-88,tcgvault,Jigglypuff,Pokémon,Hada,Hada,1,Común,XY,88,1,70
+xy1-89,tcgvault,Wigglytuff,Pokémon,Hada,Hada,1,Rara,XY,89,1,100
+xy1-90,tcgvault,Wigglytuff,Pokémon,Hada,Hada,1,Rara,XY,90,1,100
+xy1-91,tcgvault,Mr. Mime,Pokémon,Hada,Hada,1,Uncommon,XY,91,1,80
+xy1-92,tcgvault,Spritzee,Pokémon,Hada,Hada,1,Común,XY,92,6,50
+xy1-93,tcgvault,Aromatisse,Pokémon,Hada,Hada,1,Rara,XY,93,6,90
+xy1-94,tcgvault,Swirlix,Pokémon,Hada,Hada,1,Común,XY,94,6,60
+xy1-95,tcgvault,Slurpuff,Pokémon,Hada,Hada,1,Rara,XY,95,6,90
+xy1-96,tcgvault,Xerneas,Pokémon,Hada,Hada,1,Rara,XY,96,6,130
+xy1-97,tcgvault,Xerneas EX,Pokémon,Hada,Hada,1,Ultra Rara,XY,97,6,170
+xy1-98,tcgvault,Doduo,Pokémon,Incolora,Incolora,1,Común,XY,98,1,70
+xy1-99,tcgvault,Dodrio,Pokémon,Incolora,Incolora,1,Uncommon,XY,99,1,90
+xy1-100,tcgvault,Tauros,Pokémon,Incolora,Incolora,1,Rara,XY,100,1,110
+xy1-101,tcgvault,Dunsparce,Pokémon,Incolora,Incolora,1,Uncommon,XY,101,2,40
+xy1-102,tcgvault,Taillow,Pokémon,Incolora,Incolora,1,Común,XY,102,3,50
+xy1-103,tcgvault,Swellow,Pokémon,Incolora,Incolora,1,Rara,XY,103,3,90
+xy1-104,tcgvault,Skitty,Pokémon,Incolora,Incolora,1,Común,XY,104,3,50
+xy1-105,tcgvault,Delcatty,Pokémon,Incolora,Incolora,1,Uncommon,XY,105,3,80
+xy1-106,tcgvault,Bidoof,Pokémon,Incolora,Incolora,1,Común,XY,106,4,60
+xy1-107,tcgvault,Bibarel,Pokémon,Incolora,Incolora,1,Rara,XY,107,4,100
+xy1-108,tcgvault,Lillipup,Pokémon,Incolora,Incolora,1,Común,XY,108,5,50
+xy1-109,tcgvault,Herdier,Pokémon,Incolora,Incolora,1,Uncommon,XY,109,5,80
+xy1-110,tcgvault,Stoutland,Pokémon,Incolora,Incolora,1,Rara,XY,110,5,140
+xy1-111,tcgvault,Bunnelby,Pokémon,Incolora,Incolora,1,Común,XY,111,6,60
+xy1-112,tcgvault,Diggersby,Pokémon,Incolora,Incolora,1,Uncommon,XY,112,6,100
+xy1-113,tcgvault,Fletchling,Pokémon,Incolora,Incolora,1,Común,XY,113,6,50
+xy1-114,tcgvault,Furfrou,Pokémon,Incolora,Incolora,1,Rara,XY,114,6,90
+xy1-115,tcgvault,Olivier,Entrenador,,,0,Uncommon,XY,115,,
+xy1-116,tcgvault,Evolrefresco,Entrenador,,,0,Uncommon,XY,116,,
+xy1-117,tcgvault,Jardín Hada,Entrenador,,,0,Uncommon,XY,117,,
+xy1-118,tcgvault,Super Ball,Entrenador,,,0,Uncommon,XY,118,,
+xy1-119,tcgvault,Amuleto Resistente,Entrenador,,,0,Uncommon,XY,119,,
+xy1-120,tcgvault,Revivir Máximo,Entrenador,,,0,Uncommon,XY,120,,

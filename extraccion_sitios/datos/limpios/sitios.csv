@@ -1,0 +1,5 @@
+﻿clave,nombre,url,tecnologia,clasificacion,estado,segundos,extraido_en
+porke,Porké,https://cochinita-pibil-pwa.vercel.app,Next.js en Vercel,Dinámica (alto),ok,57.5,2026-10-28T01:21:04
+cafe,Café & Charla,https://cafe-charla-app.vercel.app,Next.js en Vercel,Estática/dinámica (medio),ok,5.9,2026-10-28T01:21:04
+ticketshield,TicketShield / MyTicket,https://ticketshield-ihy6.onrender.com,Laravel + Inertia en Render (Cloudflare),CDN/WAF + dinámica,ok,329.7,2026-10-28T01:21:04
+tcgvault,TCG Vault (sitio propio),https://tcg-vault-eight.vercel.app,React + FastAPI en Vercel,Dinámica (5 defensas),ok,149.8,2026-10-28T01:21:04

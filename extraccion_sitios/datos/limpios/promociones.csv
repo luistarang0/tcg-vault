@@ -1,0 +1,4 @@
+﻿sitio,titulo,descuento_pct,descripcion,vigencia_inicio,vigencia_fin,dias_vigencia
+cafe,2x1 en capuchinos,50,"Los martes, de 3 a 6 pm.",2026-10-23,2026-11-24,32
+cafe,Desayuno completo,20,Café + pan dulce con descuento por la mañana.,2026-10-24,2026-12-09,46
+cafe,Té chai de temporada,15,Prueba el chai con 15% de descuento.,2026-10-22,2026-11-14,23

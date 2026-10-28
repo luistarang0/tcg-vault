@@ -1,0 +1,9 @@
+﻿id,sitio,carta_id,carta,vendedor,es_casa,puja_actual,puja_minima,compra_inmediata,num_pujas,estado,termina_en
+52,tcgvault,bw1-5,Serperior,casa,1,,100,250,0,active,2026-10-28T07:33:48+00:00
+53,tcgvault,bw1-62,Sawk,casa,1,,100,250,0,active,2026-10-28T07:33:48+00:00
+50,tcgvault,swsh1-13,Thwackey,casa,1,,40,100,0,active,2026-10-28T07:35:29+00:00
+41,tcgvault,swsh1-83,Gastly,casa,1,,20,50,0,active,2026-10-28T10:17:44+00:00
+44,tcgvault,sv01-054,Quaquaval,casa,1,,100,250,0,active,2026-10-28T10:17:44+00:00
+54,tcgvault,sm1-34,Cloyster,casa,1,,100,250,0,active,2026-10-28T10:18:48+00:00
+49,tcgvault,sv01-104,Greavard,casa,1,,20,50,0,active,2026-10-28T12:35:29+00:00
+51,tcgvault,sm1-5,Parasect,casa,1,,100,250,0,active,2026-10-28T12:35:29+00:00
