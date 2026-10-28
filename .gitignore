@@ -16,4 +16,17 @@ dist/
 # Evidencias generadas al ejecutar scripts (se adjuntan en los reportes, no en git)
 scraper_tests/evidencia/
 auditoria/resultados/
-fase3_extraccion/capturas/*.png
+fase3_extraccion/capturas/*
+!fase3_extraccion/capturas/.gitkeep
+extraccion_sitios/capturas/
+
+# Documentos de apoyo y reportes (se entregan aparte; los README sí se versionan)
+GUIA_*.md
+GUION_*.md
+PRUEBAS_*.md
+auditoria/AUDITORIA.md
+client/README.md
+*.docx
+
+# Configuración local del entorno de desarrollo
+.claude/
