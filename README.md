@@ -132,6 +132,54 @@ python scraper_tests/02_bot_formulario.py --modo cuidadoso
 python auditoria/auditar_sitios.py --archivo auditoria/sitios.txt --selenium
 ```
 
+## Bitácora de seguridad en Postgres
+
+En Vercel el archivo `access.jsonl` vive en `/tmp` y se pierde con cada instancia,
+así que los eventos de las defensas (puntajes, desafíos, CSRF inválido, logins,
+pujas) y cada respuesta **429** se guardan también en la tabla `security_events`
+de Neon. Las peticiones normales no se guardan. Está activo por defecto en Vercel;
+en local se enciende con `SECURITY_EVENTS_DB=1`.
+
+```powershell
+# desde server/: usa la DATABASE_URL de .env (rama dev); --url para la rama main
+python scripts/ver_eventos.py --horas 24
+python scripts/ver_eventos.py --evento rate_limited
+python scripts/ver_eventos.py --resumen
+```
+
+En la consola de Neon (SQL Editor, rama `main`) se ve lo que pasó en producción:
+
+```sql
+SELECT ts, event, status, ip, score, action, flags, data
+FROM security_events ORDER BY ts DESC LIMIT 50;
+```
+
+## Panel de seguridad del administrador (`/admin`)
+
+Un **único** administrador (lo garantiza un índice único en `users.is_admin`) entra
+por el login normal y ve en `/admin` la bitácora `security_events`:
+
+- Filtros por periodo (1 h, 24 h, 7 días, 30 días o rango personalizado), tipo de
+  evento, acción, código HTTP (exacto o 4xx/5xx), IP y texto libre. Viven en la URL.
+- Indicadores (429, desafíos, frenados, CSRF inválido, logins fallidos, IPs),
+  gráfica de eventos por hora/día/semana con vista en tabla, IPs y señales más
+  frecuentes, bitácora paginada con detalle y exportación a CSV.
+- Las rutas `/api/admin/*` responden 401 sin sesión y 403 a cualquier otra cuenta.
+
+Crear el administrador (la contraseña se pide sin mostrarse; mínimo 12 caracteres):
+
+```powershell
+# desde server/, con el .venv activado. Local = rama dev de server/.env
+python scripts/crear_admin.py --usuario admin --correo admin@tcgvault.mx
+# producción: la cadena de la rama main (Vercel → Storage → Neon)
+python scripts/crear_admin.py --usuario admin --correo admin@tcgvault.mx --url "postgresql://…"
+python scripts/crear_admin.py --ver                  # quién es el administrador
+python scripts/crear_admin.py --promover luis_demo   # convertir una cuenta existente
+```
+
+En local el panel solo muestra eventos si el backend guarda en la base:
+`$env:SECURITY_EVENTS_DB="1"` antes de `uvicorn`. En Vercel se guardan siempre.
+
 ## Token CSRF (double-submit)
 
 `server/app/security/csrf.py`: el backend entrega la cookie `csrf_token` y exige

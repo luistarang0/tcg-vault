@@ -41,7 +41,8 @@ DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 # Sesión de usuario: días de vigencia de la cookie y si exige HTTPS.
 # En Vercel (VERCEL=1) siempre hay HTTPS; en localhost no, por eso Secure solo allí.
 SESSION_DAYS = int(os.getenv("SESSION_DAYS", "7"))
-COOKIE_SECURE = bool(os.getenv("VERCEL"))
+ON_VERCEL = bool(os.getenv("VERCEL"))
+COOKIE_SECURE = ON_VERCEL
 
 # Segundos que se anuncian en el encabezado Retry-After de las respuestas 429
 RETRY_AFTER_SECONDS = int(os.getenv("RETRY_AFTER_SECONDS", "60"))
@@ -62,6 +63,12 @@ TURNSTILE_VERIFY_URL = os.getenv(
 _DEFAULT_LOG_DIR = (Path("/tmp/tcg-vault-logs") if os.getenv("VERCEL")
                     else Path(__file__).resolve().parent.parent / "logs")
 LOG_DIR = Path(os.getenv("LOG_DIR") or _DEFAULT_LOG_DIR)
+
+# Copia de los eventos de seguridad en Postgres (tabla security_events).
+# Por defecto activa en Vercel, donde el archivo de /tmp no se puede consultar;
+# en local se activa con SECURITY_EVENTS_DB=1 (cada evento abre una conexión a Neon,
+# que desde aquí tarda ~1 s, por eso no viene encendida).
+SECURITY_EVENTS_DB = os.getenv("SECURITY_EVENTS_DB", "1" if os.getenv("VERCEL") else "0") == "1"
 
 
 def should_log() -> bool:

@@ -107,6 +107,35 @@ CREATE TABLE IF NOT EXISTS login_attempts (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS ix_login_attempts ON login_attempts (lower(username), created_at);
+
+-- Bitácora de seguridad persistente (Defensa 2). En Vercel el archivo access.jsonl
+-- vive en /tmp y se pierde con cada instancia; aquí quedan los eventos de las
+-- defensas (puntajes, desafíos, CSRF, pujas, logins) y cada respuesta 429.
+-- Las peticiones normales NO se guardan: solo lo que tiene valor de auditoría.
+CREATE TABLE IF NOT EXISTS security_events (
+  id         BIGSERIAL PRIMARY KEY,
+  ts         TIMESTAMPTZ NOT NULL DEFAULT now(),
+  event      TEXT NOT NULL,          -- register_attempt, login_result, csrf_invalid, rate_limited…
+  method     TEXT,
+  path       TEXT,
+  status     INTEGER,                -- código HTTP con el que terminó la petición
+  ip         TEXT,
+  sid        TEXT,                   -- cookie anónima del limitador (no identifica a la persona)
+  user_agent TEXT,
+  score      INTEGER,                -- puntaje de riesgo, si el evento lo trae
+  action     TEXT,                   -- allow / log / throttle / challenge
+  flags      JSONB,                  -- señales (honeypot, webdriver, headless_ua…)
+  data       JSONB                   -- el resto de campos del evento
+);
+CREATE INDEX IF NOT EXISTS ix_security_events_ts ON security_events (ts DESC);
+CREATE INDEX IF NOT EXISTS ix_security_events_event ON security_events (event, ts DESC);
+
+-- Rol de administrador: solo puede revisar la bitácora de seguridad (/admin).
+-- El índice único sobre una expresión constante permite UNA sola fila con
+-- is_admin = true: Postgres rechaza un segundo administrador aunque se intente
+-- directamente en la base. Se crea con server/scripts/crear_admin.py.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS is_admin BOOLEAN NOT NULL DEFAULT false;
+CREATE UNIQUE INDEX IF NOT EXISTS ux_users_un_admin ON users ((true)) WHERE is_admin;
 """
 
 _schema_ready = False

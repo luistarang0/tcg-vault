@@ -20,7 +20,7 @@ from slowapi.middleware import SlowAPIMiddleware
 
 from app import config
 from app.market import MarketError
-from app.routes import auctions, auth, cards, collection, register, users
+from app.routes import admin, auctions, auth, cards, collection, register, users
 from app.security.audit import AuditMiddleware
 from app.security.csrf import CSRFMiddleware
 from app.security.ratelimit import limiter, rate_limit_handler
@@ -54,6 +54,7 @@ app.include_router(auth.router, prefix="/api", tags=["cuentas"])
 app.include_router(collection.router, prefix="/api", tags=["colección"])
 app.include_router(auctions.router, prefix="/api", tags=["subastas"])
 app.include_router(users.router, prefix="/api", tags=["perfiles"])
+app.include_router(admin.router, prefix="/api", tags=["administración"])
 
 
 @app.exception_handler(MarketError)

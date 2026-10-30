@@ -51,7 +51,7 @@ def _login(payload: LoginIn, ip: str, response: Response) -> str:
             return "locked"
 
         user = conn.execute(
-            "SELECT id, password_hash FROM users WHERE lower(username) = lower(%s) OR lower(email) = lower(%s)",
+            "SELECT id, password_hash, is_admin FROM users WHERE lower(username) = lower(%s) OR lower(email) = lower(%s)",
             (ident, ident),
         ).fetchone()
         # Si no existe se verifica igual contra un hash de relleno (mismo tiempo de respuesta)
@@ -60,7 +60,8 @@ def _login(payload: LoginIn, ip: str, response: Response) -> str:
         if not ok:
             return "bad"
         create_session(conn, user["id"], response)
-        grant_daily_bonus(conn, user["id"])
+        if not user["is_admin"]:
+            grant_daily_bonus(conn, user["id"])
     return "ok"
 
 
@@ -101,11 +102,13 @@ def me(request: Request):
         if user is None:
             return {"user": None, "rules": eco.public_rules()}
         settle_expired(conn)                      # así el saldo refleja ventas ya vencidas
-        bono = grant_daily_bonus(conn, user["id"])
+        # El administrador no participa en el mercado: no recibe bono diario
+        bono = 0 if user["is_admin"] else grant_daily_bonus(conn, user["id"])
         points = conn.execute("SELECT points FROM users WHERE id = %s", (user["id"],)).fetchone()["points"]
         return {
             "user": {
                 "username": user["username"],
+                "is_admin": user["is_admin"],
                 "points": points,
                 "frozen": frozen_points(conn, user["id"]),
                 "bonus_granted": bono,

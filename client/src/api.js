@@ -102,3 +102,10 @@ export const createAuction = (data) => post('/api/auctions', data)
 export const placeBid = (id, amount) => post(`/api/auctions/${id}/bid`, { amount })
 export const buyNow = (id) => post(`/api/auctions/${id}/buyout`)
 export const cancelAuction = (id) => post(`/api/auctions/${id}/cancel`)
+
+// --- Administración (solo el administrador; el servidor responde 401/403 a los demás) ---
+export const fetchAdminFiltros = () => request('/api/admin/filtros')
+export const fetchAdminResumen = (params) => request(`/api/admin/resumen?${new URLSearchParams(params)}`)
+export const fetchAdminEventos = (params) => request(`/api/admin/eventos?${new URLSearchParams(params)}`)
+/** URL de descarga del CSV con los mismos filtros (el navegador manda la cookie de sesión). */
+export const adminCsvUrl = (params) => `/api/admin/eventos.csv?${new URLSearchParams(params)}`

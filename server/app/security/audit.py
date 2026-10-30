@@ -16,19 +16,29 @@ Además expone `log_event()` para que otras defensas (puntaje de riesgo, Turnsti
 agreguen eventos al mismo archivo. Nunca se registran contraseñas ni el cuerpo
 de los formularios.
 
+Bitácora persistente: los eventos de log_event() y cada respuesta 429 también se
+guardan en Postgres (tabla security_events) si config.SECURITY_EVENTS_DB está
+activo (por defecto en Vercel, donde el archivo de /tmp se pierde). Se acumulan
+durante la petición y se insertan juntos al final, con una sola conexión; si la
+base falla, la respuesta sale igual (la bitácora nunca tumba al sitio).
+
 Solo escribe en modos observe y enforce (config.should_log()).
 """
 from __future__ import annotations
 
 import json
 import logging
+import random
 import threading
 from datetime import datetime, timezone
 
+from psycopg.types.json import Jsonb
+from starlette.concurrency import run_in_threadpool
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 
 from app import config
+from app.pg import get_pg
 
 LOG_DIR = config.LOG_DIR                    # server/logs en local, /tmp en Vercel
 LOG_FILE = LOG_DIR / "access.jsonl"
@@ -40,6 +50,13 @@ SCRIPT_UAS = ("python-requests", "python-urllib", "curl/", "wget/", "httpx", "ai
 
 
 def client_ip(request: Request) -> str:
+    # En Vercel request.client es el proxy de la plataforma; la IP real la agrega
+    # Vercel en X-Forwarded-For (sobrescribe lo que mande el cliente). En local no
+    # se confía en ese encabezado porque cualquiera podría inventarlo.
+    if config.ON_VERCEL:
+        reenviada = (request.headers.get("x-forwarded-for") or "").split(",")[0].strip()
+        if reenviada:
+            return reenviada
     return request.client.host if request.client else "desconocida"
 
 
@@ -93,12 +110,38 @@ def log_event(request: Request, event: str, **data) -> None:
     }
     _write(record)
     consola.info("[seguridad] %s %s", event, json.dumps(data, ensure_ascii=False))
+    # Pendiente de guardar en Postgres: el middleware lo inserta al terminar la petición
+    pendientes = getattr(request.state, "security_events", None)
+    if pendientes is not None:
+        pendientes.append(record)
+
+
+CAMPOS_FIJOS = {"ts", "type", "event", "ip", "sid", "path", "score", "action", "flags"}
+
+
+def _guardar_en_bd(eventos: list[dict], method: str, status: int, user_agent: str | None) -> None:
+    filas = [(e.get("ts"), e["event"], method, e.get("path"), status, e.get("ip"), e.get("sid"), user_agent,
+              e.get("score") if isinstance(e.get("score"), int) else None,
+              e.get("action"), Jsonb(e.get("flags") or []),
+              Jsonb({k: v for k, v in e.items() if k not in CAMPOS_FIJOS}))
+             for e in eventos]
+    with get_pg() as conn:
+        with conn.transaction():
+            with conn.cursor() as cur:
+                cur.executemany(
+                    "INSERT INTO security_events (ts, event, method, path, status, ip, sid, user_agent, "
+                    "score, action, flags, data) VALUES (coalesce(%s::timestamptz, now()), "
+                    "%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", filas)
+            if random.random() < 0.01:        # de vez en cuando se purga lo que tenga más de 90 días
+                conn.execute("DELETE FROM security_events WHERE ts < now() - interval '90 days'")
 
 
 class AuditMiddleware(BaseHTTPMiddleware):
     """Registra cada petición a /api/* con sus huellas. Etiqueta, no bloquea."""
 
     async def dispatch(self, request: Request, call_next):
+        # request.state vive en el scope: las rutas y los otros middlewares agregan aquí
+        request.state.security_events = []
         response = await call_next(request)
         if config.should_log() and request.url.path.startswith("/api/"):
             flags = header_flags(request.headers)
@@ -117,4 +160,15 @@ class AuditMiddleware(BaseHTTPMiddleware):
                 "automation_suspected": bool(flags),
                 "flags": flags,
             })
+            eventos = request.state.security_events
+            if response.status_code == 429:   # límite superado: siempre tiene valor de auditoría
+                eventos.append({"event": "rate_limited", "ip": client_ip(request),
+                                "sid": request.cookies.get("sid"), "path": request.url.path,
+                                "flags": flags, "query": str(request.url.query)})
+            if eventos and config.SECURITY_EVENTS_DB:
+                try:
+                    await run_in_threadpool(_guardar_en_bd, eventos, request.method,
+                                            response.status_code, request.headers.get("user-agent"))
+                except Exception as e:  # noqa: BLE001 - la bitácora nunca debe tumbar la respuesta
+                    consola.warning("[seguridad] no se pudo guardar en security_events: %s", e)
         return response

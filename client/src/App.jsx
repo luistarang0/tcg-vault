@@ -31,10 +31,13 @@ export default function App() {
           <NavLink to="/subastas" className={linkClass}>Subastas</NavLink>
           {user ? (
             <>
+              {user.is_admin && <NavLink to="/admin" className={linkClass}>Seguridad</NavLink>}
               <NavLink to="/perfil" className={linkClass}>@{user.username}</NavLink>
-              <span className={m.points} title="Puntos disponibles" data-points={user.points}>
-                {user.points.toLocaleString('es-MX')} pts
-              </span>
+              {!user.is_admin && (
+                <span className={m.points} title="Puntos disponibles" data-points={user.points}>
+                  {user.points.toLocaleString('es-MX')} pts
+                </span>
+              )}
               <button type="button" className={styles.link} onClick={onLogout}>Salir</button>
             </>
           ) : user === null && (

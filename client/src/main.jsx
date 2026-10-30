@@ -4,6 +4,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import './global.css'
 import App from './App.jsx'
 import { AuthProvider } from './hooks/useAuth.jsx'
+import AdminPage from './pages/AdminPage.jsx'
 import AuctionPage from './pages/AuctionPage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import MarketPage from './pages/MarketPage.jsx'
@@ -22,6 +23,7 @@ import RegisterPage from './pages/RegisterPage.jsx'
 //   /entrar         iniciar sesión
 //   /perfil         colección, subastas y pujas propias (requiere sesión)
 //   /u/:username    perfil público
+//   /admin          panel de seguridad (solo el administrador)
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -37,6 +39,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="entrar" element={<LoginPage />} />
           <Route path="perfil" element={<ProfilePage />} />
           <Route path="u/:username" element={<PublicProfilePage />} />
+          <Route path="admin" element={<AdminPage />} />
           <Route path="*" element={<p>Página no encontrada.</p>} />
         </Route>
       </Routes>

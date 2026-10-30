@@ -81,7 +81,7 @@ def user_from_request(conn, request: Request) -> dict | None:
     if not token or len(token) > 100:
         return None
     return conn.execute(
-        "SELECT u.id, u.username, u.points, u.last_bonus FROM sessions s "
+        "SELECT u.id, u.username, u.points, u.last_bonus, u.is_admin FROM sessions s "
         "JOIN users u ON u.id = s.user_id "
         "WHERE s.token_hash = %s AND s.expires_at > now()",
         (_token_hash(token),),
@@ -93,4 +93,12 @@ def require_user(conn, request: Request) -> dict:
     user = user_from_request(conn, request)
     if user is None:
         raise HTTPException(status_code=401, detail="Inicia sesión para continuar.")
+    return user
+
+
+def require_admin(conn, request: Request) -> dict:
+    """401 sin sesión, 403 si la sesión no es la del administrador."""
+    user = require_user(conn, request)
+    if not user["is_admin"]:
+        raise HTTPException(status_code=403, detail="Solo el administrador puede ver esta sección.")
     return user
