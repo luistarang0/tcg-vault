@@ -26,8 +26,10 @@ export function AuthProvider({ children }) {
       setUser(res.user)
       setRules(res.rules)
       if (res.user?.bonus_granted) setBonus(res.user.bonus_granted)
+      return res.user                                // el login lo usa para decidir a dónde ir
     } catch {
       setUser((u) => (u === undefined ? null : u))   // si falla la red, no se cierra la sesión visible
+      return null
     }
   }, [])
 

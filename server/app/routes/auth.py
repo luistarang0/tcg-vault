@@ -101,14 +101,17 @@ def me(request: Request):
         user = user_from_request(conn, request)
         if user is None:
             return {"user": None, "rules": eco.public_rules()}
+        if user["is_admin"]:
+            # El administrador solo usa el panel de seguridad: sin puntos, cartas ni bono
+            return {"user": {"username": user["username"], "is_admin": True, "points": None,
+                             "frozen": None, "bonus_granted": 0}, "rules": eco.public_rules()}
         settle_expired(conn)                      # así el saldo refleja ventas ya vencidas
-        # El administrador no participa en el mercado: no recibe bono diario
-        bono = 0 if user["is_admin"] else grant_daily_bonus(conn, user["id"])
+        bono = grant_daily_bonus(conn, user["id"])
         points = conn.execute("SELECT points FROM users WHERE id = %s", (user["id"],)).fetchone()["points"]
         return {
             "user": {
                 "username": user["username"],
-                "is_admin": user["is_admin"],
+                "is_admin": False,
                 "points": points,
                 "frozen": frozen_points(conn, user["id"]),
                 "bonus_granted": bono,

@@ -50,8 +50,8 @@ export default function LoginPage() {
     setSending(true)
     try {
       await postLogin({ ...form, behavior: tracker.snapshot(), turnstile_token: token })
-      await refresh()
-      navigate('/perfil')
+      const u = await refresh()
+      navigate(u?.is_admin ? '/admin' : '/perfil')   // el administrador va directo a seguridad
     } catch (err) {
       if (err.status === 429) startCooldown(err.retryAfter)
       if (err.status === 403 && err.details?.challenge_required) {

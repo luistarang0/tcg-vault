@@ -8,7 +8,7 @@ from fastapi import APIRouter, Request
 from slowapi.util import get_remote_address
 
 from app import config, economy as eco
-from app.auth import require_user
+from app.auth import require_player
 from app.market import sell_to_house, serialize_auctions, settle_expired
 from app.pg import get_pg
 from app.security.audit import log_event
@@ -39,7 +39,7 @@ def owned_cards_of(conn, user_id: int) -> list[dict]:
 @limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
 def my_cards(request: Request):
     with get_pg() as conn:
-        user = require_user(conn, request)
+        user = require_player(conn, request)
         settle_expired(conn)          # una subasta ganada que ya venció aparece aquí
         return {"items": owned_cards_of(conn, user["id"])}
 
@@ -49,7 +49,7 @@ def my_cards(request: Request):
 @limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
 def sell_card(request: Request, owned_card_id: int):
     with get_pg() as conn:
-        user = require_user(conn, request)
+        user = require_player(conn, request)
         price = sell_to_house(conn, owned_card_id, user["id"])
     log_event(request, "sold_to_house", user=user["username"], owned_card_id=owned_card_id, price=price)
     return {"ok": True, "points": price}
@@ -60,7 +60,7 @@ def sell_card(request: Request, owned_card_id: int):
 @limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
 def my_auctions(request: Request):
     with get_pg() as conn:
-        user = require_user(conn, request)
+        user = require_player(conn, request)
         settle_expired(conn)
         selling = conn.execute(
             "SELECT * FROM auctions WHERE seller_id = %s ORDER BY (status = 'active') DESC, "

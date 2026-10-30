@@ -23,7 +23,7 @@ from pydantic import BaseModel, Field
 from slowapi.util import get_remote_address
 
 from app import config
-from app.auth import require_user, user_from_request
+from app.auth import require_player, user_from_request
 from app.market import (MarketError, cancel_auction, create_auction, place_bid, replenish_house,
                         serialize_auctions, settle_expired)
 from app.pg import get_pg
@@ -109,7 +109,7 @@ def get_auction(request: Request, auction_id: int):
 @limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
 def new_auction(request: Request, payload: CreateAuctionIn):
     with get_pg() as conn:
-        user = require_user(conn, request)
+        user = require_player(conn, request)
         auction_id = create_auction(conn, user["id"], payload.owned_card_id, payload.duration,
                                     payload.start_price, payload.buyout_price)
     log_event(request, "auction_created", auction_id=auction_id, user=user["username"],
@@ -119,7 +119,7 @@ def new_auction(request: Request, payload: CreateAuctionIn):
 
 def _bid(request: Request, auction_id: int, amount: int | None) -> dict:
     with get_pg() as conn:
-        user = require_user(conn, request)
+        user = require_player(conn, request)
         settle_expired(conn)
         if amount is None:   # compra inmediata
             row = conn.execute("SELECT buyout_price FROM auctions WHERE id = %s", (auction_id,)).fetchone()
@@ -157,7 +157,7 @@ def buyout(request: Request, auction_id: int):
 @limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
 def cancel(request: Request, auction_id: int):
     with get_pg() as conn:
-        user = require_user(conn, request)
+        user = require_player(conn, request)
         cancel_auction(conn, auction_id, user["id"])
     log_event(request, "auction_cancelled", auction_id=auction_id, user=user["username"])
     return {"ok": True}

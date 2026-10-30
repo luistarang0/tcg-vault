@@ -174,8 +174,10 @@ python scripts/crear_admin.py --usuario admin --correo admin@tcgvault.mx
 # producción: la cadena de la rama main (Vercel → Storage → Neon)
 python scripts/crear_admin.py --usuario admin --correo admin@tcgvault.mx --url "postgresql://…"
 python scripts/crear_admin.py --ver                  # quién es el administrador
-python scripts/crear_admin.py --promover luis_demo   # convertir una cuenta existente
 ```
+
+Es una cuenta dedicada a seguridad: no tiene puntos, cartas, subastas ni perfil
+público (las rutas del mercado le responden 403 y `/u/<admin>` responde 404).
 
 En local el panel solo muestra eventos si el backend guarda en la base:
 `$env:SECURITY_EVENTS_DB="1"` antes de `uvicorn`. En Vercel se guardan siempre.

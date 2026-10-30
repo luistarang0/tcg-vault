@@ -73,7 +73,7 @@ export default function AuctionPage() {
   if (!a) return <p className={styles.loading}>Cargando…</p>
 
   const active = a.status === 'active'
-  const canBid = active && user && !a.is_mine && !a.i_lead
+  const canBid = active && user && !user.is_admin && !a.is_mine && !a.i_lead
 
   const onBid = (e) => {
     e.preventDefault()
@@ -128,6 +128,9 @@ export default function AuctionPage() {
             {STATUS_TEXT[a.status]}{a.status === 'sold' && a.leader ? ` Ganó @${a.leader} con ${fmt(a.current_bid)} pts.` : ''}
           </div>}
 
+          {active && user?.is_admin && (
+            <p className={m.hint}>La cuenta de administrador no participa en subastas.</p>
+          )}
           {active && !user && (
             <p className={m.hint}><Link to="/entrar">Inicia sesión</Link> o <Link to="/registro">regístrate</Link> para pujar.</p>
           )}

@@ -32,7 +32,7 @@ export default function CardDetailPage() {
   }, [id])
 
   useEffect(() => {
-    if (!user) { setCopies(null); return }
+    if (!user || user.is_admin) { setCopies(null); return }
     fetchMyCards()
       .then((r) => setCopies(r.items.filter((c) => c.card.id === id)))
       .catch(() => setCopies(null))

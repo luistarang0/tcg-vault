@@ -96,6 +96,15 @@ def require_user(conn, request: Request) -> dict:
     return user
 
 
+def require_player(conn, request: Request) -> dict:
+    """Sesión de un coleccionista: el administrador no tiene acceso a puntos ni cartas (403)."""
+    user = require_user(conn, request)
+    if user["is_admin"]:
+        raise HTTPException(status_code=403,
+                            detail="La cuenta de administrador solo tiene acceso al panel de seguridad.")
+    return user
+
+
 def require_admin(conn, request: Request) -> dict:
     """401 sin sesión, 403 si la sesión no es la del administrador."""
     user = require_user(conn, request)

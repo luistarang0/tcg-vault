@@ -27,21 +27,27 @@ export default function App() {
       <header className={styles.header}>
         <span className={styles.logo}>TCG Vault</span>
         <nav className={styles.nav}>
-          <NavLink to="/cartas" className={linkClass}>Catálogo</NavLink>
-          <NavLink to="/subastas" className={linkClass}>Subastas</NavLink>
-          {user ? (
+          {user?.is_admin ? (
+            // La cuenta de administrador es solo de seguridad: sin mercado, perfil ni puntos
             <>
-              {user.is_admin && <NavLink to="/admin" className={linkClass}>Seguridad</NavLink>}
+              <NavLink to="/admin" className={linkClass}>Seguridad</NavLink>
+              <span className={styles.link} title="Cuenta de administrador">@{user.username} · admin</span>
+              <button type="button" className={styles.link} onClick={onLogout}>Salir</button>
+            </>
+          ) : user ? (
+            <>
+              <NavLink to="/cartas" className={linkClass}>Catálogo</NavLink>
+              <NavLink to="/subastas" className={linkClass}>Subastas</NavLink>
               <NavLink to="/perfil" className={linkClass}>@{user.username}</NavLink>
-              {!user.is_admin && (
-                <span className={m.points} title="Puntos disponibles" data-points={user.points}>
-                  {user.points.toLocaleString('es-MX')} pts
-                </span>
-              )}
+              <span className={m.points} title="Puntos disponibles" data-points={user.points}>
+                {user.points.toLocaleString('es-MX')} pts
+              </span>
               <button type="button" className={styles.link} onClick={onLogout}>Salir</button>
             </>
           ) : user === null && (
             <>
+              <NavLink to="/cartas" className={linkClass}>Catálogo</NavLink>
+              <NavLink to="/subastas" className={linkClass}>Subastas</NavLink>
               <NavLink to="/entrar" className={linkClass}>Entrar</NavLink>
               <NavLink to="/registro" className={linkClass}>Registro</NavLink>
             </>

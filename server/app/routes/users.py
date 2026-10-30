@@ -22,8 +22,9 @@ router = APIRouter()
 def public_profile(request: Request, username: str):
     with get_pg() as conn:
         settle_expired(conn)
-        user = conn.execute("SELECT id, username, created_at FROM users WHERE lower(username) = lower(%s)",
-                            (username[:40],)).fetchone()
+        # El administrador no es coleccionista: su perfil no existe para el público
+        user = conn.execute("SELECT id, username, created_at FROM users "
+                            "WHERE lower(username) = lower(%s) AND NOT is_admin", (username[:40],)).fetchone()
         if user is None:
             raise HTTPException(status_code=404, detail="Coleccionista no encontrado.")
         auctions = conn.execute("SELECT * FROM auctions WHERE seller_id = %s AND status = 'active' "

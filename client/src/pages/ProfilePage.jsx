@@ -85,6 +85,7 @@ export default function ProfilePage() {
   useEffect(() => { if (user) load() }, [user?.username]) // eslint-disable-line react-hooks/exhaustive-deps
 
   if (user === null) return <Navigate to="/entrar" replace />
+  if (user?.is_admin) return <Navigate to="/admin" replace />     // el admin no tiene colección
   if (!user) return <p className={styles.loading}>Cargando…</p>
 
   const sell = async (item) => {
