@@ -16,7 +16,6 @@ Defensas del login (contra fuerza bruta y relleno de credenciales):
 from fastapi import APIRouter, Request, Response
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from slowapi.util import get_remote_address
 from starlette.concurrency import run_in_threadpool
 
 from app import config, economy as eco
@@ -25,7 +24,7 @@ from app.market import frozen_points, grant_daily_bonus, settle_expired
 from app.pg import get_pg
 from app.security.audit import client_ip, log_event
 from app.security.gate import risk_gate
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter()
 
@@ -67,7 +66,7 @@ def _login(payload: LoginIn, ip: str, response: Response) -> str:
 
 @router.post("/login")
 @limiter.limit(config.RATE_LIMIT_LOGIN)                                # IP + sesión
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)      # solo IP
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)      # solo IP
 async def login(request: Request, payload: LoginIn, response: Response):
     bloqueo, _ = await risk_gate(request, payload, "login_attempt")
     if bloqueo:
@@ -95,7 +94,7 @@ def logout(request: Request, response: Response):
 
 @router.get("/me")
 @limiter.limit(config.RATE_LIMIT_POLL)                                 # se llama en cada carga
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def me(request: Request):
     with get_pg() as conn:
         user = user_from_request(conn, request)

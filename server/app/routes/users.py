@@ -5,20 +5,19 @@ Perfil público:
 No expone correo ni saldo: solo lo que cualquiera podría ver en el mercado.
 """
 from fastapi import APIRouter, HTTPException, Request
-from slowapi.util import get_remote_address
 
 from app import config
 from app.market import serialize_auctions, settle_expired
 from app.pg import get_pg
 from app.routes.collection import owned_cards_of
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter()
 
 
 @router.get("/users/{username}")
 @limiter.limit(config.RATE_LIMIT_CATALOG)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def public_profile(request: Request, username: str):
     with get_pg() as conn:
         settle_expired(conn)

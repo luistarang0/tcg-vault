@@ -109,6 +109,28 @@ python scraper_tests/00_rate_limit_demo.py                # misma sesión: 429 t
 python scraper_tests/00_rate_limit_demo.py --rotate-sid -n 140   # rota cookies: 429 tras 120 (límite por IP)
 ```
 
+### Pruebas contra el sitio publicado
+
+`00_rate_limit_demo.py` y `02_bot_formulario.py` aceptan `--produccion` para apuntar
+a `https://tcg-vault-eight.vercel.app`. Es el único dominio público permitido
+(`selenium_comun.PRODUCCION`); cualquier otro se rechaza.
+
+```bash
+python scraper_tests/00_rate_limit_demo.py --produccion          # 429 en la petición 62
+python scraper_tests/02_bot_formulario.py --modo ingenuo --produccion
+```
+
+En producción los eventos no están en `access.jsonl` sino en el panel `/admin`.
+Los contadores del limitador viven en la memoria de cada instancia de Vercel; si
+una ráfaga se reparte entre instancias, el 429 puede llegar más tarde.
+
+**Turnstile en producción:** si en Vercel no se definen `TURNSTILE_SITEKEY` y
+`TURNSTILE_SECRET`, el servidor usa las claves de prueba de Cloudflare y la
+secreta `1x…` acepta cualquier token (el bot ingenuo lo detecta y lo avisa).
+Para protección real, crea un widget en el panel de Cloudflare → Turnstile con el
+dominio `tcg-vault-eight.vercel.app` y pon ambas claves en las variables de entorno
+de Vercel.
+
 ## Revisión 2: defensas del formulario y scripts de Selenium
 
 Con `SECURITY_MODE=enforce`, `POST /api/register` responde de forma escalonada

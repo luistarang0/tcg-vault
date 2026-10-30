@@ -5,14 +5,13 @@ Colección y actividad del usuario con sesión:
     GET  /api/me/auctions           mis subastas como vendedor y en las que he pujado
 """
 from fastapi import APIRouter, Request
-from slowapi.util import get_remote_address
 
 from app import config, economy as eco
 from app.auth import require_player
 from app.market import sell_to_house, serialize_auctions, settle_expired
 from app.pg import get_pg
 from app.security.audit import log_event
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter()
 
@@ -36,7 +35,7 @@ def owned_cards_of(conn, user_id: int) -> list[dict]:
 
 @router.get("/me/cards")
 @limiter.limit(config.RATE_LIMIT_CATALOG)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def my_cards(request: Request):
     with get_pg() as conn:
         user = require_player(conn, request)
@@ -46,7 +45,7 @@ def my_cards(request: Request):
 
 @router.post("/me/cards/{owned_card_id}/sell")
 @limiter.limit(config.RATE_LIMIT_BIDS)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def sell_card(request: Request, owned_card_id: int):
     with get_pg() as conn:
         user = require_player(conn, request)
@@ -57,7 +56,7 @@ def sell_card(request: Request, owned_card_id: int):
 
 @router.get("/me/auctions")
 @limiter.limit(config.RATE_LIMIT_POLL)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def my_auctions(request: Request):
     with get_pg() as conn:
         user = require_player(conn, request)

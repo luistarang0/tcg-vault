@@ -1,6 +1,7 @@
 """
-Bot que intenta enviar el formulario local /registro, para demostrar cómo el
-servidor lo detecta y lo bloquea por capas (Revisión 2).
+Bot que intenta enviar el formulario /registro, para demostrar cómo el servidor
+lo detecta y lo bloquea por capas (Revisión 2). Funciona en local o contra el
+despliegue propio en Vercel (--produccion); ningún otro dominio se acepta.
 
 Modos:
   ingenuo    Llena TODOS los inputs al instante (incluido el honeypot oculto, que
@@ -16,13 +17,18 @@ Modos:
              Esperado en enforce: 201, pero queda registrado como sospechoso.
              Con --headless se suma "HeadlessChrome" (+30) -> 429.
 
-Al final imprime una tabla de resultados y los eventos de seguridad que el
-servidor escribió en server/logs/access.jsonl (puntaje y señales).
+Al final imprime una tabla de resultados y, en local, los eventos de seguridad
+que el servidor escribió en server/logs/access.jsonl (puntaje y señales). En
+producción esos eventos están en el panel /admin del administrador.
 
-Requisitos: backend en SECURITY_MODE=enforce y frontend corriendo.
+Requisitos en local: backend en SECURITY_MODE=enforce y frontend corriendo.
 Uso:
     python scraper_tests/02_bot_formulario.py --modo ingenuo
     python scraper_tests/02_bot_formulario.py --modo cuidadoso
+    python scraper_tests/02_bot_formulario.py --modo ingenuo --produccion   # tcg-vault-eight.vercel.app
+
+Ojo en producción: si el bot logra pasar (por ejemplo, con --resolver-humano),
+crea una cuenta real "BotColeccionista<hora>" en la base de producción.
 """
 from __future__ import annotations
 
@@ -37,7 +43,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from selenium_comun import EVIDENCIA, LOG_SERVIDOR, crear_driver, solo_localhost
+from selenium_comun import EVIDENCIA, LOG_SERVIDOR, PRODUCCION, crear_driver, solo_sitio_propio
 
 # El registro ahora crea cuentas reales y rechaza nombres/correos repetidos (409):
 # se agrega un sufijo por ejecución para poder correr el script varias veces.
@@ -73,8 +79,9 @@ class BotFormulario:
     def __init__(self, a):
         self.a = a
         self.d = crear_driver(a.headless, a.chrome_bin, a.driver, a.navegador)
-        self.w = WebDriverWait(self.d, 15)
+        self.w = WebDriverWait(self.d, 30 if a.produccion_detectada else 15)   # Vercel: latencia y arranque en frío
         self.resultados: list[tuple[str, str, str]] = []
+        self.produccion = a.produccion_detectada
         self.inicio_log = LOG_SERVIDOR.stat().st_size if LOG_SERVIDOR.exists() else 0
         EVIDENCIA.mkdir(exist_ok=True)
 
@@ -142,6 +149,10 @@ class BotFormulario:
         cuerpo["turnstile_token"] = "token-inventado-por-el-bot"
         status, texto = self.d.execute_async_script(JS_FETCH, cuerpo)
         self.anotar("2. Token Turnstile inventado", str(status), json.loads(texto).get("error", texto)[:70])
+        if status == 201:
+            # Solo pasa si el servidor usa la clave secreta de PRUEBA 1x... de Cloudflare (acepta todo)
+            print("  ¡OJO! El servidor aceptó un token inventado: su TURNSTILE_SECRET es la clave de prueba "
+                  "1x… (siempre válida). En producción configura la clave real en Vercel.")
 
         # Ráfaga: el limitador corta por volumen sin importar el puntaje
         codigos = []
@@ -182,6 +193,13 @@ class BotFormulario:
 
     # ------------------------------------------------------------- informe
     def eventos_servidor(self) -> None:
+        if self.produccion:
+            # En Vercel el log de archivo vive en /tmp de cada instancia; la bitácora persistente
+            # está en Postgres (security_events) y se consulta desde el panel del administrador.
+            print()
+            print(f"Eventos de seguridad: entra como administrador a {PRODUCCION}/admin")
+            print("  filtra por Evento = register_attempt (puntaje y señales) o rate_limited (429).")
+            return
         if not LOG_SERVIDOR.exists():
             print("\n(No se encontró server/logs/access.jsonl: ¿el backend está en observe/enforce?)")
             return
@@ -229,7 +247,8 @@ class BotFormulario:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--modo", choices=["ingenuo", "cuidadoso"], default="ingenuo")
-    ap.add_argument("--url", default="http://localhost:5173/registro")
+    ap.add_argument("--url", default=None, help="por defecto http://localhost:5173/registro")
+    ap.add_argument("--produccion", action="store_true", help=f"usa {PRODUCCION}/registro")
     ap.add_argument("--intentos", type=int, default=2, help="envíos en modo cuidadoso")
     ap.add_argument("--rafaga", type=int, default=12, help="envíos rápidos al final del modo ingenuo")
     ap.add_argument("--resolver-humano", action="store_true",
@@ -239,7 +258,9 @@ def main():
     ap.add_argument("--driver")
     ap.add_argument("--navegador", choices=["auto", "chrome", "edge"], default="auto")
     a = ap.parse_args()
-    solo_localhost(a.url)
+    a.url = a.url or (f"{PRODUCCION}/registro" if a.produccion else "http://localhost:5173/registro")
+    a.produccion_detectada = solo_sitio_propio(a.url)      # rechaza cualquier dominio ajeno
+    print(f"Destino: {a.url} ({'producción' if a.produccion_detectada else 'local'})")
     BotFormulario(a).ejecutar()
 
 

@@ -19,7 +19,6 @@ from fastapi import APIRouter, Request, Response
 from fastapi.responses import JSONResponse
 from psycopg import errors as pg_errors
 from pydantic import BaseModel, Field, field_validator
-from slowapi.util import get_remote_address
 from starlette.concurrency import run_in_threadpool
 
 from app import config, economy as eco
@@ -28,7 +27,7 @@ from app.market import add_points, give_starter_pack
 from app.pg import get_pg
 from app.security.audit import log_event
 from app.security.gate import risk_gate
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter()
 
@@ -85,7 +84,7 @@ def _crear_cuenta(payload: RegisterIn, response: Response) -> list[str] | None:
 # Los decoradores de slowapi exigen que la función reciba `request: Request`.
 @router.post("/register", status_code=201)
 @limiter.limit(config.RATE_LIMIT_FORMS)                                # IP + sesión
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)      # solo IP
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)      # solo IP
 async def register(request: Request, payload: RegisterIn, response: Response):
     bloqueo, riesgo = await risk_gate(request, payload, "register_attempt")
     if bloqueo:

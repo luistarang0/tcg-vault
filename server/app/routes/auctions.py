@@ -20,7 +20,6 @@ from typing import Literal
 
 from fastapi import APIRouter, Query, Request
 from pydantic import BaseModel, Field
-from slowapi.util import get_remote_address
 
 from app import config
 from app.auth import require_player, user_from_request
@@ -28,7 +27,7 @@ from app.market import (MarketError, cancel_auction, create_auction, place_bid, 
                         serialize_auctions, settle_expired)
 from app.pg import get_pg
 from app.security.audit import header_flags, log_event
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter()
 
@@ -53,7 +52,7 @@ class BidIn(BaseModel):
 
 @router.get("/auctions")
 @limiter.limit(config.RATE_LIMIT_POLL)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def list_auctions(
     request: Request,
     page: int = Query(1, ge=1),
@@ -83,7 +82,7 @@ def list_auctions(
 
 @router.get("/auctions/{auction_id}")
 @limiter.limit(config.RATE_LIMIT_POLL)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def get_auction(request: Request, auction_id: int):
     with get_pg() as conn:
         settle_expired(conn)
@@ -106,7 +105,7 @@ def get_auction(request: Request, auction_id: int):
 
 @router.post("/auctions", status_code=201)
 @limiter.limit(config.RATE_LIMIT_BIDS)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def new_auction(request: Request, payload: CreateAuctionIn):
     with get_pg() as conn:
         user = require_player(conn, request)
@@ -140,21 +139,21 @@ def _bid(request: Request, auction_id: int, amount: int | None) -> dict:
 
 @router.post("/auctions/{auction_id}/bid")
 @limiter.limit(config.RATE_LIMIT_BIDS)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def bid(request: Request, auction_id: int, payload: BidIn):
     return _bid(request, auction_id, payload.amount)
 
 
 @router.post("/auctions/{auction_id}/buyout")
 @limiter.limit(config.RATE_LIMIT_BIDS)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def buyout(request: Request, auction_id: int):
     return _bid(request, auction_id, None)
 
 
 @router.post("/auctions/{auction_id}/cancel")
 @limiter.limit(config.RATE_LIMIT_BIDS)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def cancel(request: Request, auction_id: int):
     with get_pg() as conn:
         user = require_player(conn, request)

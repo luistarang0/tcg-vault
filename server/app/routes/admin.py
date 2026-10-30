@@ -28,12 +28,11 @@ from datetime import datetime, timedelta, timezone
 
 from fastapi import APIRouter, HTTPException, Query, Request
 from fastapi.responses import StreamingResponse
-from slowapi.util import get_remote_address
 
 from app import config
 from app.auth import require_admin
 from app.pg import get_pg
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter(prefix="/admin")
 
@@ -97,7 +96,7 @@ def _fila(r: dict) -> dict:
 
 @router.get("/filtros")
 @limiter.limit(config.RATE_LIMIT_POLL)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def opciones(request: Request):
     with get_pg() as conn:
         require_admin(conn, request)
@@ -112,7 +111,7 @@ def opciones(request: Request):
 
 @router.get("/resumen")
 @limiter.limit(config.RATE_LIMIT_POLL)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def resumen(request: Request, desde: str | None = None, hasta: str | None = None, evento: str | None = None,
             accion: str | None = None, status: str | None = None, ip: str | None = None,
             q: str | None = Query(None, max_length=80), tz: str = "America/Mexico_City"):
@@ -172,7 +171,7 @@ def resumen(request: Request, desde: str | None = None, hasta: str | None = None
 
 @router.get("/eventos")
 @limiter.limit(config.RATE_LIMIT_POLL)
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address)
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip)
 def eventos(request: Request, desde: str | None = None, hasta: str | None = None, evento: str | None = None,
             accion: str | None = None, status: str | None = None, ip: str | None = None,
             q: str | None = Query(None, max_length=80),

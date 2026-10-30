@@ -17,11 +17,10 @@ import json
 
 from fastapi import APIRouter, HTTPException, Query, Request
 
-from slowapi.util import get_remote_address
 
 from app import config
 from app.db import get_conn
-from app.security.ratelimit import limiter
+from app.security.ratelimit import key_ip, limiter
 
 router = APIRouter()
 
@@ -37,7 +36,7 @@ def row_to_card(row) -> dict:
 
 @router.get("/cards")
 @limiter.limit(config.RATE_LIMIT_CATALOG)                          # IP + sesión
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address) # solo IP
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip) # solo IP
 def list_cards(
     request: Request,
     page: int = Query(1, ge=1, description="Página (desde 1)"),
@@ -94,7 +93,7 @@ def list_cards(
 
 @router.get("/cards/{card_id}")
 @limiter.limit(config.RATE_LIMIT_CATALOG)                          # IP + sesión
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address) # solo IP
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip) # solo IP
 def get_card(request: Request, card_id: str):
     conn = get_conn()
     try:
@@ -108,7 +107,7 @@ def get_card(request: Request, card_id: str):
 
 @router.get("/filters")
 @limiter.limit(config.RATE_LIMIT_CATALOG)                          # IP + sesión
-@limiter.limit(config.RATE_LIMIT_IP, key_func=get_remote_address) # solo IP
+@limiter.limit(config.RATE_LIMIT_IP, key_func=key_ip) # solo IP
 def get_filters(request: Request):
     """Valores distintos para poblar los <select> del frontend."""
     conn = get_conn()

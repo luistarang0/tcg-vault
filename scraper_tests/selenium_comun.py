@@ -10,6 +10,9 @@ Utilidades compartidas por los scripts de Selenium de scraper_tests/.
   Con --navegador chrome|edge se fuerza uno.
 * solo_localhost(): salvaguarda. Estos scripts SOLO pueden apuntar a tu propio
   servidor (localhost / 127.0.0.1).
+* solo_sitio_propio(): como la anterior, pero acepta además el despliegue propio
+  en Vercel (PRODUCCION). Lo usan los scripts que tienen la opción --produccion.
+  Ningún otro dominio se acepta.
 """
 from __future__ import annotations
 
@@ -26,9 +29,24 @@ EVIDENCIA = Path(__file__).resolve().parent / "evidencia"
 LOG_SERVIDOR = Path(__file__).resolve().parent.parent / "server" / "logs" / "access.jsonl"
 
 
+# Despliegue propio de TCG Vault: el único dominio público al que pueden apuntar los scripts
+PRODUCCION = "https://tcg-vault-eight.vercel.app"
+HOSTS_LOCALES = {"localhost", "127.0.0.1"}
+
+
 def solo_localhost(url: str) -> None:
-    if urlparse(url).hostname not in {"localhost", "127.0.0.1"}:
+    if urlparse(url).hostname not in HOSTS_LOCALES:
         raise SystemExit("Estos scripts solo pueden apuntar a localhost (tu propio servidor).")
+
+
+def solo_sitio_propio(url: str) -> bool:
+    """Acepta localhost o el despliegue propio. Devuelve True si es producción."""
+    host = urlparse(url).hostname
+    if host in HOSTS_LOCALES:
+        return False
+    if host == urlparse(PRODUCCION).hostname:
+        return True
+    raise SystemExit(f"Este script solo puede apuntar a localhost o a {PRODUCCION} (sitios propios).")
 
 
 def chrome_instalado() -> bool:

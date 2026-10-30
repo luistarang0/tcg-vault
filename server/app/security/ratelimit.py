@@ -12,15 +12,20 @@ from fastapi import Request
 from fastapi.responses import JSONResponse
 from slowapi import Limiter
 from slowapi.errors import RateLimitExceeded
-from slowapi.util import get_remote_address
-
 from app import config
+from app.security.audit import client_ip
+
+
+def key_ip(request: Request) -> str:
+    """Clave solo por IP. En Vercel es la IP real del visitante (X-Forwarded-For), no la del
+    proxy de la plataforma: si no, todos los visitantes compartirían un mismo contador."""
+    return client_ip(request)
 
 
 def key_ip_session(request: Request) -> str:
     """Clave del contador: 'IP:sid'. Sin cookie se agrupa en 'IP:nosession'."""
     sid = request.cookies.get("sid", "nosession")
-    return f"{get_remote_address(request)}:{sid}"
+    return f"{key_ip(request)}:{sid}"
 
 
 # storage_uri="memory://" -> contadores en memoria del proceso (suficiente para
