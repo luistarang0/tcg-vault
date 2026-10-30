@@ -28,28 +28,55 @@ function loadTurnstile() {
  * Props:
  *  - sitekey  clave pública (la manda el servidor en la respuesta 403)
  *  - onToken  callback con el token, o null si expira o falla
- *  - onError  callback si no se pudo cargar el script
+ *  - onError  callback con un mensaje si el script no carga, Cloudflare devuelve un
+ *             error o el reto no se completa a tiempo (así el usuario no ve un recuadro vacío)
  */
+const ESPERA_MS = 25000
+
+/** Mensaje legible para los códigos de error de Turnstile (documentación de Cloudflare). */
+function mensajeError(codigo) {
+  const c = String(codigo || '')
+  if (c.startsWith('1102')) return `Este dominio no está autorizado en el widget de Cloudflare (código ${c}).`
+  if (c.startsWith('1101')) return `La clave pública de Turnstile no es válida (código ${c}).`
+  if (c.startsWith('3') || c.startsWith('6')) {
+    return `Cloudflare no pudo verificar este navegador (código ${c}). Si usas un navegador automatizado, `
+      + 'el reto no se completará; en uno normal, recarga e inténtalo de nuevo.'
+  }
+  return `No se pudo completar la verificación de seguridad (código ${c || 'desconocido'}).`
+}
+
 export default function TurnstileWidget({ sitekey, onToken, onError }) {
   const box = useRef(null)
 
   useEffect(() => {
     let widgetId = null
     let cancelled = false
+    let resuelto = false
+    // Si en ESPERA_MS no hubo token ni error, se avisa en lugar de dejar el recuadro en blanco
+    const reloj = setTimeout(() => {
+      if (!resuelto && !cancelled) onError?.('La verificación de seguridad no se completó. Recarga la página e inténtalo de nuevo.')
+    }, ESPERA_MS)
     loadTurnstile()
       .then((ts) => {
         if (cancelled || !box.current) return
         widgetId = ts.render(box.current, {
           sitekey,
           language: 'es',
-          callback: (token) => onToken(token),
+          callback: (token) => { resuelto = true; onToken(token) },
           'expired-callback': () => onToken(null),
-          'error-callback': () => onToken(null),
+          'error-callback': (codigo) => {
+            resuelto = true
+            onToken(null)
+            onError?.(mensajeError(codigo))
+            return true                       // indica a Turnstile que el error ya se manejó
+          },
+          'unsupported-callback': () => { resuelto = true; onError?.('Este navegador no es compatible con la verificación de Cloudflare.') },
         })
       })
-      .catch((e) => onError?.(e.message))
+      .catch((e) => { resuelto = true; onError?.(e.message) })
     return () => {
       cancelled = true
+      clearTimeout(reloj)
       if (widgetId !== null && window.turnstile) window.turnstile.remove(widgetId)
     }
   }, [sitekey]) // eslint-disable-line react-hooks/exhaustive-deps
