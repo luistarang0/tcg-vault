@@ -1,0 +1,6946 @@
+[
+  {
+    "indicador": "SP.POP.TOTL",
+    "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "unidad_texto": "Thousands",
+    "filas": [
+      {
+        "pais": "Afghanistan",
+        "pais_id": "AF",
+        "anio_texto": "2025",
+        "valor_texto": "43,844.11",
+        "es_agregado": false
+      },
+      {
+        "pais": "Albania",
+        "pais_id": "AL",
+        "anio_texto": "2025",
+        "valor_texto": "2,349.58",
+        "es_agregado": false
+      },
+      {
+        "pais": "Algeria",
+        "pais_id": "DZ",
+        "anio_texto": "2025",
+        "valor_texto": "47,435.31",
+        "es_agregado": false
+      },
+      {
+        "pais": "American Samoa",
+        "pais_id": "AS",
+        "anio_texto": "2025",
+        "valor_texto": "46.03",
+        "es_agregado": false
+      },
+      {
+        "pais": "Andorra",
+        "pais_id": "AD",
+        "anio_texto": "2025",
+        "valor_texto": "82.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Angola",
+        "pais_id": "AO",
+        "anio_texto": "2025",
+        "valor_texto": "39,040.04",
+        "es_agregado": false
+      },
+      {
+        "pais": "Antigua and Barbuda",
+        "pais_id": "AG",
+        "anio_texto": "2025",
+        "valor_texto": "94.21",
+        "es_agregado": false
+      },
+      {
+        "pais": "Argentina",
+        "pais_id": "AR",
+        "anio_texto": "2025",
+        "valor_texto": "45,851.38",
+        "es_agregado": false
+      },
+      {
+        "pais": "Armenia",
+        "pais_id": "AM",
+        "anio_texto": "2025",
+        "valor_texto": "3,086.70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Aruba",
+        "pais_id": "AW",
+        "anio_texto": "2025",
+        "valor_texto": "108.78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Australia",
+        "pais_id": "AU",
+        "anio_texto": "2025",
+        "valor_texto": "27,614.41",
+        "es_agregado": false
+      },
+      {
+        "pais": "Austria",
+        "pais_id": "AT",
+        "anio_texto": "2025",
+        "valor_texto": "9,208.16",
+        "es_agregado": false
+      },
+      {
+        "pais": "Azerbaijan",
+        "pais_id": "AZ",
+        "anio_texto": "2025",
+        "valor_texto": "10,247.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahamas, The",
+        "pais_id": "BS",
+        "anio_texto": "2025",
+        "valor_texto": "403.03",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahrain",
+        "pais_id": "BH",
+        "anio_texto": "2025",
+        "valor_texto": "1,600.37",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bangladesh",
+        "pais_id": "BD",
+        "anio_texto": "2025",
+        "valor_texto": "175,686.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Barbados",
+        "pais_id": "BB",
+        "anio_texto": "2025",
+        "valor_texto": "282.62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belarus",
+        "pais_id": "BY",
+        "anio_texto": "2025",
+        "valor_texto": "9,085.99",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belgium",
+        "pais_id": "BE",
+        "anio_texto": "2025",
+        "valor_texto": "11,941.78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belize",
+        "pais_id": "BZ",
+        "anio_texto": "2025",
+        "valor_texto": "422.92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Benin",
+        "pais_id": "BJ",
+        "anio_texto": "2025",
+        "valor_texto": "14,814.46",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bermuda",
+        "pais_id": "BM",
+        "anio_texto": "2025",
+        "valor_texto": "64.56",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bhutan",
+        "pais_id": "BT",
+        "anio_texto": "2025",
+        "valor_texto": "796.68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bolivia",
+        "pais_id": "BO",
+        "anio_texto": "2025",
+        "valor_texto": "12,581.84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bosnia and Herzegovina",
+        "pais_id": "BA",
+        "anio_texto": "2025",
+        "valor_texto": "3,140.09",
+        "es_agregado": false
+      },
+      {
+        "pais": "Botswana",
+        "pais_id": "BW",
+        "anio_texto": "2025",
+        "valor_texto": "2,562.12",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brazil",
+        "pais_id": "BR",
+        "anio_texto": "2025",
+        "valor_texto": "212,812.40",
+        "es_agregado": false
+      },
+      {
+        "pais": "British Virgin Islands",
+        "pais_id": "VG",
+        "anio_texto": "2025",
+        "valor_texto": "39.73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brunei Darussalam",
+        "pais_id": "BN",
+        "anio_texto": "2025",
+        "valor_texto": "466.33",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bulgaria",
+        "pais_id": "BG",
+        "anio_texto": "2025",
+        "valor_texto": "6,433.30",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burkina Faso",
+        "pais_id": "BF",
+        "anio_texto": "2025",
+        "valor_texto": "24,074.58",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burundi",
+        "pais_id": "BI",
+        "anio_texto": "2025",
+        "valor_texto": "14,390.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cabo Verde",
+        "pais_id": "CV",
+        "anio_texto": "2025",
+        "valor_texto": "527.33",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cambodia",
+        "pais_id": "KH",
+        "anio_texto": "2025",
+        "valor_texto": "17,847.98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cameroon",
+        "pais_id": "CM",
+        "anio_texto": "2025",
+        "valor_texto": "29,879.34",
+        "es_agregado": false
+      },
+      {
+        "pais": "Canada",
+        "pais_id": "CA",
+        "anio_texto": "2025",
+        "valor_texto": "41,651.65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cayman Islands",
+        "pais_id": "KY",
+        "anio_texto": "2025",
+        "valor_texto": "75.84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Central African Republic",
+        "pais_id": "CF",
+        "anio_texto": "2025",
+        "valor_texto": "5,513.28",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chad",
+        "pais_id": "TD",
+        "anio_texto": "2025",
+        "valor_texto": "21,003.71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Channel Islands",
+        "pais_id": "JG",
+        "anio_texto": "2025",
+        "valor_texto": "168.47",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chile",
+        "pais_id": "CL",
+        "anio_texto": "2025",
+        "valor_texto": "19,859.92",
+        "es_agregado": false
+      },
+      {
+        "pais": "China",
+        "pais_id": "CN",
+        "anio_texto": "2025",
+        "valor_texto": "1,406,585.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "Colombia",
+        "pais_id": "CO",
+        "anio_texto": "2025",
+        "valor_texto": "53,425.64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Comoros",
+        "pais_id": "KM",
+        "anio_texto": "2025",
+        "valor_texto": "882.85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Dem. Rep.",
+        "pais_id": "CD",
+        "anio_texto": "2025",
+        "valor_texto": "112,832.47",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Rep.",
+        "pais_id": "CG",
+        "anio_texto": "2025",
+        "valor_texto": "6,484.44",
+        "es_agregado": false
+      },
+      {
+        "pais": "Costa Rica",
+        "pais_id": "CR",
+        "anio_texto": "2025",
+        "valor_texto": "5,152.95",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cote d'Ivoire",
+        "pais_id": "CI",
+        "anio_texto": "2025",
+        "valor_texto": "32,711.55",
+        "es_agregado": false
+      },
+      {
+        "pais": "Croatia",
+        "pais_id": "HR",
+        "anio_texto": "2025",
+        "valor_texto": "3,876.20",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cuba",
+        "pais_id": "CU",
+        "anio_texto": "2025",
+        "valor_texto": "10,937.20",
+        "es_agregado": false
+      },
+      {
+        "pais": "Curacao",
+        "pais_id": "CW",
+        "anio_texto": "2025",
+        "valor_texto": "156.26",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cyprus",
+        "pais_id": "CY",
+        "anio_texto": "2025",
+        "valor_texto": "1,370.75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Czechia",
+        "pais_id": "CZ",
+        "anio_texto": "2025",
+        "valor_texto": "10,886.88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Denmark",
+        "pais_id": "DK",
+        "anio_texto": "2025",
+        "valor_texto": "6,009.17",
+        "es_agregado": false
+      },
+      {
+        "pais": "Djibouti",
+        "pais_id": "DJ",
+        "anio_texto": "2025",
+        "valor_texto": "1,184.08",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominica",
+        "pais_id": "DM",
+        "anio_texto": "2025",
+        "valor_texto": "65.87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominican Republic",
+        "pais_id": "DO",
+        "anio_texto": "2025",
+        "valor_texto": "11,520.49",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ecuador",
+        "pais_id": "EC",
+        "anio_texto": "2025",
+        "valor_texto": "18,289.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Egypt, Arab Rep.",
+        "pais_id": "EG",
+        "anio_texto": "2025",
+        "valor_texto": "118,365.99",
+        "es_agregado": false
+      },
+      {
+        "pais": "El Salvador",
+        "pais_id": "SV",
+        "anio_texto": "2025",
+        "valor_texto": "6,365.50",
+        "es_agregado": false
+      },
+      {
+        "pais": "Equatorial Guinea",
+        "pais_id": "GQ",
+        "anio_texto": "2025",
+        "valor_texto": "1,938.43",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eritrea",
+        "pais_id": "ER",
+        "anio_texto": "2025",
+        "valor_texto": "3,607.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "Estonia",
+        "pais_id": "EE",
+        "anio_texto": "2025",
+        "valor_texto": "1,366.47",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eswatini",
+        "pais_id": "SZ",
+        "anio_texto": "2025",
+        "valor_texto": "1,256.17",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ethiopia",
+        "pais_id": "ET",
+        "anio_texto": "2025",
+        "valor_texto": "135,472.05",
+        "es_agregado": false
+      },
+      {
+        "pais": "Faroe Islands",
+        "pais_id": "FO",
+        "anio_texto": "2025",
+        "valor_texto": "54.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Fiji",
+        "pais_id": "FJ",
+        "anio_texto": "2025",
+        "valor_texto": "933.15",
+        "es_agregado": false
+      },
+      {
+        "pais": "Finland",
+        "pais_id": "FI",
+        "anio_texto": "2025",
+        "valor_texto": "5,646.44",
+        "es_agregado": false
+      },
+      {
+        "pais": "France",
+        "pais_id": "FR",
+        "anio_texto": "2025",
+        "valor_texto": "68,720.34",
+        "es_agregado": false
+      },
+      {
+        "pais": "French Polynesia",
+        "pais_id": "PF",
+        "anio_texto": "2025",
+        "valor_texto": "282.46",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gabon",
+        "pais_id": "GA",
+        "anio_texto": "2025",
+        "valor_texto": "2,593.13",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gambia, The",
+        "pais_id": "GM",
+        "anio_texto": "2025",
+        "valor_texto": "2,822.09",
+        "es_agregado": false
+      },
+      {
+        "pais": "Georgia",
+        "pais_id": "GE",
+        "anio_texto": "2025",
+        "valor_texto": "3,935.77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Germany",
+        "pais_id": "DE",
+        "anio_texto": "2025",
+        "valor_texto": "83,491.25",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ghana",
+        "pais_id": "GH",
+        "anio_texto": "2025",
+        "valor_texto": "35,064.27",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gibraltar",
+        "pais_id": "GI",
+        "anio_texto": "2025",
+        "valor_texto": "40.13",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greece",
+        "pais_id": "GR",
+        "anio_texto": "2025",
+        "valor_texto": "10,413.96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greenland",
+        "pais_id": "GL",
+        "anio_texto": "2025",
+        "valor_texto": "56.83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Grenada",
+        "pais_id": "GD",
+        "anio_texto": "2025",
+        "valor_texto": "117.30",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guam",
+        "pais_id": "GU",
+        "anio_texto": "2025",
+        "valor_texto": "169.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guatemala",
+        "pais_id": "GT",
+        "anio_texto": "2025",
+        "valor_texto": "18,687.88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea",
+        "pais_id": "GN",
+        "anio_texto": "2025",
+        "valor_texto": "15,099.73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea-Bissau",
+        "pais_id": "GW",
+        "anio_texto": "2025",
+        "valor_texto": "2,249.51",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guyana",
+        "pais_id": "GY",
+        "anio_texto": "2025",
+        "valor_texto": "835.99",
+        "es_agregado": false
+      },
+      {
+        "pais": "Haiti",
+        "pais_id": "HT",
+        "anio_texto": "2025",
+        "valor_texto": "11,906.09",
+        "es_agregado": false
+      },
+      {
+        "pais": "Honduras",
+        "pais_id": "HN",
+        "anio_texto": "2025",
+        "valor_texto": "11,005.85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hong Kong SAR, China",
+        "pais_id": "HK",
+        "anio_texto": "2025",
+        "valor_texto": "7,498.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hungary",
+        "pais_id": "HU",
+        "anio_texto": "2025",
+        "valor_texto": "9,514.25",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iceland",
+        "pais_id": "IS",
+        "anio_texto": "2025",
+        "valor_texto": "392.40",
+        "es_agregado": false
+      },
+      {
+        "pais": "India",
+        "pais_id": "IN",
+        "anio_texto": "2025",
+        "valor_texto": "1,463,865.52",
+        "es_agregado": false
+      },
+      {
+        "pais": "Indonesia",
+        "pais_id": "ID",
+        "anio_texto": "2025",
+        "valor_texto": "285,721.24",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iran, Islamic Rep.",
+        "pais_id": "IR",
+        "anio_texto": "2025",
+        "valor_texto": "92,417.68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iraq",
+        "pais_id": "IQ",
+        "anio_texto": "2025",
+        "valor_texto": "47,020.77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ireland",
+        "pais_id": "IE",
+        "anio_texto": "2025",
+        "valor_texto": "5,484.37",
+        "es_agregado": false
+      },
+      {
+        "pais": "Isle of Man",
+        "pais_id": "IM",
+        "anio_texto": "2025",
+        "valor_texto": "84.12",
+        "es_agregado": false
+      },
+      {
+        "pais": "Israel",
+        "pais_id": "IL",
+        "anio_texto": "2025",
+        "valor_texto": "10,122.80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Italy",
+        "pais_id": "IT",
+        "anio_texto": "2025",
+        "valor_texto": "58,915.66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jamaica",
+        "pais_id": "JM",
+        "anio_texto": "2025",
+        "valor_texto": "2,837.08",
+        "es_agregado": false
+      },
+      {
+        "pais": "Japan",
+        "pais_id": "JP",
+        "anio_texto": "2025",
+        "valor_texto": "123,366.73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jordan",
+        "pais_id": "JO",
+        "anio_texto": "2025",
+        "valor_texto": "11,520.68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kazakhstan",
+        "pais_id": "KZ",
+        "anio_texto": "2025",
+        "valor_texto": "20,843.75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kenya",
+        "pais_id": "KE",
+        "anio_texto": "2025",
+        "valor_texto": "57,532.49",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kiribati",
+        "pais_id": "KI",
+        "anio_texto": "2025",
+        "valor_texto": "136.49",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Dem. People's Rep.",
+        "pais_id": "KP",
+        "anio_texto": "2025",
+        "valor_texto": "26,571.04",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Rep.",
+        "pais_id": "KR",
+        "anio_texto": "2025",
+        "valor_texto": "51,684.56",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kosovo",
+        "pais_id": "XK",
+        "anio_texto": "2025",
+        "valor_texto": "1,576.88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kuwait",
+        "pais_id": "KW",
+        "anio_texto": "2025",
+        "valor_texto": "4,865.30",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kyrgyz Republic",
+        "pais_id": "KG",
+        "anio_texto": "2025",
+        "valor_texto": "7,343.06",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lao PDR",
+        "pais_id": "LA",
+        "anio_texto": "2025",
+        "valor_texto": "7,873.05",
+        "es_agregado": false
+      },
+      {
+        "pais": "Latvia",
+        "pais_id": "LV",
+        "anio_texto": "2025",
+        "valor_texto": "1,847.79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lebanon",
+        "pais_id": "LB",
+        "anio_texto": "2025",
+        "valor_texto": "5,849.42",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lesotho",
+        "pais_id": "LS",
+        "anio_texto": "2025",
+        "valor_texto": "2,363.32",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liberia",
+        "pais_id": "LR",
+        "anio_texto": "2025",
+        "valor_texto": "5,731.21",
+        "es_agregado": false
+      },
+      {
+        "pais": "Libya",
+        "pais_id": "LY",
+        "anio_texto": "2025",
+        "valor_texto": "7,458.56",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liechtenstein",
+        "pais_id": "LI",
+        "anio_texto": "2025",
+        "valor_texto": "41.02",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lithuania",
+        "pais_id": "LT",
+        "anio_texto": "2025",
+        "valor_texto": "2,888.77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Luxembourg",
+        "pais_id": "LU",
+        "anio_texto": "2025",
+        "valor_texto": "686.97",
+        "es_agregado": false
+      },
+      {
+        "pais": "Macao SAR, China",
+        "pais_id": "MO",
+        "anio_texto": "2025",
+        "valor_texto": "685.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Madagascar",
+        "pais_id": "MG",
+        "anio_texto": "2025",
+        "valor_texto": "32,740.68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malawi",
+        "pais_id": "MW",
+        "anio_texto": "2025",
+        "valor_texto": "22,216.12",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malaysia",
+        "pais_id": "MY",
+        "anio_texto": "2025",
+        "valor_texto": "35,977.84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Maldives",
+        "pais_id": "MV",
+        "anio_texto": "2025",
+        "valor_texto": "529.68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mali",
+        "pais_id": "ML",
+        "anio_texto": "2025",
+        "valor_texto": "25,198.82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malta",
+        "pais_id": "MT",
+        "anio_texto": "2025",
+        "valor_texto": "579.70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Marshall Islands",
+        "pais_id": "MH",
+        "anio_texto": "2025",
+        "valor_texto": "36.28",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritania",
+        "pais_id": "MR",
+        "anio_texto": "2025",
+        "valor_texto": "5,315.06",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritius",
+        "pais_id": "MU",
+        "anio_texto": "2025",
+        "valor_texto": "1,243.74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mexico",
+        "pais_id": "MX",
+        "anio_texto": "2025",
+        "valor_texto": "131,946.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Micronesia, Fed. Sts.",
+        "pais_id": "FM",
+        "anio_texto": "2025",
+        "valor_texto": "113.68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Moldova",
+        "pais_id": "MD",
+        "anio_texto": "2025",
+        "valor_texto": "2,360.53",
+        "es_agregado": false
+      },
+      {
+        "pais": "Monaco",
+        "pais_id": "MC",
+        "anio_texto": "2025",
+        "valor_texto": "38.34",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mongolia",
+        "pais_id": "MN",
+        "anio_texto": "2025",
+        "valor_texto": "3,568.98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Montenegro",
+        "pais_id": "ME",
+        "anio_texto": "2025",
+        "valor_texto": "623.13",
+        "es_agregado": false
+      },
+      {
+        "pais": "Morocco",
+        "pais_id": "MA",
+        "anio_texto": "2025",
+        "valor_texto": "38,430.77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mozambique",
+        "pais_id": "MZ",
+        "anio_texto": "2025",
+        "valor_texto": "35,631.65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Myanmar",
+        "pais_id": "MM",
+        "anio_texto": "2025",
+        "valor_texto": "54,850.65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Namibia",
+        "pais_id": "NA",
+        "anio_texto": "2025",
+        "valor_texto": "3,092.82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Naoero",
+        "pais_id": "NR",
+        "anio_texto": "2025",
+        "valor_texto": "12.03",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nepal",
+        "pais_id": "NP",
+        "anio_texto": "2025",
+        "valor_texto": "29,618.12",
+        "es_agregado": false
+      },
+      {
+        "pais": "Netherlands",
+        "pais_id": "NL",
+        "anio_texto": "2025",
+        "valor_texto": "18,087.63",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Caledonia",
+        "pais_id": "NC",
+        "anio_texto": "2025",
+        "valor_texto": "295.33",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Zealand",
+        "pais_id": "NZ",
+        "anio_texto": "2025",
+        "valor_texto": "5,324.70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nicaragua",
+        "pais_id": "NI",
+        "anio_texto": "2025",
+        "valor_texto": "7,007.50",
+        "es_agregado": false
+      },
+      {
+        "pais": "Niger",
+        "pais_id": "NE",
+        "anio_texto": "2025",
+        "valor_texto": "27,917.83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nigeria",
+        "pais_id": "NG",
+        "anio_texto": "2025",
+        "valor_texto": "237,527.78",
+        "es_agregado": false
+      },
+      {
+        "pais": "North Macedonia",
+        "pais_id": "MK",
+        "anio_texto": "2025",
+        "valor_texto": "1,820.91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Northern Mariana Islands",
+        "pais_id": "MP",
+        "anio_texto": "2025",
+        "valor_texto": "43.54",
+        "es_agregado": false
+      },
+      {
+        "pais": "Norway",
+        "pais_id": "NO",
+        "anio_texto": "2025",
+        "valor_texto": "5,610.87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Oman",
+        "pais_id": "OM",
+        "anio_texto": "2025",
+        "valor_texto": "5,494.69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Pakistan",
+        "pais_id": "PK",
+        "anio_texto": "2025",
+        "valor_texto": "255,219.55",
+        "es_agregado": false
+      },
+      {
+        "pais": "Palau",
+        "pais_id": "PW",
+        "anio_texto": "2025",
+        "valor_texto": "17.66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Panama",
+        "pais_id": "PA",
+        "anio_texto": "2025",
+        "valor_texto": "4,571.19",
+        "es_agregado": false
+      },
+      {
+        "pais": "Papua New Guinea",
+        "pais_id": "PG",
+        "anio_texto": "2025",
+        "valor_texto": "10,762.82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Paraguay",
+        "pais_id": "PY",
+        "anio_texto": "2025",
+        "valor_texto": "7,013.08",
+        "es_agregado": false
+      },
+      {
+        "pais": "Peru",
+        "pais_id": "PE",
+        "anio_texto": "2025",
+        "valor_texto": "34,576.67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Philippines",
+        "pais_id": "PH",
+        "anio_texto": "2025",
+        "valor_texto": "116,786.96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Poland",
+        "pais_id": "PL",
+        "anio_texto": "2025",
+        "valor_texto": "36,435.86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Portugal",
+        "pais_id": "PT",
+        "anio_texto": "2025",
+        "valor_texto": "10,804.87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Puerto Rico (US)",
+        "pais_id": "PR",
+        "anio_texto": "2025",
+        "valor_texto": "3,184.84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Qatar",
+        "pais_id": "QA",
+        "anio_texto": "2025",
+        "valor_texto": "2,972.22",
+        "es_agregado": false
+      },
+      {
+        "pais": "Romania",
+        "pais_id": "RO",
+        "anio_texto": "2025",
+        "valor_texto": "19,020.27",
+        "es_agregado": false
+      },
+      {
+        "pais": "Russian Federation",
+        "pais_id": "RU",
+        "anio_texto": "2025",
+        "valor_texto": "143,513.33",
+        "es_agregado": false
+      },
+      {
+        "pais": "Rwanda",
+        "pais_id": "RW",
+        "anio_texto": "2025",
+        "valor_texto": "14,569.34",
+        "es_agregado": false
+      },
+      {
+        "pais": "Samoa",
+        "pais_id": "WS",
+        "anio_texto": "2025",
+        "valor_texto": "219.31",
+        "es_agregado": false
+      },
+      {
+        "pais": "San Marino",
+        "pais_id": "SM",
+        "anio_texto": "2025",
+        "valor_texto": "34.11",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sao Tome and Principe",
+        "pais_id": "ST",
+        "anio_texto": "2025",
+        "valor_texto": "240.25",
+        "es_agregado": false
+      },
+      {
+        "pais": "Saudi Arabia",
+        "pais_id": "SA",
+        "anio_texto": "2025",
+        "valor_texto": "36,973.56",
+        "es_agregado": false
+      },
+      {
+        "pais": "Senegal",
+        "pais_id": "SN",
+        "anio_texto": "2025",
+        "valor_texto": "18,931.97",
+        "es_agregado": false
+      },
+      {
+        "pais": "Serbia",
+        "pais_id": "RS",
+        "anio_texto": "2025",
+        "valor_texto": "6,549.14",
+        "es_agregado": false
+      },
+      {
+        "pais": "Seychelles",
+        "pais_id": "SC",
+        "anio_texto": "2025",
+        "valor_texto": "122.73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sierra Leone",
+        "pais_id": "SL",
+        "anio_texto": "2025",
+        "valor_texto": "8,819.79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Singapore",
+        "pais_id": "SG",
+        "anio_texto": "2025",
+        "valor_texto": "6,111.18",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sint Maarten (Dutch part)",
+        "pais_id": "SX",
+        "anio_texto": "2025",
+        "valor_texto": "43.92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovak Republic",
+        "pais_id": "SK",
+        "anio_texto": "2025",
+        "valor_texto": "5,413.81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovenia",
+        "pais_id": "SI",
+        "anio_texto": "2025",
+        "valor_texto": "2,130.99",
+        "es_agregado": false
+      },
+      {
+        "pais": "Solomon Islands",
+        "pais_id": "SB",
+        "anio_texto": "2025",
+        "valor_texto": "838.64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Somalia, Fed. Rep.",
+        "pais_id": "SO",
+        "anio_texto": "2025",
+        "valor_texto": "19,654.74",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Africa",
+        "pais_id": "ZA",
+        "anio_texto": "2025",
+        "valor_texto": "64,747.32",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Sudan",
+        "pais_id": "SS",
+        "anio_texto": "2025",
+        "valor_texto": "12,188.79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Spain",
+        "pais_id": "ES",
+        "anio_texto": "2025",
+        "valor_texto": "49,355.14",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sri Lanka",
+        "pais_id": "LK",
+        "anio_texto": "2025",
+        "valor_texto": "21,756.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Kitts and Nevis",
+        "pais_id": "KN",
+        "anio_texto": "2025",
+        "valor_texto": "46.92",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Lucia",
+        "pais_id": "LC",
+        "anio_texto": "2025",
+        "valor_texto": "180.15",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Martin (French part)",
+        "pais_id": "MF",
+        "anio_texto": "2025",
+        "valor_texto": "24.94",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Vincent and the Grenadines",
+        "pais_id": "VC",
+        "anio_texto": "2025",
+        "valor_texto": "99.92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sudan",
+        "pais_id": "SD",
+        "anio_texto": "2025",
+        "valor_texto": "51,662.15",
+        "es_agregado": false
+      },
+      {
+        "pais": "Suriname",
+        "pais_id": "SR",
+        "anio_texto": "2025",
+        "valor_texto": "639.85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sweden",
+        "pais_id": "SE",
+        "anio_texto": "2025",
+        "valor_texto": "10,596.62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Switzerland",
+        "pais_id": "CH",
+        "anio_texto": "2025",
+        "valor_texto": "9,092.44",
+        "es_agregado": false
+      },
+      {
+        "pais": "Syrian Arab Republic",
+        "pais_id": "SY",
+        "anio_texto": "2025",
+        "valor_texto": "25,620.43",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tajikistan",
+        "pais_id": "TJ",
+        "anio_texto": "2025",
+        "valor_texto": "10,786.73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tanzania",
+        "pais_id": "TZ",
+        "anio_texto": "2025",
+        "valor_texto": "70,545.87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Thailand",
+        "pais_id": "TH",
+        "anio_texto": "2025",
+        "valor_texto": "71,619.86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Timor-Leste",
+        "pais_id": "TL",
+        "anio_texto": "2025",
+        "valor_texto": "1,418.52",
+        "es_agregado": false
+      },
+      {
+        "pais": "Togo",
+        "pais_id": "TG",
+        "anio_texto": "2025",
+        "valor_texto": "8,591.63",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tonga",
+        "pais_id": "TO",
+        "anio_texto": "2025",
+        "valor_texto": "103.74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Trinidad and Tobago",
+        "pais_id": "TT",
+        "anio_texto": "2025",
+        "valor_texto": "1,367.76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tunisia",
+        "pais_id": "TN",
+        "anio_texto": "2025",
+        "valor_texto": "12,348.57",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkiye",
+        "pais_id": "TR",
+        "anio_texto": "2025",
+        "valor_texto": "85,878.56",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkmenistan",
+        "pais_id": "TM",
+        "anio_texto": "2025",
+        "valor_texto": "7,618.85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turks and Caicos Islands",
+        "pais_id": "TC",
+        "anio_texto": "2025",
+        "valor_texto": "46.85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tuvalu",
+        "pais_id": "TV",
+        "anio_texto": "2025",
+        "valor_texto": "9.49",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uganda",
+        "pais_id": "UG",
+        "anio_texto": "2025",
+        "valor_texto": "51,384.89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ukraine",
+        "pais_id": "UA",
+        "anio_texto": "2025",
+        "valor_texto": "38,980.38",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Arab Emirates",
+        "pais_id": "AE",
+        "anio_texto": "2025",
+        "valor_texto": "11,513.15",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Kingdom",
+        "pais_id": "GB",
+        "anio_texto": "2025",
+        "valor_texto": "69,487.00",
+        "es_agregado": false
+      },
+      {
+        "pais": "United States",
+        "pais_id": "US",
+        "anio_texto": "2025",
+        "valor_texto": "341,784.86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uruguay",
+        "pais_id": "UY",
+        "anio_texto": "2025",
+        "valor_texto": "3,384.69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uzbekistan",
+        "pais_id": "UZ",
+        "anio_texto": "2025",
+        "valor_texto": "37,053.43",
+        "es_agregado": false
+      },
+      {
+        "pais": "Vanuatu",
+        "pais_id": "VU",
+        "anio_texto": "2025",
+        "valor_texto": "335.17",
+        "es_agregado": false
+      },
+      {
+        "pais": "Venezuela, RB",
+        "pais_id": "VE",
+        "anio_texto": "2025",
+        "valor_texto": "28,516.90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Viet Nam",
+        "pais_id": "VN",
+        "anio_texto": "2025",
+        "valor_texto": "101,598.53",
+        "es_agregado": false
+      },
+      {
+        "pais": "Virgin Islands (U.S.)",
+        "pais_id": "VI",
+        "anio_texto": "2025",
+        "valor_texto": "103.79",
+        "es_agregado": false
+      },
+      {
+        "pais": "West Bank and Gaza",
+        "pais_id": "PS",
+        "anio_texto": "2025",
+        "valor_texto": "5,413.60",
+        "es_agregado": false
+      },
+      {
+        "pais": "Yemen, Rep.",
+        "pais_id": "YE",
+        "anio_texto": "2025",
+        "valor_texto": "41,773.88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zambia",
+        "pais_id": "ZM",
+        "anio_texto": "2025",
+        "valor_texto": "21,913.87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zimbabwe",
+        "pais_id": "ZW",
+        "anio_texto": "2025",
+        "valor_texto": "16,950.79",
+        "es_agregado": false
+      },
+      {
+        "pais": "World",
+        "pais_id": "1W",
+        "anio_texto": "2025",
+        "valor_texto": "8,215,424.89",
+        "es_agregado": true
+      },
+      {
+        "pais": "Arab World",
+        "pais_id": "1A",
+        "anio_texto": "2025",
+        "valor_texto": "503,356.13",
+        "es_agregado": true
+      },
+      {
+        "pais": "Caribbean small states",
+        "pais_id": "S3",
+        "anio_texto": "2025",
+        "valor_texto": "4,556.56",
+        "es_agregado": true
+      },
+      {
+        "pais": "Central Europe and the Baltics",
+        "pais_id": "B8",
+        "anio_texto": "2025",
+        "valor_texto": "99,814.60",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific",
+        "pais_id": "Z4",
+        "anio_texto": "2025",
+        "valor_texto": "2,390,873.92",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific (excluding high income)",
+        "pais_id": "4E",
+        "anio_texto": "2025",
+        "valor_texto": "2,143,908.41",
+        "es_agregado": true
+      },
+      {
+        "pais": "Euro area",
+        "pais_id": "XC",
+        "anio_texto": "2025",
+        "valor_texto": "358,664.36",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia",
+        "pais_id": "Z7",
+        "anio_texto": "2025",
+        "valor_texto": "932,525.04",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia (excluding high income)",
+        "pais_id": "7E",
+        "anio_texto": "2025",
+        "valor_texto": "253,280.47",
+        "es_agregado": true
+      },
+      {
+        "pais": "European Union",
+        "pais_id": "EU",
+        "anio_texto": "2025",
+        "valor_texto": "451,127.41",
+        "es_agregado": true
+      },
+      {
+        "pais": "Heavily indebted poor countries (HIPC)",
+        "pais_id": "XE",
+        "anio_texto": "2025",
+        "valor_texto": "965,148.59",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean",
+        "pais_id": "ZJ",
+        "anio_texto": "2025",
+        "valor_texto": "666,592.57",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean (excluding high income)",
+        "pais_id": "XJ",
+        "anio_texto": "2025",
+        "valor_texto": "626,808.31",
+        "es_agregado": true
+      },
+      {
+        "pais": "Least developed countries: UN classification",
+        "pais_id": "XL",
+        "anio_texto": "2025",
+        "valor_texto": "1,214,167.51",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan",
+        "pais_id": "ZQ",
+        "anio_texto": "2025",
+        "valor_texto": "828,025.19",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "pais_id": "XQ",
+        "anio_texto": "2025",
+        "valor_texto": "753,903.41",
+        "es_agregado": true
+      },
+      {
+        "pais": "North America",
+        "pais_id": "XU",
+        "anio_texto": "2025",
+        "valor_texto": "383,501.07",
+        "es_agregado": true
+      },
+      {
+        "pais": "OECD members",
+        "pais_id": "OE",
+        "anio_texto": "2025",
+        "valor_texto": "1,402,243.57",
+        "es_agregado": true
+      },
+      {
+        "pais": "Other small states",
+        "pais_id": "S4",
+        "anio_texto": "2025",
+        "valor_texto": "13,034.93",
+        "es_agregado": true
+      },
+      {
+        "pais": "Pacific island small states",
+        "pais_id": "S2",
+        "anio_texto": "2025",
+        "valor_texto": "2,755.65",
+        "es_agregado": true
+      },
+      {
+        "pais": "Small states",
+        "pais_id": "S1",
+        "anio_texto": "2025",
+        "valor_texto": "20,347.13",
+        "es_agregado": true
+      },
+      {
+        "pais": "South Asia",
+        "pais_id": "8S",
+        "anio_texto": "2025",
+        "valor_texto": "1,692,252.90",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa",
+        "pais_id": "ZG",
+        "anio_texto": "2025",
+        "valor_texto": "1,321,654.22",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa (excluding high income)",
+        "pais_id": "ZF",
+        "anio_texto": "2025",
+        "valor_texto": "1,321,531.49",
+        "es_agregado": true
+      },
+      {
+        "pais": "High income",
+        "pais_id": "XD",
+        "anio_texto": "2025",
+        "valor_texto": "1,423,739.90",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low & middle income",
+        "pais_id": "XO",
+        "anio_texto": "2025",
+        "valor_texto": "6,791,684.99",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low income",
+        "pais_id": "XM",
+        "anio_texto": "2025",
+        "valor_texto": "767,490.17",
+        "es_agregado": true
+      },
+      {
+        "pais": "Lower middle income",
+        "pais_id": "XN",
+        "anio_texto": "2025",
+        "valor_texto": "2,945,282.63",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle income",
+        "pais_id": "XP",
+        "anio_texto": "2025",
+        "valor_texto": "6,024,194.82",
+        "es_agregado": true
+      },
+      {
+        "pais": "Upper middle income",
+        "pais_id": "XT",
+        "anio_texto": "2025",
+        "valor_texto": "3,078,912.19",
+        "es_agregado": true
+      }
+    ]
+  },
+  {
+    "indicador": "SP.DYN.LE00.IN",
+    "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN",
+    "unidad_texto": null,
+    "filas": [
+      {
+        "pais": "Afghanistan",
+        "pais_id": "AF",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Albania",
+        "pais_id": "AL",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Algeria",
+        "pais_id": "DZ",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "American Samoa",
+        "pais_id": "AS",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Andorra",
+        "pais_id": "AD",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Angola",
+        "pais_id": "AO",
+        "anio_texto": "2024",
+        "valor_texto": "65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Antigua and Barbuda",
+        "pais_id": "AG",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Argentina",
+        "pais_id": "AR",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Armenia",
+        "pais_id": "AM",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Aruba",
+        "pais_id": "AW",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Australia",
+        "pais_id": "AU",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Austria",
+        "pais_id": "AT",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Azerbaijan",
+        "pais_id": "AZ",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahamas, The",
+        "pais_id": "BS",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahrain",
+        "pais_id": "BH",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bangladesh",
+        "pais_id": "BD",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Barbados",
+        "pais_id": "BB",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belarus",
+        "pais_id": "BY",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belgium",
+        "pais_id": "BE",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belize",
+        "pais_id": "BZ",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Benin",
+        "pais_id": "BJ",
+        "anio_texto": "2024",
+        "valor_texto": "61",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bermuda",
+        "pais_id": "BM",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bhutan",
+        "pais_id": "BT",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bolivia",
+        "pais_id": "BO",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bosnia and Herzegovina",
+        "pais_id": "BA",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Botswana",
+        "pais_id": "BW",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brazil",
+        "pais_id": "BR",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "British Virgin Islands",
+        "pais_id": "VG",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brunei Darussalam",
+        "pais_id": "BN",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bulgaria",
+        "pais_id": "BG",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burkina Faso",
+        "pais_id": "BF",
+        "anio_texto": "2024",
+        "valor_texto": "61",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burundi",
+        "pais_id": "BI",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cabo Verde",
+        "pais_id": "CV",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cambodia",
+        "pais_id": "KH",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cameroon",
+        "pais_id": "CM",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Canada",
+        "pais_id": "CA",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cayman Islands",
+        "pais_id": "KY",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Central African Republic",
+        "pais_id": "CF",
+        "anio_texto": "2024",
+        "valor_texto": "58",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chad",
+        "pais_id": "TD",
+        "anio_texto": "2024",
+        "valor_texto": "55",
+        "es_agregado": false
+      },
+      {
+        "pais": "Channel Islands",
+        "pais_id": "JG",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chile",
+        "pais_id": "CL",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "China",
+        "pais_id": "CN",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Colombia",
+        "pais_id": "CO",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Comoros",
+        "pais_id": "KM",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Dem. Rep.",
+        "pais_id": "CD",
+        "anio_texto": "2024",
+        "valor_texto": "62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Rep.",
+        "pais_id": "CG",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Costa Rica",
+        "pais_id": "CR",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cote d'Ivoire",
+        "pais_id": "CI",
+        "anio_texto": "2024",
+        "valor_texto": "62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Croatia",
+        "pais_id": "HR",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cuba",
+        "pais_id": "CU",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Curacao",
+        "pais_id": "CW",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cyprus",
+        "pais_id": "CY",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Czechia",
+        "pais_id": "CZ",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Denmark",
+        "pais_id": "DK",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Djibouti",
+        "pais_id": "DJ",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominica",
+        "pais_id": "DM",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominican Republic",
+        "pais_id": "DO",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ecuador",
+        "pais_id": "EC",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Egypt, Arab Rep.",
+        "pais_id": "EG",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "El Salvador",
+        "pais_id": "SV",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Equatorial Guinea",
+        "pais_id": "GQ",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eritrea",
+        "pais_id": "ER",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Estonia",
+        "pais_id": "EE",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eswatini",
+        "pais_id": "SZ",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ethiopia",
+        "pais_id": "ET",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Faroe Islands",
+        "pais_id": "FO",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Fiji",
+        "pais_id": "FJ",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Finland",
+        "pais_id": "FI",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "France",
+        "pais_id": "FR",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "French Polynesia",
+        "pais_id": "PF",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gabon",
+        "pais_id": "GA",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gambia, The",
+        "pais_id": "GM",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Georgia",
+        "pais_id": "GE",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Germany",
+        "pais_id": "DE",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ghana",
+        "pais_id": "GH",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gibraltar",
+        "pais_id": "GI",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greece",
+        "pais_id": "GR",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greenland",
+        "pais_id": "GL",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Grenada",
+        "pais_id": "GD",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guam",
+        "pais_id": "GU",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guatemala",
+        "pais_id": "GT",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea",
+        "pais_id": "GN",
+        "anio_texto": "2024",
+        "valor_texto": "61",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea-Bissau",
+        "pais_id": "GW",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guyana",
+        "pais_id": "GY",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Haiti",
+        "pais_id": "HT",
+        "anio_texto": "2024",
+        "valor_texto": "65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Honduras",
+        "pais_id": "HN",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hong Kong SAR, China",
+        "pais_id": "HK",
+        "anio_texto": "2024",
+        "valor_texto": "85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hungary",
+        "pais_id": "HU",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iceland",
+        "pais_id": "IS",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "India",
+        "pais_id": "IN",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Indonesia",
+        "pais_id": "ID",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iran, Islamic Rep.",
+        "pais_id": "IR",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iraq",
+        "pais_id": "IQ",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ireland",
+        "pais_id": "IE",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Isle of Man",
+        "pais_id": "IM",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Israel",
+        "pais_id": "IL",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Italy",
+        "pais_id": "IT",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jamaica",
+        "pais_id": "JM",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Japan",
+        "pais_id": "JP",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jordan",
+        "pais_id": "JO",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kazakhstan",
+        "pais_id": "KZ",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kenya",
+        "pais_id": "KE",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kiribati",
+        "pais_id": "KI",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Dem. People's Rep.",
+        "pais_id": "KP",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Rep.",
+        "pais_id": "KR",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kosovo",
+        "pais_id": "XK",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kuwait",
+        "pais_id": "KW",
+        "anio_texto": "2024",
+        "valor_texto": "85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kyrgyz Republic",
+        "pais_id": "KG",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lao PDR",
+        "pais_id": "LA",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Latvia",
+        "pais_id": "LV",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lebanon",
+        "pais_id": "LB",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lesotho",
+        "pais_id": "LS",
+        "anio_texto": "2024",
+        "valor_texto": "58",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liberia",
+        "pais_id": "LR",
+        "anio_texto": "2024",
+        "valor_texto": "62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Libya",
+        "pais_id": "LY",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liechtenstein",
+        "pais_id": "LI",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lithuania",
+        "pais_id": "LT",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Luxembourg",
+        "pais_id": "LU",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Macao SAR, China",
+        "pais_id": "MO",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Madagascar",
+        "pais_id": "MG",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malawi",
+        "pais_id": "MW",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malaysia",
+        "pais_id": "MY",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Maldives",
+        "pais_id": "MV",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mali",
+        "pais_id": "ML",
+        "anio_texto": "2024",
+        "valor_texto": "61",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malta",
+        "pais_id": "MT",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Marshall Islands",
+        "pais_id": "MH",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritania",
+        "pais_id": "MR",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritius",
+        "pais_id": "MU",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mexico",
+        "pais_id": "MX",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Micronesia, Fed. Sts.",
+        "pais_id": "FM",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Moldova",
+        "pais_id": "MD",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Monaco",
+        "pais_id": "MC",
+        "anio_texto": "2024",
+        "valor_texto": "86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mongolia",
+        "pais_id": "MN",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Montenegro",
+        "pais_id": "ME",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Morocco",
+        "pais_id": "MA",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mozambique",
+        "pais_id": "MZ",
+        "anio_texto": "2024",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "Myanmar",
+        "pais_id": "MM",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Namibia",
+        "pais_id": "NA",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Naoero",
+        "pais_id": "NR",
+        "anio_texto": "2024",
+        "valor_texto": "62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nepal",
+        "pais_id": "NP",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Netherlands",
+        "pais_id": "NL",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Caledonia",
+        "pais_id": "NC",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Zealand",
+        "pais_id": "NZ",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nicaragua",
+        "pais_id": "NI",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Niger",
+        "pais_id": "NE",
+        "anio_texto": "2024",
+        "valor_texto": "61",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nigeria",
+        "pais_id": "NG",
+        "anio_texto": "2024",
+        "valor_texto": "55",
+        "es_agregado": false
+      },
+      {
+        "pais": "North Macedonia",
+        "pais_id": "MK",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Northern Mariana Islands",
+        "pais_id": "MP",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Norway",
+        "pais_id": "NO",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Oman",
+        "pais_id": "OM",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Pakistan",
+        "pais_id": "PK",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Palau",
+        "pais_id": "PW",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Panama",
+        "pais_id": "PA",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Papua New Guinea",
+        "pais_id": "PG",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Paraguay",
+        "pais_id": "PY",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Peru",
+        "pais_id": "PE",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Philippines",
+        "pais_id": "PH",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Poland",
+        "pais_id": "PL",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Portugal",
+        "pais_id": "PT",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Puerto Rico (US)",
+        "pais_id": "PR",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Qatar",
+        "pais_id": "QA",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Romania",
+        "pais_id": "RO",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Russian Federation",
+        "pais_id": "RU",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Rwanda",
+        "pais_id": "RW",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Samoa",
+        "pais_id": "WS",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "San Marino",
+        "pais_id": "SM",
+        "anio_texto": "2024",
+        "valor_texto": "86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sao Tome and Principe",
+        "pais_id": "ST",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Saudi Arabia",
+        "pais_id": "SA",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Senegal",
+        "pais_id": "SN",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Serbia",
+        "pais_id": "RS",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Seychelles",
+        "pais_id": "SC",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sierra Leone",
+        "pais_id": "SL",
+        "anio_texto": "2024",
+        "valor_texto": "62",
+        "es_agregado": false
+      },
+      {
+        "pais": "Singapore",
+        "pais_id": "SG",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sint Maarten (Dutch part)",
+        "pais_id": "SX",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovak Republic",
+        "pais_id": "SK",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovenia",
+        "pais_id": "SI",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Solomon Islands",
+        "pais_id": "SB",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Somalia, Fed. Rep.",
+        "pais_id": "SO",
+        "anio_texto": "2024",
+        "valor_texto": "59",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Africa",
+        "pais_id": "ZA",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Sudan",
+        "pais_id": "SS",
+        "anio_texto": "2024",
+        "valor_texto": "58",
+        "es_agregado": false
+      },
+      {
+        "pais": "Spain",
+        "pais_id": "ES",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sri Lanka",
+        "pais_id": "LK",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Kitts and Nevis",
+        "pais_id": "KN",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Lucia",
+        "pais_id": "LC",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Martin (French part)",
+        "pais_id": "MF",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Vincent and the Grenadines",
+        "pais_id": "VC",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sudan",
+        "pais_id": "SD",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Suriname",
+        "pais_id": "SR",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sweden",
+        "pais_id": "SE",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Switzerland",
+        "pais_id": "CH",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Syrian Arab Republic",
+        "pais_id": "SY",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tajikistan",
+        "pais_id": "TJ",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tanzania",
+        "pais_id": "TZ",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Thailand",
+        "pais_id": "TH",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Timor-Leste",
+        "pais_id": "TL",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Togo",
+        "pais_id": "TG",
+        "anio_texto": "2024",
+        "valor_texto": "63",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tonga",
+        "pais_id": "TO",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Trinidad and Tobago",
+        "pais_id": "TT",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tunisia",
+        "pais_id": "TN",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkiye",
+        "pais_id": "TR",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkmenistan",
+        "pais_id": "TM",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turks and Caicos Islands",
+        "pais_id": "TC",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tuvalu",
+        "pais_id": "TV",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uganda",
+        "pais_id": "UG",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ukraine",
+        "pais_id": "UA",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Arab Emirates",
+        "pais_id": "AE",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Kingdom",
+        "pais_id": "GB",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "United States",
+        "pais_id": "US",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uruguay",
+        "pais_id": "UY",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uzbekistan",
+        "pais_id": "UZ",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Vanuatu",
+        "pais_id": "VU",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Venezuela, RB",
+        "pais_id": "VE",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Viet Nam",
+        "pais_id": "VN",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Virgin Islands (U.S.)",
+        "pais_id": "VI",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "West Bank and Gaza",
+        "pais_id": "PS",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Yemen, Rep.",
+        "pais_id": "YE",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zambia",
+        "pais_id": "ZM",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zimbabwe",
+        "pais_id": "ZW",
+        "anio_texto": "2024",
+        "valor_texto": "63",
+        "es_agregado": false
+      },
+      {
+        "pais": "World",
+        "pais_id": "1W",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": true
+      },
+      {
+        "pais": "Arab World",
+        "pais_id": "1A",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": true
+      },
+      {
+        "pais": "Caribbean small states",
+        "pais_id": "S3",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": true
+      },
+      {
+        "pais": "Central Europe and the Baltics",
+        "pais_id": "B8",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific",
+        "pais_id": "Z4",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific (excluding high income)",
+        "pais_id": "4E",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": true
+      },
+      {
+        "pais": "Euro area",
+        "pais_id": "XC",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia",
+        "pais_id": "Z7",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia (excluding high income)",
+        "pais_id": "7E",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": true
+      },
+      {
+        "pais": "European Union",
+        "pais_id": "EU",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": true
+      },
+      {
+        "pais": "Heavily indebted poor countries (HIPC)",
+        "pais_id": "XE",
+        "anio_texto": "2024",
+        "valor_texto": "65",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean",
+        "pais_id": "ZJ",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean (excluding high income)",
+        "pais_id": "XJ",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": true
+      },
+      {
+        "pais": "Least developed countries: UN classification",
+        "pais_id": "XL",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan",
+        "pais_id": "ZQ",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "pais_id": "XQ",
+        "anio_texto": "2024",
+        "valor_texto": "71",
+        "es_agregado": true
+      },
+      {
+        "pais": "North America",
+        "pais_id": "XU",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": true
+      },
+      {
+        "pais": "OECD members",
+        "pais_id": "OE",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": true
+      },
+      {
+        "pais": "Other small states",
+        "pais_id": "S4",
+        "anio_texto": "2024",
+        "valor_texto": "74",
+        "es_agregado": true
+      },
+      {
+        "pais": "Pacific island small states",
+        "pais_id": "S2",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": true
+      },
+      {
+        "pais": "Small states",
+        "pais_id": "S1",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": true
+      },
+      {
+        "pais": "South Asia",
+        "pais_id": "8S",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa",
+        "pais_id": "ZG",
+        "anio_texto": "2024",
+        "valor_texto": "63",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa (excluding high income)",
+        "pais_id": "ZF",
+        "anio_texto": "2024",
+        "valor_texto": "63",
+        "es_agregado": true
+      },
+      {
+        "pais": "High income",
+        "pais_id": "XD",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low & middle income",
+        "pais_id": "XO",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low income",
+        "pais_id": "XM",
+        "anio_texto": "2024",
+        "valor_texto": "65",
+        "es_agregado": true
+      },
+      {
+        "pais": "Lower middle income",
+        "pais_id": "XN",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle income",
+        "pais_id": "XP",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": true
+      },
+      {
+        "pais": "Upper middle income",
+        "pais_id": "XT",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": true
+      }
+    ]
+  },
+  {
+    "indicador": "NY.GDP.PCAP.CD",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+    "unidad_texto": null,
+    "filas": [
+      {
+        "pais": "Afghanistan",
+        "pais_id": "AF",
+        "anio_texto": "2024",
+        "valor_texto": "416.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Albania",
+        "pais_id": "AL",
+        "anio_texto": "2025",
+        "valor_texto": "12,998.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Algeria",
+        "pais_id": "DZ",
+        "anio_texto": "2025",
+        "valor_texto": "6,051.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "American Samoa",
+        "pais_id": "AS",
+        "anio_texto": "2022",
+        "valor_texto": "18,017.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Andorra",
+        "pais_id": "AD",
+        "anio_texto": "2025",
+        "valor_texto": "54,291.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Angola",
+        "pais_id": "AO",
+        "anio_texto": "2025",
+        "valor_texto": "3,129.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Antigua and Barbuda",
+        "pais_id": "AG",
+        "anio_texto": "2025",
+        "valor_texto": "24,819.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Argentina",
+        "pais_id": "AR",
+        "anio_texto": "2025",
+        "valor_texto": "14,898.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Armenia",
+        "pais_id": "AM",
+        "anio_texto": "2025",
+        "valor_texto": "9,474.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Aruba",
+        "pais_id": "AW",
+        "anio_texto": "2024",
+        "valor_texto": "38,590.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Australia",
+        "pais_id": "AU",
+        "anio_texto": "2025",
+        "valor_texto": "65,129.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Austria",
+        "pais_id": "AT",
+        "anio_texto": "2025",
+        "valor_texto": "62,930.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Azerbaijan",
+        "pais_id": "AZ",
+        "anio_texto": "2025",
+        "valor_texto": "7,410.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahamas, The",
+        "pais_id": "BS",
+        "anio_texto": "2024",
+        "valor_texto": "39,455.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahrain",
+        "pais_id": "BH",
+        "anio_texto": "2025",
+        "valor_texto": "30,596.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bangladesh",
+        "pais_id": "BD",
+        "anio_texto": "2025",
+        "valor_texto": "2,597.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Barbados",
+        "pais_id": "BB",
+        "anio_texto": "2025",
+        "valor_texto": "28,364.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belarus",
+        "pais_id": "BY",
+        "anio_texto": "2025",
+        "valor_texto": "10,279.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belgium",
+        "pais_id": "BE",
+        "anio_texto": "2025",
+        "valor_texto": "60,750.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belize",
+        "pais_id": "BZ",
+        "anio_texto": "2025",
+        "valor_texto": "7,865.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Benin",
+        "pais_id": "BJ",
+        "anio_texto": "2025",
+        "valor_texto": "1,658.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bermuda",
+        "pais_id": "BM",
+        "anio_texto": "2024",
+        "valor_texto": "142,250.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bhutan",
+        "pais_id": "BT",
+        "anio_texto": "2025",
+        "valor_texto": "4,492.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bolivia",
+        "pais_id": "BO",
+        "anio_texto": "2025",
+        "valor_texto": "5,147.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bosnia and Herzegovina",
+        "pais_id": "BA",
+        "anio_texto": "2025",
+        "valor_texto": "10,381.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Botswana",
+        "pais_id": "BW",
+        "anio_texto": "2025",
+        "valor_texto": "7,778.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brazil",
+        "pais_id": "BR",
+        "anio_texto": "2025",
+        "valor_texto": "10,713.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "British Virgin Islands",
+        "pais_id": "VG",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brunei Darussalam",
+        "pais_id": "BN",
+        "anio_texto": "2025",
+        "valor_texto": "32,234.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bulgaria",
+        "pais_id": "BG",
+        "anio_texto": "2025",
+        "valor_texto": "20,328.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burkina Faso",
+        "pais_id": "BF",
+        "anio_texto": "2025",
+        "valor_texto": "1,147.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burundi",
+        "pais_id": "BI",
+        "anio_texto": "2025",
+        "valor_texto": "233.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cabo Verde",
+        "pais_id": "CV",
+        "anio_texto": "2025",
+        "valor_texto": "5,796.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cambodia",
+        "pais_id": "KH",
+        "anio_texto": "2025",
+        "valor_texto": "2,872.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cameroon",
+        "pais_id": "CM",
+        "anio_texto": "2025",
+        "valor_texto": "1,972.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Canada",
+        "pais_id": "CA",
+        "anio_texto": "2025",
+        "valor_texto": "55,697.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cayman Islands",
+        "pais_id": "KY",
+        "anio_texto": "2024",
+        "valor_texto": "104,292.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Central African Republic",
+        "pais_id": "CF",
+        "anio_texto": "2025",
+        "valor_texto": "556.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chad",
+        "pais_id": "TD",
+        "anio_texto": "2025",
+        "valor_texto": "1,022.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Channel Islands",
+        "pais_id": "JG",
+        "anio_texto": "2023",
+        "valor_texto": "74,585.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chile",
+        "pais_id": "CL",
+        "anio_texto": "2025",
+        "valor_texto": "17,994.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "China",
+        "pais_id": "CN",
+        "anio_texto": "2025",
+        "valor_texto": "13,862.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Colombia",
+        "pais_id": "CO",
+        "anio_texto": "2025",
+        "valor_texto": "8,561.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Comoros",
+        "pais_id": "KM",
+        "anio_texto": "2025",
+        "valor_texto": "2,055.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Dem. Rep.",
+        "pais_id": "CD",
+        "anio_texto": "2025",
+        "valor_texto": "806.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Rep.",
+        "pais_id": "CG",
+        "anio_texto": "2025",
+        "valor_texto": "2,514.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Costa Rica",
+        "pais_id": "CR",
+        "anio_texto": "2025",
+        "valor_texto": "19,970.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cote d'Ivoire",
+        "pais_id": "CI",
+        "anio_texto": "2025",
+        "valor_texto": "3,050.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Croatia",
+        "pais_id": "HR",
+        "anio_texto": "2025",
+        "valor_texto": "27,103.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cuba",
+        "pais_id": "CU",
+        "anio_texto": "2020",
+        "valor_texto": "9,605.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Curacao",
+        "pais_id": "CW",
+        "anio_texto": "2024",
+        "valor_texto": "22,832.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cyprus",
+        "pais_id": "CY",
+        "anio_texto": "2025",
+        "valor_texto": "41,783.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Czechia",
+        "pais_id": "CZ",
+        "anio_texto": "2025",
+        "valor_texto": "35,917.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Denmark",
+        "pais_id": "DK",
+        "anio_texto": "2025",
+        "valor_texto": "76,970.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Djibouti",
+        "pais_id": "DJ",
+        "anio_texto": "2025",
+        "valor_texto": "3,905.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominica",
+        "pais_id": "DM",
+        "anio_texto": "2025",
+        "valor_texto": "10,989.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominican Republic",
+        "pais_id": "DO",
+        "anio_texto": "2025",
+        "valor_texto": "11,059.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ecuador",
+        "pais_id": "EC",
+        "anio_texto": "2025",
+        "valor_texto": "7,125.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Egypt, Arab Rep.",
+        "pais_id": "EG",
+        "anio_texto": "2025",
+        "valor_texto": "3,085.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "El Salvador",
+        "pais_id": "SV",
+        "anio_texto": "2025",
+        "valor_texto": "5,766.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Equatorial Guinea",
+        "pais_id": "GQ",
+        "anio_texto": "2025",
+        "valor_texto": "6,615.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eritrea",
+        "pais_id": "ER",
+        "anio_texto": "2011",
+        "valor_texto": "688.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Estonia",
+        "pais_id": "EE",
+        "anio_texto": "2025",
+        "valor_texto": "34,417.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eswatini",
+        "pais_id": "SZ",
+        "anio_texto": "2025",
+        "valor_texto": "4,108.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ethiopia",
+        "pais_id": "ET",
+        "anio_texto": "2025",
+        "valor_texto": "932.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Faroe Islands",
+        "pais_id": "FO",
+        "anio_texto": "2024",
+        "valor_texto": "74,175.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Fiji",
+        "pais_id": "FJ",
+        "anio_texto": "2025",
+        "valor_texto": "6,642.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Finland",
+        "pais_id": "FI",
+        "anio_texto": "2025",
+        "valor_texto": "56,148.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "France",
+        "pais_id": "FR",
+        "anio_texto": "2025",
+        "valor_texto": "48,985.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "French Polynesia",
+        "pais_id": "PF",
+        "anio_texto": "2024",
+        "valor_texto": "22,439.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gabon",
+        "pais_id": "GA",
+        "anio_texto": "2025",
+        "valor_texto": "8,263.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gambia, The",
+        "pais_id": "GM",
+        "anio_texto": "2025",
+        "valor_texto": "919.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Georgia",
+        "pais_id": "GE",
+        "anio_texto": "2025",
+        "valor_texto": "9,691.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Germany",
+        "pais_id": "DE",
+        "anio_texto": "2025",
+        "valor_texto": "60,496.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ghana",
+        "pais_id": "GH",
+        "anio_texto": "2025",
+        "valor_texto": "3,257.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gibraltar",
+        "pais_id": "GI",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greece",
+        "pais_id": "GR",
+        "anio_texto": "2025",
+        "valor_texto": "26,948.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greenland",
+        "pais_id": "GL",
+        "anio_texto": "2023",
+        "valor_texto": "58,499.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Grenada",
+        "pais_id": "GD",
+        "anio_texto": "2025",
+        "valor_texto": "12,106.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guam",
+        "pais_id": "GU",
+        "anio_texto": "2022",
+        "valor_texto": "41,833.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guatemala",
+        "pais_id": "GT",
+        "anio_texto": "2025",
+        "valor_texto": "6,598.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea",
+        "pais_id": "GN",
+        "anio_texto": "2025",
+        "valor_texto": "1,877.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea-Bissau",
+        "pais_id": "GW",
+        "anio_texto": "2025",
+        "valor_texto": "1,123.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guyana",
+        "pais_id": "GY",
+        "anio_texto": "2025",
+        "valor_texto": "32,413.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Haiti",
+        "pais_id": "HT",
+        "anio_texto": "2025",
+        "valor_texto": "2,694.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Honduras",
+        "pais_id": "HN",
+        "anio_texto": "2025",
+        "valor_texto": "3,598.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hong Kong SAR, China",
+        "pais_id": "HK",
+        "anio_texto": "2025",
+        "valor_texto": "56,983.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hungary",
+        "pais_id": "HU",
+        "anio_texto": "2025",
+        "valor_texto": "25,907.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iceland",
+        "pais_id": "IS",
+        "anio_texto": "2025",
+        "valor_texto": "98,323.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "India",
+        "pais_id": "IN",
+        "anio_texto": "2025",
+        "valor_texto": "2,702.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Indonesia",
+        "pais_id": "ID",
+        "anio_texto": "2025",
+        "valor_texto": "5,059.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iran, Islamic Rep.",
+        "pais_id": "IR",
+        "anio_texto": "2025",
+        "valor_texto": "3,924.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iraq",
+        "pais_id": "IQ",
+        "anio_texto": "2025",
+        "valor_texto": "5,409.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ireland",
+        "pais_id": "IE",
+        "anio_texto": "2025",
+        "valor_texto": "131,592.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Isle of Man",
+        "pais_id": "IM",
+        "anio_texto": "2023",
+        "valor_texto": "90,015.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Israel",
+        "pais_id": "IL",
+        "anio_texto": "2025",
+        "valor_texto": "60,336.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Italy",
+        "pais_id": "IT",
+        "anio_texto": "2025",
+        "valor_texto": "43,308.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jamaica",
+        "pais_id": "JM",
+        "anio_texto": "2025",
+        "valor_texto": "8,002.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Japan",
+        "pais_id": "JP",
+        "anio_texto": "2025",
+        "valor_texto": "35,951.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jordan",
+        "pais_id": "JO",
+        "anio_texto": "2025",
+        "valor_texto": "5,347.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kazakhstan",
+        "pais_id": "KZ",
+        "anio_texto": "2025",
+        "valor_texto": "14,692.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kenya",
+        "pais_id": "KE",
+        "anio_texto": "2025",
+        "valor_texto": "2,362.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kiribati",
+        "pais_id": "KI",
+        "anio_texto": "2025",
+        "valor_texto": "2,558.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Dem. People's Rep.",
+        "pais_id": "KP",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Rep.",
+        "pais_id": "KR",
+        "anio_texto": "2025",
+        "valor_texto": "36,227.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kosovo",
+        "pais_id": "XK",
+        "anio_texto": "2025",
+        "valor_texto": "7,899.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kuwait",
+        "pais_id": "KW",
+        "anio_texto": "2025",
+        "valor_texto": "32,312.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kyrgyz Republic",
+        "pais_id": "KG",
+        "anio_texto": "2025",
+        "valor_texto": "3,081.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lao PDR",
+        "pais_id": "LA",
+        "anio_texto": "2025",
+        "valor_texto": "2,324.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Latvia",
+        "pais_id": "LV",
+        "anio_texto": "2025",
+        "valor_texto": "26,312.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lebanon",
+        "pais_id": "LB",
+        "anio_texto": "2024",
+        "valor_texto": "4,473.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lesotho",
+        "pais_id": "LS",
+        "anio_texto": "2025",
+        "valor_texto": "1,089.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liberia",
+        "pais_id": "LR",
+        "anio_texto": "2025",
+        "valor_texto": "915.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Libya",
+        "pais_id": "LY",
+        "anio_texto": "2025",
+        "valor_texto": "6,448.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liechtenstein",
+        "pais_id": "LI",
+        "anio_texto": "2024",
+        "valor_texto": "220,167.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lithuania",
+        "pais_id": "LT",
+        "anio_texto": "2025",
+        "valor_texto": "32,958.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Luxembourg",
+        "pais_id": "LU",
+        "anio_texto": "2025",
+        "valor_texto": "147,252.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Macao SAR, China",
+        "pais_id": "MO",
+        "anio_texto": "2025",
+        "valor_texto": "75,901.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Madagascar",
+        "pais_id": "MG",
+        "anio_texto": "2025",
+        "valor_texto": "599.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malawi",
+        "pais_id": "MW",
+        "anio_texto": "2025",
+        "valor_texto": "671.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malaysia",
+        "pais_id": "MY",
+        "anio_texto": "2025",
+        "valor_texto": "13,124.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Maldives",
+        "pais_id": "MV",
+        "anio_texto": "2025",
+        "valor_texto": "14,614.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mali",
+        "pais_id": "ML",
+        "anio_texto": "2025",
+        "valor_texto": "1,193.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malta",
+        "pais_id": "MT",
+        "anio_texto": "2025",
+        "valor_texto": "47,906.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Marshall Islands",
+        "pais_id": "MH",
+        "anio_texto": "2025",
+        "valor_texto": "8,489.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritania",
+        "pais_id": "MR",
+        "anio_texto": "2025",
+        "valor_texto": "2,197.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritius",
+        "pais_id": "MU",
+        "anio_texto": "2025",
+        "valor_texto": "12,991.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mexico",
+        "pais_id": "MX",
+        "anio_texto": "2025",
+        "valor_texto": "13,889.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Micronesia, Fed. Sts.",
+        "pais_id": "FM",
+        "anio_texto": "2025",
+        "valor_texto": "4,414.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Moldova",
+        "pais_id": "MD",
+        "anio_texto": "2025",
+        "valor_texto": "8,621.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Monaco",
+        "pais_id": "MC",
+        "anio_texto": "2024",
+        "valor_texto": "288,001.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mongolia",
+        "pais_id": "MN",
+        "anio_texto": "2025",
+        "valor_texto": "7,108.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Montenegro",
+        "pais_id": "ME",
+        "anio_texto": "2025",
+        "valor_texto": "14,816.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Morocco",
+        "pais_id": "MA",
+        "anio_texto": "2025",
+        "valor_texto": "4,672.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mozambique",
+        "pais_id": "MZ",
+        "anio_texto": "2025",
+        "valor_texto": "626.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Myanmar",
+        "pais_id": "MM",
+        "anio_texto": "2025",
+        "valor_texto": "1,488.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Namibia",
+        "pais_id": "NA",
+        "anio_texto": "2025",
+        "valor_texto": "4,875.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Naoero",
+        "pais_id": "NR",
+        "anio_texto": "2025",
+        "valor_texto": "14,639.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nepal",
+        "pais_id": "NP",
+        "anio_texto": "2025",
+        "valor_texto": "1,535.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Netherlands",
+        "pais_id": "NL",
+        "anio_texto": "2025",
+        "valor_texto": "73,683.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Caledonia",
+        "pais_id": "NC",
+        "anio_texto": "2024",
+        "valor_texto": "29,213.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Zealand",
+        "pais_id": "NZ",
+        "anio_texto": "2025",
+        "valor_texto": "49,591.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nicaragua",
+        "pais_id": "NI",
+        "anio_texto": "2025",
+        "valor_texto": "3,173.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Niger",
+        "pais_id": "NE",
+        "anio_texto": "2025",
+        "valor_texto": "775.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nigeria",
+        "pais_id": "NG",
+        "anio_texto": "2025",
+        "valor_texto": "1,224.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "North Macedonia",
+        "pais_id": "MK",
+        "anio_texto": "2025",
+        "valor_texto": "10,489.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Northern Mariana Islands",
+        "pais_id": "MP",
+        "anio_texto": "2022",
+        "valor_texto": "23,785.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Norway",
+        "pais_id": "NO",
+        "anio_texto": "2025",
+        "valor_texto": "94,594.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Oman",
+        "pais_id": "OM",
+        "anio_texto": "2025",
+        "valor_texto": "19,947.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Pakistan",
+        "pais_id": "PK",
+        "anio_texto": "2025",
+        "valor_texto": "1,595.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Palau",
+        "pais_id": "PW",
+        "anio_texto": "2025",
+        "valor_texto": "19,532.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Panama",
+        "pais_id": "PA",
+        "anio_texto": "2025",
+        "valor_texto": "19,789.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Papua New Guinea",
+        "pais_id": "PG",
+        "anio_texto": "2025",
+        "valor_texto": "3,019.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Paraguay",
+        "pais_id": "PY",
+        "anio_texto": "2025",
+        "valor_texto": "7,026.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Peru",
+        "pais_id": "PE",
+        "anio_texto": "2025",
+        "valor_texto": "9,684.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Philippines",
+        "pais_id": "PH",
+        "anio_texto": "2025",
+        "valor_texto": "4,170.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Poland",
+        "pais_id": "PL",
+        "anio_texto": "2025",
+        "valor_texto": "28,419.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Portugal",
+        "pais_id": "PT",
+        "anio_texto": "2025",
+        "valor_texto": "32,081.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Puerto Rico (US)",
+        "pais_id": "PR",
+        "anio_texto": "2025",
+        "valor_texto": "40,620.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Qatar",
+        "pais_id": "QA",
+        "anio_texto": "2025",
+        "valor_texto": "72,524.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Romania",
+        "pais_id": "RO",
+        "anio_texto": "2025",
+        "valor_texto": "22,538.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Russian Federation",
+        "pais_id": "RU",
+        "anio_texto": "2025",
+        "valor_texto": "17,546.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Rwanda",
+        "pais_id": "RW",
+        "anio_texto": "2025",
+        "valor_texto": "1,123.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Samoa",
+        "pais_id": "WS",
+        "anio_texto": "2025",
+        "valor_texto": "5,872.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "San Marino",
+        "pais_id": "SM",
+        "anio_texto": "2023",
+        "valor_texto": "59,871.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sao Tome and Principe",
+        "pais_id": "ST",
+        "anio_texto": "2025",
+        "valor_texto": "4,084.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Saudi Arabia",
+        "pais_id": "SA",
+        "anio_texto": "2025",
+        "valor_texto": "34,536.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Senegal",
+        "pais_id": "SN",
+        "anio_texto": "2025",
+        "valor_texto": "1,954.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Serbia",
+        "pais_id": "RS",
+        "anio_texto": "2025",
+        "valor_texto": "15,262.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Seychelles",
+        "pais_id": "SC",
+        "anio_texto": "2025",
+        "valor_texto": "19,449.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sierra Leone",
+        "pais_id": "SL",
+        "anio_texto": "2025",
+        "valor_texto": "846.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Singapore",
+        "pais_id": "SG",
+        "anio_texto": "2025",
+        "valor_texto": "98,814.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sint Maarten (Dutch part)",
+        "pais_id": "SX",
+        "anio_texto": "2025",
+        "valor_texto": "42,978.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovak Republic",
+        "pais_id": "SK",
+        "anio_texto": "2025",
+        "valor_texto": "28,543.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovenia",
+        "pais_id": "SI",
+        "anio_texto": "2025",
+        "valor_texto": "37,376.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Solomon Islands",
+        "pais_id": "SB",
+        "anio_texto": "2025",
+        "valor_texto": "2,086.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Somalia, Fed. Rep.",
+        "pais_id": "SO",
+        "anio_texto": "2025",
+        "valor_texto": "661.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Africa",
+        "pais_id": "ZA",
+        "anio_texto": "2025",
+        "valor_texto": "6,597.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Sudan",
+        "pais_id": "SS",
+        "anio_texto": "2015",
+        "valor_texto": "1,080.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Spain",
+        "pais_id": "ES",
+        "anio_texto": "2025",
+        "valor_texto": "38,627.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sri Lanka",
+        "pais_id": "LK",
+        "anio_texto": "2025",
+        "valor_texto": "5,002.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Kitts and Nevis",
+        "pais_id": "KN",
+        "anio_texto": "2025",
+        "valor_texto": "25,223.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Lucia",
+        "pais_id": "LC",
+        "anio_texto": "2025",
+        "valor_texto": "14,745.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Martin (French part)",
+        "pais_id": "MF",
+        "anio_texto": "2021",
+        "valor_texto": "21,668.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Vincent and the Grenadines",
+        "pais_id": "VC",
+        "anio_texto": "2025",
+        "valor_texto": "12,561.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sudan",
+        "pais_id": "SD",
+        "anio_texto": "2025",
+        "valor_texto": "1,164.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Suriname",
+        "pais_id": "SR",
+        "anio_texto": "2025",
+        "valor_texto": "7,069.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sweden",
+        "pais_id": "SE",
+        "anio_texto": "2025",
+        "valor_texto": "63,133.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Switzerland",
+        "pais_id": "CH",
+        "anio_texto": "2025",
+        "valor_texto": "114,769.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Syrian Arab Republic",
+        "pais_id": "SY",
+        "anio_texto": "2022",
+        "valor_texto": "1,056.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tajikistan",
+        "pais_id": "TJ",
+        "anio_texto": "2025",
+        "valor_texto": "1,637.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tanzania",
+        "pais_id": "TZ",
+        "anio_texto": "2025",
+        "valor_texto": "1,318.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Thailand",
+        "pais_id": "TH",
+        "anio_texto": "2025",
+        "valor_texto": "8,056.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Timor-Leste",
+        "pais_id": "TL",
+        "anio_texto": "2025",
+        "valor_texto": "1,341.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Togo",
+        "pais_id": "TG",
+        "anio_texto": "2025",
+        "valor_texto": "1,383.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tonga",
+        "pais_id": "TO",
+        "anio_texto": "2025",
+        "valor_texto": "6,547.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Trinidad and Tobago",
+        "pais_id": "TT",
+        "anio_texto": "2025",
+        "valor_texto": "18,967.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tunisia",
+        "pais_id": "TN",
+        "anio_texto": "2025",
+        "valor_texto": "4,656.6",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkiye",
+        "pais_id": "TR",
+        "anio_texto": "2025",
+        "valor_texto": "18,599.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkmenistan",
+        "pais_id": "TM",
+        "anio_texto": "2025",
+        "valor_texto": "6,540.2",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turks and Caicos Islands",
+        "pais_id": "TC",
+        "anio_texto": "2024",
+        "valor_texto": "37,506.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tuvalu",
+        "pais_id": "TV",
+        "anio_texto": "2025",
+        "valor_texto": "6,041.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uganda",
+        "pais_id": "UG",
+        "anio_texto": "2025",
+        "valor_texto": "1,206.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ukraine",
+        "pais_id": "UA",
+        "anio_texto": "2025",
+        "valor_texto": "5,865.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Arab Emirates",
+        "pais_id": "AE",
+        "anio_texto": "2024",
+        "valor_texto": "50,273.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Kingdom",
+        "pais_id": "GB",
+        "anio_texto": "2025",
+        "valor_texto": "57,602.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "United States",
+        "pais_id": "US",
+        "anio_texto": "2025",
+        "valor_texto": "90,026.5",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uruguay",
+        "pais_id": "UY",
+        "anio_texto": "2025",
+        "valor_texto": "25,215.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uzbekistan",
+        "pais_id": "UZ",
+        "anio_texto": "2025",
+        "valor_texto": "3,968.3",
+        "es_agregado": false
+      },
+      {
+        "pais": "Vanuatu",
+        "pais_id": "VU",
+        "anio_texto": "2025",
+        "valor_texto": "4,038.7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Venezuela, RB",
+        "pais_id": "VE",
+        "anio_texto": "2025",
+        "valor_texto": "3,494.8",
+        "es_agregado": false
+      },
+      {
+        "pais": "Viet Nam",
+        "pais_id": "VN",
+        "anio_texto": "2025",
+        "valor_texto": "5,066.0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Virgin Islands (U.S.)",
+        "pais_id": "VI",
+        "anio_texto": "2022",
+        "valor_texto": "44,320.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "West Bank and Gaza",
+        "pais_id": "PS",
+        "anio_texto": "2025",
+        "valor_texto": "3,171.1",
+        "es_agregado": false
+      },
+      {
+        "pais": "Yemen, Rep.",
+        "pais_id": "YE",
+        "anio_texto": "2018",
+        "valor_texto": "633.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zambia",
+        "pais_id": "ZM",
+        "anio_texto": "2025",
+        "valor_texto": "1,317.9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zimbabwe",
+        "pais_id": "ZW",
+        "anio_texto": "2025",
+        "valor_texto": "3,021.4",
+        "es_agregado": false
+      },
+      {
+        "pais": "World",
+        "pais_id": "1W",
+        "anio_texto": "2025",
+        "valor_texto": "14,405.8",
+        "es_agregado": true
+      },
+      {
+        "pais": "Arab World",
+        "pais_id": "1A",
+        "anio_texto": "2025",
+        "valor_texto": "7,544.4",
+        "es_agregado": true
+      },
+      {
+        "pais": "Caribbean small states",
+        "pais_id": "S3",
+        "anio_texto": "2025",
+        "valor_texto": "20,880.1",
+        "es_agregado": true
+      },
+      {
+        "pais": "Central Europe and the Baltics",
+        "pais_id": "B8",
+        "anio_texto": "2025",
+        "valor_texto": "27,676.9",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific",
+        "pais_id": "Z4",
+        "anio_texto": "2025",
+        "valor_texto": "14,077.3",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific (excluding high income)",
+        "pais_id": "4E",
+        "anio_texto": "2025",
+        "valor_texto": "10,843.4",
+        "es_agregado": true
+      },
+      {
+        "pais": "Euro area",
+        "pais_id": "XC",
+        "anio_texto": "2025",
+        "valor_texto": "50,214.1",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia",
+        "pais_id": "Z7",
+        "anio_texto": "2025",
+        "valor_texto": "34,603.5",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia (excluding high income)",
+        "pais_id": "7E",
+        "anio_texto": "2025",
+        "valor_texto": "11,117.6",
+        "es_agregado": true
+      },
+      {
+        "pais": "European Union",
+        "pais_id": "EU",
+        "anio_texto": "2025",
+        "valor_texto": "47,089.2",
+        "es_agregado": true
+      },
+      {
+        "pais": "Heavily indebted poor countries (HIPC)",
+        "pais_id": "XE",
+        "anio_texto": "2025",
+        "valor_texto": "1,331.9",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean",
+        "pais_id": "ZJ",
+        "anio_texto": "2025",
+        "valor_texto": "11,095.2",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean (excluding high income)",
+        "pais_id": "XJ",
+        "anio_texto": "2025",
+        "valor_texto": "10,407.5",
+        "es_agregado": true
+      },
+      {
+        "pais": "Least developed countries: UN classification",
+        "pais_id": "XL",
+        "anio_texto": "2025",
+        "valor_texto": "1,362.0",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan",
+        "pais_id": "ZQ",
+        "anio_texto": "2025",
+        "valor_texto": "6,202.2",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "pais_id": "XQ",
+        "anio_texto": "2025",
+        "valor_texto": "2,829.1",
+        "es_agregado": true
+      },
+      {
+        "pais": "North America",
+        "pais_id": "XU",
+        "anio_texto": "2025",
+        "valor_texto": "86,308.1",
+        "es_agregado": true
+      },
+      {
+        "pais": "OECD members",
+        "pais_id": "OE",
+        "anio_texto": "2025",
+        "valor_texto": "51,733.7",
+        "es_agregado": true
+      },
+      {
+        "pais": "Other small states",
+        "pais_id": "S4",
+        "anio_texto": "2025",
+        "valor_texto": "17,540.3",
+        "es_agregado": true
+      },
+      {
+        "pais": "Pacific island small states",
+        "pais_id": "S2",
+        "anio_texto": "2025",
+        "valor_texto": "4,719.7",
+        "es_agregado": true
+      },
+      {
+        "pais": "Small states",
+        "pais_id": "S1",
+        "anio_texto": "2025",
+        "valor_texto": "16,577.8",
+        "es_agregado": true
+      },
+      {
+        "pais": "South Asia",
+        "pais_id": "8S",
+        "anio_texto": "2025",
+        "valor_texto": "2,705.3",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa",
+        "pais_id": "ZG",
+        "anio_texto": "2025",
+        "valor_texto": "1,673.1",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa (excluding high income)",
+        "pais_id": "ZF",
+        "anio_texto": "2025",
+        "valor_texto": "1,671.4",
+        "es_agregado": true
+      },
+      {
+        "pais": "High income",
+        "pais_id": "XD",
+        "anio_texto": "2025",
+        "valor_texto": "53,997.3",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low & middle income",
+        "pais_id": "XO",
+        "anio_texto": "2025",
+        "valor_texto": "6,107.3",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low income",
+        "pais_id": "XM",
+        "anio_texto": "2025",
+        "valor_texto": "837.4",
+        "es_agregado": true
+      },
+      {
+        "pais": "Lower middle income",
+        "pais_id": "XN",
+        "anio_texto": "2025",
+        "valor_texto": "2,481.4",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle income",
+        "pais_id": "XP",
+        "anio_texto": "2025",
+        "valor_texto": "6,778.8",
+        "es_agregado": true
+      },
+      {
+        "pais": "Upper middle income",
+        "pais_id": "XT",
+        "anio_texto": "2025",
+        "valor_texto": "10,890.1",
+        "es_agregado": true
+      }
+    ]
+  },
+  {
+    "indicador": "IT.NET.USER.ZS",
+    "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+    "unidad_texto": null,
+    "filas": [
+      {
+        "pais": "Afghanistan",
+        "pais_id": "AF",
+        "anio_texto": "2024",
+        "valor_texto": "16",
+        "es_agregado": false
+      },
+      {
+        "pais": "Albania",
+        "pais_id": "AL",
+        "anio_texto": "2024",
+        "valor_texto": "86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Algeria",
+        "pais_id": "DZ",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "American Samoa",
+        "pais_id": "AS",
+        "anio_texto": "1990",
+        "valor_texto": "0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Andorra",
+        "pais_id": "AD",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Angola",
+        "pais_id": "AO",
+        "anio_texto": "2024",
+        "valor_texto": "41",
+        "es_agregado": false
+      },
+      {
+        "pais": "Antigua and Barbuda",
+        "pais_id": "AG",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Argentina",
+        "pais_id": "AR",
+        "anio_texto": "2024",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Armenia",
+        "pais_id": "AM",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Aruba",
+        "pais_id": "AW",
+        "anio_texto": "2017",
+        "valor_texto": "97",
+        "es_agregado": false
+      },
+      {
+        "pais": "Australia",
+        "pais_id": "AU",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Austria",
+        "pais_id": "AT",
+        "anio_texto": "2025",
+        "valor_texto": "92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Azerbaijan",
+        "pais_id": "AZ",
+        "anio_texto": "2025",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahamas, The",
+        "pais_id": "BS",
+        "anio_texto": "2024",
+        "valor_texto": "92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bahrain",
+        "pais_id": "BH",
+        "anio_texto": "2024",
+        "valor_texto": "100",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bangladesh",
+        "pais_id": "BD",
+        "anio_texto": "2024",
+        "valor_texto": "53",
+        "es_agregado": false
+      },
+      {
+        "pais": "Barbados",
+        "pais_id": "BB",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belarus",
+        "pais_id": "BY",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belgium",
+        "pais_id": "BE",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Belize",
+        "pais_id": "BZ",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Benin",
+        "pais_id": "BJ",
+        "anio_texto": "2024",
+        "valor_texto": "34",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bermuda",
+        "pais_id": "BM",
+        "anio_texto": "2017",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bhutan",
+        "pais_id": "BT",
+        "anio_texto": "2024",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bolivia",
+        "pais_id": "BO",
+        "anio_texto": "2024",
+        "valor_texto": "80",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bosnia and Herzegovina",
+        "pais_id": "BA",
+        "anio_texto": "2024",
+        "valor_texto": "86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Botswana",
+        "pais_id": "BW",
+        "anio_texto": "2024",
+        "valor_texto": "57",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brazil",
+        "pais_id": "BR",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "British Virgin Islands",
+        "pais_id": "VG",
+        "anio_texto": "2017",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "Brunei Darussalam",
+        "pais_id": "BN",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Bulgaria",
+        "pais_id": "BG",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burkina Faso",
+        "pais_id": "BF",
+        "anio_texto": "2024",
+        "valor_texto": "28",
+        "es_agregado": false
+      },
+      {
+        "pais": "Burundi",
+        "pais_id": "BI",
+        "anio_texto": "2024",
+        "valor_texto": "9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cabo Verde",
+        "pais_id": "CV",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cambodia",
+        "pais_id": "KH",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cameroon",
+        "pais_id": "CM",
+        "anio_texto": "2024",
+        "valor_texto": "46",
+        "es_agregado": false
+      },
+      {
+        "pais": "Canada",
+        "pais_id": "CA",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cayman Islands",
+        "pais_id": "KY",
+        "anio_texto": "2017",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Central African Republic",
+        "pais_id": "CF",
+        "anio_texto": "2024",
+        "valor_texto": "14",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chad",
+        "pais_id": "TD",
+        "anio_texto": "2024",
+        "valor_texto": "13",
+        "es_agregado": false
+      },
+      {
+        "pais": "Channel Islands",
+        "pais_id": "JG",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "Chile",
+        "pais_id": "CL",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "China",
+        "pais_id": "CN",
+        "anio_texto": "2025",
+        "valor_texto": "92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Colombia",
+        "pais_id": "CO",
+        "anio_texto": "2024",
+        "valor_texto": "79",
+        "es_agregado": false
+      },
+      {
+        "pais": "Comoros",
+        "pais_id": "KM",
+        "anio_texto": "2024",
+        "valor_texto": "33",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Dem. Rep.",
+        "pais_id": "CD",
+        "anio_texto": "2024",
+        "valor_texto": "20",
+        "es_agregado": false
+      },
+      {
+        "pais": "Congo, Rep.",
+        "pais_id": "CG",
+        "anio_texto": "2024",
+        "valor_texto": "47",
+        "es_agregado": false
+      },
+      {
+        "pais": "Costa Rica",
+        "pais_id": "CR",
+        "anio_texto": "2024",
+        "valor_texto": "87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cote d'Ivoire",
+        "pais_id": "CI",
+        "anio_texto": "2024",
+        "valor_texto": "41",
+        "es_agregado": false
+      },
+      {
+        "pais": "Croatia",
+        "pais_id": "HR",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cuba",
+        "pais_id": "CU",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Curacao",
+        "pais_id": "CW",
+        "anio_texto": "2017",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "Cyprus",
+        "pais_id": "CY",
+        "anio_texto": "2024",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Czechia",
+        "pais_id": "CZ",
+        "anio_texto": "2024",
+        "valor_texto": "88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Denmark",
+        "pais_id": "DK",
+        "anio_texto": "2024",
+        "valor_texto": "100",
+        "es_agregado": false
+      },
+      {
+        "pais": "Djibouti",
+        "pais_id": "DJ",
+        "anio_texto": "2024",
+        "valor_texto": "65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominica",
+        "pais_id": "DM",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Dominican Republic",
+        "pais_id": "DO",
+        "anio_texto": "2024",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ecuador",
+        "pais_id": "EC",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Egypt, Arab Rep.",
+        "pais_id": "EG",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "El Salvador",
+        "pais_id": "SV",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Equatorial Guinea",
+        "pais_id": "GQ",
+        "anio_texto": "2024",
+        "valor_texto": "63",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eritrea",
+        "pais_id": "ER",
+        "anio_texto": "2020",
+        "valor_texto": "14",
+        "es_agregado": false
+      },
+      {
+        "pais": "Estonia",
+        "pais_id": "EE",
+        "anio_texto": "2024",
+        "valor_texto": "92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Eswatini",
+        "pais_id": "SZ",
+        "anio_texto": "2024",
+        "valor_texto": "63",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ethiopia",
+        "pais_id": "ET",
+        "anio_texto": "2024",
+        "valor_texto": "22",
+        "es_agregado": false
+      },
+      {
+        "pais": "Faroe Islands",
+        "pais_id": "FO",
+        "anio_texto": "2017",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Fiji",
+        "pais_id": "FJ",
+        "anio_texto": "2024",
+        "valor_texto": "75",
+        "es_agregado": false
+      },
+      {
+        "pais": "Finland",
+        "pais_id": "FI",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "France",
+        "pais_id": "FR",
+        "anio_texto": "2024",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "French Polynesia",
+        "pais_id": "PF",
+        "anio_texto": "2017",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gabon",
+        "pais_id": "GA",
+        "anio_texto": "2024",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gambia, The",
+        "pais_id": "GM",
+        "anio_texto": "2024",
+        "valor_texto": "49",
+        "es_agregado": false
+      },
+      {
+        "pais": "Georgia",
+        "pais_id": "GE",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Germany",
+        "pais_id": "DE",
+        "anio_texto": "2024",
+        "valor_texto": "93",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ghana",
+        "pais_id": "GH",
+        "anio_texto": "2024",
+        "valor_texto": "72",
+        "es_agregado": false
+      },
+      {
+        "pais": "Gibraltar",
+        "pais_id": "GI",
+        "anio_texto": "2016",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greece",
+        "pais_id": "GR",
+        "anio_texto": "2024",
+        "valor_texto": "86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Greenland",
+        "pais_id": "GL",
+        "anio_texto": "2017",
+        "valor_texto": "69",
+        "es_agregado": false
+      },
+      {
+        "pais": "Grenada",
+        "pais_id": "GD",
+        "anio_texto": "2024",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guam",
+        "pais_id": "GU",
+        "anio_texto": "2017",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guatemala",
+        "pais_id": "GT",
+        "anio_texto": "2024",
+        "valor_texto": "60",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea",
+        "pais_id": "GN",
+        "anio_texto": "2024",
+        "valor_texto": "33",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guinea-Bissau",
+        "pais_id": "GW",
+        "anio_texto": "2024",
+        "valor_texto": "30",
+        "es_agregado": false
+      },
+      {
+        "pais": "Guyana",
+        "pais_id": "GY",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Haiti",
+        "pais_id": "HT",
+        "anio_texto": "2024",
+        "valor_texto": "48",
+        "es_agregado": false
+      },
+      {
+        "pais": "Honduras",
+        "pais_id": "HN",
+        "anio_texto": "2024",
+        "valor_texto": "59",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hong Kong SAR, China",
+        "pais_id": "HK",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Hungary",
+        "pais_id": "HU",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iceland",
+        "pais_id": "IS",
+        "anio_texto": "2024",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "India",
+        "pais_id": "IN",
+        "anio_texto": "2025",
+        "valor_texto": "70",
+        "es_agregado": false
+      },
+      {
+        "pais": "Indonesia",
+        "pais_id": "ID",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iran, Islamic Rep.",
+        "pais_id": "IR",
+        "anio_texto": "2024",
+        "valor_texto": "85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Iraq",
+        "pais_id": "IQ",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ireland",
+        "pais_id": "IE",
+        "anio_texto": "2024",
+        "valor_texto": "97",
+        "es_agregado": false
+      },
+      {
+        "pais": "Isle of Man",
+        "pais_id": "IM",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "Israel",
+        "pais_id": "IL",
+        "anio_texto": "2024",
+        "valor_texto": "88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Italy",
+        "pais_id": "IT",
+        "anio_texto": "2024",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jamaica",
+        "pais_id": "JM",
+        "anio_texto": "2024",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Japan",
+        "pais_id": "JP",
+        "anio_texto": "2024",
+        "valor_texto": "86",
+        "es_agregado": false
+      },
+      {
+        "pais": "Jordan",
+        "pais_id": "JO",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kazakhstan",
+        "pais_id": "KZ",
+        "anio_texto": "2024",
+        "valor_texto": "93",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kenya",
+        "pais_id": "KE",
+        "anio_texto": "2024",
+        "valor_texto": "35",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kiribati",
+        "pais_id": "KI",
+        "anio_texto": "2024",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Dem. People's Rep.",
+        "pais_id": "KP",
+        "anio_texto": "2004",
+        "valor_texto": "0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Korea, Rep.",
+        "pais_id": "KR",
+        "anio_texto": "2024",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kosovo",
+        "pais_id": "XK",
+        "anio_texto": "2018",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kuwait",
+        "pais_id": "KW",
+        "anio_texto": "2025",
+        "valor_texto": "100",
+        "es_agregado": false
+      },
+      {
+        "pais": "Kyrgyz Republic",
+        "pais_id": "KG",
+        "anio_texto": "2024",
+        "valor_texto": "92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lao PDR",
+        "pais_id": "LA",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Latvia",
+        "pais_id": "LV",
+        "anio_texto": "2024",
+        "valor_texto": "93",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lebanon",
+        "pais_id": "LB",
+        "anio_texto": "2024",
+        "valor_texto": "81",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lesotho",
+        "pais_id": "LS",
+        "anio_texto": "2024",
+        "valor_texto": "52",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liberia",
+        "pais_id": "LR",
+        "anio_texto": "2024",
+        "valor_texto": "32",
+        "es_agregado": false
+      },
+      {
+        "pais": "Libya",
+        "pais_id": "LY",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Liechtenstein",
+        "pais_id": "LI",
+        "anio_texto": "2024",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Lithuania",
+        "pais_id": "LT",
+        "anio_texto": "2024",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Luxembourg",
+        "pais_id": "LU",
+        "anio_texto": "2025",
+        "valor_texto": "99",
+        "es_agregado": false
+      },
+      {
+        "pais": "Macao SAR, China",
+        "pais_id": "MO",
+        "anio_texto": "2024",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Madagascar",
+        "pais_id": "MG",
+        "anio_texto": "2024",
+        "valor_texto": "19",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malawi",
+        "pais_id": "MW",
+        "anio_texto": "2024",
+        "valor_texto": "19",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malaysia",
+        "pais_id": "MY",
+        "anio_texto": "2024",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Maldives",
+        "pais_id": "MV",
+        "anio_texto": "2024",
+        "valor_texto": "85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mali",
+        "pais_id": "ML",
+        "anio_texto": "2024",
+        "valor_texto": "37",
+        "es_agregado": false
+      },
+      {
+        "pais": "Malta",
+        "pais_id": "MT",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Marshall Islands",
+        "pais_id": "MH",
+        "anio_texto": "2024",
+        "valor_texto": "66",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritania",
+        "pais_id": "MR",
+        "anio_texto": "2024",
+        "valor_texto": "46",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mauritius",
+        "pais_id": "MU",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mexico",
+        "pais_id": "MX",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Micronesia, Fed. Sts.",
+        "pais_id": "FM",
+        "anio_texto": "2024",
+        "valor_texto": "40",
+        "es_agregado": false
+      },
+      {
+        "pais": "Moldova",
+        "pais_id": "MD",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Monaco",
+        "pais_id": "MC",
+        "anio_texto": "2024",
+        "valor_texto": "99",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mongolia",
+        "pais_id": "MN",
+        "anio_texto": "2024",
+        "valor_texto": "85",
+        "es_agregado": false
+      },
+      {
+        "pais": "Montenegro",
+        "pais_id": "ME",
+        "anio_texto": "2024",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Morocco",
+        "pais_id": "MA",
+        "anio_texto": "2024",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Mozambique",
+        "pais_id": "MZ",
+        "anio_texto": "2024",
+        "valor_texto": "21",
+        "es_agregado": false
+      },
+      {
+        "pais": "Myanmar",
+        "pais_id": "MM",
+        "anio_texto": "2020",
+        "valor_texto": "45",
+        "es_agregado": false
+      },
+      {
+        "pais": "Namibia",
+        "pais_id": "NA",
+        "anio_texto": "2024",
+        "valor_texto": "65",
+        "es_agregado": false
+      },
+      {
+        "pais": "Naoero",
+        "pais_id": "NR",
+        "anio_texto": "2024",
+        "valor_texto": "83",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nepal",
+        "pais_id": "NP",
+        "anio_texto": "2024",
+        "valor_texto": "46",
+        "es_agregado": false
+      },
+      {
+        "pais": "Netherlands",
+        "pais_id": "NL",
+        "anio_texto": "2024",
+        "valor_texto": "97",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Caledonia",
+        "pais_id": "NC",
+        "anio_texto": "2017",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "New Zealand",
+        "pais_id": "NZ",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nicaragua",
+        "pais_id": "NI",
+        "anio_texto": "2024",
+        "valor_texto": "61",
+        "es_agregado": false
+      },
+      {
+        "pais": "Niger",
+        "pais_id": "NE",
+        "anio_texto": "2024",
+        "valor_texto": "16",
+        "es_agregado": false
+      },
+      {
+        "pais": "Nigeria",
+        "pais_id": "NG",
+        "anio_texto": "2024",
+        "valor_texto": "41",
+        "es_agregado": false
+      },
+      {
+        "pais": "North Macedonia",
+        "pais_id": "MK",
+        "anio_texto": "2025",
+        "valor_texto": "93",
+        "es_agregado": false
+      },
+      {
+        "pais": "Northern Mariana Islands",
+        "pais_id": "MP",
+        "anio_texto": "1990",
+        "valor_texto": "0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Norway",
+        "pais_id": "NO",
+        "anio_texto": "2024",
+        "valor_texto": "99",
+        "es_agregado": false
+      },
+      {
+        "pais": "Oman",
+        "pais_id": "OM",
+        "anio_texto": "2024",
+        "valor_texto": "95",
+        "es_agregado": false
+      },
+      {
+        "pais": "Pakistan",
+        "pais_id": "PK",
+        "anio_texto": "2024",
+        "valor_texto": "57",
+        "es_agregado": false
+      },
+      {
+        "pais": "Palau",
+        "pais_id": "PW",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Panama",
+        "pais_id": "PA",
+        "anio_texto": "2024",
+        "valor_texto": "73",
+        "es_agregado": false
+      },
+      {
+        "pais": "Papua New Guinea",
+        "pais_id": "PG",
+        "anio_texto": "2024",
+        "valor_texto": "19",
+        "es_agregado": false
+      },
+      {
+        "pais": "Paraguay",
+        "pais_id": "PY",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Peru",
+        "pais_id": "PE",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Philippines",
+        "pais_id": "PH",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Poland",
+        "pais_id": "PL",
+        "anio_texto": "2024",
+        "valor_texto": "89",
+        "es_agregado": false
+      },
+      {
+        "pais": "Portugal",
+        "pais_id": "PT",
+        "anio_texto": "2024",
+        "valor_texto": "88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Puerto Rico (US)",
+        "pais_id": "PR",
+        "anio_texto": "2022",
+        "valor_texto": "87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Qatar",
+        "pais_id": "QA",
+        "anio_texto": "2024",
+        "valor_texto": "98",
+        "es_agregado": false
+      },
+      {
+        "pais": "Romania",
+        "pais_id": "RO",
+        "anio_texto": "2024",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Russian Federation",
+        "pais_id": "RU",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Rwanda",
+        "pais_id": "RW",
+        "anio_texto": "2024",
+        "valor_texto": "32",
+        "es_agregado": false
+      },
+      {
+        "pais": "Samoa",
+        "pais_id": "WS",
+        "anio_texto": "2014",
+        "valor_texto": "21",
+        "es_agregado": false
+      },
+      {
+        "pais": "San Marino",
+        "pais_id": "SM",
+        "anio_texto": "2024",
+        "valor_texto": "97",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sao Tome and Principe",
+        "pais_id": "ST",
+        "anio_texto": "2024",
+        "valor_texto": "59",
+        "es_agregado": false
+      },
+      {
+        "pais": "Saudi Arabia",
+        "pais_id": "SA",
+        "anio_texto": "2024",
+        "valor_texto": "100",
+        "es_agregado": false
+      },
+      {
+        "pais": "Senegal",
+        "pais_id": "SN",
+        "anio_texto": "2024",
+        "valor_texto": "60",
+        "es_agregado": false
+      },
+      {
+        "pais": "Serbia",
+        "pais_id": "RS",
+        "anio_texto": "2024",
+        "valor_texto": "88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Seychelles",
+        "pais_id": "SC",
+        "anio_texto": "2024",
+        "valor_texto": "88",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sierra Leone",
+        "pais_id": "SL",
+        "anio_texto": "2024",
+        "valor_texto": "25",
+        "es_agregado": false
+      },
+      {
+        "pais": "Singapore",
+        "pais_id": "SG",
+        "anio_texto": "2024",
+        "valor_texto": "94",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sint Maarten (Dutch part)",
+        "pais_id": "SX",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovak Republic",
+        "pais_id": "SK",
+        "anio_texto": "2024",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Slovenia",
+        "pais_id": "SI",
+        "anio_texto": "2024",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Solomon Islands",
+        "pais_id": "SB",
+        "anio_texto": "2024",
+        "valor_texto": "29",
+        "es_agregado": false
+      },
+      {
+        "pais": "Somalia, Fed. Rep.",
+        "pais_id": "SO",
+        "anio_texto": "2024",
+        "valor_texto": "28",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Africa",
+        "pais_id": "ZA",
+        "anio_texto": "2024",
+        "valor_texto": "78",
+        "es_agregado": false
+      },
+      {
+        "pais": "South Sudan",
+        "pais_id": "SS",
+        "anio_texto": "2019",
+        "valor_texto": "7",
+        "es_agregado": false
+      },
+      {
+        "pais": "Spain",
+        "pais_id": "ES",
+        "anio_texto": "2024",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sri Lanka",
+        "pais_id": "LK",
+        "anio_texto": "2024",
+        "valor_texto": "55",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Kitts and Nevis",
+        "pais_id": "KN",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Lucia",
+        "pais_id": "LC",
+        "anio_texto": "2024",
+        "valor_texto": "68",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Martin (French part)",
+        "pais_id": "MF",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": false
+      },
+      {
+        "pais": "St. Vincent and the Grenadines",
+        "pais_id": "VC",
+        "anio_texto": "2024",
+        "valor_texto": "76",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sudan",
+        "pais_id": "SD",
+        "anio_texto": "2017",
+        "valor_texto": "19",
+        "es_agregado": false
+      },
+      {
+        "pais": "Suriname",
+        "pais_id": "SR",
+        "anio_texto": "2023",
+        "valor_texto": "87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Sweden",
+        "pais_id": "SE",
+        "anio_texto": "2025",
+        "valor_texto": "96",
+        "es_agregado": false
+      },
+      {
+        "pais": "Switzerland",
+        "pais_id": "CH",
+        "anio_texto": "2025",
+        "valor_texto": "97",
+        "es_agregado": false
+      },
+      {
+        "pais": "Syrian Arab Republic",
+        "pais_id": "SY",
+        "anio_texto": "2018",
+        "valor_texto": "34",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tajikistan",
+        "pais_id": "TJ",
+        "anio_texto": "2024",
+        "valor_texto": "56",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tanzania",
+        "pais_id": "TZ",
+        "anio_texto": "2024",
+        "valor_texto": "31",
+        "es_agregado": false
+      },
+      {
+        "pais": "Thailand",
+        "pais_id": "TH",
+        "anio_texto": "2024",
+        "valor_texto": "91",
+        "es_agregado": false
+      },
+      {
+        "pais": "Timor-Leste",
+        "pais_id": "TL",
+        "anio_texto": "2021",
+        "valor_texto": "35",
+        "es_agregado": false
+      },
+      {
+        "pais": "Togo",
+        "pais_id": "TG",
+        "anio_texto": "2024",
+        "valor_texto": "39",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tonga",
+        "pais_id": "TO",
+        "anio_texto": "2024",
+        "valor_texto": "67",
+        "es_agregado": false
+      },
+      {
+        "pais": "Trinidad and Tobago",
+        "pais_id": "TT",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tunisia",
+        "pais_id": "TN",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkiye",
+        "pais_id": "TR",
+        "anio_texto": "2025",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turkmenistan",
+        "pais_id": "TM",
+        "anio_texto": "2016",
+        "valor_texto": "18",
+        "es_agregado": false
+      },
+      {
+        "pais": "Turks and Caicos Islands",
+        "pais_id": "TC",
+        "anio_texto": "1990",
+        "valor_texto": "0",
+        "es_agregado": false
+      },
+      {
+        "pais": "Tuvalu",
+        "pais_id": "TV",
+        "anio_texto": "2017",
+        "valor_texto": "35",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uganda",
+        "pais_id": "UG",
+        "anio_texto": "2024",
+        "valor_texto": "9",
+        "es_agregado": false
+      },
+      {
+        "pais": "Ukraine",
+        "pais_id": "UA",
+        "anio_texto": "2024",
+        "valor_texto": "82",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Arab Emirates",
+        "pais_id": "AE",
+        "anio_texto": "2024",
+        "valor_texto": "100",
+        "es_agregado": false
+      },
+      {
+        "pais": "United Kingdom",
+        "pais_id": "GB",
+        "anio_texto": "2024",
+        "valor_texto": "95",
+        "es_agregado": false
+      },
+      {
+        "pais": "United States",
+        "pais_id": "US",
+        "anio_texto": "2024",
+        "valor_texto": "95",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uruguay",
+        "pais_id": "UY",
+        "anio_texto": "2024",
+        "valor_texto": "92",
+        "es_agregado": false
+      },
+      {
+        "pais": "Uzbekistan",
+        "pais_id": "UZ",
+        "anio_texto": "2024",
+        "valor_texto": "90",
+        "es_agregado": false
+      },
+      {
+        "pais": "Vanuatu",
+        "pais_id": "VU",
+        "anio_texto": "2015",
+        "valor_texto": "22",
+        "es_agregado": false
+      },
+      {
+        "pais": "Venezuela, RB",
+        "pais_id": "VE",
+        "anio_texto": "2024",
+        "valor_texto": "77",
+        "es_agregado": false
+      },
+      {
+        "pais": "Viet Nam",
+        "pais_id": "VN",
+        "anio_texto": "2024",
+        "valor_texto": "84",
+        "es_agregado": false
+      },
+      {
+        "pais": "Virgin Islands (U.S.)",
+        "pais_id": "VI",
+        "anio_texto": "2017",
+        "valor_texto": "64",
+        "es_agregado": false
+      },
+      {
+        "pais": "West Bank and Gaza",
+        "pais_id": "PS",
+        "anio_texto": "2023",
+        "valor_texto": "87",
+        "es_agregado": false
+      },
+      {
+        "pais": "Yemen, Rep.",
+        "pais_id": "YE",
+        "anio_texto": "2019",
+        "valor_texto": "17",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zambia",
+        "pais_id": "ZM",
+        "anio_texto": "2024",
+        "valor_texto": "17",
+        "es_agregado": false
+      },
+      {
+        "pais": "Zimbabwe",
+        "pais_id": "ZW",
+        "anio_texto": "2024",
+        "valor_texto": "42",
+        "es_agregado": false
+      },
+      {
+        "pais": "World",
+        "pais_id": "1W",
+        "anio_texto": "2025",
+        "valor_texto": "74",
+        "es_agregado": true
+      },
+      {
+        "pais": "Arab World",
+        "pais_id": "1A",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Caribbean small states",
+        "pais_id": "S3",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Central Europe and the Baltics",
+        "pais_id": "B8",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific",
+        "pais_id": "Z4",
+        "anio_texto": "2025",
+        "valor_texto": "88",
+        "es_agregado": true
+      },
+      {
+        "pais": "East Asia & Pacific (excluding high income)",
+        "pais_id": "4E",
+        "anio_texto": "2025",
+        "valor_texto": "88",
+        "es_agregado": true
+      },
+      {
+        "pais": "Euro area",
+        "pais_id": "XC",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia",
+        "pais_id": "Z7",
+        "anio_texto": "2025",
+        "valor_texto": "92",
+        "es_agregado": true
+      },
+      {
+        "pais": "Europe & Central Asia (excluding high income)",
+        "pais_id": "7E",
+        "anio_texto": "2025",
+        "valor_texto": "88",
+        "es_agregado": true
+      },
+      {
+        "pais": "European Union",
+        "pais_id": "EU",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Heavily indebted poor countries (HIPC)",
+        "pais_id": "XE",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean",
+        "pais_id": "ZJ",
+        "anio_texto": "2025",
+        "valor_texto": "84",
+        "es_agregado": true
+      },
+      {
+        "pais": "Latin America & Caribbean (excluding high income)",
+        "pais_id": "XJ",
+        "anio_texto": "2025",
+        "valor_texto": "84",
+        "es_agregado": true
+      },
+      {
+        "pais": "Least developed countries: UN classification",
+        "pais_id": "XL",
+        "anio_texto": "2025",
+        "valor_texto": "34",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan",
+        "pais_id": "ZQ",
+        "anio_texto": "2025",
+        "valor_texto": "64",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
+        "pais_id": "XQ",
+        "anio_texto": "2025",
+        "valor_texto": "0",
+        "es_agregado": true
+      },
+      {
+        "pais": "North America",
+        "pais_id": "XU",
+        "anio_texto": "2025",
+        "valor_texto": "96",
+        "es_agregado": true
+      },
+      {
+        "pais": "OECD members",
+        "pais_id": "OE",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Other small states",
+        "pais_id": "S4",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Pacific island small states",
+        "pais_id": "S2",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Small states",
+        "pais_id": "S1",
+        "anio_texto": "2025",
+        "valor_texto": "0",
+        "es_agregado": true
+      },
+      {
+        "pais": "South Asia",
+        "pais_id": "8S",
+        "anio_texto": "2025",
+        "valor_texto": "68",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa",
+        "pais_id": "ZG",
+        "anio_texto": "2025",
+        "valor_texto": "36",
+        "es_agregado": true
+      },
+      {
+        "pais": "Sub-Saharan Africa (excluding high income)",
+        "pais_id": "ZF",
+        "anio_texto": "2025",
+        "valor_texto": "37",
+        "es_agregado": true
+      },
+      {
+        "pais": "High income",
+        "pais_id": "XD",
+        "anio_texto": "2025",
+        "valor_texto": "94",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low & middle income",
+        "pais_id": "XO",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Low income",
+        "pais_id": "XM",
+        "anio_texto": "2025",
+        "valor_texto": "23",
+        "es_agregado": true
+      },
+      {
+        "pais": "Lower middle income",
+        "pais_id": "XN",
+        "anio_texto": "2025",
+        "valor_texto": "63",
+        "es_agregado": true
+      },
+      {
+        "pais": "Middle income",
+        "pais_id": "XP",
+        "anio_texto": "",
+        "valor_texto": "",
+        "es_agregado": true
+      },
+      {
+        "pais": "Upper middle income",
+        "pais_id": "XT",
+        "anio_texto": "2025",
+        "valor_texto": "89",
+        "es_agregado": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,649 @@
+{
+  "fuente": "https://api.worldbank.org/v2",
+  "licencia": "CC BY 4.0",
+  "pais": "MX",
+  "anios": "2006:2025",
+  "extraido_en": "2026-11-09T10:40:57",
+  "datos": [
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2025,
+      "valor": 131946900
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2024,
+      "valor": 130861007
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2023,
+      "valor": 129739759
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2022,
+      "valor": 128613117
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2021,
+      "valor": 127648148
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2020,
+      "valor": 126799054
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2019,
+      "valor": 125762982
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2018,
+      "valor": 124573711
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2017,
+      "valor": 123400057
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2016,
+      "valor": 122251351
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2015,
+      "valor": 121072306
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2014,
+      "valor": 119784261
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2013,
+      "valor": 118343573
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2012,
+      "valor": 116818208
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2011,
+      "valor": 115243504
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2010,
+      "valor": 113623895
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2009,
+      "valor": 111999721
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2008,
+      "valor": 110374288
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2007,
+      "valor": 108774360
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.POP.TOTL",
+      "indicador": "Poblacion total",
+      "anio": 2006,
+      "valor": 107253666
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2025,
+      "valor": null
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2024,
+      "valor": 75.264
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2023,
+      "valor": 75.069
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2022,
+      "valor": 73.973
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2021,
+      "valor": 69.75
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2020,
+      "valor": 70.449
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2019,
+      "valor": 74.53
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2018,
+      "valor": 74.301
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2017,
+      "valor": 74.261
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2016,
+      "valor": 74.376
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2015,
+      "valor": 74.431
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2014,
+      "valor": 74.404
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2013,
+      "valor": 74.289
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2012,
+      "valor": 74.128
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2011,
+      "valor": 73.921
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2010,
+      "valor": 73.718
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2009,
+      "valor": 73.628
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2008,
+      "valor": 73.695
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2007,
+      "valor": 73.796
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "SP.DYN.LE00.IN",
+      "indicador": "Esperanza de vida al nacer (anios)",
+      "anio": 2006,
+      "valor": 73.746
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2025,
+      "valor": 13889.2339628708
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2024,
+      "valor": 13988.0423745241
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2023,
+      "valor": 13830.843848864
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2022,
+      "valor": 11405.7940469896
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2021,
+      "valor": 10314.0506733708
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2020,
+      "valor": 8841.27074929751
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2019,
+      "valor": 10369.5553593527
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2018,
+      "valor": 10084.7937570364
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2017,
+      "valor": 9649.27816729586
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2016,
+      "valor": 9097.92397674769
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2015,
+      "valor": 10021.2386113616
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2014,
+      "valor": 11391.3773503964
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2013,
+      "valor": 11216.800851866
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2012,
+      "valor": 10744.1335236186
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2011,
+      "valor": 10664.4944032313
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2010,
+      "valor": 9728.80078307432
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2009,
+      "valor": 8423.56933148639
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2008,
+      "valor": 10523.7685427665
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2007,
+      "valor": 10134.3327129706
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "NY.GDP.PCAP.CD",
+      "indicador": "PIB per capita (US$ corrientes)",
+      "anio": 2006,
+      "valor": 9512.63575346699
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2025,
+      "valor": null
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2024,
+      "valor": 83.12233799
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2023,
+      "valor": 81.18318755
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2022,
+      "valor": 78.63217894
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2021,
+      "valor": 75.62650476
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2020,
+      "valor": 71.49017499
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2019,
+      "valor": 69.6321092705209
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2018,
+      "valor": 56.6595667981289
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2017,
+      "valor": 53.0317886110982
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2016,
+      "valor": 59.5404459967255
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2015,
+      "valor": 57.4310429923633
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2014,
+      "valor": 44.3856962723411
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2013,
+      "valor": 43.46
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2012,
+      "valor": 39.75
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2011,
+      "valor": 37.1762954125184
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2010,
+      "valor": 31.05
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2009,
+      "valor": 26.34
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2008,
+      "valor": 21.71
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2007,
+      "valor": 20.81
+    },
+    {
+      "pais_id": "MX",
+      "pais": "Mexico",
+      "indicador_id": "IT.NET.USER.ZS",
+      "indicador": "Personas que usan Internet (% poblacion)",
+      "anio": 2006,
+      "valor": 19.52000046
+    }
+  ]
+}

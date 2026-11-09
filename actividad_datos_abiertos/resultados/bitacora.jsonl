@@ -1,0 +1,38 @@
+{"fecha": "2026-11-09T10:34:32", "script": "01_auditoria", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge; requests; BeautifulSoup"}
+{"fecha": "2026-11-09T10:35:08", "script": "01_auditoria", "tipo": "medida", "detalle": "datos_gob_mx: API no consultada porque robots.txt la prohíbe"}
+{"fecha": "2026-11-09T10:35:18", "script": "01_auditoria", "tipo": "bloqueo", "detalle": "datos_gob_mx: https://www.datos.gob.mx/dataset: señal de bloqueo: 'access denied' (título: 'Access Denied'). Se detiene el navegador para este sitio."}
+{"fecha": "2026-11-09T10:36:16", "script": "01_auditoria", "tipo": "error", "detalle": "dof: TLS de www.dof.gob.mx: Hostname mismatch, certificate is not valid for 'www.dof.gob.mx'.. Se usa dof.gob.mx; no se desactiva la verificación."}
+{"fecha": "2026-11-09T10:36:43", "script": "02_extraccion_pequena", "tipo": "herramienta", "detalle": "requests contra api.worldbank.org/v2 (API oficial)"}
+{"fecha": "2026-11-09T10:37:40", "script": "03_duelo", "tipo": "herramienta", "detalle": "requests, BeautifulSoup y Selenium con Microsoft Edge"}
+{"fecha": "2026-11-09T10:37:48", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por HTTP: 0 filas en el HTML inicial"}
+{"fecha": "2026-11-09T10:38:21", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por Selenium: 247 filas (unidad: Thousands)"}
+{"fecha": "2026-11-09T10:38:28", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por API: 217 países con dato"}
+{"fecha": "2026-11-09T10:38:54", "script": "03_duelo", "tipo": "resultado", "detalle": "catalog.data.gov: HTTP 20 filas, Selenium 20 filas"}
+{"fecha": "2026-11-09T10:40:30", "script": "02_extraccion_pequena", "tipo": "herramienta", "detalle": "requests contra api.worldbank.org/v2 (API oficial)"}
+{"fecha": "2026-11-09T10:40:57", "script": "02_extraccion_pequena", "tipo": "resultado", "detalle": "80 registros; 2 sin valor publicado"}
+{"fecha": "2026-11-09T10:41:02", "script": "03_duelo", "tipo": "herramienta", "detalle": "requests, BeautifulSoup y Selenium con Microsoft Edge"}
+{"fecha": "2026-11-09T10:41:07", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por HTTP: 0 filas en el HTML inicial"}
+{"fecha": "2026-11-09T10:41:31", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por Selenium: 247 filas (unidad: Thousands)"}
+{"fecha": "2026-11-09T10:41:43", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por API: 217 países con dato"}
+{"fecha": "2026-11-09T10:42:15", "script": "03_duelo", "tipo": "resultado", "detalle": "catalog.data.gov: HTTP 20 filas, Selenium 20 filas"}
+{"fecha": "2026-11-09T10:42:23", "script": "04_flujo", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge y WebDriverWait"}
+{"fecha": "2026-11-09T10:43:55", "script": "04_flujo", "tipo": "resultado", "detalle": "{'filas_crudas': 988, 'sin_pais': 0, 'duplicados': 0, 'faltantes': 18, 'insertadas': 970, 'actualizadas': 0, 'sin_cambio': 0, 'total_observaciones': 970}"}
+{"fecha": "2026-11-09T10:44:19", "script": "05_reto", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge y WebDriverWait"}
+{"fecha": "2026-11-09T11:56:49", "script": "05_reto", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge y WebDriverWait"}
+{"fecha": "2026-11-09T11:59:28", "script": "05_reto", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge y WebDriverWait"}
+{"fecha": "2026-11-09T12:01:47", "script": "05_reto", "tipo": "resultado", "detalle": "Reto SUPERADO: 0 llaves repetidas; 0 filas nuevas tras la corrida 1"}
+{"fecha": "2026-11-09T12:02:02", "script": "01_auditoria", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge; requests; BeautifulSoup"}
+{"fecha": "2026-11-09T12:02:48", "script": "01_auditoria", "tipo": "medida", "detalle": "datos_gob_mx: API no consultada porque robots.txt la prohíbe"}
+{"fecha": "2026-11-09T12:02:57", "script": "01_auditoria", "tipo": "bloqueo", "detalle": "datos_gob_mx: https://www.datos.gob.mx/dataset: señal de bloqueo: 'access denied' (título: 'Access Denied'). Se detiene el navegador para este sitio."}
+{"fecha": "2026-11-09T12:04:16", "script": "01_auditoria", "tipo": "error", "detalle": "dof: TLS de www.dof.gob.mx: Hostname mismatch, certificate is not valid for 'www.dof.gob.mx'.. Se usa dof.gob.mx; no se desactiva la verificación."}
+{"fecha": "2026-11-09T12:06:34", "script": "01_auditoria", "tipo": "error", "detalle": "dof: navegador TimeoutException"}
+{"fecha": "2026-11-09T12:06:41", "script": "03_duelo", "tipo": "herramienta", "detalle": "requests, BeautifulSoup y Selenium con Microsoft Edge"}
+{"fecha": "2026-11-09T12:06:46", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por HTTP: 0 filas en el HTML inicial"}
+{"fecha": "2026-11-09T12:07:07", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por Selenium: 247 filas (unidad: Thousands)"}
+{"fecha": "2026-11-09T12:07:14", "script": "03_duelo", "tipo": "resultado", "detalle": "World Bank por API: 217 países con dato"}
+{"fecha": "2026-11-09T12:07:45", "script": "03_duelo", "tipo": "resultado", "detalle": "catalog.data.gov: HTTP 20, Selenium 20, API 20 filas"}
+{"fecha": "2026-11-09T12:08:22", "script": "01_auditoria", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge; requests; BeautifulSoup"}
+{"fecha": "2026-11-09T12:08:52", "script": "01_auditoria", "tipo": "medida", "detalle": "datos_gob_mx: API no consultada porque robots.txt la prohíbe"}
+{"fecha": "2026-11-09T12:09:01", "script": "01_auditoria", "tipo": "bloqueo", "detalle": "datos_gob_mx: https://www.datos.gob.mx/dataset: señal de bloqueo: 'access denied' (título: 'Access Denied'). Se detiene el navegador para este sitio."}
+{"fecha": "2026-11-09T12:09:59", "script": "01_auditoria", "tipo": "error", "detalle": "dof: TLS de www.dof.gob.mx: Hostname mismatch, certificate is not valid for 'www.dof.gob.mx'.. Se usa dof.gob.mx; no se desactiva la verificación."}
+{"fecha": "2026-11-09T12:11:54", "script": "01_auditoria", "tipo": "herramienta", "detalle": "Selenium con Microsoft Edge; requests; BeautifulSoup"}

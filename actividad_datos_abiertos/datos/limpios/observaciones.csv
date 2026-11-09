@@ -1,0 +1,971 @@
+﻿pais_id,pais,es_agregado,indicador_id,indicador,anio,valor,primera_vez,ultima_vez
+1W,World,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+4E,East Asia & Pacific (excluding high income),1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+7E,Europe & Central Asia (excluding high income),1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+8S,South Asia,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AD,Andorra,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AE,United Arab Emirates,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,100.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AF,Afghanistan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,16.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AG,Antigua and Barbuda,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AL,Albania,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,86.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AM,Armenia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AO,Angola,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,41.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AR,Argentina,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AS,American Samoa,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),1990,0.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AT,Austria,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AU,Australia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AW,Aruba,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,97.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AZ,Azerbaijan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BA,Bosnia and Herzegovina,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,86.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BB,Barbados,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BD,Bangladesh,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,53.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BE,Belgium,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BF,Burkina Faso,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,28.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BG,Bulgaria,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BH,Bahrain,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,100.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BI,Burundi,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,9.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BJ,Benin,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,34.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BM,Bermuda,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BN,Brunei Darussalam,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BO,Bolivia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BR,Brazil,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BS,"Bahamas, The",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BT,Bhutan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BW,Botswana,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,57.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BY,Belarus,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BZ,Belize,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CA,Canada,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CD,"Congo, Dem. Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,20.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CF,Central African Republic,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,14.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CG,"Congo, Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,47.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CH,Switzerland,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,97.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CI,Cote d'Ivoire,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,41.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CL,Chile,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CM,Cameroon,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,46.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CN,China,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CO,Colombia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CR,Costa Rica,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,87.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CU,Cuba,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CV,Cabo Verde,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CW,Curacao,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CY,Cyprus,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CZ,Czechia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DE,Germany,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,93.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DJ,Djibouti,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,65.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DK,Denmark,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,100.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DM,Dominica,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DO,Dominican Republic,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DZ,Algeria,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EC,Ecuador,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EE,Estonia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EG,"Egypt, Arab Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ER,Eritrea,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2020,14.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ES,Spain,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ET,Ethiopia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,22.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FI,Finland,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FJ,Fiji,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FM,"Micronesia, Fed. Sts.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,40.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FO,Faroe Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FR,France,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GA,Gabon,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GB,United Kingdom,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,95.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GD,Grenada,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GE,Georgia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GH,Ghana,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GI,Gibraltar,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2016,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GL,Greenland,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GM,"Gambia, The",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,49.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GN,Guinea,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,33.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GQ,Equatorial Guinea,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GR,Greece,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,86.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GT,Guatemala,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,60.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GU,Guam,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GW,Guinea-Bissau,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,30.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GY,Guyana,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HK,"Hong Kong SAR, China",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HN,Honduras,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,59.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HR,Croatia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HT,Haiti,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,48.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HU,Hungary,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ID,Indonesia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IE,Ireland,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,97.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IL,Israel,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IN,India,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IQ,Iraq,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IR,"Iran, Islamic Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,85.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IS,Iceland,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IT,Italy,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JM,Jamaica,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JO,Jordan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JP,Japan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,86.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KE,Kenya,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,35.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KG,Kyrgyz Republic,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KH,Cambodia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KI,Kiribati,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KM,Comoros,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,33.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KN,St. Kitts and Nevis,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KP,"Korea, Dem. People's Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2004,0.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KR,"Korea, Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KW,Kuwait,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,100.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KY,Cayman Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KZ,Kazakhstan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,93.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LA,Lao PDR,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LB,Lebanon,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LC,St. Lucia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LI,Liechtenstein,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LK,Sri Lanka,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,55.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LR,Liberia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,32.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LS,Lesotho,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,52.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LT,Lithuania,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LU,Luxembourg,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,99.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LV,Latvia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,93.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LY,Libya,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MA,Morocco,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MC,Monaco,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,99.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MD,Moldova,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ME,Montenegro,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MG,Madagascar,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,19.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MH,Marshall Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MK,North Macedonia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,93.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ML,Mali,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,37.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MM,Myanmar,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2020,45.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MN,Mongolia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,85.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MO,"Macao SAR, China",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MP,Northern Mariana Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),1990,0.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MR,Mauritania,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,46.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MT,Malta,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MU,Mauritius,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MV,Maldives,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,85.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MW,Malawi,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,19.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MX,Mexico,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MY,Malaysia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MZ,Mozambique,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,21.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NA,Namibia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,65.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NC,New Caledonia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NE,Niger,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,16.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NG,Nigeria,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,41.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NI,Nicaragua,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,61.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NL,Netherlands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,97.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NO,Norway,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,99.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NP,Nepal,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,46.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NR,Naoero,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NZ,New Zealand,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+OM,Oman,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,95.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PA,Panama,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PE,Peru,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PF,French Polynesia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PG,Papua New Guinea,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,19.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PH,Philippines,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PK,Pakistan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,57.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PL,Poland,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PR,Puerto Rico (US),0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2022,87.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PS,West Bank and Gaza,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2023,87.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PT,Portugal,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PW,Palau,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PY,Paraguay,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+QA,Qatar,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,98.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RO,Romania,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RS,Serbia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RU,Russian Federation,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RW,Rwanda,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,32.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S1,Small states,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,0.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SA,Saudi Arabia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,100.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SB,Solomon Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,29.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SC,Seychelles,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SD,Sudan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,19.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SE,Sweden,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SG,Singapore,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SI,Slovenia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SK,Slovak Republic,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SL,Sierra Leone,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,25.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SM,San Marino,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,97.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SN,Senegal,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,60.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SO,"Somalia, Fed. Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,28.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SR,Suriname,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2023,87.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SS,South Sudan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2019,7.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ST,Sao Tome and Principe,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,59.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SV,El Salvador,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SY,Syrian Arab Republic,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2018,34.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SZ,Eswatini,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TC,Turks and Caicos Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),1990,0.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TD,Chad,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,13.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TG,Togo,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,39.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TH,Thailand,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,91.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TJ,Tajikistan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,56.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TL,Timor-Leste,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2021,35.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TM,Turkmenistan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2016,18.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TN,Tunisia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TO,Tonga,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TR,Turkiye,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TT,Trinidad and Tobago,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TV,Tuvalu,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,35.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TZ,Tanzania,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,31.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UA,Ukraine,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UG,Uganda,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,9.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+US,United States,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,95.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UY,Uruguay,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UZ,Uzbekistan,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,90.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VC,St. Vincent and the Grenadines,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VE,"Venezuela, RB",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VG,British Virgin Islands,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VI,Virgin Islands (U.S.),0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VN,Viet Nam,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VU,Vanuatu,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2015,22.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+WS,Samoa,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2014,21.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XD,High income,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,94.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XJ,Latin America & Caribbean (excluding high income),1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XK,Kosovo,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2018,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XL,Least developed countries: UN classification,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,34.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XM,Low income,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,23.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XN,Lower middle income,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XQ,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,0.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XT,Upper middle income,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,89.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XU,North America,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,96.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+YE,"Yemen, Rep.",0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2019,17.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z4,East Asia & Pacific,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,88.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z7,Europe & Central Asia,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,92.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZA,South Africa,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZF,Sub-Saharan Africa (excluding high income),1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,37.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZG,Sub-Saharan Africa,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,36.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZJ,Latin America & Caribbean,1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZM,Zambia,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,17.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZQ,"Middle East, North Africa, Afghanistan & Pakistan",1,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZW,Zimbabwe,0,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,42.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+1A,Arab World,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7544.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+1W,World,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14405.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+4E,East Asia & Pacific (excluding high income),1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10843.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+7E,Europe & Central Asia (excluding high income),1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,11117.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+8S,South Asia,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2705.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+AD,Andorra,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,54291.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+AE,United Arab Emirates,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,50273.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+AF,Afghanistan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,416.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+AG,Antigua and Barbuda,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,24819.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+AL,Albania,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,12998.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+AM,Armenia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,9474.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AO,Angola,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3129.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+AR,Argentina,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14898.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+AS,American Samoa,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2022,18017.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+AT,Austria,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,62930.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AU,Australia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,65129.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+AW,Aruba,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,38590.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+AZ,Azerbaijan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7410.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+B8,Central Europe and the Baltics,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,27676.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+BA,Bosnia and Herzegovina,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10381.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+BB,Barbados,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,28364.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+BD,Bangladesh,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2597.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+BE,Belgium,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,60750.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+BF,Burkina Faso,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1147.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+BG,Bulgaria,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,20328.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+BH,Bahrain,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,30596.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+BI,Burundi,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,233.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+BJ,Benin,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1658.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+BM,Bermuda,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,142250.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+BN,Brunei Darussalam,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,32234.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+BO,Bolivia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5147.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+BR,Brazil,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10713.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+BS,"Bahamas, The",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,39455.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+BT,Bhutan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4492.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+BW,Botswana,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7778.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+BY,Belarus,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10279.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+BZ,Belize,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7865.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+CA,Canada,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,55697.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+CD,"Congo, Dem. Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,806.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+CF,Central African Republic,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,556.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+CG,"Congo, Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2514.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+CH,Switzerland,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,114769.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CI,Cote d'Ivoire,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3050.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+CL,Chile,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,17994.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+CM,Cameroon,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1972.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+CN,China,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,13862.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CO,Colombia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,8561.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+CR,Costa Rica,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,19970.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+CU,Cuba,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2020,9605.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+CV,Cabo Verde,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5796.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+CW,Curacao,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,22832.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+CY,Cyprus,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,41783.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+CZ,Czechia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,35917.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+DE,Germany,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,60496.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+DJ,Djibouti,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3905.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+DK,Denmark,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,76970.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+DM,Dominica,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10989.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DO,Dominican Republic,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,11059.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+DZ,Algeria,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6051.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EC,Ecuador,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7125.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+EE,Estonia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,34417.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+EG,"Egypt, Arab Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3085.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+ER,Eritrea,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2011,688.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+ES,Spain,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,38627.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+ET,Ethiopia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,932.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+EU,European Union,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,47089.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+FI,Finland,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,56148.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+FJ,Fiji,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6642.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FM,"Micronesia, Fed. Sts.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4414.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FO,Faroe Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,74175.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+FR,France,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,48985.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+GA,Gabon,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,8263.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GB,United Kingdom,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,57602.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GD,Grenada,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,12106.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+GE,Georgia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,9691.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+GH,Ghana,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3257.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+GL,Greenland,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2023,58499.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GM,"Gambia, The",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,919.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+GN,Guinea,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1877.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+GQ,Equatorial Guinea,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6615.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+GR,Greece,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,26948.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GT,Guatemala,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6598.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+GU,Guam,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2022,41833.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+GW,Guinea-Bissau,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1123.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+GY,Guyana,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,32413.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+HK,"Hong Kong SAR, China",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,56983.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+HN,Honduras,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3598.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+HR,Croatia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,27103.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+HT,Haiti,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2694.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+HU,Hungary,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,25907.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+ID,Indonesia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5059.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+IE,Ireland,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,131592.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+IL,Israel,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,60336.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+IM,Isle of Man,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2023,90015.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+IN,India,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2702.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+IQ,Iraq,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5409.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+IR,"Iran, Islamic Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3924.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+IS,Iceland,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,98323.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+IT,Italy,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,43308.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+JG,Channel Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2023,74585.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+JM,Jamaica,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,8002.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+JO,Jordan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5347.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+JP,Japan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,35951.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KE,Kenya,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2362.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+KG,Kyrgyz Republic,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3081.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KH,Cambodia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2872.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+KI,Kiribati,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2558.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+KM,Comoros,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2055.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+KN,St. Kitts and Nevis,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,25223.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KR,"Korea, Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,36227.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KW,Kuwait,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,32312.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+KY,Cayman Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,104292.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+KZ,Kazakhstan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14692.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+LA,Lao PDR,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2324.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+LB,Lebanon,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,4473.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+LC,St. Lucia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14745.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+LI,Liechtenstein,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,220167.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+LK,Sri Lanka,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5002.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+LR,Liberia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,915.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+LS,Lesotho,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1089.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LT,Lithuania,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,32958.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+LU,Luxembourg,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,147252.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+LV,Latvia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,26312.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LY,Libya,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6448.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+MA,Morocco,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4672.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+MC,Monaco,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,288001.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+MD,Moldova,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,8621.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+ME,Montenegro,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14816.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+MF,St. Martin (French part),0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2021,21668.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+MG,Madagascar,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,599.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+MH,Marshall Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,8489.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+MK,North Macedonia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10489.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+ML,Mali,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1193.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+MM,Myanmar,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1488.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+MN,Mongolia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7108.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+MO,"Macao SAR, China",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,75901.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+MP,Northern Mariana Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2022,23785.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+MR,Mauritania,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2197.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+MT,Malta,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,47906.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+MU,Mauritius,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,12991.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+MV,Maldives,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14614.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+MW,Malawi,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,671.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+MX,Mexico,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,13889.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+MY,Malaysia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,13124.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+MZ,Mozambique,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,626.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+NA,Namibia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4875.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+NC,New Caledonia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,29213.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+NE,Niger,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,775.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+NG,Nigeria,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1224.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+NI,Nicaragua,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3173.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+NL,Netherlands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,73683.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+NO,Norway,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,94594.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+NP,Nepal,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1535.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+NR,Naoero,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14639.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+NZ,New Zealand,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,49591.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+OE,OECD members,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,51733.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+OM,Oman,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,19947.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+PA,Panama,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,19789.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+PE,Peru,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,9684.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+PF,French Polynesia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,22439.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+PG,Papua New Guinea,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3019.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+PH,Philippines,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4170.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+PK,Pakistan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1595.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+PL,Poland,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,28419.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+PR,Puerto Rico (US),0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,40620.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+PS,West Bank and Gaza,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3171.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+PT,Portugal,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,32081.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+PW,Palau,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,19532.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+PY,Paraguay,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7026.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+QA,Qatar,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,72524.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+RO,Romania,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,22538.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RS,Serbia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,15262.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RU,Russian Federation,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,17546.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+RW,Rwanda,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1123.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+S1,Small states,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,16577.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+S2,Pacific island small states,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4719.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+S3,Caribbean small states,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,20880.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+S4,Other small states,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,17540.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+SA,Saudi Arabia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,34536.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+SB,Solomon Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2086.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+SC,Seychelles,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,19449.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+SD,Sudan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1164.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+SE,Sweden,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,63133.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+SG,Singapore,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,98814.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SI,Slovenia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,37376.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+SK,Slovak Republic,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,28543.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+SL,Sierra Leone,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,846.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+SM,San Marino,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2023,59871.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+SN,Senegal,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1954.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+SO,"Somalia, Fed. Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,661.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+SR,Suriname,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7069.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+SS,South Sudan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2015,1080.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+ST,Sao Tome and Principe,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4084.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+SV,El Salvador,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5766.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+SX,Sint Maarten (Dutch part),0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,42978.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+SY,Syrian Arab Republic,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2022,1056.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+SZ,Eswatini,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4108.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+TC,Turks and Caicos Islands,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,37506.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+TD,Chad,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1022.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+TG,Togo,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1383.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+TH,Thailand,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,8056.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+TJ,Tajikistan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1637.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+TL,Timor-Leste,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1341.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TM,Turkmenistan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6540.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+TN,Tunisia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4656.6,2026-11-09T10:43:54,2026-11-09T10:43:54
+TO,Tonga,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6547.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+TR,Turkiye,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,18599.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+TT,Trinidad and Tobago,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,18967.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+TV,Tuvalu,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6041.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+TZ,Tanzania,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1318.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+UA,Ukraine,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5865.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+UG,Uganda,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1206.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+US,United States,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,90026.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+UY,Uruguay,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,25215.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+UZ,Uzbekistan,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3968.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+VC,St. Vincent and the Grenadines,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,12561.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+VE,"Venezuela, RB",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3494.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+VI,Virgin Islands (U.S.),0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2022,44320.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+VN,Viet Nam,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5066.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VU,Vanuatu,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,4038.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+WS,Samoa,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,5872.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+XC,Euro area,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,50214.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+XD,High income,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,53997.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+XE,Heavily indebted poor countries (HIPC),1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1331.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+XJ,Latin America & Caribbean (excluding high income),1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10407.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+XK,Kosovo,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,7899.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+XL,Least developed countries: UN classification,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1362.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XM,Low income,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,837.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+XN,Lower middle income,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2481.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+XO,Low & middle income,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6107.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+XP,Middle income,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6778.8,2026-11-09T10:43:54,2026-11-09T10:43:54
+XQ,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,2829.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+XT,Upper middle income,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,10890.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+XU,North America,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,86308.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+YE,"Yemen, Rep.",0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2018,633.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z4,East Asia & Pacific,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,14077.3,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z7,Europe & Central Asia,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,34603.5,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZA,South Africa,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6597.7,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZF,Sub-Saharan Africa (excluding high income),1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1671.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZG,Sub-Saharan Africa,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1673.1,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZJ,Latin America & Caribbean,1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,11095.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZM,Zambia,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,1317.9,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZQ,"Middle East, North Africa, Afghanistan & Pakistan",1,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,6202.2,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZW,Zimbabwe,0,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,3021.4,2026-11-09T10:43:54,2026-11-09T10:43:54
+1A,Arab World,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+1W,World,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+4E,East Asia & Pacific (excluding high income),1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+7E,Europe & Central Asia (excluding high income),1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+8S,South Asia,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AD,Andorra,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AE,United Arab Emirates,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AF,Afghanistan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AG,Antigua and Barbuda,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AL,Albania,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AM,Armenia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AO,Angola,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,65.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AR,Argentina,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AS,American Samoa,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AT,Austria,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AU,Australia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AW,Aruba,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AZ,Azerbaijan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+B8,Central Europe and the Baltics,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BA,Bosnia and Herzegovina,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BB,Barbados,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BD,Bangladesh,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BE,Belgium,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BF,Burkina Faso,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,61.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BG,Bulgaria,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BH,Bahrain,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BI,Burundi,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BJ,Benin,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,61.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BM,Bermuda,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BN,Brunei Darussalam,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BO,Bolivia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BR,Brazil,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BS,"Bahamas, The",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BT,Bhutan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BW,Botswana,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BY,Belarus,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BZ,Belize,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CA,Canada,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CD,"Congo, Dem. Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,62.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CF,Central African Republic,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,58.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CG,"Congo, Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CH,Switzerland,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CI,Cote d'Ivoire,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,62.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CL,Chile,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CM,Cameroon,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CN,China,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CO,Colombia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CR,Costa Rica,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CU,Cuba,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CV,Cabo Verde,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CW,Curacao,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CY,Cyprus,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CZ,Czechia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DE,Germany,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DJ,Djibouti,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DK,Denmark,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DM,Dominica,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DO,Dominican Republic,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DZ,Algeria,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EC,Ecuador,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EE,Estonia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EG,"Egypt, Arab Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ER,Eritrea,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ES,Spain,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ET,Ethiopia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EU,European Union,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FI,Finland,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FJ,Fiji,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FM,"Micronesia, Fed. Sts.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FO,Faroe Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FR,France,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GA,Gabon,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GB,United Kingdom,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GD,Grenada,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GE,Georgia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GH,Ghana,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GI,Gibraltar,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GL,Greenland,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GM,"Gambia, The",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GN,Guinea,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,61.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GQ,Equatorial Guinea,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GR,Greece,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GT,Guatemala,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GU,Guam,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GW,Guinea-Bissau,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GY,Guyana,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HK,"Hong Kong SAR, China",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,85.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HN,Honduras,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HR,Croatia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HT,Haiti,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,65.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HU,Hungary,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ID,Indonesia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IE,Ireland,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IL,Israel,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IM,Isle of Man,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IN,India,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IQ,Iraq,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IR,"Iran, Islamic Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IS,Iceland,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IT,Italy,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JG,Channel Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JM,Jamaica,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JO,Jordan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JP,Japan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KE,Kenya,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KG,Kyrgyz Republic,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KH,Cambodia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KI,Kiribati,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KM,Comoros,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KN,St. Kitts and Nevis,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KP,"Korea, Dem. People's Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KR,"Korea, Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KW,Kuwait,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,85.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KY,Cayman Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KZ,Kazakhstan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LA,Lao PDR,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LB,Lebanon,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LC,St. Lucia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LI,Liechtenstein,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LK,Sri Lanka,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LR,Liberia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,62.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LS,Lesotho,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,58.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LT,Lithuania,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LU,Luxembourg,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LV,Latvia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LY,Libya,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MA,Morocco,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MC,Monaco,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,86.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MD,Moldova,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ME,Montenegro,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MF,St. Martin (French part),0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MG,Madagascar,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MH,Marshall Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MK,North Macedonia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ML,Mali,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,61.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MM,Myanmar,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MN,Mongolia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MO,"Macao SAR, China",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MP,Northern Mariana Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MR,Mauritania,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MT,Malta,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MU,Mauritius,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MV,Maldives,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MW,Malawi,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MX,Mexico,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MY,Malaysia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MZ,Mozambique,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NA,Namibia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NC,New Caledonia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NE,Niger,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,61.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NG,Nigeria,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,55.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NI,Nicaragua,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NL,Netherlands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NO,Norway,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NP,Nepal,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NR,Naoero,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,62.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NZ,New Zealand,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+OE,OECD members,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+OM,Oman,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PA,Panama,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PE,Peru,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PF,French Polynesia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PG,Papua New Guinea,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PH,Philippines,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PK,Pakistan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PL,Poland,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PR,Puerto Rico (US),0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PS,West Bank and Gaza,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PT,Portugal,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PW,Palau,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PY,Paraguay,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+QA,Qatar,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RO,Romania,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RS,Serbia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RU,Russian Federation,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RW,Rwanda,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S1,Small states,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S2,Pacific island small states,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S3,Caribbean small states,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S4,Other small states,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SA,Saudi Arabia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SB,Solomon Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SC,Seychelles,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SD,Sudan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SE,Sweden,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,84.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SG,Singapore,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,83.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SI,Slovenia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SK,Slovak Republic,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SL,Sierra Leone,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,62.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SM,San Marino,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,86.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SN,Senegal,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SO,"Somalia, Fed. Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,59.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SR,Suriname,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SS,South Sudan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,58.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ST,Sao Tome and Principe,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SV,El Salvador,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SX,Sint Maarten (Dutch part),0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SY,Syrian Arab Republic,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SZ,Eswatini,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,64.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TC,Turks and Caicos Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TD,Chad,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,55.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TG,Togo,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TH,Thailand,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TJ,Tajikistan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TL,Timor-Leste,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TM,Turkmenistan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TN,Tunisia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TO,Tonga,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TR,Turkiye,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TT,Trinidad and Tobago,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,74.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TV,Tuvalu,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TZ,Tanzania,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UA,Ukraine,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UG,Uganda,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,68.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+US,United States,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UY,Uruguay,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UZ,Uzbekistan,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VC,St. Vincent and the Grenadines,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VE,"Venezuela, RB",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VG,British Virgin Islands,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VI,Virgin Islands (U.S.),0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,81.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VN,Viet Nam,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VU,Vanuatu,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+WS,Samoa,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XC,Euro area,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,82.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XD,High income,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,80.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XE,Heavily indebted poor countries (HIPC),1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,65.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XJ,Latin America & Caribbean (excluding high income),1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XK,Kosovo,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,78.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XL,Least developed countries: UN classification,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XM,Low income,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,65.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XN,Lower middle income,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,70.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XO,Low & middle income,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XP,Middle income,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,73.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XQ,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,71.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XT,Upper middle income,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XU,North America,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+YE,"Yemen, Rep.",0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,69.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z4,East Asia & Pacific,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,77.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z7,Europe & Central Asia,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,79.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZA,South Africa,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,66.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZF,Sub-Saharan Africa (excluding high income),1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZG,Sub-Saharan Africa,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZJ,Latin America & Caribbean,1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,76.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZM,Zambia,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,67.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZQ,"Middle East, North Africa, Afghanistan & Pakistan",1,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,72.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZW,Zimbabwe,0,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,63.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+1A,Arab World,1,SP.POP.TOTL,Poblacion total,2025,503356130.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+1W,World,1,SP.POP.TOTL,Poblacion total,2025,8215424890.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+4E,East Asia & Pacific (excluding high income),1,SP.POP.TOTL,Poblacion total,2025,2143908410.0000002,2026-11-09T10:43:54,2026-11-09T10:43:54
+7E,Europe & Central Asia (excluding high income),1,SP.POP.TOTL,Poblacion total,2025,253280470.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+8S,South Asia,1,SP.POP.TOTL,Poblacion total,2025,1692252900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AD,Andorra,0,SP.POP.TOTL,Poblacion total,2025,82900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AE,United Arab Emirates,0,SP.POP.TOTL,Poblacion total,2025,11513150.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AF,Afghanistan,0,SP.POP.TOTL,Poblacion total,2025,43844110.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AG,Antigua and Barbuda,0,SP.POP.TOTL,Poblacion total,2025,94210.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AL,Albania,0,SP.POP.TOTL,Poblacion total,2025,2349580.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AM,Armenia,0,SP.POP.TOTL,Poblacion total,2025,3086700.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AO,Angola,0,SP.POP.TOTL,Poblacion total,2025,39040040.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AR,Argentina,0,SP.POP.TOTL,Poblacion total,2025,45851380.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AS,American Samoa,0,SP.POP.TOTL,Poblacion total,2025,46030.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AT,Austria,0,SP.POP.TOTL,Poblacion total,2025,9208160.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AU,Australia,0,SP.POP.TOTL,Poblacion total,2025,27614410.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AW,Aruba,0,SP.POP.TOTL,Poblacion total,2025,108780.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+AZ,Azerbaijan,0,SP.POP.TOTL,Poblacion total,2025,10247000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+B8,Central Europe and the Baltics,1,SP.POP.TOTL,Poblacion total,2025,99814600.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BA,Bosnia and Herzegovina,0,SP.POP.TOTL,Poblacion total,2025,3140090.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BB,Barbados,0,SP.POP.TOTL,Poblacion total,2025,282620.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BD,Bangladesh,0,SP.POP.TOTL,Poblacion total,2025,175686900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BE,Belgium,0,SP.POP.TOTL,Poblacion total,2025,11941780.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BF,Burkina Faso,0,SP.POP.TOTL,Poblacion total,2025,24074580.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BG,Bulgaria,0,SP.POP.TOTL,Poblacion total,2025,6433300.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BH,Bahrain,0,SP.POP.TOTL,Poblacion total,2025,1600370.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BI,Burundi,0,SP.POP.TOTL,Poblacion total,2025,14390000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BJ,Benin,0,SP.POP.TOTL,Poblacion total,2025,14814460.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BM,Bermuda,0,SP.POP.TOTL,Poblacion total,2025,64560.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BN,Brunei Darussalam,0,SP.POP.TOTL,Poblacion total,2025,466330.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BO,Bolivia,0,SP.POP.TOTL,Poblacion total,2025,12581840.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BR,Brazil,0,SP.POP.TOTL,Poblacion total,2025,212812400.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BS,"Bahamas, The",0,SP.POP.TOTL,Poblacion total,2025,403030.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BT,Bhutan,0,SP.POP.TOTL,Poblacion total,2025,796680.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BW,Botswana,0,SP.POP.TOTL,Poblacion total,2025,2562120.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BY,Belarus,0,SP.POP.TOTL,Poblacion total,2025,9085990.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+BZ,Belize,0,SP.POP.TOTL,Poblacion total,2025,422920.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CA,Canada,0,SP.POP.TOTL,Poblacion total,2025,41651650.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CD,"Congo, Dem. Rep.",0,SP.POP.TOTL,Poblacion total,2025,112832470.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CF,Central African Republic,0,SP.POP.TOTL,Poblacion total,2025,5513280.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CG,"Congo, Rep.",0,SP.POP.TOTL,Poblacion total,2025,6484440.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CH,Switzerland,0,SP.POP.TOTL,Poblacion total,2025,9092440.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CI,Cote d'Ivoire,0,SP.POP.TOTL,Poblacion total,2025,32711550.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CL,Chile,0,SP.POP.TOTL,Poblacion total,2025,19859920.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CM,Cameroon,0,SP.POP.TOTL,Poblacion total,2025,29879340.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CN,China,0,SP.POP.TOTL,Poblacion total,2025,1406585000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CO,Colombia,0,SP.POP.TOTL,Poblacion total,2025,53425640.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CR,Costa Rica,0,SP.POP.TOTL,Poblacion total,2025,5152950.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CU,Cuba,0,SP.POP.TOTL,Poblacion total,2025,10937200.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CV,Cabo Verde,0,SP.POP.TOTL,Poblacion total,2025,527330.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CW,Curacao,0,SP.POP.TOTL,Poblacion total,2025,156260.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CY,Cyprus,0,SP.POP.TOTL,Poblacion total,2025,1370750.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+CZ,Czechia,0,SP.POP.TOTL,Poblacion total,2025,10886880.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DE,Germany,0,SP.POP.TOTL,Poblacion total,2025,83491250.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DJ,Djibouti,0,SP.POP.TOTL,Poblacion total,2025,1184080.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DK,Denmark,0,SP.POP.TOTL,Poblacion total,2025,6009170.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DM,Dominica,0,SP.POP.TOTL,Poblacion total,2025,65870.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DO,Dominican Republic,0,SP.POP.TOTL,Poblacion total,2025,11520490.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+DZ,Algeria,0,SP.POP.TOTL,Poblacion total,2025,47435310.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EC,Ecuador,0,SP.POP.TOTL,Poblacion total,2025,18289900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EE,Estonia,0,SP.POP.TOTL,Poblacion total,2025,1366470.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EG,"Egypt, Arab Rep.",0,SP.POP.TOTL,Poblacion total,2025,118365990.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ER,Eritrea,0,SP.POP.TOTL,Poblacion total,2025,3607000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ES,Spain,0,SP.POP.TOTL,Poblacion total,2025,49355140.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ET,Ethiopia,0,SP.POP.TOTL,Poblacion total,2025,135472050.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+EU,European Union,1,SP.POP.TOTL,Poblacion total,2025,451127410.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FI,Finland,0,SP.POP.TOTL,Poblacion total,2025,5646440.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FJ,Fiji,0,SP.POP.TOTL,Poblacion total,2025,933150.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FM,"Micronesia, Fed. Sts.",0,SP.POP.TOTL,Poblacion total,2025,113680.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FO,Faroe Islands,0,SP.POP.TOTL,Poblacion total,2025,54900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+FR,France,0,SP.POP.TOTL,Poblacion total,2025,68720340.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GA,Gabon,0,SP.POP.TOTL,Poblacion total,2025,2593130.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GB,United Kingdom,0,SP.POP.TOTL,Poblacion total,2025,69487000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GD,Grenada,0,SP.POP.TOTL,Poblacion total,2025,117300.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GE,Georgia,0,SP.POP.TOTL,Poblacion total,2025,3935770.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GH,Ghana,0,SP.POP.TOTL,Poblacion total,2025,35064270.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GI,Gibraltar,0,SP.POP.TOTL,Poblacion total,2025,40130.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GL,Greenland,0,SP.POP.TOTL,Poblacion total,2025,56830.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GM,"Gambia, The",0,SP.POP.TOTL,Poblacion total,2025,2822090.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GN,Guinea,0,SP.POP.TOTL,Poblacion total,2025,15099730.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GQ,Equatorial Guinea,0,SP.POP.TOTL,Poblacion total,2025,1938430.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GR,Greece,0,SP.POP.TOTL,Poblacion total,2025,10413960.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GT,Guatemala,0,SP.POP.TOTL,Poblacion total,2025,18687880.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GU,Guam,0,SP.POP.TOTL,Poblacion total,2025,169000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GW,Guinea-Bissau,0,SP.POP.TOTL,Poblacion total,2025,2249510.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+GY,Guyana,0,SP.POP.TOTL,Poblacion total,2025,835990.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HK,"Hong Kong SAR, China",0,SP.POP.TOTL,Poblacion total,2025,7498900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HN,Honduras,0,SP.POP.TOTL,Poblacion total,2025,11005850.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HR,Croatia,0,SP.POP.TOTL,Poblacion total,2025,3876200.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HT,Haiti,0,SP.POP.TOTL,Poblacion total,2025,11906090.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+HU,Hungary,0,SP.POP.TOTL,Poblacion total,2025,9514250.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ID,Indonesia,0,SP.POP.TOTL,Poblacion total,2025,285721240.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IE,Ireland,0,SP.POP.TOTL,Poblacion total,2025,5484370.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IL,Israel,0,SP.POP.TOTL,Poblacion total,2025,10122800.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IM,Isle of Man,0,SP.POP.TOTL,Poblacion total,2025,84120.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IN,India,0,SP.POP.TOTL,Poblacion total,2025,1463865520.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IQ,Iraq,0,SP.POP.TOTL,Poblacion total,2025,47020770.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IR,"Iran, Islamic Rep.",0,SP.POP.TOTL,Poblacion total,2025,92417680.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IS,Iceland,0,SP.POP.TOTL,Poblacion total,2025,392400.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+IT,Italy,0,SP.POP.TOTL,Poblacion total,2025,58915660.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JG,Channel Islands,0,SP.POP.TOTL,Poblacion total,2025,168470.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JM,Jamaica,0,SP.POP.TOTL,Poblacion total,2025,2837080.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JO,Jordan,0,SP.POP.TOTL,Poblacion total,2025,11520680.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+JP,Japan,0,SP.POP.TOTL,Poblacion total,2025,123366730.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KE,Kenya,0,SP.POP.TOTL,Poblacion total,2025,57532490.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KG,Kyrgyz Republic,0,SP.POP.TOTL,Poblacion total,2025,7343060.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KH,Cambodia,0,SP.POP.TOTL,Poblacion total,2025,17847980.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KI,Kiribati,0,SP.POP.TOTL,Poblacion total,2025,136490.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KM,Comoros,0,SP.POP.TOTL,Poblacion total,2025,882850.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KN,St. Kitts and Nevis,0,SP.POP.TOTL,Poblacion total,2025,46920.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KP,"Korea, Dem. People's Rep.",0,SP.POP.TOTL,Poblacion total,2025,26571040.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KR,"Korea, Rep.",0,SP.POP.TOTL,Poblacion total,2025,51684560.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KW,Kuwait,0,SP.POP.TOTL,Poblacion total,2025,4865300.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KY,Cayman Islands,0,SP.POP.TOTL,Poblacion total,2025,75840.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+KZ,Kazakhstan,0,SP.POP.TOTL,Poblacion total,2025,20843750.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LA,Lao PDR,0,SP.POP.TOTL,Poblacion total,2025,7873050.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LB,Lebanon,0,SP.POP.TOTL,Poblacion total,2025,5849420.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LC,St. Lucia,0,SP.POP.TOTL,Poblacion total,2025,180150.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LI,Liechtenstein,0,SP.POP.TOTL,Poblacion total,2025,41020.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LK,Sri Lanka,0,SP.POP.TOTL,Poblacion total,2025,21756000.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LR,Liberia,0,SP.POP.TOTL,Poblacion total,2025,5731210.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LS,Lesotho,0,SP.POP.TOTL,Poblacion total,2025,2363320.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LT,Lithuania,0,SP.POP.TOTL,Poblacion total,2025,2888770.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LU,Luxembourg,0,SP.POP.TOTL,Poblacion total,2025,686970.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LV,Latvia,0,SP.POP.TOTL,Poblacion total,2025,1847790.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+LY,Libya,0,SP.POP.TOTL,Poblacion total,2025,7458560.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MA,Morocco,0,SP.POP.TOTL,Poblacion total,2025,38430770.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MC,Monaco,0,SP.POP.TOTL,Poblacion total,2025,38340.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MD,Moldova,0,SP.POP.TOTL,Poblacion total,2025,2360530.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ME,Montenegro,0,SP.POP.TOTL,Poblacion total,2025,623130.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MF,St. Martin (French part),0,SP.POP.TOTL,Poblacion total,2025,24940.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MG,Madagascar,0,SP.POP.TOTL,Poblacion total,2025,32740680.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MH,Marshall Islands,0,SP.POP.TOTL,Poblacion total,2025,36280.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MK,North Macedonia,0,SP.POP.TOTL,Poblacion total,2025,1820910.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ML,Mali,0,SP.POP.TOTL,Poblacion total,2025,25198820.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MM,Myanmar,0,SP.POP.TOTL,Poblacion total,2025,54850650.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MN,Mongolia,0,SP.POP.TOTL,Poblacion total,2025,3568980.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MO,"Macao SAR, China",0,SP.POP.TOTL,Poblacion total,2025,685900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MP,Northern Mariana Islands,0,SP.POP.TOTL,Poblacion total,2025,43540.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MR,Mauritania,0,SP.POP.TOTL,Poblacion total,2025,5315060.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MT,Malta,0,SP.POP.TOTL,Poblacion total,2025,579700.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MU,Mauritius,0,SP.POP.TOTL,Poblacion total,2025,1243740.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MV,Maldives,0,SP.POP.TOTL,Poblacion total,2025,529680.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MW,Malawi,0,SP.POP.TOTL,Poblacion total,2025,22216120.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MX,Mexico,0,SP.POP.TOTL,Poblacion total,2025,131946900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MY,Malaysia,0,SP.POP.TOTL,Poblacion total,2025,35977840.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+MZ,Mozambique,0,SP.POP.TOTL,Poblacion total,2025,35631650.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NA,Namibia,0,SP.POP.TOTL,Poblacion total,2025,3092820.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NC,New Caledonia,0,SP.POP.TOTL,Poblacion total,2025,295330.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NE,Niger,0,SP.POP.TOTL,Poblacion total,2025,27917830.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NG,Nigeria,0,SP.POP.TOTL,Poblacion total,2025,237527780.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NI,Nicaragua,0,SP.POP.TOTL,Poblacion total,2025,7007500.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NL,Netherlands,0,SP.POP.TOTL,Poblacion total,2025,18087630.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NO,Norway,0,SP.POP.TOTL,Poblacion total,2025,5610870.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NP,Nepal,0,SP.POP.TOTL,Poblacion total,2025,29618120.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NR,Naoero,0,SP.POP.TOTL,Poblacion total,2025,12030.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+NZ,New Zealand,0,SP.POP.TOTL,Poblacion total,2025,5324700.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+OE,OECD members,1,SP.POP.TOTL,Poblacion total,2025,1402243570.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+OM,Oman,0,SP.POP.TOTL,Poblacion total,2025,5494690.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PA,Panama,0,SP.POP.TOTL,Poblacion total,2025,4571190.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PE,Peru,0,SP.POP.TOTL,Poblacion total,2025,34576670.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PF,French Polynesia,0,SP.POP.TOTL,Poblacion total,2025,282460.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PG,Papua New Guinea,0,SP.POP.TOTL,Poblacion total,2025,10762820.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PH,Philippines,0,SP.POP.TOTL,Poblacion total,2025,116786960.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PK,Pakistan,0,SP.POP.TOTL,Poblacion total,2025,255219550.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PL,Poland,0,SP.POP.TOTL,Poblacion total,2025,36435860.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PR,Puerto Rico (US),0,SP.POP.TOTL,Poblacion total,2025,3184840.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PS,West Bank and Gaza,0,SP.POP.TOTL,Poblacion total,2025,5413600.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PT,Portugal,0,SP.POP.TOTL,Poblacion total,2025,10804870.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PW,Palau,0,SP.POP.TOTL,Poblacion total,2025,17660.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+PY,Paraguay,0,SP.POP.TOTL,Poblacion total,2025,7013080.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+QA,Qatar,0,SP.POP.TOTL,Poblacion total,2025,2972220.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RO,Romania,0,SP.POP.TOTL,Poblacion total,2025,19020270.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RS,Serbia,0,SP.POP.TOTL,Poblacion total,2025,6549140.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RU,Russian Federation,0,SP.POP.TOTL,Poblacion total,2025,143513330.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+RW,Rwanda,0,SP.POP.TOTL,Poblacion total,2025,14569340.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S1,Small states,1,SP.POP.TOTL,Poblacion total,2025,20347130.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S2,Pacific island small states,1,SP.POP.TOTL,Poblacion total,2025,2755650.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S3,Caribbean small states,1,SP.POP.TOTL,Poblacion total,2025,4556560.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+S4,Other small states,1,SP.POP.TOTL,Poblacion total,2025,13034930.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SA,Saudi Arabia,0,SP.POP.TOTL,Poblacion total,2025,36973560.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SB,Solomon Islands,0,SP.POP.TOTL,Poblacion total,2025,838640.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SC,Seychelles,0,SP.POP.TOTL,Poblacion total,2025,122730.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SD,Sudan,0,SP.POP.TOTL,Poblacion total,2025,51662150.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SE,Sweden,0,SP.POP.TOTL,Poblacion total,2025,10596620.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SG,Singapore,0,SP.POP.TOTL,Poblacion total,2025,6111180.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SI,Slovenia,0,SP.POP.TOTL,Poblacion total,2025,2130990.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SK,Slovak Republic,0,SP.POP.TOTL,Poblacion total,2025,5413810.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SL,Sierra Leone,0,SP.POP.TOTL,Poblacion total,2025,8819790.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SM,San Marino,0,SP.POP.TOTL,Poblacion total,2025,34110.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SN,Senegal,0,SP.POP.TOTL,Poblacion total,2025,18931970.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SO,"Somalia, Fed. Rep.",0,SP.POP.TOTL,Poblacion total,2025,19654740.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SR,Suriname,0,SP.POP.TOTL,Poblacion total,2025,639850.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SS,South Sudan,0,SP.POP.TOTL,Poblacion total,2025,12188790.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ST,Sao Tome and Principe,0,SP.POP.TOTL,Poblacion total,2025,240250.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SV,El Salvador,0,SP.POP.TOTL,Poblacion total,2025,6365500.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SX,Sint Maarten (Dutch part),0,SP.POP.TOTL,Poblacion total,2025,43920.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SY,Syrian Arab Republic,0,SP.POP.TOTL,Poblacion total,2025,25620430.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+SZ,Eswatini,0,SP.POP.TOTL,Poblacion total,2025,1256170.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TC,Turks and Caicos Islands,0,SP.POP.TOTL,Poblacion total,2025,46850.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TD,Chad,0,SP.POP.TOTL,Poblacion total,2025,21003710.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TG,Togo,0,SP.POP.TOTL,Poblacion total,2025,8591630.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TH,Thailand,0,SP.POP.TOTL,Poblacion total,2025,71619860.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TJ,Tajikistan,0,SP.POP.TOTL,Poblacion total,2025,10786730.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TL,Timor-Leste,0,SP.POP.TOTL,Poblacion total,2025,1418520.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TM,Turkmenistan,0,SP.POP.TOTL,Poblacion total,2025,7618850.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TN,Tunisia,0,SP.POP.TOTL,Poblacion total,2025,12348570.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TO,Tonga,0,SP.POP.TOTL,Poblacion total,2025,103740.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TR,Turkiye,0,SP.POP.TOTL,Poblacion total,2025,85878560.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TT,Trinidad and Tobago,0,SP.POP.TOTL,Poblacion total,2025,1367760.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TV,Tuvalu,0,SP.POP.TOTL,Poblacion total,2025,9490.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+TZ,Tanzania,0,SP.POP.TOTL,Poblacion total,2025,70545870.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UA,Ukraine,0,SP.POP.TOTL,Poblacion total,2025,38980380.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UG,Uganda,0,SP.POP.TOTL,Poblacion total,2025,51384890.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+US,United States,0,SP.POP.TOTL,Poblacion total,2025,341784860.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UY,Uruguay,0,SP.POP.TOTL,Poblacion total,2025,3384690.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+UZ,Uzbekistan,0,SP.POP.TOTL,Poblacion total,2025,37053430.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VC,St. Vincent and the Grenadines,0,SP.POP.TOTL,Poblacion total,2025,99920.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VE,"Venezuela, RB",0,SP.POP.TOTL,Poblacion total,2025,28516900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VG,British Virgin Islands,0,SP.POP.TOTL,Poblacion total,2025,39730.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VI,Virgin Islands (U.S.),0,SP.POP.TOTL,Poblacion total,2025,103790.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VN,Viet Nam,0,SP.POP.TOTL,Poblacion total,2025,101598530.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+VU,Vanuatu,0,SP.POP.TOTL,Poblacion total,2025,335170.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+WS,Samoa,0,SP.POP.TOTL,Poblacion total,2025,219310.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XC,Euro area,1,SP.POP.TOTL,Poblacion total,2025,358664360.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XD,High income,1,SP.POP.TOTL,Poblacion total,2025,1423739900.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XE,Heavily indebted poor countries (HIPC),1,SP.POP.TOTL,Poblacion total,2025,965148590.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XJ,Latin America & Caribbean (excluding high income),1,SP.POP.TOTL,Poblacion total,2025,626808310.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XK,Kosovo,0,SP.POP.TOTL,Poblacion total,2025,1576880.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XL,Least developed countries: UN classification,1,SP.POP.TOTL,Poblacion total,2025,1214167510.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XM,Low income,1,SP.POP.TOTL,Poblacion total,2025,767490170.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XN,Lower middle income,1,SP.POP.TOTL,Poblacion total,2025,2945282630.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XO,Low & middle income,1,SP.POP.TOTL,Poblacion total,2025,6791684990.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XP,Middle income,1,SP.POP.TOTL,Poblacion total,2025,6024194820.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XQ,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",1,SP.POP.TOTL,Poblacion total,2025,753903410.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XT,Upper middle income,1,SP.POP.TOTL,Poblacion total,2025,3078912190.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+XU,North America,1,SP.POP.TOTL,Poblacion total,2025,383501070.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+YE,"Yemen, Rep.",0,SP.POP.TOTL,Poblacion total,2025,41773880.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z4,East Asia & Pacific,1,SP.POP.TOTL,Poblacion total,2025,2390873920.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+Z7,Europe & Central Asia,1,SP.POP.TOTL,Poblacion total,2025,932525040.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZA,South Africa,0,SP.POP.TOTL,Poblacion total,2025,64747320.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZF,Sub-Saharan Africa (excluding high income),1,SP.POP.TOTL,Poblacion total,2025,1321531490.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZG,Sub-Saharan Africa,1,SP.POP.TOTL,Poblacion total,2025,1321654220.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZJ,Latin America & Caribbean,1,SP.POP.TOTL,Poblacion total,2025,666592570.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZM,Zambia,0,SP.POP.TOTL,Poblacion total,2025,21913870.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZQ,"Middle East, North Africa, Afghanistan & Pakistan",1,SP.POP.TOTL,Poblacion total,2025,828025190.0,2026-11-09T10:43:54,2026-11-09T10:43:54
+ZW,Zimbabwe,0,SP.POP.TOTL,Poblacion total,2025,16950790.0,2026-11-09T10:43:54,2026-11-09T10:43:54

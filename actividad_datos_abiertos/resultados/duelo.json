@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-11-09T12:07:48",
+  "arranque_navegador_s": 1.26,
+  "consistencia_selenium_vs_api": {
+    "coinciden_margen_0.5pct": 217,
+    "comparados": 217,
+    "agregados_regionales_solo_en_selenium": 30,
+    "paises_solo_en_selenium": [],
+    "paises_solo_en_api": []
+  },
+  "metricas": [
+    {
+      "Fuente": "World Bank",
+      "Método": "HTTP + BeautifulSoup",
+      "Registros": 0,
+      "Campos faltantes": "n/a",
+      "Tiempo (s)": 2.18,
+      "Observación": "El HTML inicial no trae la tabla: la dibuja JavaScript"
+    },
+    {
+      "Fuente": "World Bank",
+      "Método": "Selenium + WebDriverWait",
+      "Registros": 247,
+      "Campos faltantes": 0,
+      "Tiempo (s)": 18.06,
+      "Observación": "Con arranque del navegador: 19.32 s. Valores redondeados (unidad: Thousands). Incluye 30 agregados regionales"
+    },
+    {
+      "Fuente": "World Bank",
+      "Método": "API oficial v2",
+      "Registros": 217,
+      "Campos faltantes": 0,
+      "Tiempo (s)": 1.35,
+      "Observación": "Valores exactos; incluye la consulta de países para quitar agregados"
+    },
+    {
+      "Fuente": "catalog.data.gov",
+      "Método": "HTTP + BeautifulSoup",
+      "Registros": 20,
+      "Campos faltantes": 0,
+      "Tiempo (s)": 1.39,
+      "Observación": "El HTML ya contiene los resultados"
+    },
+    {
+      "Fuente": "catalog.data.gov",
+      "Método": "Selenium + WebDriverWait",
+      "Registros": 20,
+      "Campos faltantes": 0,
+      "Tiempo (s)": 4.34,
+      "Observación": "Con arranque del navegador: 5.61 s. 20 títulos iguales a los del HTML"
+    },
+    {
+      "Fuente": "catalog.data.gov",
+      "Método": "API oficial (GET /search)",
+      "Registros": 20,
+      "Campos faltantes": 0,
+      "Tiempo (s)": 0.18,
+      "Observación": "JSON documentado. 20 títulos iguales a los del HTML; se omiten los contactos personales"
+    }
+  ]
+}

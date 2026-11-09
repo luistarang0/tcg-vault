@@ -1,0 +1,4 @@
+﻿corrida,filas_crudas,duplicados,sin_pais,faltantes,insertadas,actualizadas,sin_cambio,total_observaciones,filas_csv
+1: Selenium,988,0,0,18,970,0,0,970,970
+2: Selenium,988,0,0,18,0,0,970,970,970
+3: duplicados forzados,1977,988,1,18,0,0,970,970,970

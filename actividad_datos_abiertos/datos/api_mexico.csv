@@ -1,0 +1,81 @@
+﻿pais_id,pais,indicador_id,indicador,anio,valor
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2006,19.52000046
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2007,20.81
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2008,21.71
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2009,26.34
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2010,31.05
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2011,37.1762954125184
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2012,39.75
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2013,43.46
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2014,44.3856962723411
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2015,57.4310429923633
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2016,59.5404459967255
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2017,53.0317886110982
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2018,56.6595667981289
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2019,69.6321092705209
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2020,71.49017499
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2021,75.62650476
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2022,78.63217894
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2023,81.18318755
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2024,83.12233799
+MX,Mexico,IT.NET.USER.ZS,Personas que usan Internet (% poblacion),2025,
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2006,9512.63575346699
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2007,10134.3327129706
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2008,10523.7685427665
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2009,8423.56933148639
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2010,9728.80078307432
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2011,10664.4944032313
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2012,10744.1335236186
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2013,11216.800851866
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2014,11391.3773503964
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2015,10021.2386113616
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2016,9097.92397674769
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2017,9649.27816729586
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2018,10084.7937570364
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2019,10369.5553593527
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2020,8841.27074929751
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2021,10314.0506733708
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2022,11405.7940469896
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2023,13830.843848864
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2024,13988.0423745241
+MX,Mexico,NY.GDP.PCAP.CD,PIB per capita (US$ corrientes),2025,13889.2339628708
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2006,73.746
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2007,73.796
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2008,73.695
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2009,73.628
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2010,73.718
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2011,73.921
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2012,74.128
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2013,74.289
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2014,74.404
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2015,74.431
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2016,74.376
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2017,74.261
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2018,74.301
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2019,74.53
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2020,70.449
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2021,69.75
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2022,73.973
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2023,75.069
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2024,75.264
+MX,Mexico,SP.DYN.LE00.IN,Esperanza de vida al nacer (anios),2025,
+MX,Mexico,SP.POP.TOTL,Poblacion total,2006,107253666.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2007,108774360.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2008,110374288.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2009,111999721.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2010,113623895.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2011,115243504.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2012,116818208.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2013,118343573.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2014,119784261.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2015,121072306.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2016,122251351.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2017,123400057.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2018,124573711.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2019,125762982.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2020,126799054.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2021,127648148.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2022,128613117.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2023,129739759.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2024,130861007.0
+MX,Mexico,SP.POP.TOTL,Poblacion total,2025,131946900.0

@@ -1,0 +1,335 @@
+[
+  {
+    "clave": "inegi",
+    "nombre": "INEGI - Datos abiertos",
+    "fecha": "2026-11-09T12:08:22",
+    "tls": {
+      "host": "www.inegi.org.mx",
+      "valido": true,
+      "detalle": "certificado válido para el dominio"
+    },
+    "robots": {
+      "host": "www.inegi.org.mx",
+      "reglas_para_todos": 67,
+      "crawl_delay": null,
+      "pagina_permitida": true,
+      "rutas_datos_prohibidas": []
+    },
+    "http": {
+      "estado": 200,
+      "servidor": "Microsoft-IIS/10.0",
+      "cdn_waf": [],
+      "bytes": 3562,
+      "segundos": 0.18,
+      "texto_visible": 338,
+      "formularios": 0,
+      "tablas": 0,
+      "filtros": 0,
+      "buscador": false,
+      "paginacion": false,
+      "descargas_directas": [],
+      "filas_de_datos": null
+    },
+    "api": {
+      "nombre": "API de Indicadores (BIE/BISE)",
+      "requiere_token": true,
+      "estado": "no consultada: exige token personal (ver documentación)"
+    },
+    "documentos": {
+      "API": {
+        "url": "https://www.inegi.org.mx/servicios/api_indicadores.html",
+        "estado": 200,
+        "menciona_api": true
+      },
+      "Terminos": {
+        "url": "https://www.inegi.org.mx/inegi/terminos.html",
+        "estado": 200,
+        "menciona_api": false
+      }
+    },
+    "navegador": {
+      "bloqueado": false,
+      "titulo": "Datos abiertos",
+      "filas_de_datos": null,
+      "filtros": 6,
+      "nodos": 547,
+      "tablas": 0,
+      "texto": 1801,
+      "webdriver": true
+    },
+    "dinamico": true,
+    "nivel": "intermedio",
+    "puntos": 2,
+    "razones": [
+      "+1 JavaScript agrega contenido: 338 caracteres por HTTP, 1801 en navegador",
+      "+1 la API oficial exige token"
+    ]
+  },
+  {
+    "clave": "datos_gob_mx",
+    "nombre": "datos.gob.mx",
+    "fecha": "2026-11-09T12:08:39",
+    "tls": {
+      "host": "www.datos.gob.mx",
+      "valido": true,
+      "detalle": "certificado válido para el dominio"
+    },
+    "robots": {
+      "host": "www.datos.gob.mx",
+      "reglas_para_todos": 4,
+      "crawl_delay": 10.0,
+      "pagina_permitida": true,
+      "rutas_datos_prohibidas": [
+        "https://www.datos.gob.mx/api/3/action/package_search"
+      ]
+    },
+    "http": {
+      "estado": 200,
+      "servidor": null,
+      "cdn_waf": [
+        "Akamai"
+      ],
+      "bytes": 75784,
+      "segundos": 0.83,
+      "texto_visible": 8972,
+      "formularios": 1,
+      "tablas": 0,
+      "filtros": 28,
+      "buscador": true,
+      "paginacion": true,
+      "descargas_directas": [],
+      "filas_de_datos": null
+    },
+    "api": {
+      "nombre": "API CKAN (/api/3/action)",
+      "requiere_token": false,
+      "estado": "no consultada: robots.txt prohíbe la ruta"
+    },
+    "documentos": {
+      "Terminos": {
+        "url": "https://www.gob.mx/terminos",
+        "estado": 200,
+        "menciona_api": false
+      }
+    },
+    "navegador": {
+      "bloqueado": true,
+      "detalle": "https://www.datos.gob.mx/dataset: señal de bloqueo: 'access denied' (título: 'Access Denied')",
+      "titulo": "Access Denied"
+    },
+    "dinamico": false,
+    "nivel": "avanzado",
+    "puntos": 4,
+    "razones": [
+      "+2 bloquea al navegador automatizado (Access Denied)",
+      "+1 robots.txt pide Crawl-delay de 10 s",
+      "+1 robots.txt prohíbe rutas de datos: /api/3/action/package_search"
+    ]
+  },
+  {
+    "clave": "worldbank",
+    "nombre": "World Bank Open Data",
+    "fecha": "2026-11-09T12:09:01",
+    "tls": {
+      "host": "data.worldbank.org",
+      "valido": true,
+      "detalle": "certificado válido para el dominio"
+    },
+    "robots": {
+      "host": "data.worldbank.org",
+      "reglas_para_todos": 1,
+      "crawl_delay": null,
+      "pagina_permitida": true,
+      "rutas_datos_prohibidas": []
+    },
+    "http": {
+      "estado": 200,
+      "servidor": "cloudflare",
+      "cdn_waf": [
+        "Cloudflare"
+      ],
+      "bytes": 786808,
+      "segundos": 0.13,
+      "texto_visible": 2272,
+      "formularios": 0,
+      "tablas": 0,
+      "filtros": 4,
+      "buscador": true,
+      "paginacion": false,
+      "descargas_directas": [],
+      "filas_de_datos": 0
+    },
+    "api": {
+      "nombre": "Indicators API v2",
+      "requiere_token": false,
+      "estado": "HTTP 200",
+      "tipo": "application/json;charset=utf-8"
+    },
+    "documentos": {
+      "API": {
+        "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+        "estado": 200,
+        "menciona_api": true
+      },
+      "Terminos": {
+        "url": "https://data.worldbank.org/summary-terms-of-use",
+        "estado": 200,
+        "menciona_api": true
+      }
+    },
+    "navegador": {
+      "bloqueado": false,
+      "titulo": "Population, total | Data",
+      "filas_de_datos": 247,
+      "filtros": 4,
+      "nodos": 2122,
+      "tablas": 0,
+      "texto": 8299,
+      "webdriver": true
+    },
+    "dinamico": true,
+    "nivel": "intermedio",
+    "puntos": 2,
+    "razones": [
+      "+1 CDN/WAF visible: Cloudflare",
+      "+1 datos solo con JavaScript: 0 filas por HTTP, 247 en navegador"
+    ]
+  },
+  {
+    "clave": "data_gov",
+    "nombre": "Data.gov",
+    "fecha": "2026-11-09T12:11:54",
+    "tls": {
+      "host": "data.gov",
+      "valido": true,
+      "detalle": "certificado válido para el dominio"
+    },
+    "robots": {
+      "host": "catalog.data.gov",
+      "reglas_para_todos": 0,
+      "crawl_delay": 10.0,
+      "pagina_permitida": true,
+      "rutas_datos_prohibidas": []
+    },
+    "http": {
+      "estado": 200,
+      "servidor": null,
+      "cdn_waf": [
+        "CloudFront"
+      ],
+      "bytes": 217437,
+      "segundos": 0.03,
+      "texto_visible": 12526,
+      "formularios": 2,
+      "tablas": 0,
+      "filtros": 14,
+      "buscador": true,
+      "paginacion": true,
+      "descargas_directas": [],
+      "filas_de_datos": 20
+    },
+    "api": {
+      "nombre": "Catalog API (GET /search)",
+      "requiere_token": false,
+      "estado": "HTTP 200",
+      "tipo": "application/json"
+    },
+    "documentos": {
+      "Guia de usuario": {
+        "url": "https://data.gov/user-guide/",
+        "estado": 200,
+        "menciona_api": true
+      },
+      "Politicas": {
+        "url": "https://data.gov/privacy-policy/",
+        "estado": 200,
+        "menciona_api": false
+      }
+    },
+    "navegador": {
+      "bloqueado": false,
+      "titulo": "Catalog - Data.gov",
+      "filas_de_datos": 20,
+      "filtros": 14,
+      "nodos": 1002,
+      "tablas": 0,
+      "texto": 10205,
+      "webdriver": true
+    },
+    "dinamico": false,
+    "nivel": "intermedio",
+    "puntos": 2,
+    "razones": [
+      "+1 CDN/WAF visible: CloudFront",
+      "+1 robots.txt pide Crawl-delay de 10 s"
+    ]
+  },
+  {
+    "clave": "dof",
+    "nombre": "Diario Oficial de la Federación",
+    "fecha": "2026-11-09T12:09:59",
+    "tls": {
+      "host": "www.dof.gob.mx",
+      "valido": false,
+      "detalle": "Hostname mismatch, certificate is not valid for 'www.dof.gob.mx'."
+    },
+    "robots": {
+      "host": "dof.gob.mx",
+      "reglas_para_todos": 135,
+      "crawl_delay": null,
+      "pagina_permitida": true,
+      "rutas_datos_prohibidas": [
+        "https://dof.gob.mx/nota_detalle.php?codigo=5803257&fecha=06/11/2026"
+      ]
+    },
+    "http": {
+      "estado": 200,
+      "servidor": "Apache",
+      "cdn_waf": [],
+      "bytes": 50415,
+      "segundos": 2.1,
+      "texto_visible": 2028,
+      "formularios": 4,
+      "tablas": 19,
+      "filtros": 2,
+      "buscador": true,
+      "paginacion": true,
+      "descargas_directas": [
+        "xml"
+      ],
+      "filas_de_datos": 3
+    },
+    "api": {
+      "nombre": null,
+      "estado": "sin API pública encontrada"
+    },
+    "documentos": {
+      "Mapa del sitio": {
+        "url": "https://dof.gob.mx/mapa.php",
+        "estado": 200,
+        "menciona_api": false
+      },
+      "Busqueda avanzada": {
+        "url": "https://dof.gob.mx/busqueda_avanzada.php",
+        "estado": 200,
+        "menciona_api": false
+      }
+    },
+    "navegador": {
+      "bloqueado": false,
+      "titulo": "DOF - Diario Oficial de la Federación",
+      "filas_de_datos": 3,
+      "filtros": 4,
+      "nodos": 733,
+      "tablas": 24,
+      "texto": 2466,
+      "webdriver": true
+    },
+    "dinamico": false,
+    "nivel": "básico",
+    "puntos": 1,
+    "razones": [
+      "+1 robots.txt prohíbe rutas de datos: /nota_detalle.php"
+    ]
+  }
+]
